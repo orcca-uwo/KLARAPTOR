@@ -1,12 +1,12 @@
-- You must have the following installed on Ubuntu 14.04 or later:
-		* CUDA-9.xx or later
-		* Python2.7
-- Parts of the (un)installation might require "sudo" privileges.
-- To install KLARAPTOR, simply run "make install".
-- To uninstall KLARAPTOR, simply run "make uninstall".
-- KLARAPTOR is already tested on Ubuntu 16.04 and 18.04 for NVIDIA GPUs of the 
-	following compute	capability:
-	- 3.0 
-	- 5.0
-	- 6.1
+* You must have the following installed on Ubuntu 14.04 or later:
+  * CUDA-9.2 or later
+  * Python2.7
+* Parts of the (un)installation might require "sudo" privileges.
+* To install KLARAPTOR, simply run "make install".
+* To uninstall KLARAPTOR, simply run "make uninstall".
+* KLARAPTOR is already tested on Ubuntu 16.04 and 18.04 for NVIDIA GPUs of the 
+  following compute capability:
+  * 3.0 
+  * 5.0
+  * 6.1
 
