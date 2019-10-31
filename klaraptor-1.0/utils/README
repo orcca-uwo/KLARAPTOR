@@ -1,0 +1,8 @@
+- You need the following packages installed on your system:
+  - python2
+  - CUDA toolkit [tested][9.2, 10.1]
+  - CUDA_PATH set
+  - CUPTI_PATH set
+  - LLVM VERSION 8.0
+
+- Run "make install" to setup klaraptor.

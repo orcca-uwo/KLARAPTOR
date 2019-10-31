@@ -1,0 +1,20 @@
+/*!
+ \file rp.h
+ \author Davood Mohajerani <dmohajer@uwo.ca>
+ \brief
+ */
+
+///////////////////////////////////////
+#ifndef RP_H_
+#define RP_H_
+/////////////////////////////////////////////////
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+/////////////////////////////////////////////////
+
+int rp_estimator(char* kernel_name, int n, int *launch_params);
+
+/////////////////////////////////////////////////
+#endif

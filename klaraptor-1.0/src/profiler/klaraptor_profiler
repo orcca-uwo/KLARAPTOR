@@ -1,0 +1,10 @@
+#!/bin/bash
+
+argc=$#
+if [[ $argc -lt 1 ]]; then
+	printf "args: [1]:./binary\n"
+	exit
+fi;
+
+so_name="$KLARAPTOR_PATH/src/profiler/libkernel_invoker_with_profiler.so"
+LD_PRELOAD=$so_name $*
