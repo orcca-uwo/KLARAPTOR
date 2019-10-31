@@ -1,11 +1,5 @@
 - Install KLARAPTOR by following the instruction in INSTALL.
-- clang should be installed with make install
-- NVIDIA cuda must be intalled; the path must be set
-	CUDA_PATH
-- add CUPTI lib64 path to LD_LIBRARY_PATH
-- need gcc 7.4
-- CUDA 9.xx
-- build_dp_for_kernels.sh is using clang rather than clang-LLVM-version
-- you should reload the nvidia module, easiest way is rebooting your os.
-- need bash, make, gcc
-- 
+- NVIDIA cuda 9.2 or later must be already intalled, also, variable
+	CUDA_PATH should be part of your ~/.bashrc.	
+- After installation, you might need to reload nvidia modules. The easiest 
+	way is to reboot.
