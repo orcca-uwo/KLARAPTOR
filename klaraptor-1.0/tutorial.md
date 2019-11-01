@@ -1,4 +1,4 @@
-# tutorial for `polybench_2DConv`
+# Tutorial for `polybench_2DConv`
 * `cd $KLARAPTOR_PATH/tests/polybench_2DConv_llvm/`   ## move to example directory.
 
 * `klaraptor --conf CONFIG_FILE_PATH.conf`   ## create a config file.	
