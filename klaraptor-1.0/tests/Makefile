@@ -5,7 +5,6 @@ TARGETS=\
 	polybench_3MM_llvm\
 	polybench_ATAX_llvm\
 	polybench_BICG_llvm\
-	polybench_common\
 	polybench_CORR_llvm\
 	polybench_COVAR_llvm\
 	polybench_FDTD_2D_llvm\

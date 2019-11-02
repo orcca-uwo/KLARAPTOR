@@ -12,9 +12,10 @@
 #include <cuda.h>
 #include <math.h>
 
+
+#include "../cuda_utils/cuda_timer.h"
+#include "../cuda_utils/cuda_error_check.h"
 #include "../polybench_common/polybenchUtilFuncts.h"
-#include "../../mcwp/cuda_timer.h"
-#include "../../mcwp/cuda_error_check.h"
 
 #define GPU_DEVICE 0
 
