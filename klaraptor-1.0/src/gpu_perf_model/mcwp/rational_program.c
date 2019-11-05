@@ -1641,7 +1641,7 @@ int get_best_config(int n, int verbose) {
 	printf("mem_avg=%f, comp_avg=%f, ratio=%f\n", ipc_vals_mem_avg,
 			ipc_vals_comp_avg, ipc_avg_ratio);
 	int is_compute_bound = 0;
-	int compute_bound_ratio = 3;
+	int compute_bound_ratio = 4;
 
 	if (ipc_avg_ratio > compute_bound_ratio)
 		is_compute_bound = 1;	 //compute bound
