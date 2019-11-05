@@ -1627,13 +1627,12 @@ int get_best_config(int n, int verbose) {
 		ipc_vals_comp_avg += ipc_vals_comp[i];
 		ipc_vals_mem_avg += ipc_vals_mem[i];
 		n_valid_ipc++;
-//      printf ("n_inst=%d, ipc_val=%.2f\n", n_inst, ipc_vals[i]);
-		//TODO: temporary fix for storing ipc vals in "PROFILING_PARAM_active_cycles", replace it ASAP!
+//      printf ("n_inst=%d, ipc_val=%.2f\n", n_inst, ipc_vals[i])	
 		mpq_set_ui(
-				profiling_param_list[i].mpq_values[PROFILING_PARAM_active_cycles],
-				100 * (n_comp_inst + n_mem_inst) * n_warps_list[i], ecc);
+				profiling_param_list[i].mpq_values[PROFILING_PARAM_14_Comp_insts],
+				10000.0 * (ipc_vals_comp[i]),1);
 		mpq_ceil(
-				profiling_param_list[i].mpq_values[PROFILING_PARAM_active_cycles]);
+				profiling_param_list[i].mpq_values[PROFILING_PARAM_14_Comp_insts]);
 	}
 	/////////////////////////////////////
 //  ipc_vals_mem_avg/=(1.0*n_valid_ipc);
@@ -1642,9 +1641,18 @@ int get_best_config(int n, int verbose) {
 	printf("mem_avg=%f, comp_avg=%f, ratio=%f\n", ipc_vals_mem_avg,
 			ipc_vals_comp_avg, ipc_avg_ratio);
 	int is_compute_bound = 0;
+	int compute_bound_ratio = 3;
 
-	if (ipc_avg_ratio >= 1.25)
-		is_compute_bound = 2;
+	if (ipc_avg_ratio > compute_bound_ratio)
+		is_compute_bound = 1;	 //compute bound
+
+	if ((ipc_avg_ratio <
+				compute_bound_ratio)&&(ipc_avg_ratio>=(compute_bound_ratio/2.0)))
+		is_compute_bound = 2;	//50-50
+
+	if ((ipc_avg_ratio<(compute_bound_ratio/2.0)))
+		is_compute_bound = 0;	//memory bound
+
 //  if (ipc_avg_ratio >= 4.0)
 //    is_compute_bound = 4;
 //  if (ipc_avg_ratio >= 6.0)
@@ -1673,21 +1681,82 @@ int get_best_config(int n, int verbose) {
 
 	int repeat_optimization = 0;
 
-	if (is_compute_bound == 6) {
-//  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-//			      profiling_param_list, ki->eval_point_set->size,
-//			      PROFILING_PARAM_Active_warps_per_SM, 0, 1);
-//
+	//50-50 case
+	if (is_compute_bound == 2) {
+  
+  	printf("50-50CASE\n");
+  //min dynamic memld;
+  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_dynamic_Mem_LD, 1, 1);
 
-		//optimize IPC
+	//max active warps per sm
+	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_Active_warps_per_SM, 0, 1);
+	//minimum ipc
+	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_14_Comp_insts, 1, 1);
+	
+	//min active blocks per sm
+	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
+	}
+	if (is_compute_bound==0)
+	{
+		printf("MEMORY BOUND!\n"); 
+
+		//optimize MEM_LD
 		repeat_optimization = 1;
-//      while (repeat_optimization)
+    while (repeat_optimization)
 		{
 			mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
-					profiling_param_list, PROFILING_PARAM_active_cycles,
+					profiling_param_list, PROFILING_PARAM_dynamic_Mem_LD,
 					ki->eval_point_set->size, &repeat_optimization);
 		}
 
+
+		repeat_optimization = 1;
+    while (repeat_optimization)
+		{
+			mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
+					rp_param_list, RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+					ki->eval_point_set->size, &repeat_optimization);
+		}
+
+  //min dynamic memld;
+  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_dynamic_Mem_LD, 1, 1);
+
+	}
+
+	if (is_compute_bound==1)
+	{
+		printf("COMPUTE_BOUND\n");
+
+	//min dynamic memld;
+  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      profiling_param_list, ki->eval_point_set->size,
+			      PROFILING_PARAM_dynamic_Mem_LD, 1, 5);
+
+
+	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+			      rp_param_list, ki->eval_point_set->size,
+			      RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 5);
+	}
+
+		//optimize IPC
+//		repeat_optimization = 1;
+//    while (repeat_optimization)
+//		{
+//			mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
+//					profiling_param_list, PROFILING_PARAM_14_Comp_insts,
+//					ki->eval_point_set->size, &repeat_optimization);
+//		}
+//
 //  repeat_optimization = 1;
 //  while (repeat_optimization)
 //    {
@@ -1699,8 +1768,10 @@ int get_best_config(int n, int verbose) {
 
 		////optimize ecc
 //      repeat_optimization = 1;
-////  while (repeat_optimization)
+//  while (repeat_optimization)
+//  for (int i=0;i<2;i++)
 //	{
+//		repeat_optimization=1;
 //	  mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
 //				     rp_param_list,
 //				     RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
@@ -1708,23 +1779,24 @@ int get_best_config(int n, int verbose) {
 //				     &repeat_optimization);
 //	}
 
-////	//optimize MEMLD
+///}	//optimize MEMLD
 //      repeat_optimization = 1;
 //      while (repeat_optimization)
 //	{
-		mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
-				profiling_param_list, PROFILING_PARAM_dynamic_Mem_LD,
-				ki->eval_point_set->size, &repeat_optimization);
-//	}
+//		mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
+//				profiling_param_list, PROFILING_PARAM_dynamic_Mem_LD,
+//				ki->eval_point_set->size, &repeat_optimization);
+////	}
 
 		////optimize ecc
 		//      repeat_optimization = 1;
 		////  while (repeat_optimization)
 		//	{
-		mcwp_error = optimize_ecc(sort_results_by_clock_cycles, rp_param_list,
-				RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
-				ki->eval_point_set->size, &repeat_optimization);
-		//	}
+//		mcwp_error = optimize_ecc(sort_results_by_clock_cycles, rp_param_list,
+//				RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+//				ki->eval_point_set->size, &repeat_optimization);
+//		//	}
+//		}
 
 		//keep all with active blocks in between
 //      mcwp_error = sort_by_param (sort_results_by_clock_cycles,
@@ -1782,10 +1854,10 @@ int get_best_config(int n, int verbose) {
 //			      profiling_param_list, ki->eval_point_set->size,
 //			      PROFILING_PARAM_Active_blocks_per_SM, (i)%2, i);
 //	}
-		mcwp_error = sort_by_param(sort_results_by_clock_cycles, rp_param_list,
-				ki->eval_point_set->size,
-				RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
-//
+//		mcwp_error = sort_by_param(sort_results_by_clock_cycles, rp_param_list,
+//				ki->eval_point_set->size,
+//				RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
+////
 //  mcwp_error = sort_by_param (sort_results_by_clock_cycles, rp_param_list,
 //			      ki->eval_point_set->size,
 //			      RATIONAL_PROGRAM_PARAM_occupancy, 0, 1);
@@ -1803,164 +1875,164 @@ int get_best_config(int n, int verbose) {
 //			      profiling_param_list, ki->eval_point_set->size,
 //			      PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
 
-	}
-
-	if (is_compute_bound == 2) {
-
-		repeat_optimization = 1;
-		while (repeat_optimization) {
-			mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
-					profiling_param_list, PROFILING_PARAM_dynamic_Mem_LD,
-					ki->eval_point_set->size, &repeat_optimization);
-		}
-
-//      mcwp_error = invalidate_sort_results_by_percentage (
-//	  sort_results_by_clock_cycles, rp_param_list, ki->eval_point_set->size,
-//	  RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 20);
-//
-		mcwp_error = sort_by_param(sort_results_by_clock_cycles,
-				profiling_param_list, ki->eval_point_set->size,
-				PROFILING_PARAM_Active_blocks_per_SM, 0, 1);
-
-		mcwp_error = sort_by_param(sort_results_by_clock_cycles,
-				profiling_param_list, ki->eval_point_set->size,
-				PROFILING_PARAM_Active_warps_per_SM, 0, 1);
-		mcwp_error = sort_by_param(sort_results_by_clock_cycles, rp_param_list,
-				ki->eval_point_set->size,
-				RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
-
-		//optimize IPC
-//      repeat_optimization = 1;
-//      //      while (repeat_optimization)
-//	{
-//	  mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
-//				     profiling_param_list,
-//				     PROFILING_PARAM_active_cycles,
-//				     ki->eval_point_set->size,
-//				     &repeat_optimization);
 //	}
 
-		//  repeat_optimization = 1;
-		//  while (repeat_optimization)
-		//    {
-		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
-		//				 RATIONAL_PROGRAM_PARAM_occupancy,
-		//				 ki->eval_point_set->size,
-		//				 &repeat_optimization);
-		//    }
-
-		////optimize ecc
-		//      repeat_optimization = 1;
-		////  while (repeat_optimization)
-		//	{
-		//	  mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
-		//				     rp_param_list,
-		//				     RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
-		//				     ki->eval_point_set->size,
-		//				     &repeat_optimization);
-		//	}
-
-		////	//optimize MEMLD
-		//      repeat_optimization = 1;
-		//      while (repeat_optimization)
-		//	{
-//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
-//				 profiling_param_list,
-//				 PROFILING_PARAM_dynamic_Mem_LD,
-//				 ki->eval_point_set->size,
-//				 &repeat_optimization);
-		//	}
-
-		////optimize ecc
-		//      repeat_optimization = 1;
-		////  while (repeat_optimization)
-		//	{
-//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
-//				 RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
-//				 ki->eval_point_set->size,
-//				 &repeat_optimization);
-		//	}
-
-		//keep all with active blocks in between
-		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//				  profiling_param_list,
-		//				  ki->eval_point_set->size,
-		//				  PROFILING_PARAM_Active_blocks_per_SM, 0, 2);
-		//
-		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//				  profiling_param_list,
-		//				  ki->eval_point_set->size,
-		//				  PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
-		//
-		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles, rp_param_list,
-		//				  ki->eval_point_set->size,
-		//				  RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
-
-		//
-		//////  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//////			      profiling_param_list, ki->eval_point_set->size,
-		//////			      PROFILING_PARAM_dynamic_Mem_LD, 1, 10);///
-		//////
-		////
-		//optimize Active blocks per sm
-		//	repeat_optimization = 1;
-		//  while (repeat_optimization)
-		//    {
-		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
-		//      		profiling_param_list,
-		//      		PROFILING_PARAM_Active_blocks_per_SM,
-		//				 ki->eval_point_set->size,
-		//				 &repeat_optimization);
-		//    }
-
-		//	repeat_optimization = 1;
-		//  while (repeat_optimization)
-		//    {
-		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
-		//      		RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
-		//				 ki->eval_point_set->size,
-		//				 &repeat_optimization);
-		//    }
-
-		/////
-		//	for(int i=64;i>=1;i--)
-		//	{
-		//  	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//			      profiling_param_list, ki->eval_point_set->size,
-		//			      PROFILING_PARAM_Active_blocks_per_SM, (i+1)%2, i);
-		//	}
-
-		////	remove one element from each end until nothing can be removed anymore!
-		//	for(int i=64;i>1;i--)
-		//	{
-		//  	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//			      profiling_param_list, ki->eval_point_set->size,
-		//			      PROFILING_PARAM_Active_blocks_per_SM, (i)%2, i);
-		//	}
-
-		//
-		//  mcwp_error = sort_by_param (sort_results_by_clock_cycles, rp_param_list,
-		//			      ki->eval_point_set->size,
-		//			      RATIONAL_PROGRAM_PARAM_occupancy, 0, 1);
-		//
-		//	repeat_optimization = 1;
-		//  while (repeat_optimization)
-		//    {
-		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
-		//      		RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
-		//				 ki->eval_point_set->size,
-		//				 &repeat_optimization);
-		//    }
-
-		//  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
-		//			      profiling_param_list, ki->eval_point_set->size,
-		//			      PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
-
-	}
-
-	if (is_compute_bound == 0) {
-		printf("memory bound!\n");
-	}
+//	if (is_compute_bound == 2) {
+//
+//		repeat_optimization = 1;
+//		while (repeat_optimization) {
+//			mcwp_error = optimize_ecc(sort_results_by_clock_cycles,
+//					profiling_param_list, PROFILING_PARAM_dynamic_Mem_LD,
+//					ki->eval_point_set->size, &repeat_optimization);
+//		}
+//
+////      mcwp_error = invalidate_sort_results_by_percentage (
+////	  sort_results_by_clock_cycles, rp_param_list, ki->eval_point_set->size,
+////	  RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 20);
+////
+//		mcwp_error = sort_by_param(sort_results_by_clock_cycles,
+//				profiling_param_list, ki->eval_point_set->size,
+//				PROFILING_PARAM_Active_blocks_per_SM, 0, 1);
+//
+//		mcwp_error = sort_by_param(sort_results_by_clock_cycles,
+//				profiling_param_list, ki->eval_point_set->size,
+//				PROFILING_PARAM_Active_warps_per_SM, 0, 1);
+//		mcwp_error = sort_by_param(sort_results_by_clock_cycles, rp_param_list,
+//				ki->eval_point_set->size,
+//				RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
+//
+//		//optimize IPC
+////      repeat_optimization = 1;
+////      //      while (repeat_optimization)
+////	{
+////	  mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
+////				     profiling_param_list,
+////				     PROFILING_PARAM_active_cycles,
+////				     ki->eval_point_set->size,
+////				     &repeat_optimization);
+////	}
+//
+//		//  repeat_optimization = 1;
+//		//  while (repeat_optimization)
+//		//    {
+//		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
+//		//				 RATIONAL_PROGRAM_PARAM_occupancy,
+//		//				 ki->eval_point_set->size,
+//		//				 &repeat_optimization);
+//		//    }
+//
+//		////optimize ecc
+//		//      repeat_optimization = 1;
+//		////  while (repeat_optimization)
+//		//	{
+//		//	  mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
+//		//				     rp_param_list,
+//		//				     RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+//		//				     ki->eval_point_set->size,
+//		//				     &repeat_optimization);
+//		//	}
+//
+//		////	//optimize MEMLD
+//		//      repeat_optimization = 1;
+//		//      while (repeat_optimization)
+//		//	{
+////      mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
+////				 profiling_param_list,
+////				 PROFILING_PARAM_dynamic_Mem_LD,
+////				 ki->eval_point_set->size,
+////				 &repeat_optimization);
+//		//	}
+//
+//		////optimize ecc
+//		//      repeat_optimization = 1;
+//		////  while (repeat_optimization)
+//		//	{
+////      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
+////				 RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+////				 ki->eval_point_set->size,
+////				 &repeat_optimization);
+//		//	}
+//
+//		//keep all with active blocks in between
+//		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//				  profiling_param_list,
+//		//				  ki->eval_point_set->size,
+//		//				  PROFILING_PARAM_Active_blocks_per_SM, 0, 2);
+//		//
+//		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//				  profiling_param_list,
+//		//				  ki->eval_point_set->size,
+//		//				  PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
+//		//
+//		//      mcwp_error = sort_by_param (sort_results_by_clock_cycles, rp_param_list,
+//		//				  ki->eval_point_set->size,
+//		//				  RATIONAL_PROGRAM_PARAM_Exec_cycles_app, 1, 0);
+//
+//		//
+//		//////  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//////			      profiling_param_list, ki->eval_point_set->size,
+//		//////			      PROFILING_PARAM_dynamic_Mem_LD, 1, 10);///
+//		//////
+//		////
+//		//optimize Active blocks per sm
+//		//	repeat_optimization = 1;
+//		//  while (repeat_optimization)
+//		//    {
+//		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles,
+//		//      		profiling_param_list,
+//		//      		PROFILING_PARAM_Active_blocks_per_SM,
+//		//				 ki->eval_point_set->size,
+//		//				 &repeat_optimization);
+//		//    }
+//
+//		//	repeat_optimization = 1;
+//		//  while (repeat_optimization)
+//		//    {
+//		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
+//		//      		RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+//		//				 ki->eval_point_set->size,
+//		//				 &repeat_optimization);
+//		//    }
+//
+//		/////
+//		//	for(int i=64;i>=1;i--)
+//		//	{
+//		//  	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//			      profiling_param_list, ki->eval_point_set->size,
+//		//			      PROFILING_PARAM_Active_blocks_per_SM, (i+1)%2, i);
+//		//	}
+//
+//		////	remove one element from each end until nothing can be removed anymore!
+//		//	for(int i=64;i>1;i--)
+//		//	{
+//		//  	mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//			      profiling_param_list, ki->eval_point_set->size,
+//		//			      PROFILING_PARAM_Active_blocks_per_SM, (i)%2, i);
+//		//	}
+//
+//		//
+//		//  mcwp_error = sort_by_param (sort_results_by_clock_cycles, rp_param_list,
+//		//			      ki->eval_point_set->size,
+//		//			      RATIONAL_PROGRAM_PARAM_occupancy, 0, 1);
+//		//
+//		//	repeat_optimization = 1;
+//		//  while (repeat_optimization)
+//		//    {
+//		//      mcwp_error = optimize_ecc (sort_results_by_clock_cycles, rp_param_list,
+//		//      		RATIONAL_PROGRAM_PARAM_Exec_cycles_app,
+//		//				 ki->eval_point_set->size,
+//		//				 &repeat_optimization);
+//		//    }
+//
+//		//  mcwp_error = sort_by_param (sort_results_by_clock_cycles,
+//		//			      profiling_param_list, ki->eval_point_set->size,
+//		//			      PROFILING_PARAM_Active_blocks_per_SM, 1, 1);
+//
+//	}
+//
+//	if (is_compute_bound == 0) {
+//		printf("memory bound!\n");
+//	}
 	/////////////////////////////////////
 	//  double max_occupancy = 0;
 	//  int max_block_size = 0;
