@@ -3,6 +3,9 @@
   optimize the program’s performance. The tool dynamically chooses a kernel’s
   launch parameters (thread block configuration) which optimize its performance
   for the data and hardware param- eters of the current kernel invocation.
+  More details are provided in the following arxiv paper:
+
+	[https://arxiv.org/abs/1911.02373](https://arxiv.org/abs/1911.02373)
 
 * KLARAPTOR is built in the C programming language making use of (1) NVIDIA
   CUPTI API to measure low-level metrics, (2) LAPACK for linear algebra, (3)
