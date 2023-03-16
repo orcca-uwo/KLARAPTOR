@@ -1,0 +1,1507 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=32, elapsed_mean_kernel=0.0204 (ms),
+ elapsed_std_kernel=0.0133 (ms),  elapsed_reduce_kernel=0.0043 (ms),
+ elapsed_corr_kernel=0.5532 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=16, elapsed_mean_kernel=0.0200 (ms),
+ elapsed_std_kernel=0.0131 (ms),  elapsed_reduce_kernel=0.0036 (ms),
+ elapsed_corr_kernel=0.5617 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=8, elapsed_mean_kernel=0.0196 (ms),
+ elapsed_std_kernel=0.0128 (ms),  elapsed_reduce_kernel=0.0036 (ms),
+ elapsed_corr_kernel=0.6032 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=4, elapsed_mean_kernel=0.0197 (ms),
+ elapsed_std_kernel=0.0130 (ms),  elapsed_reduce_kernel=0.0035 (ms),
+ elapsed_corr_kernel=0.5999 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=2, elapsed_mean_kernel=0.0198 (ms),
+ elapsed_std_kernel=0.0131 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=0.6622 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=1, elapsed_mean_kernel=0.0209 (ms),
+ elapsed_std_kernel=0.0134 (ms),  elapsed_reduce_kernel=0.0056 (ms),
+ elapsed_corr_kernel=0.6478 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=64, elapsed_mean_kernel=0.0223 (ms),
+ elapsed_std_kernel=0.0164 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=0.5604 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=32, elapsed_mean_kernel=0.0198 (ms),
+ elapsed_std_kernel=0.0132 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=0.5667 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=16, elapsed_mean_kernel=0.0195 (ms),
+ elapsed_std_kernel=0.0131 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=0.6375 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=8, elapsed_mean_kernel=0.0196 (ms),
+ elapsed_std_kernel=0.0130 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=0.6585 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=4, elapsed_mean_kernel=0.0201 (ms),
+ elapsed_std_kernel=0.0133 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=0.6901 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=2, elapsed_mean_kernel=0.0197 (ms),
+ elapsed_std_kernel=0.0132 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=0.6525 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=1, elapsed_mean_kernel=0.0200 (ms),
+ elapsed_std_kernel=0.0132 (ms),  elapsed_reduce_kernel=0.0048 (ms),
+ elapsed_corr_kernel=0.6513 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=64, elapsed_mean_kernel=0.0235 (ms),
+ elapsed_std_kernel=0.0174 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=0.5702 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=32, elapsed_mean_kernel=0.0196 (ms),
+ elapsed_std_kernel=0.0135 (ms),  elapsed_reduce_kernel=0.0035 (ms),
+ elapsed_corr_kernel=0.6382 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=16, elapsed_mean_kernel=0.0197 (ms),
+ elapsed_std_kernel=0.0132 (ms),  elapsed_reduce_kernel=0.0036 (ms),
+ elapsed_corr_kernel=0.6279 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=8, elapsed_mean_kernel=0.0201 (ms),
+ elapsed_std_kernel=0.0131 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=0.7230 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=4, elapsed_mean_kernel=0.0196 (ms),
+ elapsed_std_kernel=0.0134 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=0.6988 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=2, elapsed_mean_kernel=0.0200 (ms),
+ elapsed_std_kernel=0.0135 (ms),  elapsed_reduce_kernel=0.0043 (ms),
+ elapsed_corr_kernel=0.6794 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=64, elapsed_mean_kernel=0.0251 (ms),
+ elapsed_std_kernel=0.0192 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=0.7233 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=32, elapsed_mean_kernel=0.0201 (ms),
+ elapsed_std_kernel=0.0133 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=0.6763 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=16, elapsed_mean_kernel=0.0205 (ms),
+ elapsed_std_kernel=0.0131 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=1.0592 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=8, elapsed_mean_kernel=0.0200 (ms),
+ elapsed_std_kernel=0.0134 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=0.9721 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=4, elapsed_mean_kernel=0.0202 (ms),
+ elapsed_std_kernel=0.0135 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=0.7780 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=64, elapsed_mean_kernel=0.0252 (ms),
+ elapsed_std_kernel=0.0225 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=1.1363 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=32, elapsed_mean_kernel=0.0213 (ms),
+ elapsed_std_kernel=0.0172 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=2.0544 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=16, elapsed_mean_kernel=0.0199 (ms),
+ elapsed_std_kernel=0.0136 (ms),  elapsed_reduce_kernel=0.0037 (ms),
+ elapsed_corr_kernel=1.8177 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=8, elapsed_mean_kernel=0.0196 (ms),
+ elapsed_std_kernel=0.0135 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=1.2639 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=64, elapsed_mean_kernel=0.0318 (ms),
+ elapsed_std_kernel=0.0284 (ms),  elapsed_reduce_kernel=0.0043 (ms),
+ elapsed_corr_kernel=4.0974 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=32, elapsed_mean_kernel=0.0254 (ms),
+ elapsed_std_kernel=0.0215 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=3.5986 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=16, elapsed_mean_kernel=0.0205 (ms),
+ elapsed_std_kernel=0.0158 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=2.4154 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=32, elapsed_mean_kernel=0.0292 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=2.2191 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=16, elapsed_mean_kernel=0.0281 (ms),
+ elapsed_std_kernel=0.0226 (ms),  elapsed_reduce_kernel=0.0040 (ms),
+ elapsed_corr_kernel=2.2287 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=8, elapsed_mean_kernel=0.0292 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0040 (ms),
+ elapsed_corr_kernel=2.4123 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=4, elapsed_mean_kernel=0.0284 (ms),
+ elapsed_std_kernel=0.0220 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=2.4109 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=2, elapsed_mean_kernel=0.0288 (ms),
+ elapsed_std_kernel=0.0223 (ms),  elapsed_reduce_kernel=0.0048 (ms),
+ elapsed_corr_kernel=2.6525 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=1, elapsed_mean_kernel=0.0291 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0063 (ms),
+ elapsed_corr_kernel=2.6287 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=64, elapsed_mean_kernel=0.0319 (ms),
+ elapsed_std_kernel=0.0234 (ms),  elapsed_reduce_kernel=0.0040 (ms),
+ elapsed_corr_kernel=2.2305 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=32, elapsed_mean_kernel=0.0281 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=2.2582 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=16, elapsed_mean_kernel=0.0296 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=2.4506 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=8, elapsed_mean_kernel=0.0282 (ms),
+ elapsed_std_kernel=0.0225 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=2.4496 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=4, elapsed_mean_kernel=0.0278 (ms),
+ elapsed_std_kernel=0.0230 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=2.7751 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=2, elapsed_mean_kernel=0.0297 (ms),
+ elapsed_std_kernel=0.0226 (ms),  elapsed_reduce_kernel=0.0048 (ms),
+ elapsed_corr_kernel=2.6641 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=1, elapsed_mean_kernel=0.0293 (ms),
+ elapsed_std_kernel=0.0221 (ms),  elapsed_reduce_kernel=0.0066 (ms),
+ elapsed_corr_kernel=2.6646 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=128, elapsed_mean_kernel=0.0502 (ms),
+ elapsed_std_kernel=0.0438 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=2.2690 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=64, elapsed_mean_kernel=0.0363 (ms),
+ elapsed_std_kernel=0.0290 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=2.2932 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=32, elapsed_mean_kernel=0.0293 (ms),
+ elapsed_std_kernel=0.0231 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=2.7958 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=16, elapsed_mean_kernel=0.0284 (ms),
+ elapsed_std_kernel=0.0224 (ms),  elapsed_reduce_kernel=0.0038 (ms),
+ elapsed_corr_kernel=2.5167 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=8, elapsed_mean_kernel=0.0284 (ms),
+ elapsed_std_kernel=0.0233 (ms),  elapsed_reduce_kernel=0.0039 (ms),
+ elapsed_corr_kernel=2.9258 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=4, elapsed_mean_kernel=0.0310 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=2.8683 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=2, elapsed_mean_kernel=0.0291 (ms),
+ elapsed_std_kernel=0.0226 (ms),  elapsed_reduce_kernel=0.0051 (ms),
+ elapsed_corr_kernel=2.8420 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=1, elapsed_mean_kernel=0.0293 (ms),
+ elapsed_std_kernel=0.0229 (ms),  elapsed_reduce_kernel=0.0067 (ms),
+ elapsed_corr_kernel=2.7244 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=128, elapsed_mean_kernel=0.0562 (ms),
+ elapsed_std_kernel=0.0498 (ms),  elapsed_reduce_kernel=0.0036 (ms),
+ elapsed_corr_kernel=2.3411 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=64, elapsed_mean_kernel=0.0404 (ms),
+ elapsed_std_kernel=0.0327 (ms),  elapsed_reduce_kernel=0.0043 (ms),
+ elapsed_corr_kernel=4.3539 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=32, elapsed_mean_kernel=0.0287 (ms),
+ elapsed_std_kernel=0.0227 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=2.9253 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=16, elapsed_mean_kernel=0.0281 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0040 (ms),
+ elapsed_corr_kernel=4.4350 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=8, elapsed_mean_kernel=0.0282 (ms),
+ elapsed_std_kernel=0.0229 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=4.2699 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=4, elapsed_mean_kernel=0.0286 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=3.8934 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=2, elapsed_mean_kernel=0.0298 (ms),
+ elapsed_std_kernel=0.0228 (ms),  elapsed_reduce_kernel=0.0052 (ms),
+ elapsed_corr_kernel=3.1375 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=128, elapsed_mean_kernel=0.0639 (ms),
+ elapsed_std_kernel=0.0577 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=8.5995 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=64, elapsed_mean_kernel=0.0445 (ms),
+ elapsed_std_kernel=0.0382 (ms),  elapsed_reduce_kernel=0.0047 (ms),
+ elapsed_corr_kernel=5.3506 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=32, elapsed_mean_kernel=0.0367 (ms),
+ elapsed_std_kernel=0.0281 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=8.7708 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=16, elapsed_mean_kernel=0.0291 (ms),
+ elapsed_std_kernel=0.0235 (ms),  elapsed_reduce_kernel=0.0035 (ms),
+ elapsed_corr_kernel=8.3074 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=8, elapsed_mean_kernel=0.0289 (ms),
+ elapsed_std_kernel=0.0230 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=7.2096 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=4, elapsed_mean_kernel=0.0292 (ms),
+ elapsed_std_kernel=0.0231 (ms),  elapsed_reduce_kernel=0.0049 (ms),
+ elapsed_corr_kernel=4.8509 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=128, elapsed_mean_kernel=0.0727 (ms),
+ elapsed_std_kernel=0.0668 (ms),  elapsed_reduce_kernel=0.0041 (ms),
+ elapsed_corr_kernel=10.6614 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=64, elapsed_mean_kernel=0.0544 (ms),
+ elapsed_std_kernel=0.0492 (ms),  elapsed_reduce_kernel=0.0044 (ms),
+ elapsed_corr_kernel=17.5388 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=32, elapsed_mean_kernel=0.0372 (ms),
+ elapsed_std_kernel=0.0373 (ms),  elapsed_reduce_kernel=0.0036 (ms),
+ elapsed_corr_kernel=17.2514 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=16, elapsed_mean_kernel=0.0304 (ms),
+ elapsed_std_kernel=0.0276 (ms),  elapsed_reduce_kernel=0.0042 (ms),
+ elapsed_corr_kernel=14.2482 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=8, elapsed_mean_kernel=0.0310 (ms),
+ elapsed_std_kernel=0.0272 (ms),  elapsed_reduce_kernel=0.0045 (ms),
+ elapsed_corr_kernel=9.9464 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=32, elapsed_mean_kernel=0.0455 (ms),
+ elapsed_std_kernel=0.0431 (ms),  elapsed_reduce_kernel=0.0067 (ms),
+ elapsed_corr_kernel=8.9804 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=16, elapsed_mean_kernel=0.0451 (ms),
+ elapsed_std_kernel=0.0414 (ms),  elapsed_reduce_kernel=0.0055 (ms),
+ elapsed_corr_kernel=9.0688 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=8, elapsed_mean_kernel=0.0457 (ms),
+ elapsed_std_kernel=0.0411 (ms),  elapsed_reduce_kernel=0.0063 (ms),
+ elapsed_corr_kernel=9.7187 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=4, elapsed_mean_kernel=0.0454 (ms),
+ elapsed_std_kernel=0.0411 (ms),  elapsed_reduce_kernel=0.0063 (ms),
+ elapsed_corr_kernel=9.6922 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=2, elapsed_mean_kernel=0.0452 (ms),
+ elapsed_std_kernel=0.0404 (ms),  elapsed_reduce_kernel=0.0092 (ms),
+ elapsed_corr_kernel=10.7798 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=1, elapsed_mean_kernel=0.0452 (ms),
+ elapsed_std_kernel=0.0416 (ms),  elapsed_reduce_kernel=0.0150 (ms),
+ elapsed_corr_kernel=10.6942 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=64, elapsed_mean_kernel=0.0546 (ms),
+ elapsed_std_kernel=0.0811 (ms),  elapsed_reduce_kernel=0.0069 (ms),
+ elapsed_corr_kernel=9.1046 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=32, elapsed_mean_kernel=0.0456 (ms),
+ elapsed_std_kernel=0.0510 (ms),  elapsed_reduce_kernel=0.0066 (ms),
+ elapsed_corr_kernel=9.2136 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=16, elapsed_mean_kernel=0.0455 (ms),
+ elapsed_std_kernel=0.0415 (ms),  elapsed_reduce_kernel=0.0056 (ms),
+ elapsed_corr_kernel=10.0264 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=8, elapsed_mean_kernel=0.0454 (ms),
+ elapsed_std_kernel=0.0410 (ms),  elapsed_reduce_kernel=0.0063 (ms),
+ elapsed_corr_kernel=9.8541 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=4, elapsed_mean_kernel=0.0455 (ms),
+ elapsed_std_kernel=0.0413 (ms),  elapsed_reduce_kernel=0.0063 (ms),
+ elapsed_corr_kernel=11.2275 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=2, elapsed_mean_kernel=0.0460 (ms),
+ elapsed_std_kernel=0.0412 (ms),  elapsed_reduce_kernel=0.0098 (ms),
+ elapsed_corr_kernel=11.1762 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=1, elapsed_mean_kernel=0.0462 (ms),
+ elapsed_std_kernel=0.0413 (ms),  elapsed_reduce_kernel=0.0152 (ms),
+ elapsed_corr_kernel=10.7198 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=128, elapsed_mean_kernel=0.0940 (ms),
+ elapsed_std_kernel=0.1550 (ms),  elapsed_reduce_kernel=0.0070 (ms),
+ elapsed_corr_kernel=9.3443 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=64, elapsed_mean_kernel=0.0628 (ms),
+ elapsed_std_kernel=0.0932 (ms),  elapsed_reduce_kernel=0.0069 (ms),
+ elapsed_corr_kernel=9.3183 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=32, elapsed_mean_kernel=0.0462 (ms),
+ elapsed_std_kernel=0.0595 (ms),  elapsed_reduce_kernel=0.0061 (ms),
+ elapsed_corr_kernel=12.2724 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=16, elapsed_mean_kernel=0.0449 (ms),
+ elapsed_std_kernel=0.0411 (ms),  elapsed_reduce_kernel=0.0056 (ms),
+ elapsed_corr_kernel=10.2324 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=8, elapsed_mean_kernel=0.0454 (ms),
+ elapsed_std_kernel=0.0420 (ms),  elapsed_reduce_kernel=0.0062 (ms),
+ elapsed_corr_kernel=11.9396 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=4, elapsed_mean_kernel=0.0455 (ms),
+ elapsed_std_kernel=0.0418 (ms),  elapsed_reduce_kernel=0.0064 (ms),
+ elapsed_corr_kernel=11.7740 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=2, elapsed_mean_kernel=0.0457 (ms),
+ elapsed_std_kernel=0.0412 (ms),  elapsed_reduce_kernel=0.0091 (ms),
+ elapsed_corr_kernel=11.6226 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=1, elapsed_mean_kernel=0.0460 (ms),
+ elapsed_std_kernel=0.0426 (ms),  elapsed_reduce_kernel=0.0153 (ms),
+ elapsed_corr_kernel=11.4411 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=128, elapsed_mean_kernel=0.1114 (ms),
+ elapsed_std_kernel=0.1811 (ms),  elapsed_reduce_kernel=0.0074 (ms),
+ elapsed_corr_kernel=10.0271 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=64, elapsed_mean_kernel=0.0699 (ms),
+ elapsed_std_kernel=0.1079 (ms),  elapsed_reduce_kernel=0.0071 (ms),
+ elapsed_corr_kernel=22.8173 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=32, elapsed_mean_kernel=0.0472 (ms),
+ elapsed_std_kernel=0.0740 (ms),  elapsed_reduce_kernel=0.0066 (ms),
+ elapsed_corr_kernel=12.4781 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=16, elapsed_mean_kernel=0.0460 (ms),
+ elapsed_std_kernel=0.0497 (ms),  elapsed_reduce_kernel=0.0056 (ms),
+ elapsed_corr_kernel=18.0783 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=8, elapsed_mean_kernel=0.0466 (ms),
+ elapsed_std_kernel=0.0425 (ms),  elapsed_reduce_kernel=0.0064 (ms),
+ elapsed_corr_kernel=17.8752 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=4, elapsed_mean_kernel=0.0464 (ms),
+ elapsed_std_kernel=0.0408 (ms),  elapsed_reduce_kernel=0.0068 (ms),
+ elapsed_corr_kernel=17.1287 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=2, elapsed_mean_kernel=0.0465 (ms),
+ elapsed_std_kernel=0.0428 (ms),  elapsed_reduce_kernel=0.0092 (ms),
+ elapsed_corr_kernel=15.4924 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=1, elapsed_mean_kernel=0.0460 (ms),
+ elapsed_std_kernel=0.0424 (ms),  elapsed_reduce_kernel=0.0159 (ms),
+ elapsed_corr_kernel=12.9480 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=128, elapsed_mean_kernel=0.1205 (ms),
+ elapsed_std_kernel=0.2024 (ms),  elapsed_reduce_kernel=0.0068 (ms),
+ elapsed_corr_kernel=45.1329 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=64, elapsed_mean_kernel=0.0854 (ms),
+ elapsed_std_kernel=0.1284 (ms),  elapsed_reduce_kernel=0.0070 (ms),
+ elapsed_corr_kernel=23.3276 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=32, elapsed_mean_kernel=0.0686 (ms),
+ elapsed_std_kernel=0.0902 (ms),  elapsed_reduce_kernel=0.0067 (ms),
+ elapsed_corr_kernel=35.9356 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=16, elapsed_mean_kernel=0.0505 (ms),
+ elapsed_std_kernel=0.0715 (ms),  elapsed_reduce_kernel=0.0060 (ms),
+ elapsed_corr_kernel=35.3456 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=8, elapsed_mean_kernel=0.0468 (ms),
+ elapsed_std_kernel=0.0417 (ms),  elapsed_reduce_kernel=0.0062 (ms),
+ elapsed_corr_kernel=33.1745 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=4, elapsed_mean_kernel=0.0466 (ms),
+ elapsed_std_kernel=0.0431 (ms),  elapsed_reduce_kernel=0.0062 (ms),
+ elapsed_corr_kernel=28.4043 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=2, elapsed_mean_kernel=0.0470 (ms),
+ elapsed_std_kernel=0.0433 (ms),  elapsed_reduce_kernel=0.0094 (ms),
+ elapsed_corr_kernel=20.1470 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=128, elapsed_mean_kernel=0.1517 (ms),
+ elapsed_std_kernel=0.2477 (ms),  elapsed_reduce_kernel=0.0070 (ms),
+ elapsed_corr_kernel=46.6269 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=64, elapsed_mean_kernel=0.1103 (ms),
+ elapsed_std_kernel=0.1722 (ms),  elapsed_reduce_kernel=0.0069 (ms),
+ elapsed_corr_kernel=71.9091 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=32, elapsed_mean_kernel=0.0884 (ms),
+ elapsed_std_kernel=0.1348 (ms),  elapsed_reduce_kernel=0.0065 (ms),
+ elapsed_corr_kernel=70.6959 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=16, elapsed_mean_kernel=0.0510 (ms),
+ elapsed_std_kernel=0.0698 (ms),  elapsed_reduce_kernel=0.0055 (ms),
+ elapsed_corr_kernel=65.9778 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=8, elapsed_mean_kernel=0.0498 (ms),
+ elapsed_std_kernel=0.0504 (ms),  elapsed_reduce_kernel=0.0062 (ms),
+ elapsed_corr_kernel=57.4288 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=4, elapsed_mean_kernel=0.0494 (ms),
+ elapsed_std_kernel=0.0505 (ms),  elapsed_reduce_kernel=0.0066 (ms),
+ elapsed_corr_kernel=39.0020 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=32, elapsed_mean_kernel=0.0969 (ms),
+ elapsed_std_kernel=0.0877 (ms),  elapsed_reduce_kernel=0.0110 (ms),
+ elapsed_corr_kernel=37.3163 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=16, elapsed_mean_kernel=0.0860 (ms),
+ elapsed_std_kernel=0.0796 (ms),  elapsed_reduce_kernel=0.0104 (ms),
+ elapsed_corr_kernel=36.7334 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=8, elapsed_mean_kernel=0.0822 (ms),
+ elapsed_std_kernel=0.0797 (ms),  elapsed_reduce_kernel=0.0153 (ms),
+ elapsed_corr_kernel=40.8312 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=4, elapsed_mean_kernel=0.0810 (ms),
+ elapsed_std_kernel=0.0767 (ms),  elapsed_reduce_kernel=0.0148 (ms),
+ elapsed_corr_kernel=39.1290 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=2, elapsed_mean_kernel=0.0866 (ms),
+ elapsed_std_kernel=0.0768 (ms),  elapsed_reduce_kernel=0.0260 (ms),
+ elapsed_corr_kernel=43.2991 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=1, elapsed_mean_kernel=0.0864 (ms),
+ elapsed_std_kernel=0.0782 (ms),  elapsed_reduce_kernel=0.0523 (ms),
+ elapsed_corr_kernel=43.4148 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=64, elapsed_mean_kernel=0.1702 (ms),
+ elapsed_std_kernel=0.1640 (ms),  elapsed_reduce_kernel=0.0108 (ms),
+ elapsed_corr_kernel=37.3886 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=32, elapsed_mean_kernel=0.1103 (ms),
+ elapsed_std_kernel=0.1015 (ms),  elapsed_reduce_kernel=0.0109 (ms),
+ elapsed_corr_kernel=37.2892 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=16, elapsed_mean_kernel=0.0826 (ms),
+ elapsed_std_kernel=0.0790 (ms),  elapsed_reduce_kernel=0.0103 (ms),
+ elapsed_corr_kernel=47.7298 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=8, elapsed_mean_kernel=0.0854 (ms),
+ elapsed_std_kernel=0.0769 (ms),  elapsed_reduce_kernel=0.0138 (ms),
+ elapsed_corr_kernel=40.4187 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=4, elapsed_mean_kernel=0.0856 (ms),
+ elapsed_std_kernel=0.0772 (ms),  elapsed_reduce_kernel=0.0153 (ms),
+ elapsed_corr_kernel=45.7665 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=2, elapsed_mean_kernel=0.0875 (ms),
+ elapsed_std_kernel=0.0775 (ms),  elapsed_reduce_kernel=0.0258 (ms),
+ elapsed_corr_kernel=43.3929 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=1, elapsed_mean_kernel=0.0881 (ms),
+ elapsed_std_kernel=0.0802 (ms),  elapsed_reduce_kernel=0.0529 (ms),
+ elapsed_corr_kernel=44.6732 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=128, elapsed_mean_kernel=0.4227 (ms),
+ elapsed_std_kernel=0.4369 (ms),  elapsed_reduce_kernel=0.0117 (ms),
+ elapsed_corr_kernel=46.6047 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=64, elapsed_mean_kernel=0.1966 (ms),
+ elapsed_std_kernel=0.1884 (ms),  elapsed_reduce_kernel=0.0109 (ms),
+ elapsed_corr_kernel=39.0094 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=32, elapsed_mean_kernel=0.1211 (ms),
+ elapsed_std_kernel=0.1146 (ms),  elapsed_reduce_kernel=0.0107 (ms),
+ elapsed_corr_kernel=81.8004 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=16, elapsed_mean_kernel=0.0864 (ms),
+ elapsed_std_kernel=0.0778 (ms),  elapsed_reduce_kernel=0.0105 (ms),
+ elapsed_corr_kernel=48.6528 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=8, elapsed_mean_kernel=0.0868 (ms),
+ elapsed_std_kernel=0.0775 (ms),  elapsed_reduce_kernel=0.0143 (ms),
+ elapsed_corr_kernel=52.9835 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=4, elapsed_mean_kernel=0.0865 (ms),
+ elapsed_std_kernel=0.0783 (ms),  elapsed_reduce_kernel=0.0148 (ms),
+ elapsed_corr_kernel=48.3354 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=2, elapsed_mean_kernel=0.0878 (ms),
+ elapsed_std_kernel=0.0804 (ms),  elapsed_reduce_kernel=0.0260 (ms),
+ elapsed_corr_kernel=48.3433 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=1, elapsed_mean_kernel=0.0874 (ms),
+ elapsed_std_kernel=0.0800 (ms),  elapsed_reduce_kernel=0.0531 (ms),
+ elapsed_corr_kernel=46.8149 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=128, elapsed_mean_kernel=0.4469 (ms),
+ elapsed_std_kernel=0.4864 (ms),  elapsed_reduce_kernel=0.0108 (ms),
+ elapsed_corr_kernel=56.2415 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=64, elapsed_mean_kernel=0.2204 (ms),
+ elapsed_std_kernel=0.2139 (ms),  elapsed_reduce_kernel=0.0112 (ms),
+ elapsed_corr_kernel=155.7094 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=32, elapsed_mean_kernel=0.1424 (ms),
+ elapsed_std_kernel=0.1397 (ms),  elapsed_reduce_kernel=0.0107 (ms),
+ elapsed_corr_kernel=82.6418 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=16, elapsed_mean_kernel=0.1046 (ms),
+ elapsed_std_kernel=0.0984 (ms),  elapsed_reduce_kernel=0.0102 (ms),
+ elapsed_corr_kernel=90.0300 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=8, elapsed_mean_kernel=0.0847 (ms),
+ elapsed_std_kernel=0.0802 (ms),  elapsed_reduce_kernel=0.0142 (ms),
+ elapsed_corr_kernel=73.5244 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=4, elapsed_mean_kernel=0.0879 (ms),
+ elapsed_std_kernel=0.0808 (ms),  elapsed_reduce_kernel=0.0149 (ms),
+ elapsed_corr_kernel=71.5706 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=2, elapsed_mean_kernel=0.0880 (ms),
+ elapsed_std_kernel=0.0796 (ms),  elapsed_reduce_kernel=0.0257 (ms),
+ elapsed_corr_kernel=68.2358 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=1, elapsed_mean_kernel=0.0904 (ms),
+ elapsed_std_kernel=0.0794 (ms),  elapsed_reduce_kernel=0.0521 (ms),
+ elapsed_corr_kernel=63.5850 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=128, elapsed_mean_kernel=0.4935 (ms),
+ elapsed_std_kernel=0.5507 (ms),  elapsed_reduce_kernel=0.0108 (ms),
+ elapsed_corr_kernel=310.8029 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=64, elapsed_mean_kernel=0.2647 (ms),
+ elapsed_std_kernel=0.2627 (ms),  elapsed_reduce_kernel=0.0109 (ms),
+ elapsed_corr_kernel=166.8128 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=32, elapsed_mean_kernel=0.1874 (ms),
+ elapsed_std_kernel=0.1876 (ms),  elapsed_reduce_kernel=0.0106 (ms),
+ elapsed_corr_kernel=179.2920 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=16, elapsed_mean_kernel=0.1451 (ms),
+ elapsed_std_kernel=0.1502 (ms),  elapsed_reduce_kernel=0.0108 (ms),
+ elapsed_corr_kernel=146.4763 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=8, elapsed_mean_kernel=0.0898 (ms),
+ elapsed_std_kernel=0.0826 (ms),  elapsed_reduce_kernel=0.0143 (ms),
+ elapsed_corr_kernel=141.3797 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=4, elapsed_mean_kernel=0.0895 (ms),
+ elapsed_std_kernel=0.0800 (ms),  elapsed_reduce_kernel=0.0151 (ms),
+ elapsed_corr_kernel=133.0633 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=2, elapsed_mean_kernel=0.0903 (ms),
+ elapsed_std_kernel=0.0807 (ms),  elapsed_reduce_kernel=0.0263 (ms),
+ elapsed_corr_kernel=115.0916 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=1, elapsed_mean_kernel=0.0926 (ms),
+ elapsed_std_kernel=0.0812 (ms),  elapsed_reduce_kernel=0.0538 (ms),
+ elapsed_corr_kernel=83.8827 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=128, elapsed_mean_kernel=0.5505 (ms),
+ elapsed_std_kernel=0.6334 (ms),  elapsed_reduce_kernel=0.0112 (ms),
+ elapsed_corr_kernel=322.7635 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=64, elapsed_mean_kernel=0.3516 (ms),
+ elapsed_std_kernel=0.3572 (ms),  elapsed_reduce_kernel=0.0109 (ms),
+ elapsed_corr_kernel=359.9696 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=32, elapsed_mean_kernel=0.2774 (ms),
+ elapsed_std_kernel=0.2820 (ms),  elapsed_reduce_kernel=0.0110 (ms),
+ elapsed_corr_kernel=293.0482 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=16, elapsed_mean_kernel=0.1441 (ms),
+ elapsed_std_kernel=0.1399 (ms),  elapsed_reduce_kernel=0.0105 (ms),
+ elapsed_corr_kernel=282.1124 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=8, elapsed_mean_kernel=0.0950 (ms),
+ elapsed_std_kernel=0.0974 (ms),  elapsed_reduce_kernel=0.0145 (ms),
+ elapsed_corr_kernel=264.6051 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=4, elapsed_mean_kernel=0.0961 (ms),
+ elapsed_std_kernel=0.0980 (ms),  elapsed_reduce_kernel=0.0148 (ms),
+ elapsed_corr_kernel=228.1750 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=2, elapsed_mean_kernel=0.0984 (ms),
+ elapsed_std_kernel=0.0975 (ms),  elapsed_reduce_kernel=0.0262 (ms),
+ elapsed_corr_kernel=155.3889 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=32, elapsed_mean_kernel=0.4819 (ms),
+ elapsed_std_kernel=0.4820 (ms),  elapsed_reduce_kernel=0.0286 (ms),
+ elapsed_corr_kernel=226.7181 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=16, elapsed_mean_kernel=0.2590 (ms),
+ elapsed_std_kernel=0.2601 (ms),  elapsed_reduce_kernel=0.0445 (ms),
+ elapsed_corr_kernel=224.9845 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=8, elapsed_mean_kernel=0.2572 (ms),
+ elapsed_std_kernel=0.2556 (ms),  elapsed_reduce_kernel=0.0553 (ms),
+ elapsed_corr_kernel=240.8451 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=4, elapsed_mean_kernel=0.2601 (ms),
+ elapsed_std_kernel=0.2595 (ms),  elapsed_reduce_kernel=0.0610 (ms),
+ elapsed_corr_kernel=258.8977 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=2, elapsed_mean_kernel=0.2580 (ms),
+ elapsed_std_kernel=0.2585 (ms),  elapsed_reduce_kernel=0.0958 (ms),
+ elapsed_corr_kernel=254.6376 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=1, elapsed_mean_kernel=0.2601 (ms),
+ elapsed_std_kernel=0.2586 (ms),  elapsed_reduce_kernel=0.2090 (ms),
+ elapsed_corr_kernel=250.4469 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=64, elapsed_mean_kernel=0.5574 (ms),
+ elapsed_std_kernel=0.5657 (ms),  elapsed_reduce_kernel=0.0283 (ms),
+ elapsed_corr_kernel=329.7910 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=32, elapsed_mean_kernel=0.2688 (ms),
+ elapsed_std_kernel=0.2695 (ms),  elapsed_reduce_kernel=0.0298 (ms),
+ elapsed_corr_kernel=231.6830 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=16, elapsed_mean_kernel=0.2601 (ms),
+ elapsed_std_kernel=0.2617 (ms),  elapsed_reduce_kernel=0.0436 (ms),
+ elapsed_corr_kernel=322.8157 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=8, elapsed_mean_kernel=0.2918 (ms),
+ elapsed_std_kernel=0.2643 (ms),  elapsed_reduce_kernel=0.0553 (ms),
+ elapsed_corr_kernel=256.9725 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=4, elapsed_mean_kernel=0.2620 (ms),
+ elapsed_std_kernel=0.2637 (ms),  elapsed_reduce_kernel=0.0598 (ms),
+ elapsed_corr_kernel=288.5729 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=2, elapsed_mean_kernel=0.2649 (ms),
+ elapsed_std_kernel=0.2671 (ms),  elapsed_reduce_kernel=0.0988 (ms),
+ elapsed_corr_kernel=298.4640 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=1, elapsed_mean_kernel=0.2643 (ms),
+ elapsed_std_kernel=0.2576 (ms),  elapsed_reduce_kernel=0.2052 (ms),
+ elapsed_corr_kernel=267.9106 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=128, elapsed_mean_kernel=1.2763 (ms),
+ elapsed_std_kernel=1.4540 (ms),  elapsed_reduce_kernel=0.0278 (ms),
+ elapsed_corr_kernel=329.3245 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=64, elapsed_mean_kernel=0.5914 (ms),
+ elapsed_std_kernel=0.6107 (ms),  elapsed_reduce_kernel=0.0291 (ms),
+ elapsed_corr_kernel=301.2898 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=32, elapsed_mean_kernel=0.2704 (ms),
+ elapsed_std_kernel=0.2723 (ms),  elapsed_reduce_kernel=0.0309 (ms),
+ elapsed_corr_kernel=595.5568 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=16, elapsed_mean_kernel=0.2699 (ms),
+ elapsed_std_kernel=0.2686 (ms),  elapsed_reduce_kernel=0.0441 (ms),
+ elapsed_corr_kernel=325.1739 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=8, elapsed_mean_kernel=0.2692 (ms),
+ elapsed_std_kernel=0.2689 (ms),  elapsed_reduce_kernel=0.0564 (ms),
+ elapsed_corr_kernel=369.2635 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=4, elapsed_mean_kernel=0.2715 (ms),
+ elapsed_std_kernel=0.2719 (ms),  elapsed_reduce_kernel=0.0599 (ms),
+ elapsed_corr_kernel=319.7221 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=2, elapsed_mean_kernel=0.2632 (ms),
+ elapsed_std_kernel=0.2628 (ms),  elapsed_reduce_kernel=0.0981 (ms),
+ elapsed_corr_kernel=291.6846 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=1, elapsed_mean_kernel=0.2590 (ms),
+ elapsed_std_kernel=0.2596 (ms),  elapsed_reduce_kernel=0.2090 (ms),
+ elapsed_corr_kernel=275.6343 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [1024 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=128, elapsed_mean_kernel=1.4224 (ms),
+ elapsed_std_kernel=1.5469 (ms),  elapsed_reduce_kernel=0.0275 (ms),
+ elapsed_corr_kernel=386.9154 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=64, elapsed_mean_kernel=0.6242 (ms),
+ elapsed_std_kernel=0.6523 (ms),  elapsed_reduce_kernel=0.0286 (ms),
+ elapsed_corr_kernel=1194.0813 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=32, elapsed_mean_kernel=0.2885 (ms),
+ elapsed_std_kernel=0.2876 (ms),  elapsed_reduce_kernel=0.0302 (ms),
+ elapsed_corr_kernel=610.2331 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=16, elapsed_mean_kernel=0.2811 (ms),
+ elapsed_std_kernel=0.2771 (ms),  elapsed_reduce_kernel=0.0486 (ms),
+ elapsed_corr_kernel=655.7667 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=8, elapsed_mean_kernel=0.2791 (ms),
+ elapsed_std_kernel=0.2774 (ms),  elapsed_reduce_kernel=0.0554 (ms),
+ elapsed_corr_kernel=393.8080 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=4, elapsed_mean_kernel=0.2735 (ms),
+ elapsed_std_kernel=0.2700 (ms),  elapsed_reduce_kernel=0.0611 (ms),
+ elapsed_corr_kernel=338.6468 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=2, elapsed_mean_kernel=0.2652 (ms),
+ elapsed_std_kernel=0.2637 (ms),  elapsed_reduce_kernel=0.0990 (ms),
+ elapsed_corr_kernel=324.5636 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=1, elapsed_mean_kernel=0.2656 (ms),
+ elapsed_std_kernel=0.2653 (ms),  elapsed_reduce_kernel=0.2132 (ms),
+ elapsed_corr_kernel=320.5229 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [1024 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [1024 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=128, elapsed_mean_kernel=1.5779 (ms),
+ elapsed_std_kernel=1.7490 (ms),  elapsed_reduce_kernel=0.0272 (ms),
+ elapsed_corr_kernel=2293.5576 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=64, elapsed_mean_kernel=0.7323 (ms),
+ elapsed_std_kernel=0.7524 (ms),  elapsed_reduce_kernel=0.0281 (ms),
+ elapsed_corr_kernel=1218.4260 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=32, elapsed_mean_kernel=0.4075 (ms),
+ elapsed_std_kernel=0.4109 (ms),  elapsed_reduce_kernel=0.0314 (ms),
+ elapsed_corr_kernel=1298.9094 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=16, elapsed_mean_kernel=0.3504 (ms),
+ elapsed_std_kernel=0.3325 (ms),  elapsed_reduce_kernel=0.0435 (ms),
+ elapsed_corr_kernel=757.1987 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=8, elapsed_mean_kernel=0.2762 (ms),
+ elapsed_std_kernel=0.2747 (ms),  elapsed_reduce_kernel=0.0570 (ms),
+ elapsed_corr_kernel=593.6881 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=4, elapsed_mean_kernel=0.2732 (ms),
+ elapsed_std_kernel=0.2693 (ms),  elapsed_reduce_kernel=0.0620 (ms),
+ elapsed_corr_kernel=573.1968 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=2, elapsed_mean_kernel=0.2701 (ms),
+ elapsed_std_kernel=0.2698 (ms),  elapsed_reduce_kernel=0.0970 (ms),
+ elapsed_corr_kernel=540.0979 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=512, by=1, elapsed_mean_kernel=0.2717 (ms),
+ elapsed_std_kernel=0.2715 (ms),  elapsed_reduce_kernel=0.2131 (ms),
+ elapsed_corr_kernel=468.8224 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [1024 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [1024 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=128, elapsed_mean_kernel=1.9886 (ms),
+ elapsed_std_kernel=2.1820 (ms),  elapsed_reduce_kernel=0.0274 (ms),
+ elapsed_corr_kernel=2291.6382 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=64, elapsed_mean_kernel=0.8833 (ms),
+ elapsed_std_kernel=1.0005 (ms),  elapsed_reduce_kernel=0.0289 (ms),
+ elapsed_corr_kernel=2461.9180 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=32, elapsed_mean_kernel=0.7221 (ms),
+ elapsed_std_kernel=0.6580 (ms),  elapsed_reduce_kernel=0.0319 (ms),
+ elapsed_corr_kernel=1523.7334 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=16, elapsed_mean_kernel=0.3165 (ms),
+ elapsed_std_kernel=0.3165 (ms),  elapsed_reduce_kernel=0.0457 (ms),
+ elapsed_corr_kernel=1190.6941 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=8, elapsed_mean_kernel=0.2798 (ms),
+ elapsed_std_kernel=0.2783 (ms),  elapsed_reduce_kernel=0.0570 (ms),
+ elapsed_corr_kernel=1147.5060 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=4, elapsed_mean_kernel=0.2789 (ms),
+ elapsed_std_kernel=0.2808 (ms),  elapsed_reduce_kernel=0.0594 (ms),
+ elapsed_corr_kernel=1062.9130 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=32, elapsed_mean_kernel=1.5087 (ms),
+ elapsed_std_kernel=1.5474 (ms),  elapsed_reduce_kernel=0.1142 (ms),
+ elapsed_corr_kernel=1772.8572 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=16, elapsed_mean_kernel=1.0039 (ms),
+ elapsed_std_kernel=1.0205 (ms),  elapsed_reduce_kernel=0.1677 (ms),
+ elapsed_corr_kernel=1567.4872 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=8, elapsed_mean_kernel=0.5241 (ms),
+ elapsed_std_kernel=0.5335 (ms),  elapsed_reduce_kernel=0.2171 (ms),
+ elapsed_corr_kernel=1439.0505 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=4, elapsed_mean_kernel=0.5395 (ms),
+ elapsed_std_kernel=0.5428 (ms),  elapsed_reduce_kernel=0.2284 (ms),
+ elapsed_corr_kernel=1220.6715 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=2, elapsed_mean_kernel=0.5266 (ms),
+ elapsed_std_kernel=0.5315 (ms),  elapsed_reduce_kernel=0.3772 (ms),
+ elapsed_corr_kernel=1242.9894 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=1, elapsed_mean_kernel=0.5174 (ms),
+ elapsed_std_kernel=0.5267 (ms),  elapsed_reduce_kernel=0.8513 (ms),
+ elapsed_corr_kernel=1186.4872 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=64, elapsed_mean_kernel=1.7404 (ms),
+ elapsed_std_kernel=2.1834 (ms),  elapsed_reduce_kernel=0.1095 (ms),
+ elapsed_corr_kernel=5339.3135 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=32, elapsed_mean_kernel=1.0382 (ms),
+ elapsed_std_kernel=1.1038 (ms),  elapsed_reduce_kernel=0.1133 (ms),
+ elapsed_corr_kernel=3329.8662 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=16, elapsed_mean_kernel=0.5359 (ms),
+ elapsed_std_kernel=0.5477 (ms),  elapsed_reduce_kernel=0.1736 (ms),
+ elapsed_corr_kernel=2373.1384 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=8, elapsed_mean_kernel=0.5440 (ms),
+ elapsed_std_kernel=0.5465 (ms),  elapsed_reduce_kernel=0.2152 (ms),
+ elapsed_corr_kernel=1420.8369 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=4, elapsed_mean_kernel=0.5370 (ms),
+ elapsed_std_kernel=0.5398 (ms),  elapsed_reduce_kernel=0.2259 (ms),
+ elapsed_corr_kernel=1476.4803 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=2, elapsed_mean_kernel=0.5334 (ms),
+ elapsed_std_kernel=0.5410 (ms),  elapsed_reduce_kernel=0.3823 (ms),
+ elapsed_corr_kernel=1374.1538 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=1, elapsed_mean_kernel=0.5185 (ms),
+ elapsed_std_kernel=0.5283 (ms),  elapsed_reduce_kernel=0.8354 (ms),
+ elapsed_corr_kernel=1199.4741 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=128, elapsed_mean_kernel=4.7875 (ms),
+ elapsed_std_kernel=5.2742 (ms),  elapsed_reduce_kernel=0.1076 (ms),
+ elapsed_corr_kernel=7410.8467 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=64, elapsed_mean_kernel=1.8673 (ms),
+ elapsed_std_kernel=2.2857 (ms),  elapsed_reduce_kernel=0.1086 (ms),
+ elapsed_corr_kernel=5232.9761 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=32, elapsed_mean_kernel=1.0623 (ms),
+ elapsed_std_kernel=1.1587 (ms),  elapsed_reduce_kernel=0.1129 (ms),
+ elapsed_corr_kernel=4497.8164 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=16, elapsed_mean_kernel=0.5535 (ms),
+ elapsed_std_kernel=0.5648 (ms),  elapsed_reduce_kernel=0.1722 (ms),
+ elapsed_corr_kernel=2388.1082 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=8, elapsed_mean_kernel=0.5460 (ms),
+ elapsed_std_kernel=0.5468 (ms),  elapsed_reduce_kernel=0.2157 (ms),
+ elapsed_corr_kernel=2471.7524 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=4, elapsed_mean_kernel=0.5437 (ms),
+ elapsed_std_kernel=0.5485 (ms),  elapsed_reduce_kernel=0.2249 (ms),
+ elapsed_corr_kernel=1623.0519 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=2, elapsed_mean_kernel=0.5404 (ms),
+ elapsed_std_kernel=0.5421 (ms),  elapsed_reduce_kernel=0.3814 (ms),
+ elapsed_corr_kernel=1350.0031 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=1, elapsed_mean_kernel=0.5258 (ms),
+ elapsed_std_kernel=0.5260 (ms),  elapsed_reduce_kernel=0.8412 (ms),
+ elapsed_corr_kernel=1242.8777 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [2048 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=128, elapsed_mean_kernel=5.3036 (ms),
+ elapsed_std_kernel=5.9598 (ms),  elapsed_reduce_kernel=0.1084 (ms),
+ elapsed_corr_kernel=5105.9414 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=64, elapsed_mean_kernel=2.0287 (ms),
+ elapsed_std_kernel=2.6182 (ms),  elapsed_reduce_kernel=0.1102 (ms),
+ elapsed_corr_kernel=9013.1807 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=32, elapsed_mean_kernel=1.1269 (ms),
+ elapsed_std_kernel=1.3271 (ms),  elapsed_reduce_kernel=0.1200 (ms),
+ elapsed_corr_kernel=4534.8115 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=16, elapsed_mean_kernel=0.6826 (ms),
+ elapsed_std_kernel=0.5930 (ms),  elapsed_reduce_kernel=0.1717 (ms),
+ elapsed_corr_kernel=4608.1753 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=8, elapsed_mean_kernel=0.5649 (ms),
+ elapsed_std_kernel=0.5731 (ms),  elapsed_reduce_kernel=0.2194 (ms),
+ elapsed_corr_kernel=2605.1858 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=4, elapsed_mean_kernel=0.5483 (ms),
+ elapsed_std_kernel=0.5528 (ms),  elapsed_reduce_kernel=0.2325 (ms),
+ elapsed_corr_kernel=1664.1831 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=2, elapsed_mean_kernel=0.5299 (ms),
+ elapsed_std_kernel=0.5367 (ms),  elapsed_reduce_kernel=0.3742 (ms),
+ elapsed_corr_kernel=1419.0457 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=1, elapsed_mean_kernel=0.5272 (ms),
+ elapsed_std_kernel=0.5303 (ms),  elapsed_reduce_kernel=0.8322 (ms),
+ elapsed_corr_kernel=1359.1326 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [2048 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [2048 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=128, elapsed_mean_kernel=5.9856 (ms),
+ elapsed_std_kernel=6.5434 (ms),  elapsed_reduce_kernel=0.1065 (ms),
+ elapsed_corr_kernel=18361.8945 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=64, elapsed_mean_kernel=2.3264 (ms),
+ elapsed_std_kernel=3.0231 (ms),  elapsed_reduce_kernel=0.1079 (ms),
+ elapsed_corr_kernel=8760.7803 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=32, elapsed_mean_kernel=1.2955 (ms),
+ elapsed_std_kernel=1.5834 (ms),  elapsed_reduce_kernel=0.1128 (ms),
+ elapsed_corr_kernel=9047.7617 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=16, elapsed_mean_kernel=1.0401 (ms),
+ elapsed_std_kernel=0.9076 (ms),  elapsed_reduce_kernel=0.1715 (ms),
+ elapsed_corr_kernel=5173.0698 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=8, elapsed_mean_kernel=0.5747 (ms),
+ elapsed_std_kernel=0.5847 (ms),  elapsed_reduce_kernel=0.2131 (ms),
+ elapsed_corr_kernel=3031.3640 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=4, elapsed_mean_kernel=0.5521 (ms),
+ elapsed_std_kernel=0.5476 (ms),  elapsed_reduce_kernel=0.2312 (ms),
+ elapsed_corr_kernel=2397.9790 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=2, elapsed_mean_kernel=0.5378 (ms),
+ elapsed_std_kernel=0.5409 (ms),  elapsed_reduce_kernel=0.3809 (ms),
+ elapsed_corr_kernel=2312.0688 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=512, by=1, elapsed_mean_kernel=0.5383 (ms),
+ elapsed_std_kernel=0.5425 (ms),  elapsed_reduce_kernel=0.8403 (ms),
+ elapsed_corr_kernel=2190.5886 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [2048 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+=============================== 
+checking log point [2048 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=128, elapsed_mean_kernel=7.2235 (ms),
+ elapsed_std_kernel=8.1698 (ms),  elapsed_reduce_kernel=0.1069 (ms),
+ elapsed_corr_kernel=18036.8613 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=64, elapsed_mean_kernel=3.0630 (ms),
+ elapsed_std_kernel=4.1249 (ms),  elapsed_reduce_kernel=0.1084 (ms),
+ elapsed_corr_kernel=16808.8008 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=32, elapsed_mean_kernel=1.8883 (ms),
+ elapsed_std_kernel=2.4144 (ms),  elapsed_reduce_kernel=0.1145 (ms),
+ elapsed_corr_kernel=9844.8291 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=16, elapsed_mean_kernel=1.0991 (ms),
+ elapsed_std_kernel=1.1430 (ms),  elapsed_reduce_kernel=0.1701 (ms),
+ elapsed_corr_kernel=6110.4282 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=8, elapsed_mean_kernel=0.5594 (ms),
+ elapsed_std_kernel=0.5627 (ms),  elapsed_reduce_kernel=0.2166 (ms),
+ elapsed_corr_kernel=4775.5273 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=4, elapsed_mean_kernel=0.5548 (ms),
+ elapsed_std_kernel=0.5619 (ms),  elapsed_reduce_kernel=0.2273 (ms),
+ elapsed_corr_kernel=4613.7437 (ms)] ... PASS
+=============================== 

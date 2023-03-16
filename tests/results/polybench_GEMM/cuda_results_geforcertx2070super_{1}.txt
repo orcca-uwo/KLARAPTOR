@@ -1,0 +1,1557 @@
+checking for [] 
+checking log point [32 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=1, by=32, elapsed_gemm_kernel=0.0205 (ms)] ... PASS
+=============================== 
+checking log point [32 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=2, by=16, elapsed_gemm_kernel=0.0204 (ms)] ... PASS
+=============================== 
+checking log point [32 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=8, elapsed_gemm_kernel=0.0169 (ms)] ... PASS
+=============================== 
+checking log point [32 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=4, elapsed_gemm_kernel=0.0180 (ms)] ... PASS
+=============================== 
+checking log point [32 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=2, elapsed_gemm_kernel=0.0186 (ms)] ... PASS
+=============================== 
+checking log point [32 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=1, elapsed_gemm_kernel=0.0164 (ms)] ... PASS
+=============================== 
+checking log point [32 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=2, by=32, elapsed_gemm_kernel=0.0190 (ms)] ... PASS
+=============================== 
+checking log point [32 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=16, elapsed_gemm_kernel=0.0186 (ms)] ... PASS
+=============================== 
+checking log point [32 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=8, elapsed_gemm_kernel=0.0164 (ms)] ... PASS
+=============================== 
+checking log point [32 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=4, elapsed_gemm_kernel=0.0164 (ms)] ... PASS
+=============================== 
+checking log point [32 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=2, elapsed_gemm_kernel=0.0180 (ms)] ... PASS
+=============================== 
+checking log point [32 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=32, elapsed_gemm_kernel=0.0179 (ms)] ... PASS
+=============================== 
+checking log point [32 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=16, elapsed_gemm_kernel=0.0168 (ms)] ... PASS
+=============================== 
+checking log point [32 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=8, elapsed_gemm_kernel=0.0160 (ms)] ... PASS
+=============================== 
+checking log point [32 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=4, elapsed_gemm_kernel=0.0166 (ms)] ... PASS
+=============================== 
+checking log point [32 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=32, elapsed_gemm_kernel=0.0165 (ms)] ... PASS
+=============================== 
+checking log point [32 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=16, elapsed_gemm_kernel=0.0152 (ms)] ... PASS
+=============================== 
+checking log point [32 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=8, elapsed_gemm_kernel=0.0184 (ms)] ... PASS
+=============================== 
+checking log point [32 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=32, elapsed_gemm_kernel=0.0176 (ms)] ... PASS
+=============================== 
+checking log point [32 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=16, elapsed_gemm_kernel=0.0164 (ms)] ... PASS
+=============================== 
+checking log point [32 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=32, elapsed_gemm_kernel=0.0211 (ms)] ... PASS
+=============================== 
+checking log point [64 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=32, elapsed_gemm_kernel=0.0369 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=16, elapsed_gemm_kernel=0.0259 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=8, elapsed_gemm_kernel=0.0230 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=4, elapsed_gemm_kernel=0.0246 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=2, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=1, elapsed_gemm_kernel=0.0275 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=64, elapsed_gemm_kernel=0.0426 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=32, elapsed_gemm_kernel=0.0266 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=16, elapsed_gemm_kernel=0.0229 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=8, elapsed_gemm_kernel=0.0222 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=4, elapsed_gemm_kernel=0.0205 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=2, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=1, elapsed_gemm_kernel=0.0245 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=64, elapsed_gemm_kernel=0.0263 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=32, elapsed_gemm_kernel=0.0233 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=16, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=8, elapsed_gemm_kernel=0.0215 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=4, elapsed_gemm_kernel=0.0239 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=2, elapsed_gemm_kernel=0.0191 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=64, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=32, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=16, elapsed_gemm_kernel=0.0221 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=8, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=4, elapsed_gemm_kernel=0.0247 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=64, elapsed_gemm_kernel=0.0229 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=32, elapsed_gemm_kernel=0.0224 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=16, elapsed_gemm_kernel=0.0246 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=8, elapsed_gemm_kernel=0.0225 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=64, elapsed_gemm_kernel=0.0238 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=32, elapsed_gemm_kernel=0.0506 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=16, elapsed_gemm_kernel=0.0268 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=32, elapsed_gemm_kernel=0.1989 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=16, elapsed_gemm_kernel=0.1086 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=8, elapsed_gemm_kernel=0.0686 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=4, elapsed_gemm_kernel=0.0372 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=2, elapsed_gemm_kernel=0.0351 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=1, elapsed_gemm_kernel=0.0396 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=64, elapsed_gemm_kernel=0.1982 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=32, elapsed_gemm_kernel=0.1118 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=16, elapsed_gemm_kernel=0.0676 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=8, elapsed_gemm_kernel=0.0369 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=4, elapsed_gemm_kernel=0.0358 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=2, elapsed_gemm_kernel=0.0391 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=1, elapsed_gemm_kernel=0.0406 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=128, elapsed_gemm_kernel=0.2150 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=64, elapsed_gemm_kernel=0.1147 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=32, elapsed_gemm_kernel=0.0702 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=16, elapsed_gemm_kernel=0.0375 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=8, elapsed_gemm_kernel=0.0348 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=4, elapsed_gemm_kernel=0.0396 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=2, elapsed_gemm_kernel=0.0389 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=1, elapsed_gemm_kernel=0.0400 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=128, elapsed_gemm_kernel=0.1234 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=64, elapsed_gemm_kernel=0.0695 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=32, elapsed_gemm_kernel=0.0394 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=16, elapsed_gemm_kernel=0.0356 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=8, elapsed_gemm_kernel=0.0423 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=4, elapsed_gemm_kernel=0.0407 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=2, elapsed_gemm_kernel=0.0398 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=128, elapsed_gemm_kernel=0.0685 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=64, elapsed_gemm_kernel=0.0393 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=32, elapsed_gemm_kernel=0.0366 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=16, elapsed_gemm_kernel=0.0410 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=8, elapsed_gemm_kernel=0.0436 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=4, elapsed_gemm_kernel=0.0398 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=128, elapsed_gemm_kernel=0.0457 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=64, elapsed_gemm_kernel=0.0429 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=32, elapsed_gemm_kernel=0.0524 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=16, elapsed_gemm_kernel=0.0464 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=8, elapsed_gemm_kernel=0.0460 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=32, elapsed_gemm_kernel=1.4564 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=16, elapsed_gemm_kernel=0.7162 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=8, elapsed_gemm_kernel=0.3825 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=4, elapsed_gemm_kernel=0.2100 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=2, elapsed_gemm_kernel=0.1741 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=1, elapsed_gemm_kernel=0.1768 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=64, elapsed_gemm_kernel=1.4612 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=32, elapsed_gemm_kernel=0.7181 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=16, elapsed_gemm_kernel=0.3796 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=8, elapsed_gemm_kernel=0.1808 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=4, elapsed_gemm_kernel=0.1267 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=2, elapsed_gemm_kernel=0.1422 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=1, elapsed_gemm_kernel=0.1404 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=128, elapsed_gemm_kernel=1.4575 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=64, elapsed_gemm_kernel=0.7307 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=32, elapsed_gemm_kernel=0.3785 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=16, elapsed_gemm_kernel=0.1796 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=8, elapsed_gemm_kernel=0.1256 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=4, elapsed_gemm_kernel=0.1352 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=2, elapsed_gemm_kernel=0.1450 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=1, elapsed_gemm_kernel=0.1364 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=256, elapsed_gemm_kernel=1.5660 (ms)] ... PASS
+=============================== 
+checking log point [256 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=128, elapsed_gemm_kernel=0.7835 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=64, elapsed_gemm_kernel=0.4040 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=32, elapsed_gemm_kernel=0.1946 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=16, elapsed_gemm_kernel=0.1287 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=8, elapsed_gemm_kernel=0.1368 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=4, elapsed_gemm_kernel=0.1428 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=2, elapsed_gemm_kernel=0.1374 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=1, elapsed_gemm_kernel=0.1334 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=256, elapsed_gemm_kernel=0.8962 (ms)] ... PASS
+=============================== 
+checking log point [256 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=128, elapsed_gemm_kernel=0.4582 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=64, elapsed_gemm_kernel=0.2114 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=32, elapsed_gemm_kernel=0.1386 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=16, elapsed_gemm_kernel=0.1444 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=8, elapsed_gemm_kernel=0.1422 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=4, elapsed_gemm_kernel=0.1311 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=2, elapsed_gemm_kernel=0.1378 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=256, elapsed_gemm_kernel=0.4589 (ms)] ... PASS
+=============================== 
+checking log point [256 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=128, elapsed_gemm_kernel=0.2215 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=64, elapsed_gemm_kernel=0.1497 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=32, elapsed_gemm_kernel=0.1553 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=16, elapsed_gemm_kernel=0.1504 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=8, elapsed_gemm_kernel=0.1361 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=4, elapsed_gemm_kernel=0.1350 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=32, elapsed_gemm_kernel=11.5150 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=16, elapsed_gemm_kernel=5.3920 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=8, elapsed_gemm_kernel=2.8065 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=4, elapsed_gemm_kernel=1.3299 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=2, elapsed_gemm_kernel=1.1249 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=1, elapsed_gemm_kernel=1.1389 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=64, elapsed_gemm_kernel=11.5369 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=32, elapsed_gemm_kernel=5.5091 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=16, elapsed_gemm_kernel=2.7019 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=8, elapsed_gemm_kernel=1.3247 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=4, elapsed_gemm_kernel=0.8580 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=2, elapsed_gemm_kernel=0.8640 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=1, elapsed_gemm_kernel=0.8607 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=128, elapsed_gemm_kernel=11.4930 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=64, elapsed_gemm_kernel=5.7582 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=32, elapsed_gemm_kernel=2.9282 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=16, elapsed_gemm_kernel=1.3253 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=8, elapsed_gemm_kernel=0.8567 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=4, elapsed_gemm_kernel=0.8631 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=2, elapsed_gemm_kernel=0.8652 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=1, elapsed_gemm_kernel=0.8597 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=256, elapsed_gemm_kernel=11.5687 (ms)] ... PASS
+=============================== 
+checking log point [512 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=128, elapsed_gemm_kernel=5.7655 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=64, elapsed_gemm_kernel=2.9321 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=32, elapsed_gemm_kernel=1.3331 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=16, elapsed_gemm_kernel=0.8599 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=8, elapsed_gemm_kernel=0.8551 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=4, elapsed_gemm_kernel=0.8564 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=2, elapsed_gemm_kernel=0.8530 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=1, elapsed_gemm_kernel=0.8469 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=512, elapsed_gemm_kernel=11.6899 (ms)] ... PASS
+=============================== 
+checking log point [512 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=256, elapsed_gemm_kernel=5.7730 (ms)] ... PASS
+=============================== 
+checking log point [512 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=128, elapsed_gemm_kernel=2.9390 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=64, elapsed_gemm_kernel=1.3374 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=32, elapsed_gemm_kernel=0.8653 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=16, elapsed_gemm_kernel=0.8676 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=8, elapsed_gemm_kernel=0.8664 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=4, elapsed_gemm_kernel=0.8572 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=2, elapsed_gemm_kernel=0.8466 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=1, elapsed_gemm_kernel=0.8440 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=512, elapsed_gemm_kernel=6.2725 (ms)] ... PASS
+=============================== 
+checking log point [512 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=256, elapsed_gemm_kernel=3.1647 (ms)] ... PASS
+=============================== 
+checking log point [512 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=128, elapsed_gemm_kernel=1.4683 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=64, elapsed_gemm_kernel=0.9429 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=32, elapsed_gemm_kernel=0.8858 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=16, elapsed_gemm_kernel=0.8699 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=8, elapsed_gemm_kernel=0.8539 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=4, elapsed_gemm_kernel=0.8449 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=2, elapsed_gemm_kernel=0.8334 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=32, elapsed_gemm_kernel=101.6928 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=16, elapsed_gemm_kernel=47.5725 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=8, elapsed_gemm_kernel=25.4664 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=4, elapsed_gemm_kernel=14.5606 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=2, elapsed_gemm_kernel=13.8864 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=1, elapsed_gemm_kernel=13.5872 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=64, elapsed_gemm_kernel=101.9324 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=32, elapsed_gemm_kernel=48.2391 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=16, elapsed_gemm_kernel=23.2130 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=8, elapsed_gemm_kernel=10.5737 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=4, elapsed_gemm_kernel=7.9168 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=2, elapsed_gemm_kernel=7.8424 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=1, elapsed_gemm_kernel=7.8253 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=128, elapsed_gemm_kernel=101.7152 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=64, elapsed_gemm_kernel=51.2961 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=32, elapsed_gemm_kernel=26.1631 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=16, elapsed_gemm_kernel=10.3827 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=8, elapsed_gemm_kernel=7.8780 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=4, elapsed_gemm_kernel=7.8408 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=2, elapsed_gemm_kernel=7.8228 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=1, elapsed_gemm_kernel=7.8276 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=256, elapsed_gemm_kernel=102.1107 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=128, elapsed_gemm_kernel=51.5151 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=64, elapsed_gemm_kernel=26.2502 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=32, elapsed_gemm_kernel=10.4272 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=16, elapsed_gemm_kernel=7.8856 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=8, elapsed_gemm_kernel=7.8894 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=4, elapsed_gemm_kernel=7.8576 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=2, elapsed_gemm_kernel=7.8572 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=1, elapsed_gemm_kernel=7.9031 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=512, elapsed_gemm_kernel=103.1366 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=256, elapsed_gemm_kernel=52.0630 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=128, elapsed_gemm_kernel=26.5570 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=64, elapsed_gemm_kernel=10.6211 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=32, elapsed_gemm_kernel=7.8923 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=16, elapsed_gemm_kernel=7.8830 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=8, elapsed_gemm_kernel=7.8507 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=4, elapsed_gemm_kernel=7.8897 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=2, elapsed_gemm_kernel=7.9852 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=512, by=1, elapsed_gemm_kernel=8.0164 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=1024, elapsed_gemm_kernel=103.1246 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=512, elapsed_gemm_kernel=52.0904 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=256, elapsed_gemm_kernel=26.5847 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=128, elapsed_gemm_kernel=10.9740 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=64, elapsed_gemm_kernel=7.7560 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=32, elapsed_gemm_kernel=7.9491 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=16, elapsed_gemm_kernel=7.9571 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=8, elapsed_gemm_kernel=7.9497 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=4, elapsed_gemm_kernel=8.0385 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=512, by=2, elapsed_gemm_kernel=8.0362 (ms)] ... PASS
+=============================== 
+checking log point [1024 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1024, by=1, elapsed_gemm_kernel=8.0759 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=32, elapsed_gemm_kernel=811.0486 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=16, elapsed_gemm_kernel=393.8537 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=8, elapsed_gemm_kernel=205.1048 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=4, elapsed_gemm_kernel=125.2519 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=2, elapsed_gemm_kernel=143.0836 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=1, elapsed_gemm_kernel=151.1181 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=64, elapsed_gemm_kernel=810.9392 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=32, elapsed_gemm_kernel=383.5018 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=16, elapsed_gemm_kernel=184.2374 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=8, elapsed_gemm_kernel=83.1670 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=4, elapsed_gemm_kernel=74.4424 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=2, elapsed_gemm_kernel=72.2887 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=1, elapsed_gemm_kernel=91.5947 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=128, elapsed_gemm_kernel=811.0276 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=64, elapsed_gemm_kernel=409.3842 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=32, elapsed_gemm_kernel=208.5041 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=16, elapsed_gemm_kernel=82.8276 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=8, elapsed_gemm_kernel=67.8440 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=4, elapsed_gemm_kernel=65.2814 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=2, elapsed_gemm_kernel=71.1183 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=1, elapsed_gemm_kernel=84.7483 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=256, elapsed_gemm_kernel=811.1573 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=128, elapsed_gemm_kernel=409.8319 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=64, elapsed_gemm_kernel=209.1028 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=32, elapsed_gemm_kernel=83.0922 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=16, elapsed_gemm_kernel=64.6879 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=8, elapsed_gemm_kernel=64.8419 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=4, elapsed_gemm_kernel=66.1918 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=2, elapsed_gemm_kernel=65.0779 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=1, elapsed_gemm_kernel=66.1860 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=512, elapsed_gemm_kernel=812.8339 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=256, elapsed_gemm_kernel=410.6665 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=128, elapsed_gemm_kernel=209.6324 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=64, elapsed_gemm_kernel=83.9209 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=32, elapsed_gemm_kernel=62.8575 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=16, elapsed_gemm_kernel=64.5063 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=8, elapsed_gemm_kernel=64.9720 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=4, elapsed_gemm_kernel=63.9613 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=2, elapsed_gemm_kernel=64.5607 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=512, by=1, elapsed_gemm_kernel=64.7679 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=1024, elapsed_gemm_kernel=813.4218 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=512, elapsed_gemm_kernel=410.9162 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=256, elapsed_gemm_kernel=209.9206 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=128, elapsed_gemm_kernel=86.8353 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=64, elapsed_gemm_kernel=62.0781 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=32, elapsed_gemm_kernel=64.1507 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=16, elapsed_gemm_kernel=63.1766 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=8, elapsed_gemm_kernel=63.1255 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=4, elapsed_gemm_kernel=63.9368 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=512, by=2, elapsed_gemm_kernel=63.9538 (ms)] ... PASS
+=============================== 
+checking log point [2048 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1024, by=1, elapsed_gemm_kernel=64.2807 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=32, elapsed_gemm_kernel=6481.0449 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=16, elapsed_gemm_kernel=3189.4192 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=8, elapsed_gemm_kernel=1643.8469 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=4, elapsed_gemm_kernel=1071.8259 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=2, elapsed_gemm_kernel=1268.6925 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=1, elapsed_gemm_kernel=1296.9176 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=64, elapsed_gemm_kernel=6479.9668 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=32, elapsed_gemm_kernel=3062.9744 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=16, elapsed_gemm_kernel=1461.9587 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=8, elapsed_gemm_kernel=660.0540 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=4, elapsed_gemm_kernel=659.7656 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=2, elapsed_gemm_kernel=666.6072 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=1, elapsed_gemm_kernel=977.0385 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=128, elapsed_gemm_kernel=6480.5088 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=64, elapsed_gemm_kernel=3270.2310 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=32, elapsed_gemm_kernel=1664.2913 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=16, elapsed_gemm_kernel=656.5588 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=8, elapsed_gemm_kernel=560.3742 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=4, elapsed_gemm_kernel=554.4397 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=2, elapsed_gemm_kernel=657.2885 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=1, elapsed_gemm_kernel=919.1856 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=256, elapsed_gemm_kernel=6479.5020 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=128, elapsed_gemm_kernel=3271.7874 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=64, elapsed_gemm_kernel=1668.4399 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=32, elapsed_gemm_kernel=657.5808 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=16, elapsed_gemm_kernel=516.3837 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=8, elapsed_gemm_kernel=522.5439 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=4, elapsed_gemm_kernel=555.3181 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=2, elapsed_gemm_kernel=644.0526 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=1, elapsed_gemm_kernel=914.1036 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=512, elapsed_gemm_kernel=6483.1465 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=256, elapsed_gemm_kernel=3274.5442 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=128, elapsed_gemm_kernel=1671.8188 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=64, elapsed_gemm_kernel=665.0341 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=32, elapsed_gemm_kernel=498.7359 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=16, elapsed_gemm_kernel=512.1273 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=8, elapsed_gemm_kernel=525.6089 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=4, elapsed_gemm_kernel=555.6677 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=2, elapsed_gemm_kernel=723.6646 (ms)] ... PASS
+=============================== 
+checking log point [4096 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=512, by=1, elapsed_gemm_kernel=902.0532 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=1024, elapsed_gemm_kernel=6489.2471 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=512, elapsed_gemm_kernel=3276.9363 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=256, elapsed_gemm_kernel=1672.5958 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=128, elapsed_gemm_kernel=686.7031 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=64, elapsed_gemm_kernel=491.5849 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=32, elapsed_gemm_kernel=509.0743 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=16, elapsed_gemm_kernel=515.3564 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=8, elapsed_gemm_kernel=528.0210 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=4, elapsed_gemm_kernel=549.7441 (ms)] ... PASS
+=============================== 
+checking log point [4096 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=512, by=2, elapsed_gemm_kernel=516.7302 (ms)] ... PASS
+=============================== 
+checking log point [4096 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1024, by=1, elapsed_gemm_kernel=518.5953 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=32, elapsed_gemm_kernel=51829.3359 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=16, elapsed_gemm_kernel=25626.2695 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=8, elapsed_gemm_kernel=13143.1953 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=4, elapsed_gemm_kernel=8520.8369 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=2, elapsed_gemm_kernel=10368.3906 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=1, elapsed_gemm_kernel=10312.9404 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=64, elapsed_gemm_kernel=51834.7148 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=32, elapsed_gemm_kernel=24573.1504 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=16, elapsed_gemm_kernel=12380.9297 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=8, elapsed_gemm_kernel=5274.7314 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=4, elapsed_gemm_kernel=5454.2036 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=2, elapsed_gemm_kernel=5316.2080 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=1, elapsed_gemm_kernel=7948.0957 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=128, elapsed_gemm_kernel=51852.0469 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=64, elapsed_gemm_kernel=26091.9707 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=32, elapsed_gemm_kernel=13245.9346 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=16, elapsed_gemm_kernel=5244.0845 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=8, elapsed_gemm_kernel=4459.7402 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=4, elapsed_gemm_kernel=4451.7031 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=2, elapsed_gemm_kernel=5287.8311 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=1, elapsed_gemm_kernel=7766.2148 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=256, elapsed_gemm_kernel=51751.5312 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=128, elapsed_gemm_kernel=26027.8730 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=64, elapsed_gemm_kernel=13252.3193 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=32, elapsed_gemm_kernel=5256.6060 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=16, elapsed_gemm_kernel=4110.1235 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=8, elapsed_gemm_kernel=4159.7891 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=4, elapsed_gemm_kernel=4438.4966 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=2, elapsed_gemm_kernel=6916.8638 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=1, elapsed_gemm_kernel=7749.4170 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=512, elapsed_gemm_kernel=52106.8281 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=256, elapsed_gemm_kernel=26135.3574 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=128, elapsed_gemm_kernel=13278.1611 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=64, elapsed_gemm_kernel=5310.2568 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=32, elapsed_gemm_kernel=3984.1189 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=16, elapsed_gemm_kernel=4077.8723 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=8, elapsed_gemm_kernel=4181.7290 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=4, elapsed_gemm_kernel=4447.3604 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=2, elapsed_gemm_kernel=7209.9761 (ms)] ... PASS
+=============================== 
+checking log point [8192 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=512, by=1, elapsed_gemm_kernel=7728.2158 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=1024, elapsed_gemm_kernel=129740.1172 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=512, elapsed_gemm_kernel=26192.1562 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=256, elapsed_gemm_kernel=13288.0811 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=128, elapsed_gemm_kernel=5499.4414 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=64, elapsed_gemm_kernel=3941.5300 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=32, elapsed_gemm_kernel=4060.2268 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=16, elapsed_gemm_kernel=4107.6235 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=8, elapsed_gemm_kernel=4192.2754 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=4, elapsed_gemm_kernel=4445.6304 (ms)] ... PASS
+=============================== 
+checking log point [8192 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=512, by=2, elapsed_gemm_kernel=7122.8003 (ms)] ... PASS
+=============================== 
+checking log point [8192 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1024, by=1, elapsed_gemm_kernel=7697.3662 (ms)] ... PASS
+=============================== 

@@ -1,0 +1,33 @@
+==PROF== Connected to process 448709 (/home/taab/Desktop/PTX/tests/polybench_ATAX_llvm/atax.bin)
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[kernel_name : kernel_atax_kernel1_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=1][gz=1][bx=32][by=32][bz=1]
+[elapsed-time-through-driver: 173.201 (ms)]
+[kernel_name : kernel_atax_kernel2_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=1][gz=1][bx=32][by=32][bz=1]
+[elapsed-time-through-driver: 64.417 (ms)]
+[trace: n=32, bx=32, by=32, elapsed_atax_kernel1=238.0415 (ms), elapsed_atax_kernel2=123.1852 (ms)] ... FAIL
+==PROF== Disconnected from process 448709
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","dram__bytes_read.sum","byte","41,408"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","dram__bytes_write.sum","byte","320"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","42,506,265,664.16"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","131,072"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","5,132,832,080.20"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","33,920"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","97.68"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","180"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.04"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","2,080"
+"0","448709","atax.bin","127.0.0.1","atax_kernel1(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","2","14","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","1,024"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","dram__bytes_read.sum","byte","14,144"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","dram__bytes_write.sum","byte","640"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","13,810,526,315.79"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","131,072"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","10,778,947,368.42"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","5,248"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","99.70"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","207.00"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.11"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","2,080"
+"1","448709","atax.bin","127.0.0.1","atax_kernel2(float *, float *, float *, int, int)","2022-Dec-28 00:14:01","3","21","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","1,024"

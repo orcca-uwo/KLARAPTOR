@@ -1,0 +1,10 @@
+#!/bin/bash
+
+printf "========================================\n"
+printf "============== KLARAPTOR ===============\n"
+printf "== Copyright (c) 2018-2019 ORCCA Lab. ==\n"
+printf "========================================\n"
+
+python2 $KLARAPTOR_PATH/trace_analysis/klaraptor_interface.py $@
+
+printf "========================================\n"

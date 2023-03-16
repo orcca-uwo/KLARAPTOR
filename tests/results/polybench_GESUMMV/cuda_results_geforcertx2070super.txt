@@ -1,0 +1,737 @@
+checking for [] 
+checking log point [2048 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=32, elapsed_gesummv_kernel=8.3497 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=16, elapsed_gesummv_kernel=3.0313 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=8, elapsed_gesummv_kernel=1.2966 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=4, elapsed_gesummv_kernel=0.8742 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=2, elapsed_gesummv_kernel=0.7700 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=1, elapsed_gesummv_kernel=0.8345 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=64, elapsed_gesummv_kernel=16.8800 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=32, elapsed_gesummv_kernel=6.4553 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=16, elapsed_gesummv_kernel=2.4101 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=8, elapsed_gesummv_kernel=1.3232 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=4, elapsed_gesummv_kernel=0.9504 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=2, elapsed_gesummv_kernel=0.9053 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=1, elapsed_gesummv_kernel=0.8312 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=128, elapsed_gesummv_kernel=53.5470 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=64, elapsed_gesummv_kernel=17.3508 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=32, elapsed_gesummv_kernel=6.1524 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=16, elapsed_gesummv_kernel=2.8733 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=8, elapsed_gesummv_kernel=1.7909 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=4, elapsed_gesummv_kernel=1.5503 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=2, elapsed_gesummv_kernel=0.9032 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=1, elapsed_gesummv_kernel=0.8315 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=256, elapsed_gesummv_kernel=176.9422 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=128, elapsed_gesummv_kernel=49.5265 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=64, elapsed_gesummv_kernel=13.9292 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=32, elapsed_gesummv_kernel=5.5878 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=16, elapsed_gesummv_kernel=3.0185 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=8, elapsed_gesummv_kernel=2.5363 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=4, elapsed_gesummv_kernel=1.2925 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=2, elapsed_gesummv_kernel=0.8314 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=1, elapsed_gesummv_kernel=0.8256 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=512, elapsed_gesummv_kernel=420.4313 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=256, elapsed_gesummv_kernel=140.6243 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=128, elapsed_gesummv_kernel=43.5649 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=64, elapsed_gesummv_kernel=15.7826 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=32, elapsed_gesummv_kernel=6.8053 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=16, elapsed_gesummv_kernel=5.1610 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=8, elapsed_gesummv_kernel=2.5510 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=4, elapsed_gesummv_kernel=1.5905 (ms)] ... FAIL
+=============================== 
+checking log point [2048 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=2, elapsed_gesummv_kernel=1.6035 (ms)] ... FAIL
+=============================== 
+checking log point [2048 512 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=512, by=1, elapsed_gesummv_kernel=1.6102 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=512, elapsed_gesummv_kernel=399.9928 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=256, elapsed_gesummv_kernel=131.2133 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=128, elapsed_gesummv_kernel=46.5305 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=64, elapsed_gesummv_kernel=17.2198 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=32, elapsed_gesummv_kernel=10.5670 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=16, elapsed_gesummv_kernel=5.0805 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=8, elapsed_gesummv_kernel=3.4140 (ms)] ... FAIL
+=============================== 
+checking log point [2048 256 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=4, elapsed_gesummv_kernel=3.1588 (ms)] ... FAIL
+=============================== 
+checking log point [4096 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=32, elapsed_gesummv_kernel=26.6919 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=16, elapsed_gesummv_kernel=8.9284 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=8, elapsed_gesummv_kernel=3.9034 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=4, elapsed_gesummv_kernel=2.0366 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=2, elapsed_gesummv_kernel=1.5238 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=1, elapsed_gesummv_kernel=1.4947 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=64, elapsed_gesummv_kernel=68.2434 (ms)] ... FAIL
+=============================== 
+checking log point [4096 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=32, elapsed_gesummv_kernel=20.7883 (ms)] ... FAIL
+=============================== 
+checking log point [4096 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=16, elapsed_gesummv_kernel=8.5810 (ms)] ... FAIL
+=============================== 
+checking log point [4096 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=8, elapsed_gesummv_kernel=5.0762 (ms)] ... FAIL
+=============================== 
+checking log point [4096 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=4, elapsed_gesummv_kernel=2.7931 (ms)] ... FAIL
+=============================== 
+checking log point [4096 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=2, elapsed_gesummv_kernel=2.5820 (ms)] ... FAIL
+=============================== 
+checking log point [4096 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=1, elapsed_gesummv_kernel=1.6276 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=128, elapsed_gesummv_kernel=208.9724 (ms)] ... FAIL
+=============================== 
+checking log point [4096 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=64, elapsed_gesummv_kernel=55.1215 (ms)] ... FAIL
+=============================== 
+checking log point [4096 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=32, elapsed_gesummv_kernel=18.0607 (ms)] ... FAIL
+=============================== 
+checking log point [4096 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=16, elapsed_gesummv_kernel=7.9590 (ms)] ... FAIL
+=============================== 
+checking log point [4096 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=8, elapsed_gesummv_kernel=5.2121 (ms)] ... FAIL
+=============================== 
+checking log point [4096 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=4, elapsed_gesummv_kernel=4.8388 (ms)] ... FAIL
+=============================== 
+checking log point [4096 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=2, elapsed_gesummv_kernel=2.5805 (ms)] ... FAIL
+=============================== 
+checking log point [4096 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=1, elapsed_gesummv_kernel=1.4993 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=256, elapsed_gesummv_kernel=637.4890 (ms)] ... FAIL
+=============================== 
+checking log point [4096 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=128, elapsed_gesummv_kernel=190.7803 (ms)] ... FAIL
+=============================== 
+checking log point [4096 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=64, elapsed_gesummv_kernel=54.1085 (ms)] ... FAIL
+=============================== 
+checking log point [4096 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=32, elapsed_gesummv_kernel=20.3084 (ms)] ... FAIL
+=============================== 
+checking log point [4096 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=16, elapsed_gesummv_kernel=9.8049 (ms)] ... FAIL
+=============================== 
+checking log point [4096 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=8, elapsed_gesummv_kernel=9.1914 (ms)] ... FAIL
+=============================== 
+checking log point [4096 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=4, elapsed_gesummv_kernel=5.5628 (ms)] ... FAIL
+=============================== 
+checking log point [4096 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=2, elapsed_gesummv_kernel=2.5765 (ms)] ... FAIL
+=============================== 
+checking log point [4096 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=1, elapsed_gesummv_kernel=1.6642 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=512, elapsed_gesummv_kernel=1840.2511 (ms)] ... FAIL
+=============================== 
+checking log point [4096 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=256, elapsed_gesummv_kernel=593.4509 (ms)] ... FAIL
+=============================== 
+checking log point [4096 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=128, elapsed_gesummv_kernel=175.7050 (ms)] ... FAIL
+=============================== 
+checking log point [4096 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=64, elapsed_gesummv_kernel=57.7839 (ms)] ... FAIL
+=============================== 
+checking log point [4096 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=32, elapsed_gesummv_kernel=24.0106 (ms)] ... FAIL
+=============================== 
+checking log point [4096 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=16, elapsed_gesummv_kernel=22.7132 (ms)] ... FAIL
+=============================== 
+checking log point [4096 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=8, elapsed_gesummv_kernel=10.8259 (ms)] ... FAIL
+=============================== 
+checking log point [4096 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=4, elapsed_gesummv_kernel=5.9124 (ms)] ... FAIL
+=============================== 
+checking log point [4096 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=2, elapsed_gesummv_kernel=3.2010 (ms)] ... FAIL
+=============================== 
+checking log point [4096 512 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=512, by=1, elapsed_gesummv_kernel=3.2215 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=512, elapsed_gesummv_kernel=1662.9329 (ms)] ... FAIL
+=============================== 
+checking log point [4096 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=256, elapsed_gesummv_kernel=532.4760 (ms)] ... FAIL
+=============================== 
+checking log point [4096 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=128, elapsed_gesummv_kernel=175.4647 (ms)] ... FAIL
+=============================== 
+checking log point [4096 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=64, elapsed_gesummv_kernel=63.1523 (ms)] ... FAIL
+=============================== 
+checking log point [4096 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=32, elapsed_gesummv_kernel=46.4829 (ms)] ... FAIL
+=============================== 
+checking log point [4096 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=16, elapsed_gesummv_kernel=30.2763 (ms)] ... FAIL
+=============================== 
+checking log point [8192 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=32, elapsed_gesummv_kernel=111.1140 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=16, elapsed_gesummv_kernel=36.3910 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=8, elapsed_gesummv_kernel=15.7763 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=4, elapsed_gesummv_kernel=9.6338 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=2, elapsed_gesummv_kernel=6.4843 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=1, elapsed_gesummv_kernel=5.5953 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=64, elapsed_gesummv_kernel=229.7300 (ms)] ... FAIL
+=============================== 
+checking log point [8192 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=32, elapsed_gesummv_kernel=67.2290 (ms)] ... FAIL
+=============================== 
+checking log point [8192 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=16, elapsed_gesummv_kernel=25.1944 (ms)] ... FAIL
+=============================== 
+checking log point [8192 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=8, elapsed_gesummv_kernel=13.3842 (ms)] ... FAIL
+=============================== 
+checking log point [8192 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=4, elapsed_gesummv_kernel=10.6016 (ms)] ... FAIL
+=============================== 
+checking log point [8192 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=2, elapsed_gesummv_kernel=11.2964 (ms)] ... FAIL
+=============================== 
+checking log point [8192 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=1, elapsed_gesummv_kernel=5.8997 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=128, elapsed_gesummv_kernel=771.9709 (ms)] ... FAIL
+=============================== 
+checking log point [8192 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=64, elapsed_gesummv_kernel=211.4773 (ms)] ... FAIL
+=============================== 
+checking log point [8192 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=32, elapsed_gesummv_kernel=79.9951 (ms)] ... FAIL
+=============================== 
+checking log point [8192 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=16, elapsed_gesummv_kernel=27.7595 (ms)] ... FAIL
+=============================== 
+checking log point [8192 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=8, elapsed_gesummv_kernel=19.1990 (ms)] ... FAIL
+=============================== 
+checking log point [8192 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=4, elapsed_gesummv_kernel=21.2056 (ms)] ... FAIL
+=============================== 
+checking log point [8192 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=2, elapsed_gesummv_kernel=11.8413 (ms)] ... FAIL
+=============================== 
+checking log point [8192 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=1, elapsed_gesummv_kernel=6.4655 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=256, elapsed_gesummv_kernel=2421.5669 (ms)] ... FAIL
+=============================== 
+checking log point [8192 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=128, elapsed_gesummv_kernel=721.6454 (ms)] ... FAIL
+=============================== 
+checking log point [8192 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=64, elapsed_gesummv_kernel=220.4426 (ms)] ... FAIL
+=============================== 
+checking log point [8192 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=32, elapsed_gesummv_kernel=240.1670 (ms)] ... FAIL
+=============================== 
+checking log point [8192 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=16, elapsed_gesummv_kernel=198.4463 (ms)] ... FAIL
+=============================== 
+checking log point [8192 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=8, elapsed_gesummv_kernel=35.5922 (ms)] ... FAIL
+=============================== 
+checking log point [8192 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=4, elapsed_gesummv_kernel=57.1453 (ms)] ... FAIL
+=============================== 
+checking log point [8192 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=2, elapsed_gesummv_kernel=14.3384 (ms)] ... FAIL
+=============================== 
+checking log point [8192 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=1, elapsed_gesummv_kernel=6.3653 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=512, elapsed_gesummv_kernel=7893.9956 (ms)] ... FAIL
+=============================== 
+checking log point [8192 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=256, elapsed_gesummv_kernel=2423.2979 (ms)] ... FAIL
+=============================== 
+checking log point [8192 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=128, elapsed_gesummv_kernel=742.3444 (ms)] ... FAIL
+=============================== 
+checking log point [8192 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=64, elapsed_gesummv_kernel=249.7236 (ms)] ... FAIL
+=============================== 
+checking log point [8192 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=32, elapsed_gesummv_kernel=94.1322 (ms)] ... FAIL
+=============================== 
+checking log point [8192 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=16, elapsed_gesummv_kernel=72.7632 (ms)] ... FAIL
+=============================== 
+checking log point [8192 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=8, elapsed_gesummv_kernel=147.3438 (ms)] ... FAIL
+=============================== 
+checking log point [8192 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=4, elapsed_gesummv_kernel=118.1612 (ms)] ... FAIL
+=============================== 
+checking log point [8192 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=2, elapsed_gesummv_kernel=31.6837 (ms)] ... FAIL
+=============================== 
+checking log point [8192 512 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=512, by=1, elapsed_gesummv_kernel=6.7091 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=512, elapsed_gesummv_kernel=6650.9253 (ms)] ... FAIL
+=============================== 
+checking log point [8192 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=256, elapsed_gesummv_kernel=2195.8416 (ms)] ... FAIL
+=============================== 
+checking log point [8192 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=128, elapsed_gesummv_kernel=798.8519 (ms)] ... FAIL
+=============================== 
+checking log point [8192 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=64, elapsed_gesummv_kernel=269.1644 (ms)] ... FAIL
+=============================== 
+checking log point [8192 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=32, elapsed_gesummv_kernel=162.5006 (ms)] ... FAIL
+=============================== 
+checking log point [16384 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=1, by=32, elapsed_gesummv_kernel=486.1298 (ms)] ... PASS
+=============================== 
+checking log point [16384 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=16, elapsed_gesummv_kernel=146.2395 (ms)] ... PASS
+=============================== 
+checking log point [16384 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=8, elapsed_gesummv_kernel=54.7233 (ms)] ... PASS
+=============================== 
+checking log point [16384 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=4, elapsed_gesummv_kernel=34.4064 (ms)] ... PASS
+=============================== 
+checking log point [16384 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=2, elapsed_gesummv_kernel=25.5433 (ms)] ... PASS
+=============================== 
+checking log point [16384 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=1, elapsed_gesummv_kernel=108.0673 (ms)] ... PASS
+=============================== 
+checking log point [16384 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=1, by=64, elapsed_gesummv_kernel=1029.4875 (ms)] ... FAIL
+=============================== 
+checking log point [16384 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=32, elapsed_gesummv_kernel=322.1971 (ms)] ... FAIL
+=============================== 
+checking log point [16384 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=16, elapsed_gesummv_kernel=109.3407 (ms)] ... FAIL
+=============================== 
+checking log point [16384 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=8, elapsed_gesummv_kernel=56.7230 (ms)] ... FAIL
+=============================== 
+checking log point [16384 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=4, elapsed_gesummv_kernel=43.7586 (ms)] ... FAIL
+=============================== 
+checking log point [16384 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=2, elapsed_gesummv_kernel=178.5271 (ms)] ... FAIL
+=============================== 
+checking log point [16384 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=64, by=1, elapsed_gesummv_kernel=93.4689 (ms)] ... PASS
+=============================== 
+checking log point [16384 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=1, by=128, elapsed_gesummv_kernel=3236.5588 (ms)] ... FAIL
+=============================== 
+checking log point [16384 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=64, elapsed_gesummv_kernel=957.6713 (ms)] ... FAIL
+=============================== 
+checking log point [16384 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=32, elapsed_gesummv_kernel=297.3453 (ms)] ... FAIL
+=============================== 
+checking log point [16384 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=16, elapsed_gesummv_kernel=115.5036 (ms)] ... FAIL
+=============================== 
+checking log point [16384 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=8, elapsed_gesummv_kernel=81.8872 (ms)] ... FAIL
+=============================== 
+checking log point [16384 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=4, elapsed_gesummv_kernel=80.0100 (ms)] ... FAIL
+=============================== 
+checking log point [16384 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=64, by=2, elapsed_gesummv_kernel=151.9494 (ms)] ... FAIL
+=============================== 
+checking log point [16384 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=128, by=1, elapsed_gesummv_kernel=80.9696 (ms)] ... PASS
+=============================== 
+checking log point [16384 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=1, by=256, elapsed_gesummv_kernel=10094.6455 (ms)] ... FAIL
+=============================== 
+checking log point [16384 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=128, elapsed_gesummv_kernel=3261.6741 (ms)] ... FAIL
+=============================== 
+checking log point [16384 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=64, elapsed_gesummv_kernel=1027.5485 (ms)] ... FAIL
+=============================== 
+checking log point [16384 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=32, elapsed_gesummv_kernel=316.0746 (ms)] ... FAIL
+=============================== 
+checking log point [16384 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=16, elapsed_gesummv_kernel=169.9207 (ms)] ... FAIL
+=============================== 
+checking log point [16384 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=8, elapsed_gesummv_kernel=233.4205 (ms)] ... FAIL
+=============================== 
+checking log point [16384 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=64, by=4, elapsed_gesummv_kernel=503.8419 (ms)] ... FAIL
+=============================== 
+checking log point [16384 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=128, by=2, elapsed_gesummv_kernel=376.9201 (ms)] ... FAIL
+=============================== 
+checking log point [16384 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=256, by=1, elapsed_gesummv_kernel=73.6461 (ms)] ... PASS
+=============================== 
+checking log point [16384 1 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=1, by=512, elapsed_gesummv_kernel=33383.0430 (ms)] ... FAIL
+=============================== 
+checking log point [16384 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=256, elapsed_gesummv_kernel=9617.0391 (ms)] ... FAIL
+=============================== 
+checking log point [16384 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=128, elapsed_gesummv_kernel=3150.4653 (ms)] ... FAIL
+=============================== 
+checking log point [16384 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=64, elapsed_gesummv_kernel=1148.3259 (ms)] ... FAIL
+=============================== 
+checking log point [16384 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=32, elapsed_gesummv_kernel=401.4978 (ms)] ... FAIL
+=============================== 
+checking log point [16384 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=16, elapsed_gesummv_kernel=411.2247 (ms)] ... FAIL
+=============================== 
+checking log point [16384 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=64, by=8, elapsed_gesummv_kernel=1060.7283 (ms)] ... FAIL
+=============================== 
+checking log point [16384 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=128, by=4, elapsed_gesummv_kernel=826.2985 (ms)] ... FAIL
+=============================== 
+checking log point [16384 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=256, by=2, elapsed_gesummv_kernel=314.7227 (ms)] ... FAIL
+=============================== 
+checking log point [16384 512 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=512, by=1, elapsed_gesummv_kernel=103.6458 (ms)] ... PASS
+=============================== 
+checking log point [16384 2 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=2, by=512, elapsed_gesummv_kernel=26695.7422 (ms)] ... FAIL
+=============================== 
+checking log point [16384 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=4, by=256, elapsed_gesummv_kernel=8902.8633 (ms)] ... FAIL
+=============================== 
+checking log point [16384 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=8, by=128, elapsed_gesummv_kernel=3492.6160 (ms)] ... FAIL
+=============================== 
+checking log point [16384 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=16, by=64, elapsed_gesummv_kernel=1204.9073 (ms)] ... FAIL
+=============================== 
+checking log point [16384 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=16384, bx=32, by=32, elapsed_gesummv_kernel=732.1536 (ms)] ... FAIL
+=============================== 

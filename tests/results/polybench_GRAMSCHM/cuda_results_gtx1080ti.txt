@@ -1,0 +1,1823 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=32, elapsed_gramschmidt_kernel1=0.2335 (ms),
+ elapsed_gramschmidt_kernel2=0.1865 (ms), elapsed_gramschmidt_kernel3=1.3544 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=16, elapsed_gramschmidt_kernel1=0.2340 (ms),
+ elapsed_gramschmidt_kernel2=0.1826 (ms), elapsed_gramschmidt_kernel3=1.3308 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=8, elapsed_gramschmidt_kernel1=0.2296 (ms),
+ elapsed_gramschmidt_kernel2=0.1801 (ms), elapsed_gramschmidt_kernel3=1.3062 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=4, elapsed_gramschmidt_kernel1=0.2303 (ms),
+ elapsed_gramschmidt_kernel2=0.1787 (ms), elapsed_gramschmidt_kernel3=1.3208 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=2, elapsed_gramschmidt_kernel1=0.2304 (ms),
+ elapsed_gramschmidt_kernel2=0.1819 (ms), elapsed_gramschmidt_kernel3=1.3239 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=1, elapsed_gramschmidt_kernel1=0.2293 (ms),
+ elapsed_gramschmidt_kernel2=0.1796 (ms), elapsed_gramschmidt_kernel3=1.3200 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=64, elapsed_gramschmidt_kernel1=0.3082 (ms),
+ elapsed_gramschmidt_kernel2=0.2487 (ms), elapsed_gramschmidt_kernel3=1.4815 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=32, elapsed_gramschmidt_kernel1=0.2380 (ms),
+ elapsed_gramschmidt_kernel2=0.1857 (ms), elapsed_gramschmidt_kernel3=1.3630 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=16, elapsed_gramschmidt_kernel1=0.2336 (ms),
+ elapsed_gramschmidt_kernel2=0.1843 (ms), elapsed_gramschmidt_kernel3=1.3374 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=8, elapsed_gramschmidt_kernel1=0.2343 (ms),
+ elapsed_gramschmidt_kernel2=0.1840 (ms), elapsed_gramschmidt_kernel3=1.3475 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=4, elapsed_gramschmidt_kernel1=0.2350 (ms),
+ elapsed_gramschmidt_kernel2=0.1859 (ms), elapsed_gramschmidt_kernel3=1.3547 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=2, elapsed_gramschmidt_kernel1=0.2332 (ms),
+ elapsed_gramschmidt_kernel2=0.1824 (ms), elapsed_gramschmidt_kernel3=1.3445 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=1, elapsed_gramschmidt_kernel1=0.2319 (ms),
+ elapsed_gramschmidt_kernel2=0.1833 (ms), elapsed_gramschmidt_kernel3=1.3244 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=64, elapsed_gramschmidt_kernel1=0.2297 (ms),
+ elapsed_gramschmidt_kernel2=0.1847 (ms), elapsed_gramschmidt_kernel3=1.4269 (ms)] ... i: 0 j: 6 
+1: -0.000000
+ 2: 0.089819
+FAIL
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=32, elapsed_gramschmidt_kernel1=0.2268 (ms),
+ elapsed_gramschmidt_kernel2=0.1799 (ms), elapsed_gramschmidt_kernel3=1.3463 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=16, elapsed_gramschmidt_kernel1=0.2992 (ms),
+ elapsed_gramschmidt_kernel2=0.2386 (ms), elapsed_gramschmidt_kernel3=1.4034 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=8, elapsed_gramschmidt_kernel1=0.2294 (ms),
+ elapsed_gramschmidt_kernel2=0.1793 (ms), elapsed_gramschmidt_kernel3=1.3569 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=4, elapsed_gramschmidt_kernel1=0.2310 (ms),
+ elapsed_gramschmidt_kernel2=0.1803 (ms), elapsed_gramschmidt_kernel3=1.3407 (ms)] ... i: 41 j: 1 
+1: 0.000000
+ 2: -1.292307
+FAIL
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=2, elapsed_gramschmidt_kernel1=0.2341 (ms),
+ elapsed_gramschmidt_kernel2=0.1806 (ms), elapsed_gramschmidt_kernel3=1.3263 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=64, elapsed_gramschmidt_kernel1=0.2436 (ms),
+ elapsed_gramschmidt_kernel2=0.1852 (ms), elapsed_gramschmidt_kernel3=1.4416 (ms)] ... i: 5 j: 8 
+1: 0.000000
+ 2: -0.830771
+FAIL
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=32, elapsed_gramschmidt_kernel1=0.2423 (ms),
+ elapsed_gramschmidt_kernel2=0.1802 (ms), elapsed_gramschmidt_kernel3=1.3641 (ms)] ... i: 25 j: 8 
+1: -0.000000
+ 2: -3.600132
+FAIL
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=16, elapsed_gramschmidt_kernel1=0.2476 (ms),
+ elapsed_gramschmidt_kernel2=0.1886 (ms), elapsed_gramschmidt_kernel3=1.3497 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=8, elapsed_gramschmidt_kernel1=0.2428 (ms),
+ elapsed_gramschmidt_kernel2=0.1882 (ms), elapsed_gramschmidt_kernel3=1.3484 (ms)] ... i: 27 j: 1 
+1: 0.000000
+ 2: -0.861538
+FAIL
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=4, elapsed_gramschmidt_kernel1=0.2318 (ms),
+ elapsed_gramschmidt_kernel2=0.1879 (ms), elapsed_gramschmidt_kernel3=1.3341 (ms)] ... i: 47 j: 1 
+1: 0.000000
+ 2: -1.476923
+FAIL
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=64, elapsed_gramschmidt_kernel1=0.2720 (ms),
+ elapsed_gramschmidt_kernel2=0.1899 (ms), elapsed_gramschmidt_kernel3=1.4873 (ms)] ... i: 3 j: 1 
+1: 0.000000
+ 2: -0.123077
+FAIL
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=32, elapsed_gramschmidt_kernel1=0.2646 (ms),
+ elapsed_gramschmidt_kernel2=0.2078 (ms), elapsed_gramschmidt_kernel3=1.4030 (ms)] ... i: 3 j: 1 
+1: 0.000000
+ 2: -0.123077
+FAIL
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=16, elapsed_gramschmidt_kernel1=0.2594 (ms),
+ elapsed_gramschmidt_kernel2=0.2155 (ms), elapsed_gramschmidt_kernel3=1.3709 (ms)] ... i: 3 j: 1 
+1: 0.000000
+ 2: -0.123077
+FAIL
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=8, elapsed_gramschmidt_kernel1=0.2432 (ms),
+ elapsed_gramschmidt_kernel2=0.2047 (ms), elapsed_gramschmidt_kernel3=1.3434 (ms)] ... i: 20 j: 1 
+1: 0.000000
+ 2: -0.646154
+FAIL
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=64, elapsed_gramschmidt_kernel1=0.3232 (ms),
+ elapsed_gramschmidt_kernel2=0.2436 (ms), elapsed_gramschmidt_kernel3=1.6400 (ms)] ... i: 1 j: 1 
+1: 0.000000
+ 2: -0.061538
+FAIL
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=32, elapsed_gramschmidt_kernel1=0.3279 (ms),
+ elapsed_gramschmidt_kernel2=0.2498 (ms), elapsed_gramschmidt_kernel3=1.5581 (ms)] ... i: 3 j: 1 
+1: 0.000000
+ 2: -0.123077
+FAIL
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=16, elapsed_gramschmidt_kernel1=0.2704 (ms),
+ elapsed_gramschmidt_kernel2=0.2488 (ms), elapsed_gramschmidt_kernel3=1.4057 (ms)] ... i: 2 j: 1 
+1: 0.000000
+ 2: -0.092308
+FAIL
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=32, elapsed_gramschmidt_kernel1=0.5615 (ms),
+ elapsed_gramschmidt_kernel2=0.3831 (ms), elapsed_gramschmidt_kernel3=5.1326 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=16, elapsed_gramschmidt_kernel1=0.5590 (ms),
+ elapsed_gramschmidt_kernel2=0.3741 (ms), elapsed_gramschmidt_kernel3=5.0445 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=8, elapsed_gramschmidt_kernel1=0.5611 (ms),
+ elapsed_gramschmidt_kernel2=0.3689 (ms), elapsed_gramschmidt_kernel3=5.0068 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=4, elapsed_gramschmidt_kernel1=0.5503 (ms),
+ elapsed_gramschmidt_kernel2=0.3620 (ms), elapsed_gramschmidt_kernel3=4.9268 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=2, elapsed_gramschmidt_kernel1=0.5504 (ms),
+ elapsed_gramschmidt_kernel2=0.3582 (ms), elapsed_gramschmidt_kernel3=4.9785 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=1, elapsed_gramschmidt_kernel1=0.5511 (ms),
+ elapsed_gramschmidt_kernel2=0.3596 (ms), elapsed_gramschmidt_kernel3=4.9836 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=64, elapsed_gramschmidt_kernel1=0.5621 (ms),
+ elapsed_gramschmidt_kernel2=0.3846 (ms), elapsed_gramschmidt_kernel3=5.9121 (ms)] ... i: 0 j: 2 
+1: 0.000000
+ 2: 0.014658
+FAIL
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=32, elapsed_gramschmidt_kernel1=0.5702 (ms),
+ elapsed_gramschmidt_kernel2=0.3797 (ms), elapsed_gramschmidt_kernel3=5.1867 (ms)] ... i: 0 j: 8 
+1: 0.000000
+ 2: 0.018727
+FAIL
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=16, elapsed_gramschmidt_kernel1=0.5640 (ms),
+ elapsed_gramschmidt_kernel2=0.3659 (ms), elapsed_gramschmidt_kernel3=5.1249 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=8, elapsed_gramschmidt_kernel1=0.5616 (ms),
+ elapsed_gramschmidt_kernel2=0.3727 (ms), elapsed_gramschmidt_kernel3=5.0428 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=4, elapsed_gramschmidt_kernel1=0.6979 (ms),
+ elapsed_gramschmidt_kernel2=0.4899 (ms), elapsed_gramschmidt_kernel3=5.2050 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=2, elapsed_gramschmidt_kernel1=0.5601 (ms),
+ elapsed_gramschmidt_kernel2=0.3618 (ms), elapsed_gramschmidt_kernel3=5.0357 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=1, elapsed_gramschmidt_kernel1=0.5513 (ms),
+ elapsed_gramschmidt_kernel2=0.3778 (ms), elapsed_gramschmidt_kernel3=5.0192 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=128, elapsed_gramschmidt_kernel1=0.5677 (ms),
+ elapsed_gramschmidt_kernel2=0.4013 (ms), elapsed_gramschmidt_kernel3=12.5345 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015504
+FAIL
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=64, elapsed_gramschmidt_kernel1=0.7054 (ms),
+ elapsed_gramschmidt_kernel2=0.5011 (ms), elapsed_gramschmidt_kernel3=6.0420 (ms)] ... i: 10 j: 4 
+1: -0.000000
+ 2: -0.426357
+FAIL
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=32, elapsed_gramschmidt_kernel1=0.5603 (ms),
+ elapsed_gramschmidt_kernel2=0.3965 (ms), elapsed_gramschmidt_kernel3=5.1774 (ms)] ... i: 44 j: 8 
+1: 0.000000
+ 2: -3.139534
+FAIL
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=16, elapsed_gramschmidt_kernel1=0.5525 (ms),
+ elapsed_gramschmidt_kernel2=0.3642 (ms), elapsed_gramschmidt_kernel3=5.0443 (ms)] ... i: 118 j: 1 
+1: 0.000000
+ 2: -1.844961
+FAIL
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=8, elapsed_gramschmidt_kernel1=0.5487 (ms),
+ elapsed_gramschmidt_kernel2=0.3558 (ms), elapsed_gramschmidt_kernel3=5.1011 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=4, elapsed_gramschmidt_kernel1=0.5505 (ms),
+ elapsed_gramschmidt_kernel2=0.3593 (ms), elapsed_gramschmidt_kernel3=5.0597 (ms)] ... i: 17 j: 1 
+1: 0.000000
+ 2: -0.279070
+FAIL
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=2, elapsed_gramschmidt_kernel1=0.5558 (ms),
+ elapsed_gramschmidt_kernel2=0.3588 (ms), elapsed_gramschmidt_kernel3=5.0380 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=1, elapsed_gramschmidt_kernel1=0.5619 (ms),
+ elapsed_gramschmidt_kernel2=0.3612 (ms), elapsed_gramschmidt_kernel3=5.0279 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=128, elapsed_gramschmidt_kernel1=0.6136 (ms),
+ elapsed_gramschmidt_kernel2=0.4019 (ms), elapsed_gramschmidt_kernel3=11.8312 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015504
+FAIL
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=64, elapsed_gramschmidt_kernel1=0.6151 (ms),
+ elapsed_gramschmidt_kernel2=0.3927 (ms), elapsed_gramschmidt_kernel3=5.9836 (ms)] ... i: 5 j: 4 
+1: -0.000000
+ 2: -0.232558
+FAIL
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=32, elapsed_gramschmidt_kernel1=0.6059 (ms),
+ elapsed_gramschmidt_kernel2=0.3792 (ms), elapsed_gramschmidt_kernel3=5.1125 (ms)] ... i: 34 j: 8 
+1: -0.000000
+ 2: -2.441867
+FAIL
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=16, elapsed_gramschmidt_kernel1=0.6099 (ms),
+ elapsed_gramschmidt_kernel2=0.3831 (ms), elapsed_gramschmidt_kernel3=5.0739 (ms)] ... i: 23 j: 1 
+1: 0.000000
+ 2: -0.372093
+FAIL
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=8, elapsed_gramschmidt_kernel1=0.6130 (ms),
+ elapsed_gramschmidt_kernel2=0.3959 (ms), elapsed_gramschmidt_kernel3=5.0874 (ms)] ... i: 24 j: 1 
+1: 0.000000
+ 2: -0.387597
+FAIL
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=4, elapsed_gramschmidt_kernel1=0.5516 (ms),
+ elapsed_gramschmidt_kernel2=0.3743 (ms), elapsed_gramschmidt_kernel3=5.0490 (ms)] ... i: 24 j: 1 
+1: 0.000000
+ 2: -0.387597
+FAIL
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=2, elapsed_gramschmidt_kernel1=0.5607 (ms),
+ elapsed_gramschmidt_kernel2=0.3725 (ms), elapsed_gramschmidt_kernel3=5.0381 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=128, elapsed_gramschmidt_kernel1=0.6629 (ms),
+ elapsed_gramschmidt_kernel2=0.4467 (ms), elapsed_gramschmidt_kernel3=12.6806 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.030295
+FAIL
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=64, elapsed_gramschmidt_kernel1=0.6584 (ms),
+ elapsed_gramschmidt_kernel2=0.4242 (ms), elapsed_gramschmidt_kernel3=5.6774 (ms)] ... i: 2 j: 1 
+1: 0.000000
+ 2: -0.046512
+FAIL
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=32, elapsed_gramschmidt_kernel1=0.6584 (ms),
+ elapsed_gramschmidt_kernel2=0.4227 (ms), elapsed_gramschmidt_kernel3=5.2879 (ms)] ... i: 6 j: 15 
+1: 0.000000
+ 2: 0.013701
+FAIL
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=16, elapsed_gramschmidt_kernel1=0.6604 (ms),
+ elapsed_gramschmidt_kernel2=0.4248 (ms), elapsed_gramschmidt_kernel3=5.2040 (ms)] ... i: 5 j: 1 
+1: 0.000000
+ 2: -0.093023
+FAIL
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=8, elapsed_gramschmidt_kernel1=0.5976 (ms),
+ elapsed_gramschmidt_kernel2=0.4159 (ms), elapsed_gramschmidt_kernel3=5.0898 (ms)] ... i: 20 j: 1 
+1: 0.000000
+ 2: -0.325581
+FAIL
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=4, elapsed_gramschmidt_kernel1=0.5989 (ms),
+ elapsed_gramschmidt_kernel2=0.4102 (ms), elapsed_gramschmidt_kernel3=5.0675 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=128, elapsed_gramschmidt_kernel1=0.9188 (ms),
+ elapsed_gramschmidt_kernel2=0.4425 (ms), elapsed_gramschmidt_kernel3=12.0044 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015145
+FAIL
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=64, elapsed_gramschmidt_kernel1=0.9169 (ms),
+ elapsed_gramschmidt_kernel2=0.4938 (ms), elapsed_gramschmidt_kernel3=6.5609 (ms)] ... i: 0 j: 15 
+1: -0.000000
+ 2: 0.018127
+FAIL
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=32, elapsed_gramschmidt_kernel1=0.9149 (ms),
+ elapsed_gramschmidt_kernel2=0.4935 (ms), elapsed_gramschmidt_kernel3=6.1391 (ms)] ... i: 1 j: 1 
+1: 0.000000
+ 2: -0.031008
+FAIL
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=16, elapsed_gramschmidt_kernel1=0.6719 (ms),
+ elapsed_gramschmidt_kernel2=0.4935 (ms), elapsed_gramschmidt_kernel3=5.4259 (ms)] ... i: 2 j: 1 
+1: 0.000000
+ 2: -0.046512
+FAIL
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=8, elapsed_gramschmidt_kernel1=0.6656 (ms),
+ elapsed_gramschmidt_kernel2=0.4881 (ms), elapsed_gramschmidt_kernel3=5.2299 (ms)] ... i: 12 j: 1 
+1: 0.000000
+ 2: -0.201550
+FAIL
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=32, elapsed_gramschmidt_kernel1=1.5315 (ms),
+ elapsed_gramschmidt_kernel2=0.8118 (ms), elapsed_gramschmidt_kernel3=21.1174 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=16, elapsed_gramschmidt_kernel1=1.5347 (ms),
+ elapsed_gramschmidt_kernel2=0.7731 (ms), elapsed_gramschmidt_kernel3=19.6329 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=8, elapsed_gramschmidt_kernel1=1.5366 (ms),
+ elapsed_gramschmidt_kernel2=0.7540 (ms), elapsed_gramschmidt_kernel3=19.6863 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=4, elapsed_gramschmidt_kernel1=1.5372 (ms),
+ elapsed_gramschmidt_kernel2=0.7474 (ms), elapsed_gramschmidt_kernel3=19.4673 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=2, elapsed_gramschmidt_kernel1=1.5172 (ms),
+ elapsed_gramschmidt_kernel2=0.7241 (ms), elapsed_gramschmidt_kernel3=19.1737 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=1, elapsed_gramschmidt_kernel1=1.7593 (ms),
+ elapsed_gramschmidt_kernel2=0.9941 (ms), elapsed_gramschmidt_kernel3=19.5358 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=64, elapsed_gramschmidt_kernel1=1.5817 (ms),
+ elapsed_gramschmidt_kernel2=0.8165 (ms), elapsed_gramschmidt_kernel3=34.4926 (ms)] ... i: 0 j: 5 
+1: 0.000000
+ 2: 0.033293
+FAIL
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=32, elapsed_gramschmidt_kernel1=1.5493 (ms),
+ elapsed_gramschmidt_kernel2=0.7756 (ms), elapsed_gramschmidt_kernel3=21.2128 (ms)] ... i: 0 j: 10 
+1: -0.000000
+ 2: 0.031602
+FAIL
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=16, elapsed_gramschmidt_kernel1=1.5447 (ms),
+ elapsed_gramschmidt_kernel2=0.7433 (ms), elapsed_gramschmidt_kernel3=19.9152 (ms)] ... i: 1 j: 12 
+1: 0.000000
+ 2: 0.012698
+FAIL
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=8, elapsed_gramschmidt_kernel1=1.5389 (ms),
+ elapsed_gramschmidt_kernel2=0.7415 (ms), elapsed_gramschmidt_kernel3=19.8978 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=4, elapsed_gramschmidt_kernel1=1.5866 (ms),
+ elapsed_gramschmidt_kernel2=0.7726 (ms), elapsed_gramschmidt_kernel3=19.6859 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=2, elapsed_gramschmidt_kernel1=1.5145 (ms),
+ elapsed_gramschmidt_kernel2=0.7225 (ms), elapsed_gramschmidt_kernel3=19.5368 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=1, elapsed_gramschmidt_kernel1=1.5126 (ms),
+ elapsed_gramschmidt_kernel2=0.7278 (ms), elapsed_gramschmidt_kernel3=19.4817 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=128, elapsed_gramschmidt_kernel1=1.7132 (ms),
+ elapsed_gramschmidt_kernel2=0.9565 (ms), elapsed_gramschmidt_kernel3=76.2869 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015564
+FAIL
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=64, elapsed_gramschmidt_kernel1=1.5527 (ms),
+ elapsed_gramschmidt_kernel2=0.8014 (ms), elapsed_gramschmidt_kernel3=34.8506 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023346
+FAIL
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=32, elapsed_gramschmidt_kernel1=1.5541 (ms),
+ elapsed_gramschmidt_kernel2=0.7710 (ms), elapsed_gramschmidt_kernel3=21.0745 (ms)] ... i: 21 j: 1 
+1: 0.000000
+ 2: -0.171206
+FAIL
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=16, elapsed_gramschmidt_kernel1=1.5287 (ms),
+ elapsed_gramschmidt_kernel2=0.7428 (ms), elapsed_gramschmidt_kernel3=19.8917 (ms)] ... i: 37 j: 8 
+1: 0.000000
+ 2: -1.330739
+FAIL
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=8, elapsed_gramschmidt_kernel1=1.5171 (ms),
+ elapsed_gramschmidt_kernel2=0.7259 (ms), elapsed_gramschmidt_kernel3=19.6569 (ms)] ... i: 112 j: 1 
+1: 0.000000
+ 2: -0.879377
+FAIL
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=4, elapsed_gramschmidt_kernel1=1.5253 (ms),
+ elapsed_gramschmidt_kernel2=0.7288 (ms), elapsed_gramschmidt_kernel3=19.6392 (ms)] ... i: 36 j: 1 
+1: 0.000000
+ 2: -0.287938
+FAIL
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=2, elapsed_gramschmidt_kernel1=1.5020 (ms),
+ elapsed_gramschmidt_kernel2=0.7148 (ms), elapsed_gramschmidt_kernel3=19.6100 (ms)] ... i: 98 j: 1 
+1: 0.000000
+ 2: -0.770428
+FAIL
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=1, elapsed_gramschmidt_kernel1=1.5197 (ms),
+ elapsed_gramschmidt_kernel2=0.7252 (ms), elapsed_gramschmidt_kernel3=19.5671 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=256, elapsed_gramschmidt_kernel1=1.7037 (ms),
+ elapsed_gramschmidt_kernel2=1.0506 (ms), elapsed_gramschmidt_kernel3=167.2534 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015474
+FAIL
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=128, elapsed_gramschmidt_kernel1=1.7950 (ms),
+ elapsed_gramschmidt_kernel2=0.9808 (ms), elapsed_gramschmidt_kernel3=77.4495 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.031128
+FAIL
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=64, elapsed_gramschmidt_kernel1=1.7164 (ms),
+ elapsed_gramschmidt_kernel2=0.8765 (ms), elapsed_gramschmidt_kernel3=34.2177 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023346
+FAIL
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=32, elapsed_gramschmidt_kernel1=1.7095 (ms),
+ elapsed_gramschmidt_kernel2=0.7957 (ms), elapsed_gramschmidt_kernel3=20.2435 (ms)] ... i: 18 j: 1 
+1: 0.000000
+ 2: -0.147860
+FAIL
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=16, elapsed_gramschmidt_kernel1=1.6989 (ms),
+ elapsed_gramschmidt_kernel2=0.7957 (ms), elapsed_gramschmidt_kernel3=19.5108 (ms)] ... i: 43 j: 1 
+1: 0.000000
+ 2: -0.342412
+FAIL
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=8, elapsed_gramschmidt_kernel1=1.6978 (ms),
+ elapsed_gramschmidt_kernel2=0.7809 (ms), elapsed_gramschmidt_kernel3=19.6795 (ms)] ... i: 35 j: 1 
+1: 0.000000
+ 2: -0.280156
+FAIL
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=4, elapsed_gramschmidt_kernel1=1.5276 (ms),
+ elapsed_gramschmidt_kernel2=0.7725 (ms), elapsed_gramschmidt_kernel3=19.6420 (ms)] ... i: 26 j: 1 
+1: -0.000000
+ 2: -0.210117
+FAIL
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=2, elapsed_gramschmidt_kernel1=1.5286 (ms),
+ elapsed_gramschmidt_kernel2=0.7553 (ms), elapsed_gramschmidt_kernel3=19.6101 (ms)] ... i: 52 j: 1 
+1: 0.000000
+ 2: -0.412451
+FAIL
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=1, elapsed_gramschmidt_kernel1=1.5274 (ms),
+ elapsed_gramschmidt_kernel2=0.7628 (ms), elapsed_gramschmidt_kernel3=19.6416 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=256, elapsed_gramschmidt_kernel1=2.0186 (ms),
+ elapsed_gramschmidt_kernel2=1.1631 (ms), elapsed_gramschmidt_kernel3=185.8528 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023346
+FAIL
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=128, elapsed_gramschmidt_kernel1=1.8868 (ms),
+ elapsed_gramschmidt_kernel2=1.0832 (ms), elapsed_gramschmidt_kernel3=72.0966 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.022900
+FAIL
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=64, elapsed_gramschmidt_kernel1=1.9172 (ms),
+ elapsed_gramschmidt_kernel2=0.9215 (ms), elapsed_gramschmidt_kernel3=27.8760 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.042286
+FAIL
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=32, elapsed_gramschmidt_kernel1=1.9163 (ms),
+ elapsed_gramschmidt_kernel2=0.8978 (ms), elapsed_gramschmidt_kernel3=21.3121 (ms)] ... i: 1 j: 14 
+1: 0.000000
+ 2: -0.012968
+FAIL
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=16, elapsed_gramschmidt_kernel1=2.0619 (ms),
+ elapsed_gramschmidt_kernel2=1.0013 (ms), elapsed_gramschmidt_kernel3=20.7382 (ms)] ... i: 1 j: 13 
+1: -0.000000
+ 2: 0.021246
+FAIL
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=8, elapsed_gramschmidt_kernel1=1.6900 (ms),
+ elapsed_gramschmidt_kernel2=0.8492 (ms), elapsed_gramschmidt_kernel3=19.8464 (ms)] ... i: 8 j: 1 
+1: 0.000000
+ 2: -0.070039
+FAIL
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=4, elapsed_gramschmidt_kernel1=1.6603 (ms),
+ elapsed_gramschmidt_kernel2=0.8182 (ms), elapsed_gramschmidt_kernel3=19.7651 (ms)] ... i: 24 j: 1 
+1: 0.000000
+ 2: -0.194553
+FAIL
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=2, elapsed_gramschmidt_kernel1=1.5426 (ms),
+ elapsed_gramschmidt_kernel2=0.8210 (ms), elapsed_gramschmidt_kernel3=19.7170 (ms)] ... i: 144 j: 1 
+1: 0.000000
+ 2: -1.128405
+FAIL
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=256, elapsed_gramschmidt_kernel1=2.9538 (ms),
+ elapsed_gramschmidt_kernel2=1.5224 (ms), elapsed_gramschmidt_kernel3=197.8611 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.022986
+FAIL
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=128, elapsed_gramschmidt_kernel1=2.9408 (ms),
+ elapsed_gramschmidt_kernel2=1.1772 (ms), elapsed_gramschmidt_kernel3=58.1016 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023075
+FAIL
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=64, elapsed_gramschmidt_kernel1=2.9334 (ms),
+ elapsed_gramschmidt_kernel2=1.0456 (ms), elapsed_gramschmidt_kernel3=33.2742 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.038911
+FAIL
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=32, elapsed_gramschmidt_kernel1=2.9680 (ms),
+ elapsed_gramschmidt_kernel2=1.0289 (ms), elapsed_gramschmidt_kernel3=29.9332 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023166
+FAIL
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=16, elapsed_gramschmidt_kernel1=1.9482 (ms),
+ elapsed_gramschmidt_kernel2=0.9954 (ms), elapsed_gramschmidt_kernel3=21.2482 (ms)] ... i: 1 j: 1 
+1: 0.000000
+ 2: -0.015564
+FAIL
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=8, elapsed_gramschmidt_kernel1=2.0022 (ms),
+ elapsed_gramschmidt_kernel2=1.0433 (ms), elapsed_gramschmidt_kernel3=20.5663 (ms)] ... i: 8 j: 1 
+1: 0.000000
+ 2: -0.070039
+FAIL
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=4, elapsed_gramschmidt_kernel1=1.6926 (ms),
+ elapsed_gramschmidt_kernel2=1.0016 (ms), elapsed_gramschmidt_kernel3=20.1557 (ms)] ... i: 136 j: 1 
+1: 0.000000
+ 2: -1.066148
+FAIL
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=32, elapsed_gramschmidt_kernel1=4.7830 (ms),
+ elapsed_gramschmidt_kernel2=1.8206 (ms), elapsed_gramschmidt_kernel3=91.8690 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=16, elapsed_gramschmidt_kernel1=4.8273 (ms),
+ elapsed_gramschmidt_kernel2=1.7050 (ms), elapsed_gramschmidt_kernel3=78.0717 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=8, elapsed_gramschmidt_kernel1=4.8174 (ms),
+ elapsed_gramschmidt_kernel2=1.5910 (ms), elapsed_gramschmidt_kernel3=77.5961 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=4, elapsed_gramschmidt_kernel1=4.7571 (ms),
+ elapsed_gramschmidt_kernel2=1.5343 (ms), elapsed_gramschmidt_kernel3=77.0141 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=2, elapsed_gramschmidt_kernel1=4.7204 (ms),
+ elapsed_gramschmidt_kernel2=1.4773 (ms), elapsed_gramschmidt_kernel3=76.8060 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=1, elapsed_gramschmidt_kernel1=4.7218 (ms),
+ elapsed_gramschmidt_kernel2=1.4825 (ms), elapsed_gramschmidt_kernel3=75.3935 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=64, elapsed_gramschmidt_kernel1=4.8653 (ms),
+ elapsed_gramschmidt_kernel2=1.7855 (ms), elapsed_gramschmidt_kernel3=158.5174 (ms)] ... i: 0 j: 6 
+1: 0.000000
+ 2: -0.017507
+FAIL
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=32, elapsed_gramschmidt_kernel1=4.8700 (ms),
+ elapsed_gramschmidt_kernel2=1.6296 (ms), elapsed_gramschmidt_kernel3=93.1757 (ms)] ... i: 11 j: 14 
+1: -0.000000
+ 2: -0.010689
+FAIL
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=16, elapsed_gramschmidt_kernel1=4.8981 (ms),
+ elapsed_gramschmidt_kernel2=1.5772 (ms), elapsed_gramschmidt_kernel3=78.5124 (ms)] ... i: 22 j: 4 
+1: -0.000000
+ 2: 0.015812
+FAIL
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=8, elapsed_gramschmidt_kernel1=4.7650 (ms),
+ elapsed_gramschmidt_kernel2=1.5032 (ms), elapsed_gramschmidt_kernel3=78.4021 (ms)] ... i: 2 j: 8 
+1: 0.000000
+ 2: 0.014019
+FAIL
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=4, elapsed_gramschmidt_kernel1=4.8284 (ms),
+ elapsed_gramschmidt_kernel2=1.5722 (ms), elapsed_gramschmidt_kernel3=78.8450 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=2, elapsed_gramschmidt_kernel1=4.7448 (ms),
+ elapsed_gramschmidt_kernel2=1.4770 (ms), elapsed_gramschmidt_kernel3=76.6511 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=1, elapsed_gramschmidt_kernel1=4.7090 (ms),
+ elapsed_gramschmidt_kernel2=1.4665 (ms), elapsed_gramschmidt_kernel3=76.9399 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=128, elapsed_gramschmidt_kernel1=5.0060 (ms),
+ elapsed_gramschmidt_kernel2=2.1459 (ms), elapsed_gramschmidt_kernel3=365.4228 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.011515
+FAIL
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=64, elapsed_gramschmidt_kernel1=5.0050 (ms),
+ elapsed_gramschmidt_kernel2=1.8794 (ms), elapsed_gramschmidt_kernel3=167.2600 (ms)] ... i: 0 j: 4 
+1: -0.000000
+ 2: 0.039801
+FAIL
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=32, elapsed_gramschmidt_kernel1=4.8778 (ms),
+ elapsed_gramschmidt_kernel2=1.6872 (ms), elapsed_gramschmidt_kernel3=91.6001 (ms)] ... i: 11 j: 1 
+1: 0.000000
+ 2: -0.046784
+FAIL
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=16, elapsed_gramschmidt_kernel1=4.7998 (ms),
+ elapsed_gramschmidt_kernel2=1.5957 (ms), elapsed_gramschmidt_kernel3=78.4033 (ms)] ... i: 50 j: 1 
+1: 0.000000
+ 2: -0.198830
+FAIL
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=8, elapsed_gramschmidt_kernel1=4.7553 (ms),
+ elapsed_gramschmidt_kernel2=1.5214 (ms), elapsed_gramschmidt_kernel3=78.7268 (ms)] ... i: 64 j: 1 
+1: 0.000000
+ 2: -0.253411
+FAIL
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=4, elapsed_gramschmidt_kernel1=4.7783 (ms),
+ elapsed_gramschmidt_kernel2=1.5028 (ms), elapsed_gramschmidt_kernel3=76.8087 (ms)] ... i: 36 j: 1 
+1: 0.000000
+ 2: -0.144249
+FAIL
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=2, elapsed_gramschmidt_kernel1=4.7502 (ms),
+ elapsed_gramschmidt_kernel2=1.5110 (ms), elapsed_gramschmidt_kernel3=77.3806 (ms)] ... i: 151 j: 1 
+1: 0.000000
+ 2: -0.592592
+FAIL
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=1, elapsed_gramschmidt_kernel1=4.7753 (ms),
+ elapsed_gramschmidt_kernel2=1.5260 (ms), elapsed_gramschmidt_kernel3=77.5270 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=256, elapsed_gramschmidt_kernel1=5.7716 (ms),
+ elapsed_gramschmidt_kernel2=2.8632 (ms), elapsed_gramschmidt_kernel3=1086.2332 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.011696
+FAIL
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=128, elapsed_gramschmidt_kernel1=5.4217 (ms),
+ elapsed_gramschmidt_kernel2=2.2579 (ms), elapsed_gramschmidt_kernel3=409.2976 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.032978
+FAIL
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=64, elapsed_gramschmidt_kernel1=5.2729 (ms),
+ elapsed_gramschmidt_kernel2=2.1150 (ms), elapsed_gramschmidt_kernel3=170.4311 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.011605
+FAIL
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=32, elapsed_gramschmidt_kernel1=5.1899 (ms),
+ elapsed_gramschmidt_kernel2=1.7652 (ms), elapsed_gramschmidt_kernel3=82.3315 (ms)] ... i: 1 j: 8 
+1: 0.000000
+ 2: -0.035088
+FAIL
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=16, elapsed_gramschmidt_kernel1=5.2814 (ms),
+ elapsed_gramschmidt_kernel2=1.8783 (ms), elapsed_gramschmidt_kernel3=78.6008 (ms)] ... i: 16 j: 15 
+1: -0.000000
+ 2: 0.013094
+FAIL
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=8, elapsed_gramschmidt_kernel1=5.1476 (ms),
+ elapsed_gramschmidt_kernel2=1.6559 (ms), elapsed_gramschmidt_kernel3=77.0247 (ms)] ... i: 12 j: 15 
+1: -0.000000
+ 2: 0.012362
+FAIL
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=4, elapsed_gramschmidt_kernel1=4.8947 (ms),
+ elapsed_gramschmidt_kernel2=1.6516 (ms), elapsed_gramschmidt_kernel3=77.4181 (ms)] ... i: 47 j: 1 
+1: 0.000000
+ 2: -0.187134
+FAIL
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=2, elapsed_gramschmidt_kernel1=4.8685 (ms),
+ elapsed_gramschmidt_kernel2=1.5911 (ms), elapsed_gramschmidt_kernel3=77.5770 (ms)] ... i: 108 j: 1 
+1: 0.000000
+ 2: -0.424951
+FAIL
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=1, elapsed_gramschmidt_kernel1=4.7027 (ms),
+ elapsed_gramschmidt_kernel2=1.5194 (ms), elapsed_gramschmidt_kernel3=77.5128 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=512, elapsed_gramschmidt_kernel1=7.6235 (ms),
+ elapsed_gramschmidt_kernel2=4.2404 (ms), elapsed_gramschmidt_kernel3=3224.1899 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.023324
+FAIL
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=256, elapsed_gramschmidt_kernel1=6.3627 (ms),
+ elapsed_gramschmidt_kernel2=3.0555 (ms), elapsed_gramschmidt_kernel3=1158.7903 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.026510
+FAIL
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=128, elapsed_gramschmidt_kernel1=6.0985 (ms),
+ elapsed_gramschmidt_kernel2=3.0951 (ms), elapsed_gramschmidt_kernel3=486.2631 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015595
+FAIL
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=64, elapsed_gramschmidt_kernel1=5.9811 (ms),
+ elapsed_gramschmidt_kernel2=2.2151 (ms), elapsed_gramschmidt_kernel3=135.9113 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015436
+FAIL
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=32, elapsed_gramschmidt_kernel1=5.9590 (ms),
+ elapsed_gramschmidt_kernel2=2.1556 (ms), elapsed_gramschmidt_kernel3=92.8316 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.028310
+FAIL
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=16, elapsed_gramschmidt_kernel1=5.9920 (ms),
+ elapsed_gramschmidt_kernel2=1.7639 (ms), elapsed_gramschmidt_kernel3=85.5731 (ms)] ... i: 1 j: 11 
+1: 0.000000
+ 2: 0.017253
+FAIL
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=8, elapsed_gramschmidt_kernel1=5.2128 (ms),
+ elapsed_gramschmidt_kernel2=1.7060 (ms), elapsed_gramschmidt_kernel3=78.2421 (ms)] ... i: 18 j: 11 
+1: 0.000000
+ 2: 0.016553
+FAIL
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=4, elapsed_gramschmidt_kernel1=5.3006 (ms),
+ elapsed_gramschmidt_kernel2=1.8200 (ms), elapsed_gramschmidt_kernel3=78.2364 (ms)] ... i: 12 j: 1 
+1: 0.000000
+ 2: -0.050682
+FAIL
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=2, elapsed_gramschmidt_kernel1=4.7891 (ms),
+ elapsed_gramschmidt_kernel2=1.6481 (ms), elapsed_gramschmidt_kernel3=77.9531 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=1, elapsed_gramschmidt_kernel1=4.7896 (ms),
+ elapsed_gramschmidt_kernel2=1.7194 (ms), elapsed_gramschmidt_kernel3=77.9765 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=512, elapsed_gramschmidt_kernel1=11.0104 (ms),
+ elapsed_gramschmidt_kernel2=4.6352 (ms), elapsed_gramschmidt_kernel3=3103.0312 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.018825
+FAIL
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=256, elapsed_gramschmidt_kernel1=10.8741 (ms),
+ elapsed_gramschmidt_kernel2=4.3923 (ms), elapsed_gramschmidt_kernel3=1150.2113 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.019448
+FAIL
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=128, elapsed_gramschmidt_kernel1=10.4107 (ms),
+ elapsed_gramschmidt_kernel2=3.1028 (ms), elapsed_gramschmidt_kernel3=415.2748 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.019222
+FAIL
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=64, elapsed_gramschmidt_kernel1=10.4623 (ms),
+ elapsed_gramschmidt_kernel2=3.2307 (ms), elapsed_gramschmidt_kernel3=160.8738 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.026906
+FAIL
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=32, elapsed_gramschmidt_kernel1=10.3780 (ms),
+ elapsed_gramschmidt_kernel2=2.1954 (ms), elapsed_gramschmidt_kernel3=144.8814 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.026618
+FAIL
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=16, elapsed_gramschmidt_kernel1=6.3067 (ms),
+ elapsed_gramschmidt_kernel2=2.0791 (ms), elapsed_gramschmidt_kernel3=87.4457 (ms)] ... i: 1 j: 2 
+1: -0.000000
+ 2: 0.035026
+FAIL
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=8, elapsed_gramschmidt_kernel1=6.3965 (ms),
+ elapsed_gramschmidt_kernel2=2.0802 (ms), elapsed_gramschmidt_kernel3=81.6205 (ms)] ... i: 2 j: 1 
+1: 0.000000
+ 2: -0.011696
+FAIL
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=4, elapsed_gramschmidt_kernel1=5.4160 (ms),
+ elapsed_gramschmidt_kernel2=2.1469 (ms), elapsed_gramschmidt_kernel3=80.7283 (ms)] ... i: 22 j: 1 
+1: 0.000000
+ 2: -0.089669
+FAIL
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=2, elapsed_gramschmidt_kernel1=5.1901 (ms),
+ elapsed_gramschmidt_kernel2=2.3742 (ms), elapsed_gramschmidt_kernel3=79.4587 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=32, elapsed_gramschmidt_kernel1=17.3116 (ms),
+ elapsed_gramschmidt_kernel2=4.3402 (ms), elapsed_gramschmidt_kernel3=522.1331 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=16, elapsed_gramschmidt_kernel1=17.4569 (ms),
+ elapsed_gramschmidt_kernel2=3.6822 (ms), elapsed_gramschmidt_kernel3=406.2698 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=8, elapsed_gramschmidt_kernel1=17.1297 (ms),
+ elapsed_gramschmidt_kernel2=3.2755 (ms), elapsed_gramschmidt_kernel3=396.6151 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=4, elapsed_gramschmidt_kernel1=17.7488 (ms),
+ elapsed_gramschmidt_kernel2=3.1928 (ms), elapsed_gramschmidt_kernel3=394.5411 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=2, elapsed_gramschmidt_kernel1=17.7149 (ms),
+ elapsed_gramschmidt_kernel2=3.1790 (ms), elapsed_gramschmidt_kernel3=386.6960 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=1, elapsed_gramschmidt_kernel1=17.5532 (ms),
+ elapsed_gramschmidt_kernel2=3.0432 (ms), elapsed_gramschmidt_kernel3=375.0234 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=64, elapsed_gramschmidt_kernel1=18.2198 (ms),
+ elapsed_gramschmidt_kernel2=4.2775 (ms), elapsed_gramschmidt_kernel3=792.9225 (ms)] ... i: 0 j: 9 
+1: -0.000000
+ 2: -0.011601
+FAIL
+=============================== 
+checking log point [1024 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=32, elapsed_gramschmidt_kernel1=17.8305 (ms),
+ elapsed_gramschmidt_kernel2=3.6384 (ms), elapsed_gramschmidt_kernel3=465.7222 (ms)] ... i: 0 j: 8 
+1: 0.000000
+ 2: 0.018168
+FAIL
+=============================== 
+checking log point [1024 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=16, elapsed_gramschmidt_kernel1=18.1025 (ms),
+ elapsed_gramschmidt_kernel2=3.5703 (ms), elapsed_gramschmidt_kernel3=406.7839 (ms)] ... i: 1 j: 12 
+1: 0.000000
+ 2: 0.011244
+FAIL
+=============================== 
+checking log point [1024 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=8, elapsed_gramschmidt_kernel1=17.6830 (ms),
+ elapsed_gramschmidt_kernel2=3.4921 (ms), elapsed_gramschmidt_kernel3=396.5327 (ms)] ... i: 86 j: 8 
+1: -0.000000
+ 2: 0.012317
+FAIL
+=============================== 
+checking log point [1024 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=4, elapsed_gramschmidt_kernel1=18.1080 (ms),
+ elapsed_gramschmidt_kernel2=3.1162 (ms), elapsed_gramschmidt_kernel3=388.4300 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=2, elapsed_gramschmidt_kernel1=18.1145 (ms),
+ elapsed_gramschmidt_kernel2=3.0294 (ms), elapsed_gramschmidt_kernel3=382.7143 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=1, elapsed_gramschmidt_kernel1=17.3203 (ms),
+ elapsed_gramschmidt_kernel2=2.9359 (ms), elapsed_gramschmidt_kernel3=377.2501 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=128, elapsed_gramschmidt_kernel1=19.0651 (ms),
+ elapsed_gramschmidt_kernel2=5.5820 (ms), elapsed_gramschmidt_kernel3=2552.4163 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.016954
+FAIL
+=============================== 
+checking log point [1024 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=64, elapsed_gramschmidt_kernel1=18.0348 (ms),
+ elapsed_gramschmidt_kernel2=4.5029 (ms), elapsed_gramschmidt_kernel3=817.9157 (ms)] ... i: 0 j: 4 
+1: -0.000000
+ 2: 0.012592
+FAIL
+=============================== 
+checking log point [1024 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=32, elapsed_gramschmidt_kernel1=17.7787 (ms),
+ elapsed_gramschmidt_kernel2=4.1450 (ms), elapsed_gramschmidt_kernel3=455.3483 (ms)] ... i: 0 j: 8 
+1: 0.000000
+ 2: -0.019910
+FAIL
+=============================== 
+checking log point [1024 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=16, elapsed_gramschmidt_kernel1=17.3144 (ms),
+ elapsed_gramschmidt_kernel2=3.3479 (ms), elapsed_gramschmidt_kernel3=408.2199 (ms)] ... i: 87 j: 8 
+1: -0.000000
+ 2: -0.772682
+FAIL
+=============================== 
+checking log point [1024 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=8, elapsed_gramschmidt_kernel1=17.4200 (ms),
+ elapsed_gramschmidt_kernel2=3.2877 (ms), elapsed_gramschmidt_kernel3=393.7363 (ms)] ... i: 47 j: 1 
+1: 0.000000
+ 2: -0.093658
+FAIL
+=============================== 
+checking log point [1024 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=4, elapsed_gramschmidt_kernel1=17.9633 (ms),
+ elapsed_gramschmidt_kernel2=3.1324 (ms), elapsed_gramschmidt_kernel3=385.2758 (ms)] ... i: 136 j: 1 
+1: 0.000000
+ 2: -0.267317
+FAIL
+=============================== 
+checking log point [1024 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=2, elapsed_gramschmidt_kernel1=17.8051 (ms),
+ elapsed_gramschmidt_kernel2=3.0867 (ms), elapsed_gramschmidt_kernel3=384.0097 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=1, elapsed_gramschmidt_kernel1=17.6649 (ms),
+ elapsed_gramschmidt_kernel2=2.9810 (ms), elapsed_gramschmidt_kernel3=382.8229 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=256, elapsed_gramschmidt_kernel1=23.1161 (ms),
+ elapsed_gramschmidt_kernel2=8.3102 (ms), elapsed_gramschmidt_kernel3=7990.6323 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.086235
+FAIL
+=============================== 
+checking log point [1024 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=128, elapsed_gramschmidt_kernel1=21.1505 (ms),
+ elapsed_gramschmidt_kernel2=5.9880 (ms), elapsed_gramschmidt_kernel3=2629.9409 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.038631
+FAIL
+=============================== 
+checking log point [1024 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=64, elapsed_gramschmidt_kernel1=18.9747 (ms),
+ elapsed_gramschmidt_kernel2=5.9595 (ms), elapsed_gramschmidt_kernel3=874.8933 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.046467
+FAIL
+=============================== 
+checking log point [1024 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=32, elapsed_gramschmidt_kernel1=18.8744 (ms),
+ elapsed_gramschmidt_kernel2=4.3944 (ms), elapsed_gramschmidt_kernel3=444.5966 (ms)] ... i: 0 j: 3 
+1: 0.000000
+ 2: -0.011489
+FAIL
+=============================== 
+checking log point [1024 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=16, elapsed_gramschmidt_kernel1=18.8312 (ms),
+ elapsed_gramschmidt_kernel2=3.9859 (ms), elapsed_gramschmidt_kernel3=398.4142 (ms)] ... i: 5 j: 1 
+1: 0.000000
+ 2: -0.011707
+FAIL
+=============================== 
+checking log point [1024 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=8, elapsed_gramschmidt_kernel1=19.2638 (ms),
+ elapsed_gramschmidt_kernel2=3.5334 (ms), elapsed_gramschmidt_kernel3=388.0015 (ms)] ... i: 212 j: 1 
+1: 0.000000
+ 2: -0.415610
+FAIL
+=============================== 
+checking log point [1024 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=4, elapsed_gramschmidt_kernel1=17.9241 (ms),
+ elapsed_gramschmidt_kernel2=3.1492 (ms), elapsed_gramschmidt_kernel3=383.1273 (ms)] ... i: 2 j: 1 
+1: 0.000000
+ 2: -0.011656
+FAIL
+=============================== 
+checking log point [1024 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=2, elapsed_gramschmidt_kernel1=18.0900 (ms),
+ elapsed_gramschmidt_kernel2=3.2656 (ms), elapsed_gramschmidt_kernel3=385.3182 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=1, elapsed_gramschmidt_kernel1=17.3003 (ms),
+ elapsed_gramschmidt_kernel2=3.0531 (ms), elapsed_gramschmidt_kernel3=389.1902 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=512, elapsed_gramschmidt_kernel1=25.8461 (ms),
+ elapsed_gramschmidt_kernel2=13.6985 (ms), elapsed_gramschmidt_kernel3=24469.2148 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.057962
+FAIL
+=============================== 
+checking log point [1024 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=256, elapsed_gramschmidt_kernel1=24.8061 (ms),
+ elapsed_gramschmidt_kernel2=9.0503 (ms), elapsed_gramschmidt_kernel3=8211.8076 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.011645
+FAIL
+=============================== 
+checking log point [1024 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=128, elapsed_gramschmidt_kernel1=23.7872 (ms),
+ elapsed_gramschmidt_kernel2=8.7069 (ms), elapsed_gramschmidt_kernel3=2929.4868 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.087632
+FAIL
+=============================== 
+checking log point [1024 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=64, elapsed_gramschmidt_kernel1=22.0402 (ms),
+ elapsed_gramschmidt_kernel2=6.2837 (ms), elapsed_gramschmidt_kernel3=808.0004 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.011656
+FAIL
+=============================== 
+checking log point [1024 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=32, elapsed_gramschmidt_kernel1=21.4893 (ms),
+ elapsed_gramschmidt_kernel2=5.7828 (ms), elapsed_gramschmidt_kernel3=460.7377 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.034864
+FAIL
+=============================== 
+checking log point [1024 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=16, elapsed_gramschmidt_kernel1=21.8138 (ms),
+ elapsed_gramschmidt_kernel2=4.7441 (ms), elapsed_gramschmidt_kernel3=415.6535 (ms)] ... i: 18 j: 1 
+1: 0.000000
+ 2: -0.037073
+FAIL
+=============================== 
+checking log point [1024 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=8, elapsed_gramschmidt_kernel1=19.5667 (ms),
+ elapsed_gramschmidt_kernel2=3.5009 (ms), elapsed_gramschmidt_kernel3=389.3242 (ms)] ... i: 288 j: 1 
+1: 0.000000
+ 2: -0.563902
+FAIL
+=============================== 
+checking log point [1024 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=4, elapsed_gramschmidt_kernel1=20.0882 (ms),
+ elapsed_gramschmidt_kernel2=3.6139 (ms), elapsed_gramschmidt_kernel3=396.1596 (ms)] ... i: 11 j: 1 
+1: 0.000000
+ 2: -0.023415
+FAIL
+=============================== 
+checking log point [1024 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=2, elapsed_gramschmidt_kernel1=18.0811 (ms),
+ elapsed_gramschmidt_kernel2=3.3157 (ms), elapsed_gramschmidt_kernel3=401.5068 (ms)] ... i: 853 j: 1 
+1: 0.000000
+ 2: -1.666340
+FAIL
+=============================== 
+checking log point [1024 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=512, by=1, elapsed_gramschmidt_kernel1=17.5644 (ms),
+ elapsed_gramschmidt_kernel2=3.3957 (ms), elapsed_gramschmidt_kernel3=401.7859 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=512, elapsed_gramschmidt_kernel1=43.4385 (ms),
+ elapsed_gramschmidt_kernel2=15.1410 (ms), elapsed_gramschmidt_kernel3=24411.9004 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.013624
+FAIL
+=============================== 
+checking log point [1024 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=256, elapsed_gramschmidt_kernel1=42.4890 (ms),
+ elapsed_gramschmidt_kernel2=14.0264 (ms), elapsed_gramschmidt_kernel3=8228.3037 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015524
+FAIL
+=============================== 
+checking log point [1024 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=128, elapsed_gramschmidt_kernel1=40.8086 (ms),
+ elapsed_gramschmidt_kernel2=8.9916 (ms), elapsed_gramschmidt_kernel3=2398.1121 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.144574
+FAIL
+=============================== 
+checking log point [1024 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=64, elapsed_gramschmidt_kernel1=39.4407 (ms),
+ elapsed_gramschmidt_kernel2=8.7552 (ms), elapsed_gramschmidt_kernel3=1123.6934 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.015547
+FAIL
+=============================== 
+checking log point [1024 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=32, elapsed_gramschmidt_kernel1=39.4260 (ms),
+ elapsed_gramschmidt_kernel2=7.2217 (ms), elapsed_gramschmidt_kernel3=695.1674 (ms)] ... i: 0 j: 1 
+1: 0.000000
+ 2: -0.013377
+FAIL
+=============================== 
+checking log point [1024 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=16, elapsed_gramschmidt_kernel1=23.0255 (ms),
+ elapsed_gramschmidt_kernel2=4.2743 (ms), elapsed_gramschmidt_kernel3=423.0336 (ms)] ... i: 7 j: 1 
+1: 0.000000
+ 2: -0.015610
+FAIL
+=============================== 
+checking log point [1024 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=8, elapsed_gramschmidt_kernel1=23.1078 (ms),
+ elapsed_gramschmidt_kernel2=4.0982 (ms), elapsed_gramschmidt_kernel3=403.7281 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=4, elapsed_gramschmidt_kernel1=19.1904 (ms),
+ elapsed_gramschmidt_kernel2=4.0798 (ms), elapsed_gramschmidt_kernel3=409.2437 (ms)] ... i: 31 j: 1 
+1: 0.000000
+ 2: -0.062439
+FAIL
+=============================== 
+checking log point [2048 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=32, elapsed_gramschmidt_kernel1=87.3739 (ms),
+ elapsed_gramschmidt_kernel2=11.5827 (ms), elapsed_gramschmidt_kernel3=3818.8796 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=16, elapsed_gramschmidt_kernel1=84.1823 (ms),
+ elapsed_gramschmidt_kernel2=8.7340 (ms), elapsed_gramschmidt_kernel3=2366.3262 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=8, elapsed_gramschmidt_kernel1=83.6721 (ms),
+ elapsed_gramschmidt_kernel2=7.5175 (ms), elapsed_gramschmidt_kernel3=2093.2195 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=4, elapsed_gramschmidt_kernel1=83.7897 (ms),
+ elapsed_gramschmidt_kernel2=6.8807 (ms), elapsed_gramschmidt_kernel3=2084.1287 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=2, elapsed_gramschmidt_kernel1=83.5151 (ms),
+ elapsed_gramschmidt_kernel2=6.4797 (ms), elapsed_gramschmidt_kernel3=1985.1627 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=1, elapsed_gramschmidt_kernel1=83.4221 (ms),
+ elapsed_gramschmidt_kernel2=6.6485 (ms), elapsed_gramschmidt_kernel3=1947.1843 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=64, elapsed_gramschmidt_kernel1=90.7714 (ms),
+ elapsed_gramschmidt_kernel2=11.2737 (ms), elapsed_gramschmidt_kernel3=5737.2910 (ms)] ... i: 0 j: 16 
+1: -0.000000
+ 2: -0.018643
+FAIL
+=============================== 
+checking log point [2048 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=32, elapsed_gramschmidt_kernel1=87.1959 (ms),
+ elapsed_gramschmidt_kernel2=8.8645 (ms), elapsed_gramschmidt_kernel3=2636.2048 (ms)] ... i: 1 j: 10 
+1: 0.000000
+ 2: -0.010706
+FAIL
+=============================== 
+checking log point [2048 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=16, elapsed_gramschmidt_kernel1=86.7811 (ms),
+ elapsed_gramschmidt_kernel2=8.2441 (ms), elapsed_gramschmidt_kernel3=2199.6294 (ms)] ... i: 0 j: 20 
+1: 0.000000
+ 2: 0.010122
+FAIL
+=============================== 
+checking log point [2048 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=8, elapsed_gramschmidt_kernel1=85.0982 (ms),
+ elapsed_gramschmidt_kernel2=6.8693 (ms), elapsed_gramschmidt_kernel3=2125.4446 (ms)] ... i: 5 j: 8 
+1: -0.000000
+ 2: 0.010188
+FAIL
+=============================== 
+checking log point [2048 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=4, elapsed_gramschmidt_kernel1=84.5935 (ms),
+ elapsed_gramschmidt_kernel2=6.5792 (ms), elapsed_gramschmidt_kernel3=2007.9016 (ms)] ... i: 6 j: 16 
+1: 0.000000
+ 2: 0.012516
+FAIL
+=============================== 
+checking log point [2048 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=2, elapsed_gramschmidt_kernel1=84.6966 (ms),
+ elapsed_gramschmidt_kernel2=6.5391 (ms), elapsed_gramschmidt_kernel3=1963.0361 (ms)] ... i: 252 j: 1 
+1: -0.000000
+ 2: -0.246950
+FAIL
+=============================== 
+checking log point [2048 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=1, elapsed_gramschmidt_kernel1=83.2712 (ms),
+ elapsed_gramschmidt_kernel2=6.3983 (ms), elapsed_gramschmidt_kernel3=1965.0718 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=128, elapsed_gramschmidt_kernel1=94.5052 (ms),
+ elapsed_gramschmidt_kernel2=16.8273 (ms), elapsed_gramschmidt_kernel3=18843.7559 (ms)] ... i: 0 j: 6 
+1: 0.000000
+ 2: 0.069365
+FAIL
+=============================== 
+checking log point [2048 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=64, elapsed_gramschmidt_kernel1=92.1290 (ms),
+ elapsed_gramschmidt_kernel2=12.2088 (ms), elapsed_gramschmidt_kernel3=5853.8896 (ms)] ... i: 0 j: 3 
+1: -0.000000
+ 2: -0.012973
+FAIL
+=============================== 
+checking log point [2048 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=32, elapsed_gramschmidt_kernel1=87.2479 (ms),
+ elapsed_gramschmidt_kernel2=11.8653 (ms), elapsed_gramschmidt_kernel3=2646.5562 (ms)] ... i: 0 j: 5 
+1: 0.000000
+ 2: -0.027015
+FAIL
+=============================== 
+checking log point [2048 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=16, elapsed_gramschmidt_kernel1=84.7295 (ms),
+ elapsed_gramschmidt_kernel2=8.5807 (ms), elapsed_gramschmidt_kernel3=2250.9199 (ms)] ... i: 0 j: 19 
+1: 0.000000
+ 2: 0.010334
+FAIL
+=============================== 
+checking log point [2048 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=8, elapsed_gramschmidt_kernel1=84.2994 (ms),
+ elapsed_gramschmidt_kernel2=7.6324 (ms), elapsed_gramschmidt_kernel3=2033.3677 (ms)] ... i: 4 j: 16 
+1: 0.000000
+ 2: 0.013587
+FAIL
+=============================== 
+checking log point [2048 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=4, elapsed_gramschmidt_kernel1=84.2217 (ms),
+ elapsed_gramschmidt_kernel2=6.7633 (ms), elapsed_gramschmidt_kernel3=1987.7271 (ms)] ... i: 269 j: 8 
+1: -0.000000
+ 2: 0.020927
+FAIL
+=============================== 
+checking log point [2048 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=2, elapsed_gramschmidt_kernel1=83.0805 (ms),
+ elapsed_gramschmidt_kernel2=6.7083 (ms), elapsed_gramschmidt_kernel3=1972.3033 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=1, elapsed_gramschmidt_kernel1=82.7761 (ms),
+ elapsed_gramschmidt_kernel2=6.3621 (ms), elapsed_gramschmidt_kernel3=1944.9541 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=256, elapsed_gramschmidt_kernel1=97.3922 (ms),
+ elapsed_gramschmidt_kernel2=27.4773 (ms), elapsed_gramschmidt_kernel3=61284.3828 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.024007
+FAIL
+=============================== 
+checking log point [2048 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=128, elapsed_gramschmidt_kernel1=95.0678 (ms),
+ elapsed_gramschmidt_kernel2=18.2746 (ms), elapsed_gramschmidt_kernel3=19073.3633 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.035033
+FAIL
+=============================== 
+checking log point [2048 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=64, elapsed_gramschmidt_kernel1=92.2163 (ms),
+ elapsed_gramschmidt_kernel2=17.1911 (ms), elapsed_gramschmidt_kernel3=5862.7466 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.036491
+FAIL
+=============================== 
+checking log point [2048 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=32, elapsed_gramschmidt_kernel1=95.0381 (ms),
+ elapsed_gramschmidt_kernel2=12.1219 (ms), elapsed_gramschmidt_kernel3=2699.2761 (ms)] ... i: 0 j: 8 
+1: 0.000000
+ 2: -0.035208
+FAIL
+=============================== 
+checking log point [2048 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=16, elapsed_gramschmidt_kernel1=94.5187 (ms),
+ elapsed_gramschmidt_kernel2=11.0599 (ms), elapsed_gramschmidt_kernel3=2104.0981 (ms)] ... i: 8 j: 16 
+1: -0.000000
+ 2: -0.074671
+FAIL
+=============================== 
+checking log point [2048 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=8, elapsed_gramschmidt_kernel1=93.9379 (ms),
+ elapsed_gramschmidt_kernel2=8.5207 (ms), elapsed_gramschmidt_kernel3=2011.4095 (ms)] ... i: 83 j: 1 
+1: -0.000000
+ 2: -0.081991
+FAIL
+=============================== 
+checking log point [2048 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=4, elapsed_gramschmidt_kernel1=84.7473 (ms),
+ elapsed_gramschmidt_kernel2=7.0881 (ms), elapsed_gramschmidt_kernel3=2000.3347 (ms)] ... i: 150 j: 1 
+1: -0.000000
+ 2: -0.147389
+FAIL
+=============================== 
+checking log point [2048 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=2, elapsed_gramschmidt_kernel1=84.5025 (ms),
+ elapsed_gramschmidt_kernel2=6.5523 (ms), elapsed_gramschmidt_kernel3=1952.0529 (ms)] ... i: 984 j: 1 
+1: -0.000000
+ 2: -0.961445
+FAIL
+=============================== 
+checking log point [2048 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=1, elapsed_gramschmidt_kernel1=82.8931 (ms),
+ elapsed_gramschmidt_kernel2=6.5366 (ms), elapsed_gramschmidt_kernel3=2000.0906 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=512, elapsed_gramschmidt_kernel1=100.7821 (ms),
+ elapsed_gramschmidt_kernel2=48.8560 (ms), elapsed_gramschmidt_kernel3=193896.3594 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.079337
+FAIL
+=============================== 
+checking log point [2048 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=256, elapsed_gramschmidt_kernel1=99.7338 (ms),
+ elapsed_gramschmidt_kernel2=30.1936 (ms), elapsed_gramschmidt_kernel3=62431.3086 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.077680
+FAIL
+=============================== 
+checking log point [2048 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=128, elapsed_gramschmidt_kernel1=98.7149 (ms),
+ elapsed_gramschmidt_kernel2=27.5365 (ms), elapsed_gramschmidt_kernel3=20331.8105 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.043824
+FAIL
+=============================== 
+checking log point [2048 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=64, elapsed_gramschmidt_kernel1=98.4423 (ms),
+ elapsed_gramschmidt_kernel2=17.8488 (ms), elapsed_gramschmidt_kernel3=4851.5605 (ms)] ... i: 0 j: 3 
+1: -0.000000
+ 2: -0.029139
+FAIL
+=============================== 
+checking log point [2048 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=32, elapsed_gramschmidt_kernel1=95.8450 (ms),
+ elapsed_gramschmidt_kernel2=16.9979 (ms), elapsed_gramschmidt_kernel3=2672.9075 (ms)] ... i: 0 j: 16 
+1: -0.000000
+ 2: -0.011564
+FAIL
+=============================== 
+checking log point [2048 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=16, elapsed_gramschmidt_kernel1=94.3315 (ms),
+ elapsed_gramschmidt_kernel2=12.5422 (ms), elapsed_gramschmidt_kernel3=2124.1665 (ms)] ... i: 0 j: 6 
+1: 0.000000
+ 2: 0.013595
+FAIL
+=============================== 
+checking log point [2048 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=8, elapsed_gramschmidt_kernel1=94.1319 (ms),
+ elapsed_gramschmidt_kernel2=9.5526 (ms), elapsed_gramschmidt_kernel3=2035.9863 (ms)] ... i: 153 j: 1 
+1: -0.000000
+ 2: -0.150317
+FAIL
+=============================== 
+checking log point [2048 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=4, elapsed_gramschmidt_kernel1=94.7876 (ms),
+ elapsed_gramschmidt_kernel2=6.7527 (ms), elapsed_gramschmidt_kernel3=1989.3694 (ms)] ... i: 223 j: 1 
+1: -0.000000
+ 2: -0.218643
+FAIL
+=============================== 
+checking log point [2048 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=2, elapsed_gramschmidt_kernel1=84.3005 (ms),
+ elapsed_gramschmidt_kernel2=6.7113 (ms), elapsed_gramschmidt_kernel3=2016.0892 (ms)] ... i: 10 j: 1 
+1: -0.000000
+ 2: -0.010737
+FAIL
+=============================== 
+checking log point [2048 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=512, by=1, elapsed_gramschmidt_kernel1=83.1439 (ms),
+ elapsed_gramschmidt_kernel2=7.2409 (ms), elapsed_gramschmidt_kernel3=2062.6587 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=512, elapsed_gramschmidt_kernel1=172.6945 (ms),
+ elapsed_gramschmidt_kernel2=54.4781 (ms), elapsed_gramschmidt_kernel3=193696.3438 (ms)] ... i: 0 j: 1 
+1: -0.000000
+ 2: -0.012631
+FAIL
+=============================== 
+checking log point [2048 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=256, elapsed_gramschmidt_kernel1=171.1517 (ms),
+ elapsed_gramschmidt_kernel2=48.3431 (ms), elapsed_gramschmidt_kernel3=62369.8984 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.091916
+FAIL
+=============================== 
+checking log point [2048 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=128, elapsed_gramschmidt_kernel1=168.8717 (ms),
+ elapsed_gramschmidt_kernel2=28.9150 (ms), elapsed_gramschmidt_kernel3=17360.6094 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.081270
+FAIL
+=============================== 
+checking log point [2048 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=64, elapsed_gramschmidt_kernel1=167.8347 (ms),
+ elapsed_gramschmidt_kernel2=27.1696 (ms), elapsed_gramschmidt_kernel3=6615.4448 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.093289
+FAIL
+=============================== 
+checking log point [2048 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=32, elapsed_gramschmidt_kernel1=165.2691 (ms),
+ elapsed_gramschmidt_kernel2=19.5922 (ms), elapsed_gramschmidt_kernel3=3797.3901 (ms)] ... i: 0 j: 2 
+1: -0.000000
+ 2: 0.043549
+FAIL
+=============================== 
+checking log point [2048 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=16, elapsed_gramschmidt_kernel1=101.1343 (ms),
+ elapsed_gramschmidt_kernel2=14.1746 (ms), elapsed_gramschmidt_kernel3=2206.8916 (ms)] ... i: 0 j: 5 
+1: 0.000000
+ 2: -0.011691
+FAIL
+=============================== 
+checking log point [2048 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=8, elapsed_gramschmidt_kernel1=102.3304 (ms),
+ elapsed_gramschmidt_kernel2=8.7133 (ms), elapsed_gramschmidt_kernel3=2032.2600 (ms)] ... i: 32 j: 1 
+1: -0.000000
+ 2: -0.032211
+FAIL
+=============================== 
+checking log point [2048 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=4, elapsed_gramschmidt_kernel1=95.5547 (ms),
+ elapsed_gramschmidt_kernel2=8.3564 (ms), elapsed_gramschmidt_kernel3=2077.8457 (ms)] ... i: 28 j: 1 
+1: -0.000000
+ 2: -0.028307
+FAIL
+=============================== 

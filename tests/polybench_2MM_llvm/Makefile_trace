@@ -1,0 +1,46 @@
+ 
+all: compile
+
+TRACE_PATH=../../trace_analysis
+#INCLUDE_PATH=-I /usr/local/include/hydrazine -I $(TRACE_PATH)/gpuocelot/trace-generators
+#CXX=clang++-5.0 -w $(INCLUDE_PATH) -locelot
+		
+SRC=2mm.cu
+
+include ../trace_sm_arch.mk
+ARCH?=sm_20
+
+DEST=trace_host
+CWD = $(shell pwd)
+
+#######################################
+#######################################
+compile:
+#	cp $(TRACE_PATH)/cu_to_ptx.sh .
+#	cp $(TRACE_PATH)/accumulate_traces.py .
+#	cp $(TRACE_PATH)/compute_active_blocks.py .
+	make -C $(TRACE_PATH)/rtx_profiler clean
+	make -C $(TRACE_PATH)/rtx_profiler all
+	cp $(TRACE_PATH)/rtx_profiler/libinjection_2.so .
+	python $(TRACE_PATH)/parser.py $(CWD)/$(SRC) $(ARCH)
+	make -f Makefile.cuda		
+
+#######################################
+clean:
+	rm -rf *.o
+	rm -rf *.ll
+	rm -rf *.s
+	rm -rf *.bin
+	rm -rf *sm_*.ptx
+	rm -rf kernel_*.cu
+	rm -rf *.tmp
+	rm -rf configure.ocelot
+	rm -rf trace_host.cpp
+	rm -rf parser.py
+	rm -rf accumulate_traces.py
+	rm -rf cu_to_ptx.sh
+	rm -rf kernel_*_trace.txt
+	rm -rf kernel_*_trace.avg.txt
+	rm -rf kernel_*.registers
+	rm -rf kernel_*.smem
+

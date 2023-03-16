@@ -1,0 +1,1946 @@
+checking for [] 
+checking log point [32 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=1, by=32, elapsed_gramschmidt_kernel1=0.1354 (ms),
+ elapsed_gramschmidt_kernel2=0.1188 (ms), elapsed_gramschmidt_kernel3=0.4197 (ms)] ... PASS
+=============================== 
+checking log point [32 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=2, by=16, elapsed_gramschmidt_kernel1=0.1356 (ms),
+ elapsed_gramschmidt_kernel2=0.1187 (ms), elapsed_gramschmidt_kernel3=0.4164 (ms)] ... PASS
+=============================== 
+checking log point [32 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=8, elapsed_gramschmidt_kernel1=0.1747 (ms),
+ elapsed_gramschmidt_kernel2=0.1645 (ms), elapsed_gramschmidt_kernel3=0.4527 (ms)] ... PASS
+=============================== 
+checking log point [32 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=4, elapsed_gramschmidt_kernel1=0.1538 (ms),
+ elapsed_gramschmidt_kernel2=0.1426 (ms), elapsed_gramschmidt_kernel3=0.4374 (ms)] ... PASS
+=============================== 
+checking log point [32 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=2, elapsed_gramschmidt_kernel1=0.1379 (ms),
+ elapsed_gramschmidt_kernel2=0.1165 (ms), elapsed_gramschmidt_kernel3=0.4143 (ms)] ... PASS
+=============================== 
+checking log point [32 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=1, elapsed_gramschmidt_kernel1=0.1289 (ms),
+ elapsed_gramschmidt_kernel2=0.1222 (ms), elapsed_gramschmidt_kernel3=0.4287 (ms)] ... PASS
+=============================== 
+checking log point [32 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=2, by=32, elapsed_gramschmidt_kernel1=0.1299 (ms),
+ elapsed_gramschmidt_kernel2=0.1170 (ms), elapsed_gramschmidt_kernel3=0.4079 (ms)] ... PASS
+=============================== 
+checking log point [32 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=16, elapsed_gramschmidt_kernel1=0.1343 (ms),
+ elapsed_gramschmidt_kernel2=0.1130 (ms), elapsed_gramschmidt_kernel3=0.4155 (ms)] ... PASS
+=============================== 
+checking log point [32 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=8, elapsed_gramschmidt_kernel1=0.1307 (ms),
+ elapsed_gramschmidt_kernel2=0.1119 (ms), elapsed_gramschmidt_kernel3=0.4164 (ms)] ... PASS
+=============================== 
+checking log point [32 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=4, elapsed_gramschmidt_kernel1=0.1346 (ms),
+ elapsed_gramschmidt_kernel2=0.1131 (ms), elapsed_gramschmidt_kernel3=0.4142 (ms)] ... PASS
+=============================== 
+checking log point [32 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=2, elapsed_gramschmidt_kernel1=0.1297 (ms),
+ elapsed_gramschmidt_kernel2=0.1199 (ms), elapsed_gramschmidt_kernel3=0.4255 (ms)] ... PASS
+=============================== 
+checking log point [32 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=4, by=32, elapsed_gramschmidt_kernel1=0.1341 (ms),
+ elapsed_gramschmidt_kernel2=0.1116 (ms), elapsed_gramschmidt_kernel3=0.4244 (ms)] ... PASS
+=============================== 
+checking log point [32 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=16, elapsed_gramschmidt_kernel1=0.1341 (ms),
+ elapsed_gramschmidt_kernel2=0.1149 (ms), elapsed_gramschmidt_kernel3=0.4251 (ms)] ... PASS
+=============================== 
+checking log point [32 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=8, elapsed_gramschmidt_kernel1=0.1319 (ms),
+ elapsed_gramschmidt_kernel2=0.1144 (ms), elapsed_gramschmidt_kernel3=0.4212 (ms)] ... PASS
+=============================== 
+checking log point [32 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=4, elapsed_gramschmidt_kernel1=0.1293 (ms),
+ elapsed_gramschmidt_kernel2=0.1224 (ms), elapsed_gramschmidt_kernel3=0.4308 (ms)] ... PASS
+=============================== 
+checking log point [32 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=8, by=32, elapsed_gramschmidt_kernel1=0.1385 (ms),
+ elapsed_gramschmidt_kernel2=0.1172 (ms), elapsed_gramschmidt_kernel3=0.4250 (ms)] ... PASS
+=============================== 
+checking log point [32 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=16, elapsed_gramschmidt_kernel1=0.1411 (ms),
+ elapsed_gramschmidt_kernel2=0.1164 (ms), elapsed_gramschmidt_kernel3=0.4208 (ms)] ... PASS
+=============================== 
+checking log point [32 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=8, elapsed_gramschmidt_kernel1=0.1364 (ms),
+ elapsed_gramschmidt_kernel2=0.1282 (ms), elapsed_gramschmidt_kernel3=0.4395 (ms)] ... PASS
+=============================== 
+checking log point [32 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=16, by=32, elapsed_gramschmidt_kernel1=0.1428 (ms),
+ elapsed_gramschmidt_kernel2=0.1239 (ms), elapsed_gramschmidt_kernel3=0.4374 (ms)] ... PASS
+=============================== 
+checking log point [32 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=16, elapsed_gramschmidt_kernel1=0.1484 (ms),
+ elapsed_gramschmidt_kernel2=0.1420 (ms), elapsed_gramschmidt_kernel3=0.4455 (ms)] ... PASS
+=============================== 
+checking log point [32 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=32, bx=32, by=32, elapsed_gramschmidt_kernel1=0.1632 (ms),
+ elapsed_gramschmidt_kernel2=0.1742 (ms), elapsed_gramschmidt_kernel3=0.5126 (ms)] ... PASS
+=============================== 
+checking log point [64 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=32, elapsed_gramschmidt_kernel1=0.2809 (ms),
+ elapsed_gramschmidt_kernel2=0.2378 (ms), elapsed_gramschmidt_kernel3=1.4959 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=16, elapsed_gramschmidt_kernel1=0.2854 (ms),
+ elapsed_gramschmidt_kernel2=0.2330 (ms), elapsed_gramschmidt_kernel3=1.4732 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=8, elapsed_gramschmidt_kernel1=0.2828 (ms),
+ elapsed_gramschmidt_kernel2=0.2336 (ms), elapsed_gramschmidt_kernel3=1.4535 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=4, elapsed_gramschmidt_kernel1=0.2795 (ms),
+ elapsed_gramschmidt_kernel2=0.2343 (ms), elapsed_gramschmidt_kernel3=1.4681 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=2, elapsed_gramschmidt_kernel1=0.2828 (ms),
+ elapsed_gramschmidt_kernel2=0.2273 (ms), elapsed_gramschmidt_kernel3=1.4750 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=1, elapsed_gramschmidt_kernel1=0.2822 (ms),
+ elapsed_gramschmidt_kernel2=0.2370 (ms), elapsed_gramschmidt_kernel3=1.4721 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=64, elapsed_gramschmidt_kernel1=0.2799 (ms),
+ elapsed_gramschmidt_kernel2=0.2395 (ms), elapsed_gramschmidt_kernel3=1.5168 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=32, elapsed_gramschmidt_kernel1=0.2836 (ms),
+ elapsed_gramschmidt_kernel2=0.2360 (ms), elapsed_gramschmidt_kernel3=1.4763 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=16, elapsed_gramschmidt_kernel1=0.3250 (ms),
+ elapsed_gramschmidt_kernel2=0.2906 (ms), elapsed_gramschmidt_kernel3=1.4831 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=8, elapsed_gramschmidt_kernel1=0.2782 (ms),
+ elapsed_gramschmidt_kernel2=0.2306 (ms), elapsed_gramschmidt_kernel3=1.4562 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=4, elapsed_gramschmidt_kernel1=0.2808 (ms),
+ elapsed_gramschmidt_kernel2=0.2280 (ms), elapsed_gramschmidt_kernel3=1.4740 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=2, elapsed_gramschmidt_kernel1=0.2858 (ms),
+ elapsed_gramschmidt_kernel2=0.2300 (ms), elapsed_gramschmidt_kernel3=1.4671 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=1, elapsed_gramschmidt_kernel1=0.2837 (ms),
+ elapsed_gramschmidt_kernel2=0.2420 (ms), elapsed_gramschmidt_kernel3=1.5193 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=64, elapsed_gramschmidt_kernel1=0.2868 (ms),
+ elapsed_gramschmidt_kernel2=0.2367 (ms), elapsed_gramschmidt_kernel3=1.5664 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=32, elapsed_gramschmidt_kernel1=0.2870 (ms),
+ elapsed_gramschmidt_kernel2=0.2304 (ms), elapsed_gramschmidt_kernel3=1.4854 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=16, elapsed_gramschmidt_kernel1=0.2942 (ms),
+ elapsed_gramschmidt_kernel2=0.2351 (ms), elapsed_gramschmidt_kernel3=1.5062 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=8, elapsed_gramschmidt_kernel1=0.2813 (ms),
+ elapsed_gramschmidt_kernel2=0.2276 (ms), elapsed_gramschmidt_kernel3=1.5030 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=4, elapsed_gramschmidt_kernel1=0.2877 (ms),
+ elapsed_gramschmidt_kernel2=0.2425 (ms), elapsed_gramschmidt_kernel3=1.5131 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=2, elapsed_gramschmidt_kernel1=0.2769 (ms),
+ elapsed_gramschmidt_kernel2=0.2456 (ms), elapsed_gramschmidt_kernel3=1.5439 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=64, elapsed_gramschmidt_kernel1=0.3032 (ms),
+ elapsed_gramschmidt_kernel2=0.2307 (ms), elapsed_gramschmidt_kernel3=1.5728 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=32, elapsed_gramschmidt_kernel1=0.3242 (ms),
+ elapsed_gramschmidt_kernel2=0.2624 (ms), elapsed_gramschmidt_kernel3=1.5232 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=16, elapsed_gramschmidt_kernel1=0.2972 (ms),
+ elapsed_gramschmidt_kernel2=0.2301 (ms), elapsed_gramschmidt_kernel3=1.5120 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=8, elapsed_gramschmidt_kernel1=0.3029 (ms),
+ elapsed_gramschmidt_kernel2=0.2498 (ms), elapsed_gramschmidt_kernel3=1.5096 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=4, elapsed_gramschmidt_kernel1=0.2842 (ms),
+ elapsed_gramschmidt_kernel2=0.2447 (ms), elapsed_gramschmidt_kernel3=1.5485 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=64, elapsed_gramschmidt_kernel1=0.3320 (ms),
+ elapsed_gramschmidt_kernel2=0.2390 (ms), elapsed_gramschmidt_kernel3=1.6643 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=32, elapsed_gramschmidt_kernel1=0.3286 (ms),
+ elapsed_gramschmidt_kernel2=0.2471 (ms), elapsed_gramschmidt_kernel3=1.6020 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=16, elapsed_gramschmidt_kernel1=0.3330 (ms),
+ elapsed_gramschmidt_kernel2=0.2984 (ms), elapsed_gramschmidt_kernel3=1.5717 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=8, elapsed_gramschmidt_kernel1=0.2994 (ms),
+ elapsed_gramschmidt_kernel2=0.2850 (ms), elapsed_gramschmidt_kernel3=1.5845 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=64, elapsed_gramschmidt_kernel1=0.4061 (ms),
+ elapsed_gramschmidt_kernel2=0.2832 (ms), elapsed_gramschmidt_kernel3=1.9915 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=32, elapsed_gramschmidt_kernel1=0.4074 (ms),
+ elapsed_gramschmidt_kernel2=0.3436 (ms), elapsed_gramschmidt_kernel3=1.8303 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=16, elapsed_gramschmidt_kernel1=0.3454 (ms),
+ elapsed_gramschmidt_kernel2=0.3564 (ms), elapsed_gramschmidt_kernel3=1.6984 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=32, elapsed_gramschmidt_kernel1=0.6662 (ms),
+ elapsed_gramschmidt_kernel2=0.4826 (ms), elapsed_gramschmidt_kernel3=5.6475 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=16, elapsed_gramschmidt_kernel1=0.7169 (ms),
+ elapsed_gramschmidt_kernel2=0.5372 (ms), elapsed_gramschmidt_kernel3=5.5969 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=8, elapsed_gramschmidt_kernel1=0.6726 (ms),
+ elapsed_gramschmidt_kernel2=0.4712 (ms), elapsed_gramschmidt_kernel3=5.5008 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=4, elapsed_gramschmidt_kernel1=0.6738 (ms),
+ elapsed_gramschmidt_kernel2=0.4572 (ms), elapsed_gramschmidt_kernel3=5.4242 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=2, elapsed_gramschmidt_kernel1=0.6808 (ms),
+ elapsed_gramschmidt_kernel2=0.4602 (ms), elapsed_gramschmidt_kernel3=5.5024 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=1, elapsed_gramschmidt_kernel1=0.6554 (ms),
+ elapsed_gramschmidt_kernel2=0.4532 (ms), elapsed_gramschmidt_kernel3=5.6082 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=64, elapsed_gramschmidt_kernel1=0.6550 (ms),
+ elapsed_gramschmidt_kernel2=0.4826 (ms), elapsed_gramschmidt_kernel3=6.2573 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=32, elapsed_gramschmidt_kernel1=0.6548 (ms),
+ elapsed_gramschmidt_kernel2=0.4582 (ms), elapsed_gramschmidt_kernel3=5.5561 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=16, elapsed_gramschmidt_kernel1=0.6610 (ms),
+ elapsed_gramschmidt_kernel2=0.4671 (ms), elapsed_gramschmidt_kernel3=5.4801 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=8, elapsed_gramschmidt_kernel1=0.6672 (ms),
+ elapsed_gramschmidt_kernel2=0.4557 (ms), elapsed_gramschmidt_kernel3=5.3963 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=4, elapsed_gramschmidt_kernel1=0.6697 (ms),
+ elapsed_gramschmidt_kernel2=0.4579 (ms), elapsed_gramschmidt_kernel3=5.4970 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=2, elapsed_gramschmidt_kernel1=0.7539 (ms),
+ elapsed_gramschmidt_kernel2=0.5718 (ms), elapsed_gramschmidt_kernel3=5.7478 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=1, elapsed_gramschmidt_kernel1=0.6773 (ms),
+ elapsed_gramschmidt_kernel2=0.4732 (ms), elapsed_gramschmidt_kernel3=5.5325 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=128, elapsed_gramschmidt_kernel1=0.6949 (ms),
+ elapsed_gramschmidt_kernel2=0.4942 (ms), elapsed_gramschmidt_kernel3=11.4850 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=64, elapsed_gramschmidt_kernel1=0.7381 (ms),
+ elapsed_gramschmidt_kernel2=0.5258 (ms), elapsed_gramschmidt_kernel3=6.2051 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=32, elapsed_gramschmidt_kernel1=0.6811 (ms),
+ elapsed_gramschmidt_kernel2=0.4607 (ms), elapsed_gramschmidt_kernel3=5.6047 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=16, elapsed_gramschmidt_kernel1=0.6924 (ms),
+ elapsed_gramschmidt_kernel2=0.4620 (ms), elapsed_gramschmidt_kernel3=5.4850 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=8, elapsed_gramschmidt_kernel1=0.6944 (ms),
+ elapsed_gramschmidt_kernel2=0.4461 (ms), elapsed_gramschmidt_kernel3=5.5859 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=4, elapsed_gramschmidt_kernel1=0.8493 (ms),
+ elapsed_gramschmidt_kernel2=0.6466 (ms), elapsed_gramschmidt_kernel3=5.9197 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=2, elapsed_gramschmidt_kernel1=0.6499 (ms),
+ elapsed_gramschmidt_kernel2=0.4696 (ms), elapsed_gramschmidt_kernel3=5.7028 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=1, elapsed_gramschmidt_kernel1=0.6725 (ms),
+ elapsed_gramschmidt_kernel2=0.4767 (ms), elapsed_gramschmidt_kernel3=5.7895 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=128, elapsed_gramschmidt_kernel1=0.7344 (ms),
+ elapsed_gramschmidt_kernel2=0.5053 (ms), elapsed_gramschmidt_kernel3=11.1098 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=64, elapsed_gramschmidt_kernel1=0.7524 (ms),
+ elapsed_gramschmidt_kernel2=0.4803 (ms), elapsed_gramschmidt_kernel3=6.1756 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=32, elapsed_gramschmidt_kernel1=0.7313 (ms),
+ elapsed_gramschmidt_kernel2=0.4573 (ms), elapsed_gramschmidt_kernel3=5.5894 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=16, elapsed_gramschmidt_kernel1=0.7406 (ms),
+ elapsed_gramschmidt_kernel2=0.4588 (ms), elapsed_gramschmidt_kernel3=5.6239 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=8, elapsed_gramschmidt_kernel1=0.7428 (ms),
+ elapsed_gramschmidt_kernel2=0.5035 (ms), elapsed_gramschmidt_kernel3=5.8198 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=4, elapsed_gramschmidt_kernel1=0.6891 (ms),
+ elapsed_gramschmidt_kernel2=0.5017 (ms), elapsed_gramschmidt_kernel3=5.7128 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=2, elapsed_gramschmidt_kernel1=0.6828 (ms),
+ elapsed_gramschmidt_kernel2=0.5022 (ms), elapsed_gramschmidt_kernel3=5.8293 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=128, elapsed_gramschmidt_kernel1=0.8299 (ms),
+ elapsed_gramschmidt_kernel2=0.5165 (ms), elapsed_gramschmidt_kernel3=9.7456 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=64, elapsed_gramschmidt_kernel1=0.8270 (ms),
+ elapsed_gramschmidt_kernel2=0.4927 (ms), elapsed_gramschmidt_kernel3=6.3287 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=32, elapsed_gramschmidt_kernel1=0.8274 (ms),
+ elapsed_gramschmidt_kernel2=0.4994 (ms), elapsed_gramschmidt_kernel3=5.9347 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=16, elapsed_gramschmidt_kernel1=0.9511 (ms),
+ elapsed_gramschmidt_kernel2=0.7017 (ms), elapsed_gramschmidt_kernel3=6.2770 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=8, elapsed_gramschmidt_kernel1=0.7100 (ms),
+ elapsed_gramschmidt_kernel2=0.5772 (ms), elapsed_gramschmidt_kernel3=5.8239 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=4, elapsed_gramschmidt_kernel1=0.7120 (ms),
+ elapsed_gramschmidt_kernel2=0.5887 (ms), elapsed_gramschmidt_kernel3=5.9049 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=128, elapsed_gramschmidt_kernel1=1.1282 (ms),
+ elapsed_gramschmidt_kernel2=0.5322 (ms), elapsed_gramschmidt_kernel3=8.4766 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=64, elapsed_gramschmidt_kernel1=1.1270 (ms),
+ elapsed_gramschmidt_kernel2=0.5504 (ms), elapsed_gramschmidt_kernel3=7.2338 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=32, elapsed_gramschmidt_kernel1=1.1300 (ms),
+ elapsed_gramschmidt_kernel2=0.7097 (ms), elapsed_gramschmidt_kernel3=7.3192 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=16, elapsed_gramschmidt_kernel1=0.9041 (ms),
+ elapsed_gramschmidt_kernel2=0.7154 (ms), elapsed_gramschmidt_kernel3=6.3978 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=8, elapsed_gramschmidt_kernel1=0.8932 (ms),
+ elapsed_gramschmidt_kernel2=0.7061 (ms), elapsed_gramschmidt_kernel3=6.2017 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=32, elapsed_gramschmidt_kernel1=1.7777 (ms),
+ elapsed_gramschmidt_kernel2=0.9905 (ms), elapsed_gramschmidt_kernel3=23.9835 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=16, elapsed_gramschmidt_kernel1=1.7800 (ms),
+ elapsed_gramschmidt_kernel2=0.9589 (ms), elapsed_gramschmidt_kernel3=21.4359 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=8, elapsed_gramschmidt_kernel1=1.7812 (ms),
+ elapsed_gramschmidt_kernel2=0.9496 (ms), elapsed_gramschmidt_kernel3=21.3583 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=4, elapsed_gramschmidt_kernel1=1.7744 (ms),
+ elapsed_gramschmidt_kernel2=0.9314 (ms), elapsed_gramschmidt_kernel3=21.1811 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=2, elapsed_gramschmidt_kernel1=1.7606 (ms),
+ elapsed_gramschmidt_kernel2=0.9108 (ms), elapsed_gramschmidt_kernel3=21.0357 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=1, elapsed_gramschmidt_kernel1=1.7686 (ms),
+ elapsed_gramschmidt_kernel2=0.9240 (ms), elapsed_gramschmidt_kernel3=21.5777 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=64, elapsed_gramschmidt_kernel1=1.7642 (ms),
+ elapsed_gramschmidt_kernel2=1.0290 (ms), elapsed_gramschmidt_kernel3=34.5723 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=32, elapsed_gramschmidt_kernel1=1.7526 (ms),
+ elapsed_gramschmidt_kernel2=0.9545 (ms), elapsed_gramschmidt_kernel3=22.5102 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=16, elapsed_gramschmidt_kernel1=1.7558 (ms),
+ elapsed_gramschmidt_kernel2=0.9448 (ms), elapsed_gramschmidt_kernel3=21.2583 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=8, elapsed_gramschmidt_kernel1=1.7679 (ms),
+ elapsed_gramschmidt_kernel2=0.9291 (ms), elapsed_gramschmidt_kernel3=21.0623 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=4, elapsed_gramschmidt_kernel1=1.7846 (ms),
+ elapsed_gramschmidt_kernel2=0.9254 (ms), elapsed_gramschmidt_kernel3=21.0466 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=2, elapsed_gramschmidt_kernel1=1.7670 (ms),
+ elapsed_gramschmidt_kernel2=0.9418 (ms), elapsed_gramschmidt_kernel3=21.8535 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=1, elapsed_gramschmidt_kernel1=1.7605 (ms),
+ elapsed_gramschmidt_kernel2=0.9304 (ms), elapsed_gramschmidt_kernel3=22.0310 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=128, elapsed_gramschmidt_kernel1=1.8783 (ms),
+ elapsed_gramschmidt_kernel2=1.0842 (ms), elapsed_gramschmidt_kernel3=61.7335 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=64, elapsed_gramschmidt_kernel1=1.8865 (ms),
+ elapsed_gramschmidt_kernel2=1.0084 (ms), elapsed_gramschmidt_kernel3=33.1008 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=32, elapsed_gramschmidt_kernel1=1.8660 (ms),
+ elapsed_gramschmidt_kernel2=0.9500 (ms), elapsed_gramschmidt_kernel3=22.1556 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=16, elapsed_gramschmidt_kernel1=1.8615 (ms),
+ elapsed_gramschmidt_kernel2=0.9245 (ms), elapsed_gramschmidt_kernel3=21.3720 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=8, elapsed_gramschmidt_kernel1=1.8500 (ms),
+ elapsed_gramschmidt_kernel2=0.9128 (ms), elapsed_gramschmidt_kernel3=21.3389 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=4, elapsed_gramschmidt_kernel1=1.8636 (ms),
+ elapsed_gramschmidt_kernel2=0.9541 (ms), elapsed_gramschmidt_kernel3=22.5762 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=2, elapsed_gramschmidt_kernel1=1.7449 (ms),
+ elapsed_gramschmidt_kernel2=0.9400 (ms), elapsed_gramschmidt_kernel3=22.9456 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=1, elapsed_gramschmidt_kernel1=1.7795 (ms),
+ elapsed_gramschmidt_kernel2=0.9612 (ms), elapsed_gramschmidt_kernel3=21.9864 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=256, elapsed_gramschmidt_kernel1=1.9948 (ms),
+ elapsed_gramschmidt_kernel2=1.2747 (ms), elapsed_gramschmidt_kernel3=129.2419 (ms)] ... PASS
+=============================== 
+checking log point [256 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=128, elapsed_gramschmidt_kernel1=1.9781 (ms),
+ elapsed_gramschmidt_kernel2=1.1134 (ms), elapsed_gramschmidt_kernel3=60.5120 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=64, elapsed_gramschmidt_kernel1=1.9908 (ms),
+ elapsed_gramschmidt_kernel2=1.0251 (ms), elapsed_gramschmidt_kernel3=28.9487 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=32, elapsed_gramschmidt_kernel1=2.0053 (ms),
+ elapsed_gramschmidt_kernel2=0.9829 (ms), elapsed_gramschmidt_kernel3=21.9967 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=16, elapsed_gramschmidt_kernel1=2.0016 (ms),
+ elapsed_gramschmidt_kernel2=0.9525 (ms), elapsed_gramschmidt_kernel3=21.6041 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=8, elapsed_gramschmidt_kernel1=2.0099 (ms),
+ elapsed_gramschmidt_kernel2=1.0285 (ms), elapsed_gramschmidt_kernel3=22.6086 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=4, elapsed_gramschmidt_kernel1=1.9103 (ms),
+ elapsed_gramschmidt_kernel2=1.0193 (ms), elapsed_gramschmidt_kernel3=22.8151 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=2, elapsed_gramschmidt_kernel1=1.8641 (ms),
+ elapsed_gramschmidt_kernel2=0.9973 (ms), elapsed_gramschmidt_kernel3=22.0288 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=1, elapsed_gramschmidt_kernel1=1.7763 (ms),
+ elapsed_gramschmidt_kernel2=1.0028 (ms), elapsed_gramschmidt_kernel3=22.6616 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=256, elapsed_gramschmidt_kernel1=2.2972 (ms),
+ elapsed_gramschmidt_kernel2=1.3184 (ms), elapsed_gramschmidt_kernel3=126.4074 (ms)] ... PASS
+=============================== 
+checking log point [256 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=128, elapsed_gramschmidt_kernel1=2.2943 (ms),
+ elapsed_gramschmidt_kernel2=1.1613 (ms), elapsed_gramschmidt_kernel3=49.1793 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=64, elapsed_gramschmidt_kernel1=2.2921 (ms),
+ elapsed_gramschmidt_kernel2=1.0740 (ms), elapsed_gramschmidt_kernel3=25.7711 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=32, elapsed_gramschmidt_kernel1=2.3027 (ms),
+ elapsed_gramschmidt_kernel2=1.0319 (ms), elapsed_gramschmidt_kernel3=23.2350 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=16, elapsed_gramschmidt_kernel1=2.3060 (ms),
+ elapsed_gramschmidt_kernel2=1.1607 (ms), elapsed_gramschmidt_kernel3=23.7487 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=8, elapsed_gramschmidt_kernel1=1.9513 (ms),
+ elapsed_gramschmidt_kernel2=1.1416 (ms), elapsed_gramschmidt_kernel3=23.4217 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=4, elapsed_gramschmidt_kernel1=1.9476 (ms),
+ elapsed_gramschmidt_kernel2=1.1798 (ms), elapsed_gramschmidt_kernel3=22.4504 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=2, elapsed_gramschmidt_kernel1=1.8676 (ms),
+ elapsed_gramschmidt_kernel2=1.1644 (ms), elapsed_gramschmidt_kernel3=23.0326 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=256, elapsed_gramschmidt_kernel1=3.5587 (ms),
+ elapsed_gramschmidt_kernel2=1.4541 (ms), elapsed_gramschmidt_kernel3=99.5344 (ms)] ... PASS
+=============================== 
+checking log point [256 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=128, elapsed_gramschmidt_kernel1=3.5603 (ms),
+ elapsed_gramschmidt_kernel2=1.2317 (ms), elapsed_gramschmidt_kernel3=36.7409 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=64, elapsed_gramschmidt_kernel1=3.5501 (ms),
+ elapsed_gramschmidt_kernel2=1.1587 (ms), elapsed_gramschmidt_kernel3=31.0642 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=32, elapsed_gramschmidt_kernel1=3.5940 (ms),
+ elapsed_gramschmidt_kernel2=1.4716 (ms), elapsed_gramschmidt_kernel3=30.1961 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=16, elapsed_gramschmidt_kernel1=2.6743 (ms),
+ elapsed_gramschmidt_kernel2=1.4189 (ms), elapsed_gramschmidt_kernel3=25.3975 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=8, elapsed_gramschmidt_kernel1=2.6485 (ms),
+ elapsed_gramschmidt_kernel2=1.4160 (ms), elapsed_gramschmidt_kernel3=23.9505 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=4, elapsed_gramschmidt_kernel1=1.9286 (ms),
+ elapsed_gramschmidt_kernel2=1.4039 (ms), elapsed_gramschmidt_kernel3=23.8472 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=32, elapsed_gramschmidt_kernel1=5.3577 (ms),
+ elapsed_gramschmidt_kernel2=2.1622 (ms), elapsed_gramschmidt_kernel3=105.2378 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=16, elapsed_gramschmidt_kernel1=5.3681 (ms),
+ elapsed_gramschmidt_kernel2=1.9950 (ms), elapsed_gramschmidt_kernel3=84.6801 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=8, elapsed_gramschmidt_kernel1=5.3634 (ms),
+ elapsed_gramschmidt_kernel2=1.9265 (ms), elapsed_gramschmidt_kernel3=83.8480 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=4, elapsed_gramschmidt_kernel1=5.3655 (ms),
+ elapsed_gramschmidt_kernel2=1.8910 (ms), elapsed_gramschmidt_kernel3=83.6274 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=2, elapsed_gramschmidt_kernel1=5.3496 (ms),
+ elapsed_gramschmidt_kernel2=1.8979 (ms), elapsed_gramschmidt_kernel3=83.5789 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=1, elapsed_gramschmidt_kernel1=5.3467 (ms),
+ elapsed_gramschmidt_kernel2=1.8188 (ms), elapsed_gramschmidt_kernel3=83.9881 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=64, elapsed_gramschmidt_kernel1=5.3155 (ms),
+ elapsed_gramschmidt_kernel2=2.2450 (ms), elapsed_gramschmidt_kernel3=171.9766 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=32, elapsed_gramschmidt_kernel1=5.3291 (ms),
+ elapsed_gramschmidt_kernel2=2.0671 (ms), elapsed_gramschmidt_kernel3=97.7713 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=16, elapsed_gramschmidt_kernel1=5.3161 (ms),
+ elapsed_gramschmidt_kernel2=1.9075 (ms), elapsed_gramschmidt_kernel3=84.2635 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=8, elapsed_gramschmidt_kernel1=5.3251 (ms),
+ elapsed_gramschmidt_kernel2=1.8580 (ms), elapsed_gramschmidt_kernel3=83.3411 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=4, elapsed_gramschmidt_kernel1=5.3479 (ms),
+ elapsed_gramschmidt_kernel2=1.8969 (ms), elapsed_gramschmidt_kernel3=83.7032 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=2, elapsed_gramschmidt_kernel1=5.3483 (ms),
+ elapsed_gramschmidt_kernel2=1.8933 (ms), elapsed_gramschmidt_kernel3=85.1743 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=1, elapsed_gramschmidt_kernel1=5.3407 (ms),
+ elapsed_gramschmidt_kernel2=1.9065 (ms), elapsed_gramschmidt_kernel3=86.3739 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=128, elapsed_gramschmidt_kernel1=5.7452 (ms),
+ elapsed_gramschmidt_kernel2=2.5836 (ms), elapsed_gramschmidt_kernel3=377.0967 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=64, elapsed_gramschmidt_kernel1=5.7968 (ms),
+ elapsed_gramschmidt_kernel2=2.2784 (ms), elapsed_gramschmidt_kernel3=160.8193 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=32, elapsed_gramschmidt_kernel1=5.7890 (ms),
+ elapsed_gramschmidt_kernel2=2.0674 (ms), elapsed_gramschmidt_kernel3=92.1298 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=16, elapsed_gramschmidt_kernel1=5.7607 (ms),
+ elapsed_gramschmidt_kernel2=1.9489 (ms), elapsed_gramschmidt_kernel3=84.2766 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=8, elapsed_gramschmidt_kernel1=5.7915 (ms),
+ elapsed_gramschmidt_kernel2=1.9460 (ms), elapsed_gramschmidt_kernel3=84.5980 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=4, elapsed_gramschmidt_kernel1=5.7670 (ms),
+ elapsed_gramschmidt_kernel2=1.9216 (ms), elapsed_gramschmidt_kernel3=88.1290 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=2, elapsed_gramschmidt_kernel1=5.3279 (ms),
+ elapsed_gramschmidt_kernel2=1.9013 (ms), elapsed_gramschmidt_kernel3=90.3225 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=1, elapsed_gramschmidt_kernel1=5.3340 (ms),
+ elapsed_gramschmidt_kernel2=1.9004 (ms), elapsed_gramschmidt_kernel3=89.6284 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=256, elapsed_gramschmidt_kernel1=5.9416 (ms),
+ elapsed_gramschmidt_kernel2=3.3416 (ms), elapsed_gramschmidt_kernel3=962.7047 (ms)] ... PASS
+=============================== 
+checking log point [512 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=128, elapsed_gramschmidt_kernel1=5.9507 (ms),
+ elapsed_gramschmidt_kernel2=2.6642 (ms), elapsed_gramschmidt_kernel3=364.7391 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=64, elapsed_gramschmidt_kernel1=5.9387 (ms),
+ elapsed_gramschmidt_kernel2=2.3103 (ms), elapsed_gramschmidt_kernel3=160.2162 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=32, elapsed_gramschmidt_kernel1=5.9479 (ms),
+ elapsed_gramschmidt_kernel2=2.1400 (ms), elapsed_gramschmidt_kernel3=89.6812 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=16, elapsed_gramschmidt_kernel1=5.9796 (ms),
+ elapsed_gramschmidt_kernel2=2.0544 (ms), elapsed_gramschmidt_kernel3=86.0155 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=8, elapsed_gramschmidt_kernel1=5.9812 (ms),
+ elapsed_gramschmidt_kernel2=2.0732 (ms), elapsed_gramschmidt_kernel3=88.0987 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=4, elapsed_gramschmidt_kernel1=5.8674 (ms),
+ elapsed_gramschmidt_kernel2=2.0497 (ms), elapsed_gramschmidt_kernel3=89.5461 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=2, elapsed_gramschmidt_kernel1=5.7812 (ms),
+ elapsed_gramschmidt_kernel2=2.0072 (ms), elapsed_gramschmidt_kernel3=89.3502 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=1, elapsed_gramschmidt_kernel1=5.3598 (ms),
+ elapsed_gramschmidt_kernel2=2.0194 (ms), elapsed_gramschmidt_kernel3=86.7829 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=512, elapsed_gramschmidt_kernel1=7.2074 (ms),
+ elapsed_gramschmidt_kernel2=4.8201 (ms), elapsed_gramschmidt_kernel3=2979.7878 (ms)] ... PASS
+=============================== 
+checking log point [512 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=256, elapsed_gramschmidt_kernel1=7.2026 (ms),
+ elapsed_gramschmidt_kernel2=3.4566 (ms), elapsed_gramschmidt_kernel3=874.7247 (ms)] ... PASS
+=============================== 
+checking log point [512 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=128, elapsed_gramschmidt_kernel1=7.1923 (ms),
+ elapsed_gramschmidt_kernel2=2.7374 (ms), elapsed_gramschmidt_kernel3=328.8554 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=64, elapsed_gramschmidt_kernel1=7.2127 (ms),
+ elapsed_gramschmidt_kernel2=2.4100 (ms), elapsed_gramschmidt_kernel3=117.3276 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=32, elapsed_gramschmidt_kernel1=7.2220 (ms),
+ elapsed_gramschmidt_kernel2=2.3319 (ms), elapsed_gramschmidt_kernel3=97.5577 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=16, elapsed_gramschmidt_kernel1=7.2326 (ms),
+ elapsed_gramschmidt_kernel2=2.3478 (ms), elapsed_gramschmidt_kernel3=95.4401 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=8, elapsed_gramschmidt_kernel1=5.9122 (ms),
+ elapsed_gramschmidt_kernel2=2.2937 (ms), elapsed_gramschmidt_kernel3=91.9314 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=4, elapsed_gramschmidt_kernel1=5.9182 (ms),
+ elapsed_gramschmidt_kernel2=2.2877 (ms), elapsed_gramschmidt_kernel3=91.3748 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=2, elapsed_gramschmidt_kernel1=5.8028 (ms),
+ elapsed_gramschmidt_kernel2=2.3216 (ms), elapsed_gramschmidt_kernel3=88.5483 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=1, elapsed_gramschmidt_kernel1=5.3664 (ms),
+ elapsed_gramschmidt_kernel2=2.2748 (ms), elapsed_gramschmidt_kernel3=90.6950 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=512, elapsed_gramschmidt_kernel1=12.3110 (ms),
+ elapsed_gramschmidt_kernel2=5.2297 (ms), elapsed_gramschmidt_kernel3=2319.3333 (ms)] ... PASS
+=============================== 
+checking log point [512 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=256, elapsed_gramschmidt_kernel1=12.3096 (ms),
+ elapsed_gramschmidt_kernel2=3.7810 (ms), elapsed_gramschmidt_kernel3=653.7214 (ms)] ... PASS
+=============================== 
+checking log point [512 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=128, elapsed_gramschmidt_kernel1=12.3455 (ms),
+ elapsed_gramschmidt_kernel2=3.1630 (ms), elapsed_gramschmidt_kernel3=207.9533 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=64, elapsed_gramschmidt_kernel1=12.3361 (ms),
+ elapsed_gramschmidt_kernel2=2.8012 (ms), elapsed_gramschmidt_kernel3=142.8111 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=32, elapsed_gramschmidt_kernel1=12.3286 (ms),
+ elapsed_gramschmidt_kernel2=2.9462 (ms), elapsed_gramschmidt_kernel3=134.7215 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=16, elapsed_gramschmidt_kernel1=8.7665 (ms),
+ elapsed_gramschmidt_kernel2=2.8560 (ms), elapsed_gramschmidt_kernel3=101.5336 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=8, elapsed_gramschmidt_kernel1=8.7461 (ms),
+ elapsed_gramschmidt_kernel2=2.8169 (ms), elapsed_gramschmidt_kernel3=98.2430 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=4, elapsed_gramschmidt_kernel1=5.8936 (ms),
+ elapsed_gramschmidt_kernel2=2.8019 (ms), elapsed_gramschmidt_kernel3=93.4679 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=2, elapsed_gramschmidt_kernel1=5.7932 (ms),
+ elapsed_gramschmidt_kernel2=2.8369 (ms), elapsed_gramschmidt_kernel3=93.6876 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=32, elapsed_gramschmidt_kernel1=18.1934 (ms),
+ elapsed_gramschmidt_kernel2=4.9772 (ms), elapsed_gramschmidt_kernel3=571.2401 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=16, elapsed_gramschmidt_kernel1=18.1594 (ms),
+ elapsed_gramschmidt_kernel2=4.3807 (ms), elapsed_gramschmidt_kernel3=355.5093 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=8, elapsed_gramschmidt_kernel1=18.1906 (ms),
+ elapsed_gramschmidt_kernel2=4.0892 (ms), elapsed_gramschmidt_kernel3=346.8435 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=4, elapsed_gramschmidt_kernel1=18.1852 (ms),
+ elapsed_gramschmidt_kernel2=3.8922 (ms), elapsed_gramschmidt_kernel3=344.0594 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=2, elapsed_gramschmidt_kernel1=18.2229 (ms),
+ elapsed_gramschmidt_kernel2=3.8619 (ms), elapsed_gramschmidt_kernel3=347.0651 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=1, elapsed_gramschmidt_kernel1=18.1674 (ms),
+ elapsed_gramschmidt_kernel2=3.8539 (ms), elapsed_gramschmidt_kernel3=350.7585 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=64, elapsed_gramschmidt_kernel1=17.9943 (ms),
+ elapsed_gramschmidt_kernel2=5.2465 (ms), elapsed_gramschmidt_kernel3=1022.0154 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=32, elapsed_gramschmidt_kernel1=17.9404 (ms),
+ elapsed_gramschmidt_kernel2=4.6242 (ms), elapsed_gramschmidt_kernel3=444.5251 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=16, elapsed_gramschmidt_kernel1=17.8939 (ms),
+ elapsed_gramschmidt_kernel2=4.1325 (ms), elapsed_gramschmidt_kernel3=353.8014 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=8, elapsed_gramschmidt_kernel1=17.8932 (ms),
+ elapsed_gramschmidt_kernel2=3.9540 (ms), elapsed_gramschmidt_kernel3=344.6265 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=4, elapsed_gramschmidt_kernel1=17.9373 (ms),
+ elapsed_gramschmidt_kernel2=3.8481 (ms), elapsed_gramschmidt_kernel3=348.4773 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=2, elapsed_gramschmidt_kernel1=17.9982 (ms),
+ elapsed_gramschmidt_kernel2=3.8745 (ms), elapsed_gramschmidt_kernel3=355.2611 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=1, elapsed_gramschmidt_kernel1=18.0897 (ms),
+ elapsed_gramschmidt_kernel2=3.8641 (ms), elapsed_gramschmidt_kernel3=352.5976 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=128, elapsed_gramschmidt_kernel1=19.8332 (ms),
+ elapsed_gramschmidt_kernel2=6.7834 (ms), elapsed_gramschmidt_kernel3=2757.8477 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=64, elapsed_gramschmidt_kernel1=19.7620 (ms),
+ elapsed_gramschmidt_kernel2=5.3947 (ms), elapsed_gramschmidt_kernel3=932.5558 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=32, elapsed_gramschmidt_kernel1=19.7415 (ms),
+ elapsed_gramschmidt_kernel2=4.6382 (ms), elapsed_gramschmidt_kernel3=409.9342 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=16, elapsed_gramschmidt_kernel1=19.7399 (ms),
+ elapsed_gramschmidt_kernel2=4.2933 (ms), elapsed_gramschmidt_kernel3=351.9416 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=8, elapsed_gramschmidt_kernel1=19.7729 (ms),
+ elapsed_gramschmidt_kernel2=4.1392 (ms), elapsed_gramschmidt_kernel3=352.1948 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=4, elapsed_gramschmidt_kernel1=19.7625 (ms),
+ elapsed_gramschmidt_kernel2=4.1004 (ms), elapsed_gramschmidt_kernel3=369.6258 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=2, elapsed_gramschmidt_kernel1=17.9164 (ms),
+ elapsed_gramschmidt_kernel2=3.8468 (ms), elapsed_gramschmidt_kernel3=367.6004 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=1, elapsed_gramschmidt_kernel1=18.1172 (ms),
+ elapsed_gramschmidt_kernel2=3.9148 (ms), elapsed_gramschmidt_kernel3=370.7471 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=256, elapsed_gramschmidt_kernel1=19.9493 (ms),
+ elapsed_gramschmidt_kernel2=9.7314 (ms), elapsed_gramschmidt_kernel3=7739.3667 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=128, elapsed_gramschmidt_kernel1=19.8176 (ms),
+ elapsed_gramschmidt_kernel2=6.9804 (ms), elapsed_gramschmidt_kernel3=2603.9304 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=64, elapsed_gramschmidt_kernel1=19.7436 (ms),
+ elapsed_gramschmidt_kernel2=5.5720 (ms), elapsed_gramschmidt_kernel3=872.1138 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=32, elapsed_gramschmidt_kernel1=19.6765 (ms),
+ elapsed_gramschmidt_kernel2=4.8576 (ms), elapsed_gramschmidt_kernel3=389.6811 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=16, elapsed_gramschmidt_kernel1=19.6867 (ms),
+ elapsed_gramschmidt_kernel2=4.6104 (ms), elapsed_gramschmidt_kernel3=362.9366 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=8, elapsed_gramschmidt_kernel1=19.7351 (ms),
+ elapsed_gramschmidt_kernel2=4.6762 (ms), elapsed_gramschmidt_kernel3=368.1467 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=4, elapsed_gramschmidt_kernel1=19.9609 (ms),
+ elapsed_gramschmidt_kernel2=4.1958 (ms), elapsed_gramschmidt_kernel3=365.1387 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=2, elapsed_gramschmidt_kernel1=19.6995 (ms),
+ elapsed_gramschmidt_kernel2=4.0574 (ms), elapsed_gramschmidt_kernel3=368.5050 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=1, elapsed_gramschmidt_kernel1=18.1606 (ms),
+ elapsed_gramschmidt_kernel2=4.0717 (ms), elapsed_gramschmidt_kernel3=372.0121 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=512, elapsed_gramschmidt_kernel1=25.3059 (ms),
+ elapsed_gramschmidt_kernel2=15.7059 (ms), elapsed_gramschmidt_kernel3=27693.9492 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=256, elapsed_gramschmidt_kernel1=24.9860 (ms),
+ elapsed_gramschmidt_kernel2=10.1773 (ms), elapsed_gramschmidt_kernel3=6963.5825 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=128, elapsed_gramschmidt_kernel1=24.9469 (ms),
+ elapsed_gramschmidt_kernel2=7.3327 (ms), elapsed_gramschmidt_kernel3=2190.7812 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=64, elapsed_gramschmidt_kernel1=24.9618 (ms),
+ elapsed_gramschmidt_kernel2=5.8909 (ms), elapsed_gramschmidt_kernel3=678.9924 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=32, elapsed_gramschmidt_kernel1=24.8796 (ms),
+ elapsed_gramschmidt_kernel2=5.5603 (ms), elapsed_gramschmidt_kernel3=432.5690 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=16, elapsed_gramschmidt_kernel1=24.9277 (ms),
+ elapsed_gramschmidt_kernel2=5.7497 (ms), elapsed_gramschmidt_kernel3=410.1445 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=8, elapsed_gramschmidt_kernel1=20.1360 (ms),
+ elapsed_gramschmidt_kernel2=4.7023 (ms), elapsed_gramschmidt_kernel3=376.7180 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=4, elapsed_gramschmidt_kernel1=20.0025 (ms),
+ elapsed_gramschmidt_kernel2=4.6729 (ms), elapsed_gramschmidt_kernel3=377.4898 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=2, elapsed_gramschmidt_kernel1=19.7461 (ms),
+ elapsed_gramschmidt_kernel2=4.6986 (ms), elapsed_gramschmidt_kernel3=382.9044 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=512, by=1, elapsed_gramschmidt_kernel1=18.1857 (ms),
+ elapsed_gramschmidt_kernel2=4.5828 (ms), elapsed_gramschmidt_kernel3=370.6025 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1, by=1024, elapsed_gramschmidt_kernel1=45.7649 (ms),
+ elapsed_gramschmidt_kernel2=27.6221 (ms), elapsed_gramschmidt_kernel3=70305.7188 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=2, by=512, elapsed_gramschmidt_kernel1=45.5449 (ms),
+ elapsed_gramschmidt_kernel2=16.8961 (ms), elapsed_gramschmidt_kernel3=16002.1934 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=4, by=256, elapsed_gramschmidt_kernel1=45.4626 (ms),
+ elapsed_gramschmidt_kernel2=11.1665 (ms), elapsed_gramschmidt_kernel3=4587.1836 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=8, by=128, elapsed_gramschmidt_kernel1=45.4343 (ms),
+ elapsed_gramschmidt_kernel2=8.3706 (ms), elapsed_gramschmidt_kernel3=1411.8961 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=16, by=64, elapsed_gramschmidt_kernel1=45.4531 (ms),
+ elapsed_gramschmidt_kernel2=7.7605 (ms), elapsed_gramschmidt_kernel3=805.2662 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=32, by=32, elapsed_gramschmidt_kernel1=45.4645 (ms),
+ elapsed_gramschmidt_kernel2=7.9708 (ms), elapsed_gramschmidt_kernel3=601.9610 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=64, by=16, elapsed_gramschmidt_kernel1=31.1979 (ms),
+ elapsed_gramschmidt_kernel2=5.9604 (ms), elapsed_gramschmidt_kernel3=429.4428 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=128, by=8, elapsed_gramschmidt_kernel1=31.1398 (ms),
+ elapsed_gramschmidt_kernel2=5.7502 (ms), elapsed_gramschmidt_kernel3=406.5691 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=256, by=4, elapsed_gramschmidt_kernel1=19.9734 (ms),
+ elapsed_gramschmidt_kernel2=5.6632 (ms), elapsed_gramschmidt_kernel3=409.9781 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=512, by=2, elapsed_gramschmidt_kernel1=19.7557 (ms),
+ elapsed_gramschmidt_kernel2=5.6554 (ms), elapsed_gramschmidt_kernel3=394.7646 (ms)] ... PASS
+=============================== 
+checking log point [1024 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=1024, bx=1024, by=1, elapsed_gramschmidt_kernel1=18.1863 (ms),
+ elapsed_gramschmidt_kernel2=5.6390 (ms), elapsed_gramschmidt_kernel3=402.1694 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=32, elapsed_gramschmidt_kernel1=88.6041 (ms),
+ elapsed_gramschmidt_kernel2=12.4791 (ms), elapsed_gramschmidt_kernel3=4635.7334 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=16, elapsed_gramschmidt_kernel1=85.4899 (ms),
+ elapsed_gramschmidt_kernel2=10.0712 (ms), elapsed_gramschmidt_kernel3=2985.3799 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=8, elapsed_gramschmidt_kernel1=82.6385 (ms),
+ elapsed_gramschmidt_kernel2=8.9127 (ms), elapsed_gramschmidt_kernel3=2205.1782 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=4, elapsed_gramschmidt_kernel1=82.8920 (ms),
+ elapsed_gramschmidt_kernel2=8.6014 (ms), elapsed_gramschmidt_kernel3=2211.5771 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=2, elapsed_gramschmidt_kernel1=84.4392 (ms),
+ elapsed_gramschmidt_kernel2=8.3047 (ms), elapsed_gramschmidt_kernel3=2229.0991 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=1, elapsed_gramschmidt_kernel1=83.6491 (ms),
+ elapsed_gramschmidt_kernel2=8.2290 (ms), elapsed_gramschmidt_kernel3=2228.3325 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=64, elapsed_gramschmidt_kernel1=88.2342 (ms),
+ elapsed_gramschmidt_kernel2=13.5974 (ms), elapsed_gramschmidt_kernel3=6484.8101 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=32, elapsed_gramschmidt_kernel1=84.7782 (ms),
+ elapsed_gramschmidt_kernel2=10.6985 (ms), elapsed_gramschmidt_kernel3=3172.7131 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=16, elapsed_gramschmidt_kernel1=81.9016 (ms),
+ elapsed_gramschmidt_kernel2=9.4155 (ms), elapsed_gramschmidt_kernel3=2280.7803 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=8, elapsed_gramschmidt_kernel1=82.0312 (ms),
+ elapsed_gramschmidt_kernel2=8.7304 (ms), elapsed_gramschmidt_kernel3=2218.1743 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=4, elapsed_gramschmidt_kernel1=83.3641 (ms),
+ elapsed_gramschmidt_kernel2=8.5940 (ms), elapsed_gramschmidt_kernel3=2235.5815 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=2, elapsed_gramschmidt_kernel1=82.6229 (ms),
+ elapsed_gramschmidt_kernel2=8.4679 (ms), elapsed_gramschmidt_kernel3=2243.7515 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=1, elapsed_gramschmidt_kernel1=83.2038 (ms),
+ elapsed_gramschmidt_kernel2=8.3031 (ms), elapsed_gramschmidt_kernel3=2229.0637 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=128, elapsed_gramschmidt_kernel1=102.1844 (ms),
+ elapsed_gramschmidt_kernel2=19.6632 (ms), elapsed_gramschmidt_kernel3=21486.4023 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=64, elapsed_gramschmidt_kernel1=98.4175 (ms),
+ elapsed_gramschmidt_kernel2=14.0910 (ms), elapsed_gramschmidt_kernel3=5507.9609 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=32, elapsed_gramschmidt_kernel1=94.8617 (ms),
+ elapsed_gramschmidt_kernel2=11.1776 (ms), elapsed_gramschmidt_kernel3=3090.4988 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=16, elapsed_gramschmidt_kernel1=91.6083 (ms),
+ elapsed_gramschmidt_kernel2=9.6958 (ms), elapsed_gramschmidt_kernel3=2241.2424 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=8, elapsed_gramschmidt_kernel1=93.3193 (ms),
+ elapsed_gramschmidt_kernel2=9.2030 (ms), elapsed_gramschmidt_kernel3=2257.3347 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=4, elapsed_gramschmidt_kernel1=92.9698 (ms),
+ elapsed_gramschmidt_kernel2=9.3693 (ms), elapsed_gramschmidt_kernel3=2282.7168 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=2, elapsed_gramschmidt_kernel1=83.0855 (ms),
+ elapsed_gramschmidt_kernel2=8.5128 (ms), elapsed_gramschmidt_kernel3=2279.2173 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=1, elapsed_gramschmidt_kernel1=82.7191 (ms),
+ elapsed_gramschmidt_kernel2=8.2425 (ms), elapsed_gramschmidt_kernel3=2251.8989 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=256, elapsed_gramschmidt_kernel1=110.5238 (ms),
+ elapsed_gramschmidt_kernel2=31.4666 (ms), elapsed_gramschmidt_kernel3=66309.7422 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=128, elapsed_gramschmidt_kernel1=108.6864 (ms),
+ elapsed_gramschmidt_kernel2=20.5033 (ms), elapsed_gramschmidt_kernel3=19463.5742 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=64, elapsed_gramschmidt_kernel1=104.2050 (ms),
+ elapsed_gramschmidt_kernel2=14.6812 (ms), elapsed_gramschmidt_kernel3=5313.3345 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=32, elapsed_gramschmidt_kernel1=99.8207 (ms),
+ elapsed_gramschmidt_kernel2=11.7726 (ms), elapsed_gramschmidt_kernel3=3040.2214 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=16, elapsed_gramschmidt_kernel1=98.0155 (ms),
+ elapsed_gramschmidt_kernel2=10.6585 (ms), elapsed_gramschmidt_kernel3=2284.3440 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=8, elapsed_gramschmidt_kernel1=97.8544 (ms),
+ elapsed_gramschmidt_kernel2=11.4256 (ms), elapsed_gramschmidt_kernel3=2304.9417 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=4, elapsed_gramschmidt_kernel1=93.7671 (ms),
+ elapsed_gramschmidt_kernel2=9.4080 (ms), elapsed_gramschmidt_kernel3=2296.1011 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=2, elapsed_gramschmidt_kernel1=91.5997 (ms),
+ elapsed_gramschmidt_kernel2=8.6583 (ms), elapsed_gramschmidt_kernel3=2285.0754 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=1, elapsed_gramschmidt_kernel1=82.5789 (ms),
+ elapsed_gramschmidt_kernel2=8.6062 (ms), elapsed_gramschmidt_kernel3=2286.4961 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=512, elapsed_gramschmidt_kernel1=105.6499 (ms),
+ elapsed_gramschmidt_kernel2=55.0351 (ms), elapsed_gramschmidt_kernel3=248054.7188 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=256, elapsed_gramschmidt_kernel1=104.8477 (ms),
+ elapsed_gramschmidt_kernel2=33.3473 (ms), elapsed_gramschmidt_kernel3=55790.5039 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=128, elapsed_gramschmidt_kernel1=104.2669 (ms),
+ elapsed_gramschmidt_kernel2=21.8125 (ms), elapsed_gramschmidt_kernel3=15054.2246 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=64, elapsed_gramschmidt_kernel1=102.7361 (ms),
+ elapsed_gramschmidt_kernel2=15.9068 (ms), elapsed_gramschmidt_kernel3=5007.5308 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=32, elapsed_gramschmidt_kernel1=101.6338 (ms),
+ elapsed_gramschmidt_kernel2=14.8622 (ms), elapsed_gramschmidt_kernel3=3125.3315 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=16, elapsed_gramschmidt_kernel1=100.6807 (ms),
+ elapsed_gramschmidt_kernel2=15.5872 (ms), elapsed_gramschmidt_kernel3=2385.6260 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=8, elapsed_gramschmidt_kernel1=95.2733 (ms),
+ elapsed_gramschmidt_kernel2=11.6791 (ms), elapsed_gramschmidt_kernel3=2313.0068 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=4, elapsed_gramschmidt_kernel1=92.9717 (ms),
+ elapsed_gramschmidt_kernel2=9.6197 (ms), elapsed_gramschmidt_kernel3=2303.5715 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=2, elapsed_gramschmidt_kernel1=91.3281 (ms),
+ elapsed_gramschmidt_kernel2=9.4487 (ms), elapsed_gramschmidt_kernel3=2331.5549 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=512, by=1, elapsed_gramschmidt_kernel1=82.9623 (ms),
+ elapsed_gramschmidt_kernel2=9.4555 (ms), elapsed_gramschmidt_kernel3=2355.2163 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1, by=1024, elapsed_gramschmidt_kernel1=176.6575 (ms),
+ elapsed_gramschmidt_kernel2=101.5789 (ms), elapsed_gramschmidt_kernel3=546910.1250 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=2, by=512, elapsed_gramschmidt_kernel1=175.7046 (ms),
+ elapsed_gramschmidt_kernel2=59.2080 (ms), elapsed_gramschmidt_kernel3=130354.8203 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=4, by=256, elapsed_gramschmidt_kernel1=175.3997 (ms),
+ elapsed_gramschmidt_kernel2=36.3284 (ms), elapsed_gramschmidt_kernel3=32887.5234 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=8, by=128, elapsed_gramschmidt_kernel1=175.3519 (ms),
+ elapsed_gramschmidt_kernel2=24.9286 (ms), elapsed_gramschmidt_kernel3=11008.8652 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=16, by=64, elapsed_gramschmidt_kernel1=175.2530 (ms),
+ elapsed_gramschmidt_kernel2=22.2271 (ms), elapsed_gramschmidt_kernel3=5922.5923 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=32, by=32, elapsed_gramschmidt_kernel1=175.1587 (ms),
+ elapsed_gramschmidt_kernel2=24.8647 (ms), elapsed_gramschmidt_kernel3=4128.6660 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=64, by=16, elapsed_gramschmidt_kernel1=120.3939 (ms),
+ elapsed_gramschmidt_kernel2=16.0646 (ms), elapsed_gramschmidt_kernel3=2444.4758 (ms)] ... PASS
+=============================== 
+checking log point [2048 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=128, by=8, elapsed_gramschmidt_kernel1=119.9258 (ms),
+ elapsed_gramschmidt_kernel2=12.0122 (ms), elapsed_gramschmidt_kernel3=2395.9604 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=256, by=4, elapsed_gramschmidt_kernel1=93.4282 (ms),
+ elapsed_gramschmidt_kernel2=11.5804 (ms), elapsed_gramschmidt_kernel3=2409.0713 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=512, by=2, elapsed_gramschmidt_kernel1=92.1692 (ms),
+ elapsed_gramschmidt_kernel2=11.4809 (ms), elapsed_gramschmidt_kernel3=2427.4307 (ms)] ... PASS
+=============================== 
+checking log point [2048 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=2048, bx=1024, by=1, elapsed_gramschmidt_kernel1=82.8381 (ms),
+ elapsed_gramschmidt_kernel2=11.5917 (ms), elapsed_gramschmidt_kernel3=2419.5063 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=32, elapsed_gramschmidt_kernel1=374.2748 (ms),
+ elapsed_gramschmidt_kernel2=35.0809 (ms), elapsed_gramschmidt_kernel3=34729.2969 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=16, elapsed_gramschmidt_kernel1=371.6942 (ms),
+ elapsed_gramschmidt_kernel2=24.7116 (ms), elapsed_gramschmidt_kernel3=20088.0117 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=8, elapsed_gramschmidt_kernel1=369.1140 (ms),
+ elapsed_gramschmidt_kernel2=20.3325 (ms), elapsed_gramschmidt_kernel3=13411.7061 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=4, elapsed_gramschmidt_kernel1=367.1325 (ms),
+ elapsed_gramschmidt_kernel2=18.2098 (ms), elapsed_gramschmidt_kernel3=10207.2695 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=2, elapsed_gramschmidt_kernel1=366.9829 (ms),
+ elapsed_gramschmidt_kernel2=17.6950 (ms), elapsed_gramschmidt_kernel3=10398.1689 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=1, elapsed_gramschmidt_kernel1=367.5719 (ms),
+ elapsed_gramschmidt_kernel2=17.5496 (ms), elapsed_gramschmidt_kernel3=10022.3848 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=64, elapsed_gramschmidt_kernel1=374.1420 (ms),
+ elapsed_gramschmidt_kernel2=39.0820 (ms), elapsed_gramschmidt_kernel3=50859.2148 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=32, elapsed_gramschmidt_kernel1=371.0547 (ms),
+ elapsed_gramschmidt_kernel2=28.0988 (ms), elapsed_gramschmidt_kernel3=21115.5176 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=16, elapsed_gramschmidt_kernel1=369.3838 (ms),
+ elapsed_gramschmidt_kernel2=22.3569 (ms), elapsed_gramschmidt_kernel3=13894.9766 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=8, elapsed_gramschmidt_kernel1=367.5565 (ms),
+ elapsed_gramschmidt_kernel2=19.4509 (ms), elapsed_gramschmidt_kernel3=10319.8955 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=4, elapsed_gramschmidt_kernel1=366.5036 (ms),
+ elapsed_gramschmidt_kernel2=18.4318 (ms), elapsed_gramschmidt_kernel3=10412.4707 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=2, elapsed_gramschmidt_kernel1=366.6948 (ms),
+ elapsed_gramschmidt_kernel2=18.8062 (ms), elapsed_gramschmidt_kernel3=10097.8682 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=1, elapsed_gramschmidt_kernel1=367.2663 (ms),
+ elapsed_gramschmidt_kernel2=17.6360 (ms), elapsed_gramschmidt_kernel3=10043.4678 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=128, elapsed_gramschmidt_kernel1=406.3784 (ms),
+ elapsed_gramschmidt_kernel2=63.2266 (ms), elapsed_gramschmidt_kernel3=189256.6562 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=64, elapsed_gramschmidt_kernel1=402.1025 (ms),
+ elapsed_gramschmidt_kernel2=41.1884 (ms), elapsed_gramschmidt_kernel3=43063.5781 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=32, elapsed_gramschmidt_kernel1=399.5790 (ms),
+ elapsed_gramschmidt_kernel2=29.5710 (ms), elapsed_gramschmidt_kernel3=20717.3379 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=16, elapsed_gramschmidt_kernel1=398.0892 (ms),
+ elapsed_gramschmidt_kernel2=23.6338 (ms), elapsed_gramschmidt_kernel3=13608.6299 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=8, elapsed_gramschmidt_kernel1=395.9870 (ms),
+ elapsed_gramschmidt_kernel2=21.1535 (ms), elapsed_gramschmidt_kernel3=10569.1191 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=4, elapsed_gramschmidt_kernel1=396.3186 (ms),
+ elapsed_gramschmidt_kernel2=22.1859 (ms), elapsed_gramschmidt_kernel3=10214.4941 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=2, elapsed_gramschmidt_kernel1=367.2271 (ms),
+ elapsed_gramschmidt_kernel2=18.8842 (ms), elapsed_gramschmidt_kernel3=10157.0918 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=1, elapsed_gramschmidt_kernel1=369.1976 (ms),
+ elapsed_gramschmidt_kernel2=17.5902 (ms), elapsed_gramschmidt_kernel3=10089.1904 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=256, elapsed_gramschmidt_kernel1=458.3214 (ms),
+ elapsed_gramschmidt_kernel2=110.1152 (ms), elapsed_gramschmidt_kernel3=580865.8750 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=128, elapsed_gramschmidt_kernel1=456.2972 (ms),
+ elapsed_gramschmidt_kernel2=66.8181 (ms), elapsed_gramschmidt_kernel3=172305.0156 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=64, elapsed_gramschmidt_kernel1=449.9390 (ms),
+ elapsed_gramschmidt_kernel2=44.1201 (ms), elapsed_gramschmidt_kernel3=40013.8203 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=32, elapsed_gramschmidt_kernel1=446.7655 (ms),
+ elapsed_gramschmidt_kernel2=32.3084 (ms), elapsed_gramschmidt_kernel3=20483.0859 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=16, elapsed_gramschmidt_kernel1=445.0369 (ms),
+ elapsed_gramschmidt_kernel2=27.8452 (ms), elapsed_gramschmidt_kernel3=13869.8418 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=8, elapsed_gramschmidt_kernel1=442.3872 (ms),
+ elapsed_gramschmidt_kernel2=30.2443 (ms), elapsed_gramschmidt_kernel3=10423.5498 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=4, elapsed_gramschmidt_kernel1=399.2123 (ms),
+ elapsed_gramschmidt_kernel2=22.9127 (ms), elapsed_gramschmidt_kernel3=10289.1328 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=2, elapsed_gramschmidt_kernel1=397.9973 (ms),
+ elapsed_gramschmidt_kernel2=18.9715 (ms), elapsed_gramschmidt_kernel3=10235.0986 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=1, elapsed_gramschmidt_kernel1=368.1027 (ms),
+ elapsed_gramschmidt_kernel2=17.6614 (ms), elapsed_gramschmidt_kernel3=10205.7588 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=512, elapsed_gramschmidt_kernel1=409.7942 (ms),
+ elapsed_gramschmidt_kernel2=203.9940 (ms), elapsed_gramschmidt_kernel3=2121893.5000 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=256, elapsed_gramschmidt_kernel1=404.9610 (ms),
+ elapsed_gramschmidt_kernel2=117.4879 (ms), elapsed_gramschmidt_kernel3=476736.4062 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=128, elapsed_gramschmidt_kernel1=403.8984 (ms),
+ elapsed_gramschmidt_kernel2=72.6589 (ms), elapsed_gramschmidt_kernel3=126783.0234 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=64, elapsed_gramschmidt_kernel1=402.1221 (ms),
+ elapsed_gramschmidt_kernel2=48.7993 (ms), elapsed_gramschmidt_kernel3=36744.5703 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=32, elapsed_gramschmidt_kernel1=401.4035 (ms),
+ elapsed_gramschmidt_kernel2=41.3597 (ms), elapsed_gramschmidt_kernel3=20879.3770 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=16, elapsed_gramschmidt_kernel1=401.0579 (ms),
+ elapsed_gramschmidt_kernel2=44.8037 (ms), elapsed_gramschmidt_kernel3=14351.6182 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=8, elapsed_gramschmidt_kernel1=405.3710 (ms),
+ elapsed_gramschmidt_kernel2=31.1065 (ms), elapsed_gramschmidt_kernel3=10519.6191 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=4, elapsed_gramschmidt_kernel1=405.1606 (ms),
+ elapsed_gramschmidt_kernel2=23.3737 (ms), elapsed_gramschmidt_kernel3=10327.8320 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=2, elapsed_gramschmidt_kernel1=397.0434 (ms),
+ elapsed_gramschmidt_kernel2=19.4249 (ms), elapsed_gramschmidt_kernel3=10343.1113 (ms)] ... PASS
+=============================== 
+checking log point [4096 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=512, by=1, elapsed_gramschmidt_kernel1=368.9336 (ms),
+ elapsed_gramschmidt_kernel2=19.0899 (ms), elapsed_gramschmidt_kernel3=10576.4033 (ms)] ... PASS
+=============================== 
+checking log point [4096 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1, by=1024, elapsed_gramschmidt_kernel1=693.8395 (ms),
+ elapsed_gramschmidt_kernel2=387.6835 (ms), elapsed_gramschmidt_kernel3=4376146.5000 (ms)] ... PASS
+=============================== 
+checking log point [4096 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=2, by=512, elapsed_gramschmidt_kernel1=688.8723 (ms),
+ elapsed_gramschmidt_kernel2=218.8409 (ms), elapsed_gramschmidt_kernel3=1088881.5000 (ms)] ... PASS
+=============================== 
+checking log point [4096 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=4, by=256, elapsed_gramschmidt_kernel1=687.2949 (ms),
+ elapsed_gramschmidt_kernel2=129.3599 (ms), elapsed_gramschmidt_kernel3=260877.5000 (ms)] ... PASS
+=============================== 
+checking log point [4096 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=8, by=128, elapsed_gramschmidt_kernel1=687.1930 (ms),
+ elapsed_gramschmidt_kernel2=83.2780 (ms), elapsed_gramschmidt_kernel3=85810.9219 (ms)] ... PASS
+=============================== 
+checking log point [4096 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=16, by=64, elapsed_gramschmidt_kernel1=687.0792 (ms),
+ elapsed_gramschmidt_kernel2=67.3789 (ms), elapsed_gramschmidt_kernel3=43099.8008 (ms)] ... PASS
+=============================== 
+checking log point [4096 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=32, by=32, elapsed_gramschmidt_kernel1=686.8051 (ms),
+ elapsed_gramschmidt_kernel2=77.0909 (ms), elapsed_gramschmidt_kernel3=27325.6543 (ms)] ... PASS
+=============================== 
+checking log point [4096 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=64, by=16, elapsed_gramschmidt_kernel1=469.7264 (ms),
+ elapsed_gramschmidt_kernel2=49.7149 (ms), elapsed_gramschmidt_kernel3=14925.2793 (ms)] ... PASS
+=============================== 
+checking log point [4096 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=128, by=8, elapsed_gramschmidt_kernel1=469.3653 (ms),
+ elapsed_gramschmidt_kernel2=31.9662 (ms), elapsed_gramschmidt_kernel3=10752.7510 (ms)] ... PASS
+=============================== 
+checking log point [4096 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=256, by=4, elapsed_gramschmidt_kernel1=406.3387 (ms),
+ elapsed_gramschmidt_kernel2=24.0893 (ms), elapsed_gramschmidt_kernel3=10721.9492 (ms)] ... PASS
+=============================== 
+checking log point [4096 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=512, by=2, elapsed_gramschmidt_kernel1=398.3911 (ms),
+ elapsed_gramschmidt_kernel2=23.3329 (ms), elapsed_gramschmidt_kernel3=10899.6680 (ms)] ... PASS
+=============================== 
+checking log point [4096 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=4096, bx=1024, by=1, elapsed_gramschmidt_kernel1=370.2662 (ms),
+ elapsed_gramschmidt_kernel2=23.3715 (ms), elapsed_gramschmidt_kernel3=11142.2178 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=32, elapsed_gramschmidt_kernel1=1522.8839 (ms),
+ elapsed_gramschmidt_kernel2=111.3098 (ms), elapsed_gramschmidt_kernel3=259501.8594 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=16, elapsed_gramschmidt_kernel1=1518.3594 (ms),
+ elapsed_gramschmidt_kernel2=70.5621 (ms), elapsed_gramschmidt_kernel3=142728.7812 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=8, elapsed_gramschmidt_kernel1=1512.0349 (ms),
+ elapsed_gramschmidt_kernel2=52.6968 (ms), elapsed_gramschmidt_kernel3=85866.3984 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=4, elapsed_gramschmidt_kernel1=1510.1069 (ms),
+ elapsed_gramschmidt_kernel2=41.7437 (ms), elapsed_gramschmidt_kernel3=60233.3750 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=2, elapsed_gramschmidt_kernel1=1507.0657 (ms),
+ elapsed_gramschmidt_kernel2=38.7463 (ms), elapsed_gramschmidt_kernel3=48417.6914 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=1, elapsed_gramschmidt_kernel1=1501.7318 (ms),
+ elapsed_gramschmidt_kernel2=38.6635 (ms), elapsed_gramschmidt_kernel3=43883.6797 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=64, elapsed_gramschmidt_kernel1=1513.3997 (ms),
+ elapsed_gramschmidt_kernel2=125.9394 (ms), elapsed_gramschmidt_kernel3=429862.1562 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=32, elapsed_gramschmidt_kernel1=1507.1663 (ms),
+ elapsed_gramschmidt_kernel2=82.0242 (ms), elapsed_gramschmidt_kernel3=149417.6562 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=16, elapsed_gramschmidt_kernel1=1504.0818 (ms),
+ elapsed_gramschmidt_kernel2=58.9981 (ms), elapsed_gramschmidt_kernel3=90112.1172 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=8, elapsed_gramschmidt_kernel1=1502.3665 (ms),
+ elapsed_gramschmidt_kernel2=47.8676 (ms), elapsed_gramschmidt_kernel3=62736.9062 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=4, elapsed_gramschmidt_kernel1=1500.0354 (ms),
+ elapsed_gramschmidt_kernel2=43.0758 (ms), elapsed_gramschmidt_kernel3=49206.5742 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=2, elapsed_gramschmidt_kernel1=1495.0955 (ms),
+ elapsed_gramschmidt_kernel2=43.9182 (ms), elapsed_gramschmidt_kernel3=44148.8867 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=1, elapsed_gramschmidt_kernel1=1504.4244 (ms),
+ elapsed_gramschmidt_kernel2=38.4089 (ms), elapsed_gramschmidt_kernel3=44090.4609 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=128, elapsed_gramschmidt_kernel1=1640.1277 (ms),
+ elapsed_gramschmidt_kernel2=221.2365 (ms), elapsed_gramschmidt_kernel3=1707692.5000 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=64, elapsed_gramschmidt_kernel1=1628.1577 (ms),
+ elapsed_gramschmidt_kernel2=133.6031 (ms), elapsed_gramschmidt_kernel3=376678.2812 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=32, elapsed_gramschmidt_kernel1=1622.8293 (ms),
+ elapsed_gramschmidt_kernel2=86.7387 (ms), elapsed_gramschmidt_kernel3=147537.8438 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=16, elapsed_gramschmidt_kernel1=1619.7736 (ms),
+ elapsed_gramschmidt_kernel2=64.1097 (ms), elapsed_gramschmidt_kernel3=89588.6484 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=8, elapsed_gramschmidt_kernel1=1619.1062 (ms),
+ elapsed_gramschmidt_kernel2=54.6847 (ms), elapsed_gramschmidt_kernel3=62664.0195 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=4, elapsed_gramschmidt_kernel1=1613.8472 (ms),
+ elapsed_gramschmidt_kernel2=57.5864 (ms), elapsed_gramschmidt_kernel3=45063.2656 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=2, elapsed_gramschmidt_kernel1=1498.9742 (ms),
+ elapsed_gramschmidt_kernel2=44.3751 (ms), elapsed_gramschmidt_kernel3=44449.5195 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=1, elapsed_gramschmidt_kernel1=1507.2599 (ms),
+ elapsed_gramschmidt_kernel2=38.5610 (ms), elapsed_gramschmidt_kernel3=44233.0312 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=256, elapsed_gramschmidt_kernel1=1776.4877 (ms),
+ elapsed_gramschmidt_kernel2=406.6101 (ms), elapsed_gramschmidt_kernel3=4978340.5000 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=128, elapsed_gramschmidt_kernel1=1767.9949 (ms),
+ elapsed_gramschmidt_kernel2=234.8907 (ms), elapsed_gramschmidt_kernel3=1511181.6250 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=64, elapsed_gramschmidt_kernel1=1757.6252 (ms),
+ elapsed_gramschmidt_kernel2=142.9027 (ms), elapsed_gramschmidt_kernel3=341942.8750 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=32, elapsed_gramschmidt_kernel1=1751.5006 (ms),
+ elapsed_gramschmidt_kernel2=97.0624 (ms), elapsed_gramschmidt_kernel3=146176.0312 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=16, elapsed_gramschmidt_kernel1=1749.1849 (ms),
+ elapsed_gramschmidt_kernel2=79.8019 (ms), elapsed_gramschmidt_kernel3=90655.2266 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=8, elapsed_gramschmidt_kernel1=1746.8878 (ms),
+ elapsed_gramschmidt_kernel2=87.4334 (ms), elapsed_gramschmidt_kernel3=60208.9961 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=4, elapsed_gramschmidt_kernel1=1626.2789 (ms),
+ elapsed_gramschmidt_kernel2=60.3891 (ms), elapsed_gramschmidt_kernel3=45644.1758 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=2, elapsed_gramschmidt_kernel1=1617.6528 (ms),
+ elapsed_gramschmidt_kernel2=45.9674 (ms), elapsed_gramschmidt_kernel3=44770.6719 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=1, elapsed_gramschmidt_kernel1=1510.0677 (ms),
+ elapsed_gramschmidt_kernel2=40.8259 (ms), elapsed_gramschmidt_kernel3=44643.5938 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=512, elapsed_gramschmidt_kernel1=1628.2212 (ms),
+ elapsed_gramschmidt_kernel2=778.9243 (ms), elapsed_gramschmidt_kernel3=17606210.0000 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=256, elapsed_gramschmidt_kernel1=1619.0854 (ms),
+ elapsed_gramschmidt_kernel2=436.0847 (ms), elapsed_gramschmidt_kernel3=4014404.2500 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=128, elapsed_gramschmidt_kernel1=1613.8885 (ms),
+ elapsed_gramschmidt_kernel2=253.9339 (ms), elapsed_gramschmidt_kernel3=1111075.7500 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=64, elapsed_gramschmidt_kernel1=1609.8926 (ms),
+ elapsed_gramschmidt_kernel2=162.3671 (ms), elapsed_gramschmidt_kernel3=285316.0938 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=32, elapsed_gramschmidt_kernel1=1605.9272 (ms),
+ elapsed_gramschmidt_kernel2=128.1402 (ms), elapsed_gramschmidt_kernel3=148718.7656 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=16, elapsed_gramschmidt_kernel1=1606.7043 (ms),
+ elapsed_gramschmidt_kernel2=145.8260 (ms), elapsed_gramschmidt_kernel3=92522.2109 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=8, elapsed_gramschmidt_kernel1=1645.1591 (ms),
+ elapsed_gramschmidt_kernel2=90.0434 (ms), elapsed_gramschmidt_kernel3=61743.7930 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=4, elapsed_gramschmidt_kernel1=1657.6138 (ms),
+ elapsed_gramschmidt_kernel2=62.2173 (ms), elapsed_gramschmidt_kernel3=46327.3086 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=2, elapsed_gramschmidt_kernel1=1616.7457 (ms),
+ elapsed_gramschmidt_kernel2=46.6268 (ms), elapsed_gramschmidt_kernel3=45111.2695 (ms)] ... PASS
+=============================== 
+checking log point [8192 512 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=512, by=1, elapsed_gramschmidt_kernel1=1511.4299 (ms),
+ elapsed_gramschmidt_kernel2=39.7939 (ms), elapsed_gramschmidt_kernel3=46038.0781 (ms)] ... PASS
+=============================== 
+checking log point [8192 1 1024 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1, by=1024, elapsed_gramschmidt_kernel1=2717.5598 (ms),
+ elapsed_gramschmidt_kernel2=1509.1196 (ms), elapsed_gramschmidt_kernel3=35143392.0000 (ms)] ... PASS
+=============================== 
+checking log point [8192 2 512 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=2, by=512, elapsed_gramschmidt_kernel1=2711.4023 (ms),
+ elapsed_gramschmidt_kernel2=835.8251 (ms), elapsed_gramschmidt_kernel3=8902240.0000 (ms)] ... PASS
+=============================== 
+checking log point [8192 4 256 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=4, by=256, elapsed_gramschmidt_kernel1=2704.8613 (ms),
+ elapsed_gramschmidt_kernel2=473.2520 (ms), elapsed_gramschmidt_kernel3=2077149.2500 (ms)] ... PASS
+=============================== 
+checking log point [8192 8 128 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=8, by=128, elapsed_gramschmidt_kernel1=2703.9226 (ms),
+ elapsed_gramschmidt_kernel2=291.7774 (ms), elapsed_gramschmidt_kernel3=677977.6250 (ms)] ... PASS
+=============================== 
+checking log point [8192 16 64 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=16, by=64, elapsed_gramschmidt_kernel1=2703.3660 (ms),
+ elapsed_gramschmidt_kernel2=224.1564 (ms), elapsed_gramschmidt_kernel3=329091.5625 (ms)] ... PASS
+=============================== 
+checking log point [8192 32 32 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=32, by=32, elapsed_gramschmidt_kernel1=2703.7961 (ms),
+ elapsed_gramschmidt_kernel2=260.3973 (ms), elapsed_gramschmidt_kernel3=200841.5781 (ms)] ... PASS
+=============================== 
+checking log point [8192 64 16 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=64, by=16, elapsed_gramschmidt_kernel1=1854.0146 (ms),
+ elapsed_gramschmidt_kernel2=153.8769 (ms), elapsed_gramschmidt_kernel3=97028.9219 (ms)] ... PASS
+=============================== 
+checking log point [8192 128 8 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=128, by=8, elapsed_gramschmidt_kernel1=1855.3198 (ms),
+ elapsed_gramschmidt_kernel2=99.4476 (ms), elapsed_gramschmidt_kernel3=66031.1172 (ms)] ... PASS
+=============================== 
+checking log point [8192 256 4 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=256, by=4, elapsed_gramschmidt_kernel1=1657.3734 (ms),
+ elapsed_gramschmidt_kernel2=64.0421 (ms), elapsed_gramschmidt_kernel3=51920.2070 (ms)] ... PASS
+=============================== 
+checking log point [8192 512 2 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=512, by=2, elapsed_gramschmidt_kernel1=1620.3069 (ms),
+ elapsed_gramschmidt_kernel2=48.1830 (ms), elapsed_gramschmidt_kernel3=49565.3555 (ms)] ... PASS
+=============================== 
+checking log point [8192 1024 1 ]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=8192, bx=1024, by=1, elapsed_gramschmidt_kernel1=1511.3186 (ms),
+ elapsed_gramschmidt_kernel2=47.7091 (ms), elapsed_gramschmidt_kernel3=49088.0234 (ms)] ... PASS
+=============================== 

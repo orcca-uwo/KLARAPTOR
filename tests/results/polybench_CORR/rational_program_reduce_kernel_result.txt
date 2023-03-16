@@ -1,0 +1,1230 @@
+Mem_LD = 501
+[checking b0=1, b1=32]
+[N=64, b0=1, b1=32, n_blocks=-44, z=0, Occupancy=0.50, Ec=0.00, MWP=13, CWP=32, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=2, b1=16]
+[N=64, b0=2, b1=16, n_blocks=-11, z=0, Occupancy=0.50, Ec=0.00, MWP=12, CWP=32, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=64, b0=4, b1=8, n_blocks=50, z=0, Occupancy=0.03, Ec=3425.83, MWP=2, CWP=2, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=4]
+[N=64, b0=8, b1=4, n_blocks=122, z=0, Occupancy=0.06, Ec=3475.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=16, b1=2]
+[N=64, b0=16, b1=2, n_blocks=253, z=0, Occupancy=0.11, Ec=3448.00, MWP=7, CWP=7, mcwp_case=1]
+------------------------------------
+[checking b0=1, b1=64]
+[N=64, b0=1, b1=64, n_blocks=42, z=0, Occupancy=0.06, Ec=3343.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=2, b1=32]
+[N=64, b0=2, b1=32, n_blocks=-6, z=0, Occupancy=1.00, Ec=0.00, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=64, b0=4, b1=16, n_blocks=24, z=0, Occupancy=0.03, Ec=3377.83, MWP=2, CWP=2, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=8]
+[N=64, b0=8, b1=8, n_blocks=61, z=0, Occupancy=0.06, Ec=3343.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=16, b1=4]
+[N=64, b0=16, b1=4, n_blocks=127, z=0, Occupancy=0.12, Ec=3514.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=32, b1=2]
+[N=64, b0=32, b1=2, n_blocks=256, z=0, Occupancy=0.22, Ec=4773.90, MWP=10, CWP=14, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=64]
+[N=64, b0=2, b1=64, n_blocks=-5, z=0, Occupancy=1.00, Ec=0.00, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=32]
+[N=64, b0=4, b1=32, n_blocks=11, z=0, Occupancy=0.06, Ec=3367.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=16]
+[N=64, b0=8, b1=16, n_blocks=31, z=0, Occupancy=0.06, Ec=3367.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=16, b1=8]
+[N=64, b0=16, b1=8, n_blocks=64, z=0, Occupancy=0.12, Ec=3406.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=32, b1=4]
+[N=64, b0=32, b1=4, n_blocks=128, z=0, Occupancy=0.25, Ec=6899.83, MWP=8, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=64, b0=64, b1=2, n_blocks=256, z=0, Occupancy=0.44, Ec=9486.30, MWP=10, CWP=28, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=64, b0=4, b1=64, n_blocks=3, z=0, Occupancy=0.12, Ec=3394.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=32]
+[N=64, b0=8, b1=32, n_blocks=15, z=0, Occupancy=0.12, Ec=3382.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=16, b1=16]
+[N=64, b0=16, b1=16, n_blocks=32, z=0, Occupancy=0.12, Ec=3370.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=32, b1=8]
+[N=64, b0=32, b1=8, n_blocks=64, z=0, Occupancy=0.25, Ec=5389.50, MWP=10, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=64, b0=64, b1=4, n_blocks=128, z=0, Occupancy=0.50, Ec=13751.83, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=64, b0=8, b1=64, n_blocks=7, z=0, Occupancy=0.25, Ec=4072.73, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=64, b0=16, b1=32, n_blocks=16, z=0, Occupancy=0.25, Ec=4072.73, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=64, b0=32, b1=16, n_blocks=33, z=0, Occupancy=0.25, Ec=3734.67, MWP=12, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=64, b0=64, b1=8, n_blocks=65, z=0, Occupancy=0.50, Ec=8952.00, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=64, b0=16, b1=64, n_blocks=9, z=0, Occupancy=0.50, Ec=8065.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=64, b0=32, b1=32, n_blocks=17, z=0, Occupancy=0.50, Ec=8065.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=64, b0=64, b1=16, n_blocks=33, z=0, Occupancy=0.50, Ec=8065.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 64, B0 = 1, B1 = 64, ec = 3343.50]
+
+[BestEC NO.=2 , N = 64, B0 = 8, B1 = 8, ec = 3343.50]
+
+[BestEC NO.=3 , N = 64, B0 = 4, B1 = 32, ec = 3367.50]
+
+[BestEC NO.=4 , N = 64, B0 = 8, B1 = 16, ec = 3367.50]
+
+[BestEC NO.=5 , N = 64, B0 = 16, B1 = 16, ec = 3370.83]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 1, 64
+1, 8, 8
+2, 4, 32
+3, 8, 16
+4, 16, 16
+Mem_LD = 501
+[checking b0=1, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=16]
+[N=128, b0=2, b1=16, n_blocks=-43, z=0, Occupancy=0.50, Ec=0.00, MWP=12, CWP=32, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=128, b0=4, b1=8, n_blocks=207, z=0, Occupancy=0.09, Ec=3417.17, MWP=6, CWP=6, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=4]
+[N=128, b0=8, b1=4, n_blocks=492, z=0, Occupancy=0.20, Ec=5654.08, MWP=8, CWP=13, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=128, b0=16, b1=2, n_blocks=1015, z=0, Occupancy=0.41, Ec=8781.90, MWP=10, CWP=26, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+[N=128, b0=1, b1=64, n_blocks=119, z=0, Occupancy=0.09, Ec=3357.17, MWP=6, CWP=6, mcwp_case=1]
+------------------------------------
+[checking b0=2, b1=32]
+[N=128, b0=2, b1=32, n_blocks=-15, z=0, Occupancy=1.00, Ec=0.00, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=128, b0=4, b1=16, n_blocks=104, z=0, Occupancy=0.09, Ec=3393.17, MWP=6, CWP=6, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=8]
+[N=128, b0=8, b1=8, n_blocks=248, z=0, Occupancy=0.22, Ec=4291.24, MWP=11, CWP=14, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=128, b0=16, b1=4, n_blocks=508, z=0, Occupancy=0.41, Ec=11182.33, MWP=8, CWP=26, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=128, b0=32, b1=2, n_blocks=1022, z=0, Occupancy=0.81, Ec=17564.70, MWP=10, CWP=52, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+[N=128, b0=1, b1=128, n_blocks=338, z=0, Occupancy=0.56, Ec=10848.70, MWP=11, CWP=36, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=64]
+[N=128, b0=2, b1=64, n_blocks=-5, z=0, Occupancy=1.00, Ec=0.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=32]
+[N=128, b0=4, b1=32, n_blocks=51, z=0, Occupancy=0.12, Ec=3394.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=16]
+[N=128, b0=8, b1=16, n_blocks=124, z=0, Occupancy=0.25, Ec=4877.06, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=128, b0=16, b1=8, n_blocks=255, z=0, Occupancy=0.44, Ec=8514.15, MWP=11, CWP=28, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=128, b0=32, b1=4, n_blocks=511, z=0, Occupancy=0.81, Ec=22316.83, MWP=8, CWP=52, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=128, b0=64, b1=2, n_blocks=1024, z=0, Occupancy=1.00, Ec=43207.80, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=128, b0=2, b1=128, n_blocks=-10, z=0, Occupancy=1.00, Ec=0.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=64]
+[N=128, b0=4, b1=64, n_blocks=22, z=0, Occupancy=0.12, Ec=3394.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=8, b1=32]
+[N=128, b0=8, b1=32, n_blocks=61, z=0, Occupancy=0.25, Ec=4877.06, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=128, b0=16, b1=16, n_blocks=128, z=0, Occupancy=0.50, Ec=9650.88, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=128, b0=32, b1=8, n_blocks=256, z=0, Occupancy=0.88, Ec=16959.97, MWP=11, CWP=56, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=128, b0=64, b1=4, n_blocks=512, z=0, Occupancy=1.00, Ec=54911.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=128, b0=128, b1=2, n_blocks=1024, z=0, Occupancy=1.00, Ec=86421.60, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=128, b0=4, b1=128, n_blocks=4, z=0, Occupancy=0.25, Ec=4859.61, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=128, b0=8, b1=64, n_blocks=30, z=0, Occupancy=0.25, Ec=4072.73, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=128, b0=16, b1=32, n_blocks=64, z=0, Occupancy=0.50, Ec=8065.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=128, b0=32, b1=16, n_blocks=128, z=0, Occupancy=1.00, Ec=14674.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=128, b0=64, b1=8, n_blocks=256, z=0, Occupancy=1.00, Ec=35664.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=128, b0=128, b1=4, n_blocks=512, z=0, Occupancy=1.00, Ec=109823.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=128, b0=8, b1=128, n_blocks=13, z=0, Occupancy=0.50, Ec=8094.55, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=128, b0=16, b1=64, n_blocks=32, z=0, Occupancy=0.50, Ec=8065.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=128, b0=32, b1=32, n_blocks=65, z=0, Occupancy=1.00, Ec=16050.91, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=128, b0=64, b1=16, n_blocks=129, z=0, Occupancy=1.00, Ec=32101.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=128, b0=128, b1=8, n_blocks=257, z=0, Occupancy=1.00, Ec=71328.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 128, B0 = 1, B1 = 64, ec = 3357.17]
+
+[BestEC NO.=2 , N = 128, B0 = 4, B1 = 16, ec = 3393.17]
+
+[BestEC NO.=3 , N = 128, B0 = 4, B1 = 32, ec = 3394.83]
+
+[BestEC NO.=4 , N = 128, B0 = 4, B1 = 64, ec = 3394.83]
+
+[BestEC NO.=5 , N = 128, B0 = 4, B1 = 8, ec = 3417.17]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 1, 64
+1, 4, 16
+2, 4, 32
+3, 4, 64
+4, 4, 8
+Mem_LD = 501
+[checking b0=1, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=16]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=256, b0=4, b1=8, n_blocks=872, z=0, Occupancy=0.34, Ec=7413.90, MWP=10, CWP=22, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=256, b0=8, b1=4, n_blocks=1993, z=0, Occupancy=0.50, Ec=27599.67, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=256, b0=16, b1=2, n_blocks=4073, z=0, Occupancy=0.50, Ec=43177.20, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+[N=256, b0=1, b1=64, n_blocks=289, z=0, Occupancy=0.25, Ec=4451.17, MWP=12, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=32]
+[N=256, b0=2, b1=32, n_blocks=-57, z=0, Occupancy=1.00, Ec=0.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=256, b0=4, b1=16, n_blocks=441, z=0, Occupancy=0.38, Ec=7281.42, MWP=11, CWP=24, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=256, b0=8, b1=8, n_blocks=1002, z=0, Occupancy=0.81, Ec=15753.42, MWP=11, CWP=52, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=256, b0=16, b1=4, n_blocks=2037, z=0, Occupancy=1.00, Ec=55103.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=256, b0=32, b1=2, n_blocks=4090, z=0, Occupancy=1.00, Ec=86108.40, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+[N=256, b0=1, b1=128, n_blocks=1067, z=0, Occupancy=1.00, Ec=38606.48, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=64]
+[N=256, b0=2, b1=64, n_blocks=1, z=0, Occupancy=0.06, Ec=3355.50, MWP=4, CWP=4, mcwp_case=1]
+------------------------------------
+[checking b0=4, b1=32]
+[N=256, b0=4, b1=32, n_blocks=222, z=0, Occupancy=0.38, Ec=7281.42, MWP=11, CWP=24, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=256, b0=8, b1=16, n_blocks=503, z=0, Occupancy=0.81, Ec=15639.97, MWP=11, CWP=52, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=256, b0=16, b1=8, n_blocks=1021, z=0, Occupancy=1.00, Ec=38746.12, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=256, b0=32, b1=4, n_blocks=2046, z=0, Occupancy=1.00, Ec=110207.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=256, b0=64, b1=2, n_blocks=4095, z=0, Occupancy=1.00, Ec=151227.30, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=256, b0=2, b1=128, n_blocks=1, z=0, Occupancy=0.12, Ec=3394.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=4, b1=64]
+[N=256, b0=4, b1=64, n_blocks=109, z=0, Occupancy=0.38, Ec=7281.42, MWP=11, CWP=24, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=256, b0=8, b1=32, n_blocks=251, z=0, Occupancy=0.88, Ec=16898.88, MWP=11, CWP=56, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=256, b0=16, b1=16, n_blocks=511, z=0, Occupancy=1.00, Ec=38466.85, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=256, b0=32, b1=8, n_blocks=1024, z=0, Occupancy=1.00, Ec=77492.24, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=256, b0=64, b1=4, n_blocks=2048, z=0, Occupancy=1.00, Ec=192190.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=256, b0=128, b1=2, n_blocks=4096, z=0, Occupancy=1.00, Ec=280870.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=256, b0=4, b1=128, n_blocks=49, z=0, Occupancy=0.50, Ec=9650.88, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=256, b0=8, b1=64, n_blocks=125, z=0, Occupancy=1.00, Ec=16109.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=256, b0=16, b1=32, n_blocks=256, z=0, Occupancy=1.00, Ec=32101.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=256, b0=32, b1=16, n_blocks=513, z=0, Occupancy=1.00, Ec=58698.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=256, b0=64, b1=8, n_blocks=1025, z=0, Occupancy=1.00, Ec=113170.91, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=256, b0=128, b1=4, n_blocks=2048, z=0, Occupancy=1.00, Ec=356925.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=256, b0=256, b1=2, n_blocks=4096, z=0, Occupancy=1.00, Ec=561740.40, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=256, b0=8, b1=128, n_blocks=60, z=0, Occupancy=1.00, Ec=16109.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=256, b0=16, b1=64, n_blocks=128, z=0, Occupancy=1.00, Ec=32101.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=256, b0=32, b1=32, n_blocks=257, z=0, Occupancy=1.00, Ec=64436.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=256, b0=64, b1=16, n_blocks=513, z=0, Occupancy=1.00, Ec=112356.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=256, b0=128, b1=8, n_blocks=1025, z=0, Occupancy=1.00, Ec=231816.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=256, b0=256, b1=4, n_blocks=2048, z=0, Occupancy=1.00, Ec=595296.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 256, B0 = 2, B1 = 64, ec = 3355.50]
+
+[BestEC NO.=2 , N = 256, B0 = 2, B1 = 128, ec = 3394.83]
+
+[BestEC NO.=3 , N = 256, B0 = 1, B1 = 64, ec = 4451.17]
+
+[BestEC NO.=4 , N = 256, B0 = 4, B1 = 16, ec = 7281.42]
+
+[BestEC NO.=5 , N = 256, B0 = 4, B1 = 32, ec = 7281.42]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 2, 64
+1, 2, 128
+2, 1, 64
+3, 4, 16
+4, 4, 32
+Mem_LD = 501
+[checking b0=1, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=16]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=512, b0=4, b1=8, n_blocks=3784, z=0, Occupancy=0.50, Ec=32152.50, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=512, b0=8, b1=4, n_blocks=8130, z=0, Occupancy=0.50, Ec=96598.83, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=512, b0=16, b1=2, n_blocks=16376, z=0, Occupancy=0.50, Ec=140325.90, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+[N=512, b0=1, b1=64, n_blocks=668, z=0, Occupancy=0.53, Ec=10249.79, MWP=11, CWP=34, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=512, b0=4, b1=16, n_blocks=1901, z=0, Occupancy=1.00, Ec=38466.85, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=512, b0=8, b1=8, n_blocks=4068, z=0, Occupancy=1.00, Ec=85494.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=512, b0=16, b1=4, n_blocks=8181, z=0, Occupancy=1.00, Ec=192862.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=512, b0=32, b1=2, n_blocks=16375, z=0, Occupancy=1.00, Ec=279852.30, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+[N=512, b0=1, b1=128, n_blocks=3817, z=0, Occupancy=1.00, Ec=115819.45, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=64]
+[N=512, b0=2, b1=64, n_blocks=62, z=0, Occupancy=0.12, Ec=3382.83, MWP=8, CWP=8, mcwp_case=1]
+------------------------------------
+[checking b0=4, b1=32]
+[N=512, b0=4, b1=32, n_blocks=958, z=0, Occupancy=1.00, Ec=38606.48, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=512, b0=8, b1=16, n_blocks=2036, z=0, Occupancy=1.00, Ec=76933.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=512, b0=16, b1=8, n_blocks=4096, z=0, Occupancy=1.00, Ec=135611.42, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=512, b0=32, b1=4, n_blocks=8190, z=0, Occupancy=1.00, Ec=358173.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=512, b0=64, b1=2, n_blocks=16382, z=0, Occupancy=1.00, Ec=559704.60, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=512, b0=2, b1=128, n_blocks=84, z=0, Occupancy=0.38, Ec=7281.42, MWP=11, CWP=24, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=512, b0=4, b1=64, n_blocks=484, z=0, Occupancy=1.00, Ec=38606.48, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=512, b0=8, b1=32, n_blocks=1019, z=0, Occupancy=1.00, Ec=77212.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=512, b0=16, b1=16, n_blocks=2049, z=0, Occupancy=1.00, Ec=134633.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=512, b0=32, b1=8, n_blocks=4098, z=0, Occupancy=1.00, Ec=251849.79, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=512, b0=64, b1=4, n_blocks=8192, z=0, Occupancy=1.00, Ec=716347.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=512, b0=128, b1=2, n_blocks=16384, z=0, Occupancy=1.00, Ec=1123480.80, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=512, b0=4, b1=128, n_blocks=250, z=0, Occupancy=1.00, Ec=38466.85, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=512, b0=8, b1=64, n_blocks=510, z=0, Occupancy=1.00, Ec=64436.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=512, b0=16, b1=32, n_blocks=1024, z=0, Occupancy=1.00, Ec=112763.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=512, b0=32, b1=16, n_blocks=2049, z=0, Occupancy=1.00, Ec=190770.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=512, b0=64, b1=8, n_blocks=4097, z=0, Occupancy=1.00, Ec=420349.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=512, b0=128, b1=4, n_blocks=8193, z=0, Occupancy=1.00, Ec=1427703.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=512, b0=256, b1=2, n_blocks=16385, z=0, Occupancy=1.00, Ec=2225356.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=512, b0=8, b1=128, n_blocks=258, z=0, Occupancy=1.00, Ec=64436.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=512, b0=16, b1=64, n_blocks=512, z=0, Occupancy=1.00, Ec=112356.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=512, b0=32, b1=32, n_blocks=1025, z=0, Occupancy=1.00, Ec=209418.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=512, b0=64, b1=16, n_blocks=2049, z=0, Occupancy=1.00, Ec=381541.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=512, b0=128, b1=8, n_blocks=4096, z=0, Occupancy=1.00, Ec=840698.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=512, b0=256, b1=4, n_blocks=8193, z=0, Occupancy=1.00, Ec=2366528.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=512, b0=512, b1=2, n_blocks=16384, z=0, Occupancy=1.00, Ec=4413363.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 512, B0 = 2, B1 = 64, ec = 3382.83]
+
+[BestEC NO.=2 , N = 512, B0 = 2, B1 = 128, ec = 7281.42]
+
+[BestEC NO.=3 , N = 512, B0 = 1, B1 = 64, ec = 10249.79]
+
+[BestEC NO.=4 , N = 512, B0 = 4, B1 = 8, ec = 32152.50]
+
+[BestEC NO.=5 , N = 512, B0 = 4, B1 = 16, ec = 38466.85]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 2, 64
+1, 2, 128
+2, 1, 64
+3, 4, 8
+4, 4, 16
+Mem_LD = 501
+[checking b0=1, b1=32]
+[N=1024, b0=1, b1=32, n_blocks=26454, z=0, Occupancy=0.50, Ec=202668.45, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=16]
+[N=1024, b0=2, b1=16, n_blocks=32767, z=0, Occupancy=0.50, Ec=250922.85, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=8]
+[N=1024, b0=4, b1=8, n_blocks=17055, z=0, Occupancy=0.50, Ec=150045.00, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=1024, b0=8, b1=4, n_blocks=33360, z=0, Occupancy=0.50, Ec=372595.50, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=1024, b0=16, b1=2, n_blocks=65915, z=0, Occupancy=0.50, Ec=561303.60, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+[N=1024, b0=1, b1=64, n_blocks=2189, z=0, Occupancy=1.00, Ec=38606.48, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=1024, b0=4, b1=16, n_blocks=8329, z=0, Occupancy=1.00, Ec=134633.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=1024, b0=8, b1=8, n_blocks=16534, z=0, Occupancy=1.00, Ec=277855.50, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=1024, b0=16, b1=4, n_blocks=32878, z=0, Occupancy=1.00, Ec=716347.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=1024, b0=32, b1=2, n_blocks=65574, z=0, Occupancy=1.00, Ec=1119409.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=64]
+[N=1024, b0=2, b1=64, n_blocks=5642, z=0, Occupancy=1.00, Ec=173729.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=32]
+[N=1024, b0=4, b1=32, n_blocks=4151, z=0, Occupancy=1.00, Ec=134633.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=1024, b0=8, b1=16, n_blocks=8235, z=0, Occupancy=1.00, Ec=250034.52, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=1024, b0=16, b1=8, n_blocks=16417, z=0, Occupancy=1.00, Ec=555711.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=1024, b0=32, b1=4, n_blocks=32791, z=0, Occupancy=1.00, Ec=1432695.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=1024, b0=64, b1=2, n_blocks=65539, z=0, Occupancy=1.00, Ec=2217291.30, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=1024, b0=2, b1=128, n_blocks=7668, z=0, Occupancy=1.00, Ec=461602.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=1024, b0=4, b1=64, n_blocks=2068, z=0, Occupancy=1.00, Ec=134633.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=1024, b0=8, b1=32, n_blocks=4106, z=0, Occupancy=1.00, Ec=250034.52, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=1024, b0=16, b1=16, n_blocks=8198, z=0, Occupancy=1.00, Ec=500069.03, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=1024, b0=32, b1=8, n_blocks=16389, z=0, Occupancy=1.00, Ec=1111422.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=1024, b0=64, b1=4, n_blocks=32772, z=0, Occupancy=1.00, Ec=2837838.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=1024, b0=128, b1=2, n_blocks=65536, z=0, Occupancy=1.00, Ec=4413363.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=1024, b0=4, b1=128, n_blocks=1026, z=0, Occupancy=1.00, Ec=135122.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=1024, b0=8, b1=64, n_blocks=2048, z=0, Occupancy=1.00, Ec=208661.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=1024, b0=16, b1=32, n_blocks=4096, z=0, Occupancy=1.00, Ec=418836.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=1024, b0=32, b1=16, n_blocks=8192, z=0, Occupancy=1.00, Ec=763082.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=1024, b0=64, b1=8, n_blocks=16385, z=0, Occupancy=1.00, Ec=1836696.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=1024, b0=128, b1=4, n_blocks=32769, z=0, Occupancy=1.00, Ec=5628445.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=1024, b0=256, b1=2, n_blocks=65536, z=0, Occupancy=1.00, Ec=8826726.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=1024]
+[N=1024, b0=1, b1=1024, n_blocks=131072, z=0, Occupancy=1.00, Ec=31755178.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=1024, b0=8, b1=128, n_blocks=1025, z=0, Occupancy=1.00, Ec=208661.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=1024, b0=16, b1=64, n_blocks=2049, z=0, Occupancy=1.00, Ec=418836.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=1024, b0=32, b1=32, n_blocks=4097, z=0, Occupancy=1.00, Ec=834647.27, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=1024, b0=64, b1=16, n_blocks=8192, z=0, Occupancy=1.00, Ec=1653243.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=1024, b0=128, b1=8, n_blocks=16384, z=0, Occupancy=1.00, Ec=3655560.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=1024, b0=256, b1=4, n_blocks=32769, z=0, Occupancy=1.00, Ec=9387360.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=1024, b0=512, b1=2, n_blocks=65536, z=0, Occupancy=1.00, Ec=17716428.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1024, b1=1]
+[N=1024, b0=1024, b1=1, n_blocks=131072, z=0, Occupancy=1.00, Ec=31755178.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 1024, B0 = 1, B1 = 64, ec = 38606.48]
+
+[BestEC NO.=2 , N = 1024, B0 = 4, B1 = 16, ec = 134633.97]
+
+[BestEC NO.=3 , N = 1024, B0 = 4, B1 = 32, ec = 134633.97]
+
+[BestEC NO.=4 , N = 1024, B0 = 4, B1 = 64, ec = 134633.97]
+
+[BestEC NO.=5 , N = 1024, B0 = 4, B1 = 128, ec = 135122.70]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 1, 64
+1, 4, 16
+2, 4, 32
+3, 4, 64
+4, 4, 128
+Mem_LD = 501
+[checking b0=1, b1=32]
+[N=2048, b0=1, b1=32, n_blocks=36843, z=0, Occupancy=0.50, Ec=280887.85, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=16]
+[N=2048, b0=2, b1=16, n_blocks=31193, z=0, Occupancy=0.50, Ec=220679.17, MWP=12, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=8]
+[N=2048, b0=4, b1=8, n_blocks=70314, z=0, Occupancy=0.50, Ec=534638.33, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=2048, b0=8, b1=4, n_blocks=133309, z=0, Occupancy=0.50, Ec=1443942.50, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=2048, b0=16, b1=2, n_blocks=263161, z=0, Occupancy=0.50, Ec=2223625.80, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+[N=2048, b0=1, b1=64, n_blocks=8482, z=0, Occupancy=1.00, Ec=135122.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=2048, b0=4, b1=16, n_blocks=32807, z=0, Occupancy=1.00, Ec=457058.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=2048, b0=8, b1=8, n_blocks=65703, z=0, Occupancy=1.00, Ec=1007399.15, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=2048, b0=16, b1=4, n_blocks=131273, z=0, Occupancy=1.00, Ec=2827950.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=2048, b0=32, b1=2, n_blocks=262325, z=0, Occupancy=1.00, Ec=4413055.50, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+[N=2048, b0=1, b1=128, n_blocks=2305, z=0, Occupancy=1.00, Ec=76933.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=64]
+[N=2048, b0=2, b1=64, n_blocks=9959, z=0, Occupancy=1.00, Ec=308851.88, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=32]
+[N=2048, b0=4, b1=32, n_blocks=16393, z=0, Occupancy=1.00, Ec=501884.30, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=2048, b0=8, b1=16, n_blocks=32795, z=0, Occupancy=1.00, Ec=914116.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=2048, b0=16, b1=8, n_blocks=65555, z=0, Occupancy=1.00, Ec=1995425.24, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=2048, b0=32, b1=4, n_blocks=131100, z=0, Occupancy=1.00, Ec=5628445.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=2048, b0=64, b1=2, n_blocks=262171, z=0, Occupancy=1.00, Ec=8857599.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=2048, b0=2, b1=128, n_blocks=7499, z=0, Occupancy=1.00, Ec=461602.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=2048, b0=4, b1=64, n_blocks=8243, z=0, Occupancy=1.00, Ec=501884.30, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=2048, b0=8, b1=32, n_blocks=16407, z=0, Occupancy=1.00, Ec=1003768.61, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=2048, b0=16, b1=16, n_blocks=32773, z=0, Occupancy=1.00, Ec=1810654.17, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=2048, b0=32, b1=8, n_blocks=65539, z=0, Occupancy=1.00, Ec=3971477.42, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=2048, b0=64, b1=4, n_blocks=131075, z=0, Occupancy=1.00, Ec=11256891.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=2048, b0=128, b1=2, n_blocks=262147, z=0, Occupancy=1.00, Ec=17716428.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=2048, b0=4, b1=128, n_blocks=4118, z=0, Occupancy=1.00, Ec=500069.03, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=2048, b0=8, b1=64, n_blocks=8195, z=0, Occupancy=1.00, Ec=837672.73, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=2048, b0=16, b1=32, n_blocks=16385, z=0, Occupancy=1.00, Ec=1653243.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=2048, b0=32, b1=16, n_blocks=32768, z=0, Occupancy=1.00, Ec=3290436.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=2048, b0=64, b1=8, n_blocks=65536, z=0, Occupancy=1.00, Ec=6628581.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=2048, b0=128, b1=4, n_blocks=131072, z=0, Occupancy=1.00, Ec=22592503.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=2048, b0=256, b1=2, n_blocks=262144, z=0, Occupancy=1.00, Ec=35285375.40, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=1024]
+[N=2048, b0=1, b1=1024, n_blocks=524270, z=0, Occupancy=1.00, Ec=126981962.55, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=2048, b0=8, b1=128, n_blocks=4092, z=0, Occupancy=1.00, Ec=837672.73, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=2048, b0=16, b1=64, n_blocks=8192, z=0, Occupancy=1.00, Ec=1659236.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=2048, b0=32, b1=32, n_blocks=16384, z=0, Occupancy=1.00, Ec=3302363.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=2048, b0=64, b1=16, n_blocks=32769, z=0, Occupancy=1.00, Ec=6016613.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=2048, b0=128, b1=8, n_blocks=65537, z=0, Occupancy=1.00, Ec=13257163.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=2048, b0=256, b1=4, n_blocks=131073, z=0, Occupancy=1.00, Ec=37657664.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=2048, b0=512, b1=2, n_blocks=262144, z=0, Occupancy=1.00, Ec=70549222.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1024, b1=1]
+[N=2048, b0=1024, b1=1, n_blocks=524289, z=0, Occupancy=1.00, Ec=126524374.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 2048, B0 = 1, B1 = 128, ec = 76933.70]
+
+[BestEC NO.=2 , N = 2048, B0 = 1, B1 = 64, ec = 135122.70]
+
+[BestEC NO.=3 , N = 2048, B0 = 2, B1 = 16, ec = 220679.17]
+
+[BestEC NO.=4 , N = 2048, B0 = 1, B1 = 32, ec = 280887.85]
+
+[BestEC NO.=5 , N = 2048, B0 = 2, B1 = 64, ec = 308851.88]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 1, 128
+1, 1, 64
+2, 2, 16
+3, 1, 32
+4, 2, 64
+Mem_LD = 501
+[checking b0=1, b1=32]
+[N=4096, b0=1, b1=32, n_blocks=90434, z=0, Occupancy=0.50, Ec=690169.48, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=16]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=4096, b0=4, b1=8, n_blocks=152849, z=0, Occupancy=0.50, Ec=1166483.64, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=4096, b0=8, b1=4, n_blocks=441101, z=0, Occupancy=0.50, Ec=4744382.50, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=4096, b0=16, b1=2, n_blocks=992245, z=0, Occupancy=0.50, Ec=8406175.20, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=4096, b0=4, b1=16, n_blocks=72708, z=0, Occupancy=1.00, Ec=1002012.50, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=4096, b0=8, b1=8, n_blocks=226436, z=0, Occupancy=1.00, Ec=3429031.73, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=4096, b0=16, b1=4, n_blocks=501506, z=0, Occupancy=1.00, Ec=10762686.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=4096, b0=32, b1=2, n_blocks=1041223, z=0, Occupancy=1.00, Ec=17585574.60, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=64]
+[N=4096, b0=2, b1=64, n_blocks=631, z=0, Occupancy=1.00, Ec=19303.24, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=32]
+[N=4096, b0=4, b1=32, n_blocks=39798, z=0, Occupancy=1.00, Ec=1216104.27, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=4096, b0=8, b1=16, n_blocks=119268, z=0, Occupancy=1.00, Ec=3287304.17, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=4096, b0=16, b1=8, n_blocks=256145, z=0, Occupancy=1.00, Ec=7768597.30, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=4096, b0=32, b1=4, n_blocks=519622, z=0, Occupancy=1.00, Ec=22294136.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=4096, b0=64, b1=2, n_blocks=1047873, z=0, Occupancy=1.00, Ec=35387188.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=4096, b0=2, b1=128, n_blocks=237, z=0, Occupancy=0.75, Ec=14494.52, MWP=11, CWP=48, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=4096, b0=4, b1=64, n_blocks=24492, z=0, Occupancy=1.00, Ec=1486349.67, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=4096, b0=8, b1=32, n_blocks=63384, z=0, Occupancy=1.00, Ec=3841345.24, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=4096, b0=16, b1=16, n_blocks=131004, z=0, Occupancy=1.00, Ec=7207458.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=4096, b0=32, b1=8, n_blocks=262188, z=0, Occupancy=1.00, Ec=15885909.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=4096, b0=64, b1=4, n_blocks=523624, z=0, Occupancy=1.00, Ec=44945199.17, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=4096, b0=128, b1=2, n_blocks=1048689, z=0, Occupancy=1.00, Ec=70822501.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+[N=4096, b0=4, b1=128, n_blocks=37072, z=0, Occupancy=1.00, Ec=4462154.42, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=64]
+[N=4096, b0=8, b1=64, n_blocks=34800, z=0, Occupancy=1.00, Ec=3511781.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=4096, b0=16, b1=32, n_blocks=66491, z=0, Occupancy=1.00, Ec=6677178.18, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=4096, b0=32, b1=16, n_blocks=131823, z=0, Occupancy=1.00, Ec=12091925.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=4096, b0=64, b1=8, n_blocks=262579, z=0, Occupancy=1.00, Ec=26546661.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=4096, b0=128, b1=4, n_blocks=524308, z=0, Occupancy=1.00, Ec=89972765.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=4096, b0=256, b1=2, n_blocks=1048703, z=0, Occupancy=1.00, Ec=141623397.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=1024]
+[N=4096, b0=1, b1=1024, n_blocks=181610, z=0, Occupancy=1.00, Ec=44000005.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+[N=4096, b0=8, b1=128, n_blocks=27128, z=0, Occupancy=1.00, Ec=5477090.91, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=64]
+[N=4096, b0=16, b1=64, n_blocks=33499, z=0, Occupancy=1.00, Ec=6725330.91, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=4096, b0=32, b1=32, n_blocks=65652, z=0, Occupancy=1.00, Ec=13225563.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=4096, b0=64, b1=16, n_blocks=131114, z=0, Occupancy=1.00, Ec=24051778.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=4096, b0=128, b1=8, n_blocks=262151, z=0, Occupancy=1.00, Ec=52980152.73, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=4096, b0=256, b1=4, n_blocks=524332, z=0, Occupancy=1.00, Ec=150607680.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=4096, b0=512, b1=2, n_blocks=1048638, z=0, Occupancy=1.00, Ec=283203583.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1024, b1=1]
+[N=4096, b0=1024, b1=1, n_blocks=2087841, z=0, Occupancy=1.00, Ec=503838822.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 4096, B0 = 2, B1 = 128, ec = 14494.52]
+
+[BestEC NO.=2 , N = 4096, B0 = 2, B1 = 64, ec = 19303.24]
+
+[BestEC NO.=3 , N = 4096, B0 = 1, B1 = 32, ec = 690169.48]
+
+[BestEC NO.=4 , N = 4096, B0 = 4, B1 = 16, ec = 1002012.50]
+
+[BestEC NO.=5 , N = 4096, B0 = 4, B1 = 8, ec = 1166483.64]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 2, 128
+1, 2, 64
+2, 1, 32
+3, 4, 16
+4, 4, 8
+Mem_LD = 501
+[checking b0=1, b1=32]
+[N=8192, b0=1, b1=32, n_blocks=2398982, z=0, Occupancy=0.50, Ec=20095312.50, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=16]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=8192, b0=4, b1=8, n_blocks=158109, z=0, Occupancy=0.50, Ec=1205366.42, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=8192, b0=8, b1=4, n_blocks=869813, z=0, Occupancy=0.50, Ec=9351246.67, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=8192, b0=16, b1=2, n_blocks=2985279, z=0, Occupancy=0.50, Ec=25272689.10, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=8192, b0=4, b1=16, n_blocks=80851, z=0, Occupancy=1.00, Ec=1125066.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=8192, b0=8, b1=8, n_blocks=508339, z=0, Occupancy=1.00, Ec=7710478.12, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=8192, b0=16, b1=4, n_blocks=1598878, z=0, Occupancy=1.00, Ec=34319791.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=8192, b0=32, b1=2, n_blocks=3978336, z=0, Occupancy=1.00, Ec=67166525.10, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=64]
+[N=8192, b0=2, b1=64, n_blocks=370, z=0, Occupancy=0.62, Ec=12090.15, MWP=11, CWP=40, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=32]
+[N=8192, b0=4, b1=32, n_blocks=48656, z=0, Occupancy=1.00, Ec=1486349.67, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=8192, b0=8, b1=16, n_blocks=316968, z=0, Occupancy=1.00, Ec=8719266.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=8192, b0=16, b1=8, n_blocks=911718, z=0, Occupancy=1.00, Ec=27606611.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=8192, b0=32, b1=4, n_blocks=1978593, z=0, Occupancy=1.00, Ec=84893436.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=8192, b0=64, b1=2, n_blocks=4170582, z=0, Occupancy=1.00, Ec=140792616.30, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=8192, b0=2, b1=128, n_blocks=91, z=0, Occupancy=0.38, Ec=7281.42, MWP=11, CWP=24, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=8192, b0=4, b1=64, n_blocks=39974, z=0, Occupancy=1.00, Ec=2412905.30, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=8192, b0=8, b1=32, n_blocks=214857, z=0, Occupancy=1.00, Ec=12971778.91, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=8192, b0=16, b1=16, n_blocks=526023, z=0, Occupancy=1.00, Ec=28900150.00, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=8192, b0=32, b1=8, n_blocks=1052737, z=0, Occupancy=1.00, Ec=63737369.39, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=8192, b0=64, b1=4, n_blocks=2080614, z=0, Occupancy=1.00, Ec=178517828.33, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=8192, b0=128, b1=2, n_blocks=4197191, z=0, Occupancy=1.00, Ec=283398031.80, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=8, b1=64]
+[N=8192, b0=8, b1=64, n_blocks=236260, z=0, Occupancy=1.00, Ec=23793127.27, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=32]
+[N=8192, b0=16, b1=32, n_blocks=293148, z=0, Occupancy=1.00, Ec=29421316.36, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=8192, b0=32, b1=16, n_blocks=546703, z=0, Occupancy=1.00, Ec=50143336.00, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=8192, b0=64, b1=8, n_blocks=1061385, z=0, Occupancy=1.00, Ec=107253687.27, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=8192, b0=128, b1=4, n_blocks=2098320, z=0, Occupancy=1.00, Ec=360083254.17, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=8192, b0=256, b1=2, n_blocks=4198080, z=0, Occupancy=1.00, Ec=566882485.20, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=1024]
+[N=8192, b0=1, b1=1024, n_blocks=113132, z=0, Occupancy=1.00, Ec=27415239.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=16, b1=64]
+[N=8192, b0=16, b1=64, n_blocks=158317, z=0, Occupancy=1.00, Ec=31764749.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=8192, b0=32, b1=32, n_blocks=265971, z=0, Occupancy=1.00, Ec=53562727.27, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=8192, b0=64, b1=16, n_blocks=525485, z=0, Occupancy=1.00, Ec=96397885.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=8192, b0=128, b1=8, n_blocks=1048770, z=0, Occupancy=1.00, Ec=211952945.45, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=8192, b0=256, b1=4, n_blocks=2098473, z=0, Occupancy=1.00, Ec=602683456.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=8192, b0=512, b1=2, n_blocks=4196137, z=0, Occupancy=1.00, Ec=1133246440.80, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1024, b1=1]
+[N=8192, b0=1024, b1=1, n_blocks=8139361, z=0, Occupancy=1.00, Ec=1964139365.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 8192, B0 = 2, B1 = 128, ec = 7281.42]
+
+[BestEC NO.=2 , N = 8192, B0 = 2, B1 = 64, ec = 12090.15]
+
+[BestEC NO.=3 , N = 8192, B0 = 4, B1 = 16, ec = 1125066.67]
+
+[BestEC NO.=4 , N = 8192, B0 = 4, B1 = 8, ec = 1205366.42]
+
+[BestEC NO.=5 , N = 8192, B0 = 4, B1 = 32, ec = 1486349.67]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 2, 128
+1, 2, 64
+2, 4, 16
+3, 4, 8
+4, 4, 32
+Mem_LD = 501
+[checking b0=1, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=16]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=8]
+[N=16384, b0=4, b1=8, n_blocks=140444, z=0, Occupancy=0.50, Ec=1069276.67, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=4]
+[N=16384, b0=8, b1=4, n_blocks=1035404, z=0, Occupancy=0.50, Ec=11125233.17, MWP=8, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=2]
+[N=16384, b0=16, b1=2, n_blocks=5575691, z=0, Occupancy=0.50, Ec=47198073.90, MWP=10, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=64]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=32]
+SKIP ...
+------------------------------------
+[checking b0=4, b1=16]
+[N=16384, b0=4, b1=16, n_blocks=74538, z=0, Occupancy=1.00, Ec=1037170.83, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=8]
+[N=16384, b0=8, b1=8, n_blocks=675497, z=0, Occupancy=1.00, Ec=10228976.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=4]
+[N=16384, b0=16, b1=4, n_blocks=3312042, z=0, Occupancy=1.00, Ec=71055696.67, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=2]
+[N=16384, b0=32, b1=2, n_blocks=13153623, z=0, Occupancy=1.00, Ec=222023280.30, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=2, b1=64]
+[N=16384, b0=2, b1=64, n_blocks=297, z=0, Occupancy=0.50, Ec=9685.79, MWP=11, CWP=32, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=32]
+[N=16384, b0=4, b1=32, n_blocks=46324, z=0, Occupancy=1.00, Ec=1409136.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=16]
+[N=16384, b0=8, b1=16, n_blocks=501422, z=0, Occupancy=1.00, Ec=13782066.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=8]
+[N=16384, b0=16, b1=8, n_blocks=2439099, z=0, Occupancy=1.00, Ec=73850107.03, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=4]
+[N=16384, b0=32, b1=4, n_blocks=6493878, z=0, Occupancy=1.00, Ec=278594340.83, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=2]
+[N=16384, b0=64, b1=2, n_blocks=16295957, z=0, Occupancy=1.00, Ec=550100105.70, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=2, b1=128]
+[N=16384, b0=2, b1=128, n_blocks=53, z=0, Occupancy=0.25, Ec=4877.06, MWP=11, CWP=16, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=64]
+[N=16384, b0=4, b1=64, n_blocks=43237, z=0, Occupancy=1.00, Ec=2625240.97, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=32]
+[N=16384, b0=8, b1=32, n_blocks=512693, z=0, Occupancy=1.00, Ec=30943097.61, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=16, b1=16]
+[N=16384, b0=16, b1=16, n_blocks=2169755, z=0, Occupancy=1.00, Ec=119204329.17, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=8]
+[N=16384, b0=32, b1=8, n_blocks=4306805, z=0, Occupancy=1.00, Ec=260742022.70, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=4]
+[N=16384, b0=64, b1=4, n_blocks=8084483, z=0, Occupancy=1.00, Ec=693671629.17, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=2]
+[N=16384, b0=128, b1=2, n_blocks=16834827, z=0, Occupancy=1.00, Ec=1136638488.60, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=4, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=8, b1=64]
+SKIP ...
+------------------------------------
+[checking b0=16, b1=32]
+[N=16384, b0=16, b1=32, n_blocks=2296755, z=0, Occupancy=1.00, Ec=231246000.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=16]
+[N=16384, b0=32, b1=16, n_blocks=2647434, z=0, Occupancy=1.00, Ec=242821709.33, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=8]
+[N=16384, b0=64, b1=8, n_blocks=4468812, z=0, Occupancy=1.00, Ec=451568094.55, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=4]
+[N=16384, b0=128, b1=4, n_blocks=8416981, z=0, Occupancy=1.00, Ec=1444369024.17, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=2]
+[N=16384, b0=256, b1=2, n_blocks=16855103, z=0, Occupancy=1.00, Ec=2276020863.00, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1, b1=1024]
+[N=16384, b0=1, b1=1024, n_blocks=91912, z=0, Occupancy=1.00, Ec=22261561.64, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=8, b1=128]
+SKIP ...
+------------------------------------
+[checking b0=16, b1=64]
+[N=16384, b0=16, b1=64, n_blocks=5663804, z=0, Occupancy=1.00, Ec=1136372261.82, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=32, b1=32]
+[N=16384, b0=32, b1=32, n_blocks=1136156, z=0, Occupancy=1.00, Ec=228781309.09, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=64, b1=16]
+[N=16384, b0=64, b1=16, n_blocks=2121850, z=0, Occupancy=1.00, Ec=389230858.67, MWP=12, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=128, b1=8]
+[N=16384, b0=128, b1=8, n_blocks=4198449, z=0, Occupancy=1.00, Ec=848474640.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=256, b1=4]
+[N=16384, b0=256, b1=4, n_blocks=8416147, z=0, Occupancy=1.00, Ec=2417121152.00, MWP=8, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=512, b1=2]
+[N=16384, b0=512, b1=2, n_blocks=16815082, z=0, Occupancy=1.00, Ec=4541217420.60, MWP=10, CWP=64, mcwp_case=2]
+------------------------------------
+[checking b0=1024, b1=1]
+[N=16384, b0=1024, b1=1, n_blocks=29136761, z=0, Occupancy=1.00, Ec=7031040940.00, MWP=11, CWP=64, mcwp_case=2]
+------------------------------------
+[BestEC NO.=1 , N = 16384, B0 = 2, B1 = 128, ec = 4877.06]
+
+[BestEC NO.=2 , N = 16384, B0 = 2, B1 = 64, ec = 9685.79]
+
+[BestEC NO.=3 , N = 16384, B0 = 4, B1 = 16, ec = 1037170.83]
+
+[BestEC NO.=4 , N = 16384, B0 = 4, B1 = 8, ec = 1069276.67]
+
+[BestEC NO.=5 , N = 16384, B0 = 4, B1 = 32, ec = 1409136.70]
+
+
+------------------------------------
+[best_ec][idx, B0, B1]
+0, 2, 128
+1, 2, 64
+2, 4, 16
+3, 4, 8
+4, 4, 32

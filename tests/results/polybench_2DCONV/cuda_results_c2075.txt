@@ -1,0 +1,945 @@
+checking for [] 
+checking log point [32 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=1, by=32, elapsed_Convolution2D_kernel=0.0183 (ms)] ... PASS
+=============================== 
+checking log point [32 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=16, elapsed_Convolution2D_kernel=0.0147 (ms)] ... PASS
+=============================== 
+checking log point [32 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=8, elapsed_Convolution2D_kernel=0.0133 (ms)] ... PASS
+=============================== 
+checking log point [32 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=4, elapsed_Convolution2D_kernel=0.0129 (ms)] ... PASS
+=============================== 
+checking log point [32 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=2, elapsed_Convolution2D_kernel=0.0127 (ms)] ... PASS
+=============================== 
+checking log point [32 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=1, elapsed_Convolution2D_kernel=0.0139 (ms)] ... PASS
+=============================== 
+checking log point [32 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=32, elapsed_Convolution2D_kernel=0.0161 (ms)] ... PASS
+=============================== 
+checking log point [32 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=16, elapsed_Convolution2D_kernel=0.0137 (ms)] ... PASS
+=============================== 
+checking log point [32 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=8, elapsed_Convolution2D_kernel=0.0145 (ms)] ... PASS
+=============================== 
+checking log point [32 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=4, elapsed_Convolution2D_kernel=0.0131 (ms)] ... PASS
+=============================== 
+checking log point [32 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=2, elapsed_Convolution2D_kernel=0.0128 (ms)] ... PASS
+=============================== 
+checking log point [32 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=32, elapsed_Convolution2D_kernel=0.0142 (ms)] ... PASS
+=============================== 
+checking log point [32 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=16, elapsed_Convolution2D_kernel=0.0130 (ms)] ... PASS
+=============================== 
+checking log point [32 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=8, elapsed_Convolution2D_kernel=0.0125 (ms)] ... PASS
+=============================== 
+checking log point [32 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=4, elapsed_Convolution2D_kernel=0.0136 (ms)] ... PASS
+=============================== 
+checking log point [32 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=32, elapsed_Convolution2D_kernel=0.0135 (ms)] ... PASS
+=============================== 
+checking log point [32 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=16, elapsed_Convolution2D_kernel=0.0135 (ms)] ... PASS
+=============================== 
+checking log point [32 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=8, elapsed_Convolution2D_kernel=0.0133 (ms)] ... PASS
+=============================== 
+checking log point [32 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=32, elapsed_Convolution2D_kernel=0.0136 (ms)] ... PASS
+=============================== 
+checking log point [32 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=16, elapsed_Convolution2D_kernel=0.0137 (ms)] ... PASS
+=============================== 
+checking log point [32 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=32, elapsed_Convolution2D_kernel=0.0142 (ms)] ... PASS
+=============================== 
+checking log point [64 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=32, elapsed_Convolution2D_kernel=0.0271 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=16, elapsed_Convolution2D_kernel=0.0197 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=8, elapsed_Convolution2D_kernel=0.0142 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=4, elapsed_Convolution2D_kernel=0.0113 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=2, elapsed_Convolution2D_kernel=0.0108 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=1, elapsed_Convolution2D_kernel=0.0113 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=64, elapsed_Convolution2D_kernel=0.0233 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=32, elapsed_Convolution2D_kernel=0.0163 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=16, elapsed_Convolution2D_kernel=0.0120 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=8, elapsed_Convolution2D_kernel=0.0112 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=4, elapsed_Convolution2D_kernel=0.0106 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=2, elapsed_Convolution2D_kernel=0.0092 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=1, elapsed_Convolution2D_kernel=0.0109 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=64, elapsed_Convolution2D_kernel=0.0185 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=32, elapsed_Convolution2D_kernel=0.0161 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=16, elapsed_Convolution2D_kernel=0.0104 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=8, elapsed_Convolution2D_kernel=0.0092 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=4, elapsed_Convolution2D_kernel=0.0100 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=2, elapsed_Convolution2D_kernel=0.0099 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=64, elapsed_Convolution2D_kernel=0.0135 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=32, elapsed_Convolution2D_kernel=0.0115 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=16, elapsed_Convolution2D_kernel=0.0111 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=8, elapsed_Convolution2D_kernel=0.0095 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=4, elapsed_Convolution2D_kernel=0.0096 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=64, elapsed_Convolution2D_kernel=0.0126 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=32, elapsed_Convolution2D_kernel=0.0105 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=16, elapsed_Convolution2D_kernel=0.0091 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=8, elapsed_Convolution2D_kernel=0.0104 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=64, elapsed_Convolution2D_kernel=0.0131 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=32, elapsed_Convolution2D_kernel=0.0120 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=16, elapsed_Convolution2D_kernel=0.0108 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=32, elapsed_Convolution2D_kernel=0.0605 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=16, elapsed_Convolution2D_kernel=0.0348 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=8, elapsed_Convolution2D_kernel=0.0217 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=4, elapsed_Convolution2D_kernel=0.0148 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=2, elapsed_Convolution2D_kernel=0.0121 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=1, elapsed_Convolution2D_kernel=0.0114 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=64, elapsed_Convolution2D_kernel=0.0557 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=32, elapsed_Convolution2D_kernel=0.0322 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=16, elapsed_Convolution2D_kernel=0.0197 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=8, elapsed_Convolution2D_kernel=0.0131 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=4, elapsed_Convolution2D_kernel=0.0102 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=2, elapsed_Convolution2D_kernel=0.0097 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=1, elapsed_Convolution2D_kernel=0.0097 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=128, elapsed_Convolution2D_kernel=0.0635 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=64, elapsed_Convolution2D_kernel=0.0320 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=32, elapsed_Convolution2D_kernel=0.0208 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=16, elapsed_Convolution2D_kernel=0.0138 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=8, elapsed_Convolution2D_kernel=0.0100 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=4, elapsed_Convolution2D_kernel=0.0091 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=2, elapsed_Convolution2D_kernel=0.0096 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=1, elapsed_Convolution2D_kernel=0.0093 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=128, elapsed_Convolution2D_kernel=0.0334 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=64, elapsed_Convolution2D_kernel=0.0204 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=32, elapsed_Convolution2D_kernel=0.0134 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=16, elapsed_Convolution2D_kernel=0.0100 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=8, elapsed_Convolution2D_kernel=0.0092 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=4, elapsed_Convolution2D_kernel=0.0093 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=2, elapsed_Convolution2D_kernel=0.0091 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=128, elapsed_Convolution2D_kernel=0.0228 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=64, elapsed_Convolution2D_kernel=0.0142 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=32, elapsed_Convolution2D_kernel=0.0108 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=16, elapsed_Convolution2D_kernel=0.0099 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=8, elapsed_Convolution2D_kernel=0.0098 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=4, elapsed_Convolution2D_kernel=0.0095 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=128, elapsed_Convolution2D_kernel=0.0172 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=64, elapsed_Convolution2D_kernel=0.0125 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=32, elapsed_Convolution2D_kernel=0.0118 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=16, elapsed_Convolution2D_kernel=0.0119 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=8, elapsed_Convolution2D_kernel=0.0116 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=1, by=32, elapsed_Convolution2D_kernel=0.2208 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=2, by=16, elapsed_Convolution2D_kernel=0.1243 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=8, elapsed_Convolution2D_kernel=0.0746 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=4, elapsed_Convolution2D_kernel=0.0519 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=2, elapsed_Convolution2D_kernel=0.0393 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=1, elapsed_Convolution2D_kernel=0.0355 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=1, by=64, elapsed_Convolution2D_kernel=0.2028 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=2, by=32, elapsed_Convolution2D_kernel=0.1147 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=16, elapsed_Convolution2D_kernel=0.0644 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=8, elapsed_Convolution2D_kernel=0.0405 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=4, elapsed_Convolution2D_kernel=0.0311 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=2, elapsed_Convolution2D_kernel=0.0280 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=64, by=1, elapsed_Convolution2D_kernel=0.0285 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=1, by=128, elapsed_Convolution2D_kernel=0.2046 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=2, by=64, elapsed_Convolution2D_kernel=0.1127 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=32, elapsed_Convolution2D_kernel=0.0637 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=16, elapsed_Convolution2D_kernel=0.0402 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=8, elapsed_Convolution2D_kernel=0.0289 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=4, elapsed_Convolution2D_kernel=0.0262 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=64, by=2, elapsed_Convolution2D_kernel=0.0252 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=128, by=1, elapsed_Convolution2D_kernel=0.0249 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=1, by=256, elapsed_Convolution2D_kernel=0.2108 (ms)] ... PASS
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=2, by=128, elapsed_Convolution2D_kernel=0.1130 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=64, elapsed_Convolution2D_kernel=0.0647 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=32, elapsed_Convolution2D_kernel=0.0397 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=16, elapsed_Convolution2D_kernel=0.0292 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=8, elapsed_Convolution2D_kernel=0.0261 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=64, by=4, elapsed_Convolution2D_kernel=0.0250 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=128, by=2, elapsed_Convolution2D_kernel=0.0244 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=256, by=1, elapsed_Convolution2D_kernel=0.0244 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=2, by=256, elapsed_Convolution2D_kernel=0.1178 (ms)] ... PASS
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=128, elapsed_Convolution2D_kernel=0.0663 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=64, elapsed_Convolution2D_kernel=0.0404 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=32, elapsed_Convolution2D_kernel=0.0295 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=16, elapsed_Convolution2D_kernel=0.0251 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=64, by=8, elapsed_Convolution2D_kernel=0.0253 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=128, by=4, elapsed_Convolution2D_kernel=0.0250 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=256, by=2, elapsed_Convolution2D_kernel=0.0248 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=4, by=256, elapsed_Convolution2D_kernel=0.0725 (ms)] ... PASS
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=8, by=128, elapsed_Convolution2D_kernel=0.0453 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=16, by=64, elapsed_Convolution2D_kernel=0.0340 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=32, by=32, elapsed_Convolution2D_kernel=0.0301 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=64, by=16, elapsed_Convolution2D_kernel=0.0305 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=128, by=8, elapsed_Convolution2D_kernel=0.0298 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=256, bx=256, by=4, elapsed_Convolution2D_kernel=0.0295 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=1, by=32, elapsed_Convolution2D_kernel=0.8360 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=16, elapsed_Convolution2D_kernel=0.4585 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=8, elapsed_Convolution2D_kernel=0.2693 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=4, elapsed_Convolution2D_kernel=0.1735 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=2, elapsed_Convolution2D_kernel=0.1279 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=1, elapsed_Convolution2D_kernel=0.1128 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=1, by=64, elapsed_Convolution2D_kernel=0.7853 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=32, elapsed_Convolution2D_kernel=0.4200 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=16, elapsed_Convolution2D_kernel=0.2313 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=8, elapsed_Convolution2D_kernel=0.1345 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=4, elapsed_Convolution2D_kernel=0.0961 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=2, elapsed_Convolution2D_kernel=0.0820 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=64, by=1, elapsed_Convolution2D_kernel=0.0841 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=1, by=128, elapsed_Convolution2D_kernel=0.7856 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=64, elapsed_Convolution2D_kernel=0.4193 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=32, elapsed_Convolution2D_kernel=0.2290 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=16, elapsed_Convolution2D_kernel=0.1337 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=8, elapsed_Convolution2D_kernel=0.0902 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=4, elapsed_Convolution2D_kernel=0.0710 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=64, by=2, elapsed_Convolution2D_kernel=0.0716 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=128, by=1, elapsed_Convolution2D_kernel=0.0707 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=1, by=256, elapsed_Convolution2D_kernel=0.7844 (ms)] ... PASS
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=128, elapsed_Convolution2D_kernel=0.4184 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=64, elapsed_Convolution2D_kernel=0.2284 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=32, elapsed_Convolution2D_kernel=0.1300 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=16, elapsed_Convolution2D_kernel=0.0900 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=8, elapsed_Convolution2D_kernel=0.0717 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=64, by=4, elapsed_Convolution2D_kernel=0.0712 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=128, by=2, elapsed_Convolution2D_kernel=0.0702 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=256, by=1, elapsed_Convolution2D_kernel=0.0696 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=1, by=512, elapsed_Convolution2D_kernel=0.7865 (ms)] ... PASS
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=256, elapsed_Convolution2D_kernel=0.4198 (ms)] ... PASS
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=128, elapsed_Convolution2D_kernel=0.2286 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=64, elapsed_Convolution2D_kernel=0.1316 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=32, elapsed_Convolution2D_kernel=0.0916 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=16, elapsed_Convolution2D_kernel=0.0727 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=64, by=8, elapsed_Convolution2D_kernel=0.0723 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=128, by=4, elapsed_Convolution2D_kernel=0.0701 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=256, by=2, elapsed_Convolution2D_kernel=0.0714 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=512, by=1, elapsed_Convolution2D_kernel=0.0690 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=2, by=512, elapsed_Convolution2D_kernel=0.4668 (ms)] ... PASS
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=4, by=256, elapsed_Convolution2D_kernel=0.2563 (ms)] ... PASS
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=8, by=128, elapsed_Convolution2D_kernel=0.1524 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=16, by=64, elapsed_Convolution2D_kernel=0.1075 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=32, by=32, elapsed_Convolution2D_kernel=0.0929 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=64, by=16, elapsed_Convolution2D_kernel=0.0961 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=128, by=8, elapsed_Convolution2D_kernel=0.0925 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=256, by=4, elapsed_Convolution2D_kernel=0.0901 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=512, bx=512, by=2, elapsed_Convolution2D_kernel=0.0876 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=32, elapsed_Convolution2D_kernel=3.3061 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=16, elapsed_Convolution2D_kernel=1.7909 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=8, elapsed_Convolution2D_kernel=1.0635 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=4, elapsed_Convolution2D_kernel=0.6813 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=2, elapsed_Convolution2D_kernel=0.4839 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=1, elapsed_Convolution2D_kernel=0.4119 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=64, elapsed_Convolution2D_kernel=3.1132 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=32, elapsed_Convolution2D_kernel=1.6512 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=16, elapsed_Convolution2D_kernel=0.8909 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=8, elapsed_Convolution2D_kernel=0.5244 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=4, elapsed_Convolution2D_kernel=0.3627 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=2, elapsed_Convolution2D_kernel=0.2942 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=64, by=1, elapsed_Convolution2D_kernel=0.2948 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=128, elapsed_Convolution2D_kernel=3.1099 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=64, elapsed_Convolution2D_kernel=1.6418 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=32, elapsed_Convolution2D_kernel=0.8816 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=16, elapsed_Convolution2D_kernel=0.4954 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=8, elapsed_Convolution2D_kernel=0.3520 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=4, elapsed_Convolution2D_kernel=0.2642 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=64, by=2, elapsed_Convolution2D_kernel=0.2566 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=128, by=1, elapsed_Convolution2D_kernel=0.2504 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=256, elapsed_Convolution2D_kernel=3.1071 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=128, elapsed_Convolution2D_kernel=1.6381 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=64, elapsed_Convolution2D_kernel=0.8738 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=32, elapsed_Convolution2D_kernel=0.4918 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=16, elapsed_Convolution2D_kernel=0.3298 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=8, elapsed_Convolution2D_kernel=0.2648 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=64, by=4, elapsed_Convolution2D_kernel=0.2610 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=128, by=2, elapsed_Convolution2D_kernel=0.2491 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=256, by=1, elapsed_Convolution2D_kernel=0.2456 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=512, elapsed_Convolution2D_kernel=3.1284 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=256, elapsed_Convolution2D_kernel=1.6339 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=128, elapsed_Convolution2D_kernel=0.8749 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=64, elapsed_Convolution2D_kernel=0.4937 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=32, elapsed_Convolution2D_kernel=0.3311 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=16, elapsed_Convolution2D_kernel=0.2515 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=64, by=8, elapsed_Convolution2D_kernel=0.2665 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=128, by=4, elapsed_Convolution2D_kernel=0.2545 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=256, by=2, elapsed_Convolution2D_kernel=0.2499 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=512, by=1, elapsed_Convolution2D_kernel=0.2435 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 1024 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1, by=1024, elapsed_Convolution2D_kernel=4.0626 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=2, by=512, elapsed_Convolution2D_kernel=1.7940 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 256 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=4, by=256, elapsed_Convolution2D_kernel=0.9797 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=8, by=128, elapsed_Convolution2D_kernel=0.5756 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=16, by=64, elapsed_Convolution2D_kernel=0.3900 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=32, by=32, elapsed_Convolution2D_kernel=0.3339 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=64, by=16, elapsed_Convolution2D_kernel=0.3399 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=128, by=8, elapsed_Convolution2D_kernel=0.3525 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=256, by=4, elapsed_Convolution2D_kernel=0.3382 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=512, by=2, elapsed_Convolution2D_kernel=0.3280 (ms)] ... PASS
+=============================== 
+checking log point [1024 1024 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=1024, bx=1024, by=1, elapsed_Convolution2D_kernel=0.3210 (ms)] ... PASS
+=============================== 

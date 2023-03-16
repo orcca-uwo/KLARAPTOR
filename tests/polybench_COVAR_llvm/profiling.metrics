@@ -1,0 +1,51 @@
+==PROF== Connected to process 25838 (/home/taab/Desktop/PTX/tests/polybench_COVAR_llvm/covariance.bin)
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[kernel_name : kernel_mean_kernel_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=1][gz=1][bx=512][by=2][bz=1]
+[elapsed-time-through-driver: 195.870 (ms)]
+[kernel_name : kernel_reduce_kernel_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=1][gz=1][bx=512][by=2][bz=1]
+[elapsed-time-through-driver: 59.172 (ms)]
+[kernel_name : kernel_covar_kernel_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=1][gz=1][bx=512][by=2][bz=1]
+[elapsed-time-through-driver: 803.415 (ms)]
+[trace: n=512, bx=512, by=2, elapsed_mean_kernel=260.6277 (ms),
+ elapsed_reduce_kernel=122.3107 (ms),  elapsed_covar_kernel=865.5286 (ms)] ... PASS
+==PROF== Disconnected from process 25838
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","dram__bytes_read.sum","byte","1,057,632"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","dram__bytes_write.sum","byte","0"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","gpu__time_duration.sum","nsecond","158,272"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","15,399,514,759.40"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","2,631,680"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","16,627,577,840.68"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","76,166"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","99.76"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","2,230"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.07"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","16,384"
+"0","25838","covariance.bin","127.0.0.1","mean_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","2","14","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","16,448"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","dram__bytes_read.sum","byte","9,120"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","dram__bytes_write.sum","byte","0"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","gpu__time_duration.sum","nsecond","2,368"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","4,081,081,081.08"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","5,120"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","2,162,162,162.16"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","302"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","94.25"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","25"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.13"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","64"
+"1","25838","covariance.bin","127.0.0.1","reduce_kernel(float *, float *, int, int)","2022-Nov-11 14:40:23","3","21","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","32"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","dram__bytes_read.sum","byte","1,147,808"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","dram__bytes_write.sum","byte","423,648"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","gpu__time_duration.sum","nsecond","186,858,976"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","7,025,851,880.94"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","4,320,165,888"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","23,119,927,019.19"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","41,026,359"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","66.44"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","1,366,323.00"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.04"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","8,912,896"
+"2","25838","covariance.bin","127.0.0.1","covar_kernel(float *, float *, int, int)","2022-Nov-11 14:40:24","4","28","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","4,473,856"

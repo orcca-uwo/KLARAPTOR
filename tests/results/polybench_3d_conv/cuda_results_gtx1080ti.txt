@@ -1,0 +1,945 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=32, elapsed_convolution3D_kernel=0.1892 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=16, elapsed_convolution3D_kernel=0.1448 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=8, elapsed_convolution3D_kernel=0.1227 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=4, elapsed_convolution3D_kernel=0.1151 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=2, elapsed_convolution3D_kernel=0.1082 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=1, elapsed_convolution3D_kernel=0.1060 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=64, elapsed_convolution3D_kernel=0.2013 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=32, elapsed_convolution3D_kernel=0.1514 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=16, elapsed_convolution3D_kernel=0.1252 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=8, elapsed_convolution3D_kernel=0.1127 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=4, elapsed_convolution3D_kernel=0.1068 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=2, elapsed_convolution3D_kernel=0.1036 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=1, elapsed_convolution3D_kernel=0.1024 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=64, elapsed_convolution3D_kernel=0.1487 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=32, elapsed_convolution3D_kernel=0.1233 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=16, elapsed_convolution3D_kernel=0.1122 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=8, elapsed_convolution3D_kernel=0.1036 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=4, elapsed_convolution3D_kernel=0.1006 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=2, elapsed_convolution3D_kernel=0.1003 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=64, elapsed_convolution3D_kernel=0.1208 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=32, elapsed_convolution3D_kernel=0.1085 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=16, elapsed_convolution3D_kernel=0.1041 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=8, elapsed_convolution3D_kernel=0.1020 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=4, elapsed_convolution3D_kernel=0.1004 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=64, elapsed_convolution3D_kernel=0.1174 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=32, elapsed_convolution3D_kernel=0.1069 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=16, elapsed_convolution3D_kernel=0.1072 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=8, elapsed_convolution3D_kernel=0.1044 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=64, elapsed_convolution3D_kernel=0.1262 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=32, elapsed_convolution3D_kernel=0.1199 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=16, elapsed_convolution3D_kernel=0.1193 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=32, elapsed_convolution3D_kernel=0.9795 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=16, elapsed_convolution3D_kernel=0.6325 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=8, elapsed_convolution3D_kernel=0.4316 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=4, elapsed_convolution3D_kernel=0.3445 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=2, elapsed_convolution3D_kernel=0.3100 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=1, elapsed_convolution3D_kernel=0.3050 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=64, elapsed_convolution3D_kernel=0.9373 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=32, elapsed_convolution3D_kernel=0.6096 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=16, elapsed_convolution3D_kernel=0.4268 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=8, elapsed_convolution3D_kernel=0.3410 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=4, elapsed_convolution3D_kernel=0.2945 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=2, elapsed_convolution3D_kernel=0.2852 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=1, elapsed_convolution3D_kernel=0.2844 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=128, elapsed_convolution3D_kernel=0.8735 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=64, elapsed_convolution3D_kernel=0.6255 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=32, elapsed_convolution3D_kernel=0.4150 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=16, elapsed_convolution3D_kernel=0.3389 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=8, elapsed_convolution3D_kernel=0.2938 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=4, elapsed_convolution3D_kernel=0.2824 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=2, elapsed_convolution3D_kernel=0.2831 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=1, elapsed_convolution3D_kernel=0.2825 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=128, elapsed_convolution3D_kernel=0.5988 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=64, elapsed_convolution3D_kernel=0.4235 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=32, elapsed_convolution3D_kernel=0.3443 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=16, elapsed_convolution3D_kernel=0.3403 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=8, elapsed_convolution3D_kernel=0.2919 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=4, elapsed_convolution3D_kernel=0.2879 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=2, elapsed_convolution3D_kernel=0.2874 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=128, elapsed_convolution3D_kernel=0.4516 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=64, elapsed_convolution3D_kernel=0.3626 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=32, elapsed_convolution3D_kernel=0.3253 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=16, elapsed_convolution3D_kernel=0.3059 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=8, elapsed_convolution3D_kernel=0.3051 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=4, elapsed_convolution3D_kernel=0.3003 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=128, elapsed_convolution3D_kernel=0.3605 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=64, elapsed_convolution3D_kernel=0.3011 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=32, elapsed_convolution3D_kernel=0.2988 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=16, elapsed_convolution3D_kernel=0.2987 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=8, elapsed_convolution3D_kernel=0.2946 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=32, elapsed_convolution3D_kernel=6.2178 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=16, elapsed_convolution3D_kernel=3.5428 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=8, elapsed_convolution3D_kernel=2.1100 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=4, elapsed_convolution3D_kernel=1.5268 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=2, elapsed_convolution3D_kernel=1.2312 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=1, elapsed_convolution3D_kernel=1.1179 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=64, elapsed_convolution3D_kernel=5.8291 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=32, elapsed_convolution3D_kernel=3.5951 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=16, elapsed_convolution3D_kernel=2.1908 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=8, elapsed_convolution3D_kernel=1.5527 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=4, elapsed_convolution3D_kernel=1.2435 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=2, elapsed_convolution3D_kernel=1.1175 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=1, elapsed_convolution3D_kernel=1.1161 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=128, elapsed_convolution3D_kernel=5.9121 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=64, elapsed_convolution3D_kernel=3.3762 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=32, elapsed_convolution3D_kernel=2.1165 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=16, elapsed_convolution3D_kernel=1.5390 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=8, elapsed_convolution3D_kernel=1.2236 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=4, elapsed_convolution3D_kernel=1.1003 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=2, elapsed_convolution3D_kernel=1.0988 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=1, elapsed_convolution3D_kernel=1.0980 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=256, elapsed_convolution3D_kernel=6.1604 (ms)] ... PASS
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=128, elapsed_convolution3D_kernel=3.4518 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=64, elapsed_convolution3D_kernel=2.1155 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=32, elapsed_convolution3D_kernel=1.5551 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=16, elapsed_convolution3D_kernel=1.2374 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=8, elapsed_convolution3D_kernel=1.1155 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=4, elapsed_convolution3D_kernel=1.1208 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=2, elapsed_convolution3D_kernel=1.1135 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=1, elapsed_convolution3D_kernel=1.1232 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=256, elapsed_convolution3D_kernel=3.5261 (ms)] ... PASS
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=128, elapsed_convolution3D_kernel=2.1091 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=64, elapsed_convolution3D_kernel=1.5655 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=32, elapsed_convolution3D_kernel=1.2665 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=16, elapsed_convolution3D_kernel=1.1309 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=8, elapsed_convolution3D_kernel=1.1319 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=4, elapsed_convolution3D_kernel=1.1268 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=2, elapsed_convolution3D_kernel=1.1318 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=256, elapsed_convolution3D_kernel=2.1628 (ms)] ... PASS
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=128, elapsed_convolution3D_kernel=1.6383 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=64, elapsed_convolution3D_kernel=1.3491 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=32, elapsed_convolution3D_kernel=1.2650 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=16, elapsed_convolution3D_kernel=1.2733 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=8, elapsed_convolution3D_kernel=1.2563 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=4, elapsed_convolution3D_kernel=1.2865 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=32, elapsed_convolution3D_kernel=46.9261 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=16, elapsed_convolution3D_kernel=26.5398 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=8, elapsed_convolution3D_kernel=15.1378 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=4, elapsed_convolution3D_kernel=10.9186 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=2, elapsed_convolution3D_kernel=8.5122 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=1, elapsed_convolution3D_kernel=7.8996 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=64, elapsed_convolution3D_kernel=44.2202 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=32, elapsed_convolution3D_kernel=25.1425 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=16, elapsed_convolution3D_kernel=15.1231 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=8, elapsed_convolution3D_kernel=11.0507 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=4, elapsed_convolution3D_kernel=8.3765 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=2, elapsed_convolution3D_kernel=7.8113 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=1, elapsed_convolution3D_kernel=7.7122 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=128, elapsed_convolution3D_kernel=44.1282 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=64, elapsed_convolution3D_kernel=24.4924 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=32, elapsed_convolution3D_kernel=15.0537 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=16, elapsed_convolution3D_kernel=11.2360 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=8, elapsed_convolution3D_kernel=8.4130 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=4, elapsed_convolution3D_kernel=7.7835 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=2, elapsed_convolution3D_kernel=7.7501 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=1, elapsed_convolution3D_kernel=7.7305 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=256, elapsed_convolution3D_kernel=44.2387 (ms)] ... PASS
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=128, elapsed_convolution3D_kernel=24.6229 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=64, elapsed_convolution3D_kernel=14.9006 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=32, elapsed_convolution3D_kernel=11.2875 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=16, elapsed_convolution3D_kernel=8.4707 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=8, elapsed_convolution3D_kernel=7.8868 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=4, elapsed_convolution3D_kernel=7.8229 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=2, elapsed_convolution3D_kernel=7.7823 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=1, elapsed_convolution3D_kernel=7.7703 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=512, elapsed_convolution3D_kernel=44.5066 (ms)] ... PASS
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=256, elapsed_convolution3D_kernel=24.8629 (ms)] ... PASS
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=128, elapsed_convolution3D_kernel=15.2104 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=64, elapsed_convolution3D_kernel=11.3287 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=32, elapsed_convolution3D_kernel=8.5359 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=16, elapsed_convolution3D_kernel=7.9028 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=8, elapsed_convolution3D_kernel=7.9568 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=4, elapsed_convolution3D_kernel=7.9232 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=2, elapsed_convolution3D_kernel=7.9349 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=1, elapsed_convolution3D_kernel=7.8716 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=512, elapsed_convolution3D_kernel=25.7758 (ms)] ... PASS
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=256, elapsed_convolution3D_kernel=16.4303 (ms)] ... PASS
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=128, elapsed_convolution3D_kernel=11.9894 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=64, elapsed_convolution3D_kernel=9.0741 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=32, elapsed_convolution3D_kernel=8.7911 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=16, elapsed_convolution3D_kernel=8.7382 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=8, elapsed_convolution3D_kernel=8.7771 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=4, elapsed_convolution3D_kernel=8.7591 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=2, elapsed_convolution3D_kernel=8.7069 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=32, elapsed_convolution3D_kernel=365.9012 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=16, elapsed_convolution3D_kernel=198.5359 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=8, elapsed_convolution3D_kernel=115.6605 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=4, elapsed_convolution3D_kernel=81.6602 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=2, elapsed_convolution3D_kernel=62.1766 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=1, elapsed_convolution3D_kernel=56.7954 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=64, elapsed_convolution3D_kernel=369.8965 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=32, elapsed_convolution3D_kernel=193.3780 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=16, elapsed_convolution3D_kernel=110.8581 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=8, elapsed_convolution3D_kernel=82.5414 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=4, elapsed_convolution3D_kernel=60.1685 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=2, elapsed_convolution3D_kernel=55.6660 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=1, elapsed_convolution3D_kernel=55.2682 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=128, elapsed_convolution3D_kernel=352.5453 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=64, elapsed_convolution3D_kernel=187.7846 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=32, elapsed_convolution3D_kernel=112.2568 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=16, elapsed_convolution3D_kernel=82.3351 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=8, elapsed_convolution3D_kernel=60.9746 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=4, elapsed_convolution3D_kernel=55.6138 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=2, elapsed_convolution3D_kernel=55.4435 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=1, elapsed_convolution3D_kernel=55.2636 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=256, elapsed_convolution3D_kernel=340.9102 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=128, elapsed_convolution3D_kernel=187.4358 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=64, elapsed_convolution3D_kernel=109.9459 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=32, elapsed_convolution3D_kernel=82.9779 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=16, elapsed_convolution3D_kernel=60.7993 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=8, elapsed_convolution3D_kernel=56.0339 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=4, elapsed_convolution3D_kernel=55.5917 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=2, elapsed_convolution3D_kernel=55.3787 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=1, elapsed_convolution3D_kernel=55.3372 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=512, elapsed_convolution3D_kernel=339.0782 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=256, elapsed_convolution3D_kernel=201.7180 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=128, elapsed_convolution3D_kernel=110.0821 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=64, elapsed_convolution3D_kernel=83.9834 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=32, elapsed_convolution3D_kernel=62.0080 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=16, elapsed_convolution3D_kernel=55.6639 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=8, elapsed_convolution3D_kernel=55.8322 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=4, elapsed_convolution3D_kernel=55.7170 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=2, elapsed_convolution3D_kernel=58.7228 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=512, by=1, elapsed_convolution3D_kernel=55.5918 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=512, elapsed_convolution3D_kernel=200.9329 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=256, elapsed_convolution3D_kernel=113.6169 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=128, elapsed_convolution3D_kernel=87.8122 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=64, elapsed_convolution3D_kernel=64.5779 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=32, elapsed_convolution3D_kernel=59.8431 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=16, elapsed_convolution3D_kernel=59.3850 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=8, elapsed_convolution3D_kernel=59.0795 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=4, elapsed_convolution3D_kernel=59.5830 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 32 1]
+=============================== 
+checking log point [2048 2 16 1]
+=============================== 
+checking log point [2048 4 8 1]
+=============================== 
+checking log point [2048 8 4 1]
+=============================== 
+checking log point [2048 16 2 1]
+=============================== 
+checking log point [2048 32 1 1]
+=============================== 
+checking log point [2048 1 64 1]
+=============================== 
+checking log point [2048 2 32 1]
+=============================== 
+checking log point [2048 4 16 1]
+=============================== 
+checking log point [2048 8 8 1]
+=============================== 
+checking log point [2048 16 4 1]
+=============================== 
+checking log point [2048 32 2 1]
+=============================== 
+checking log point [2048 64 1 1]
+=============================== 
+checking log point [2048 1 128 1]
+=============================== 
+checking log point [2048 2 64 1]
+=============================== 
+checking log point [2048 4 32 1]
+=============================== 
+checking log point [2048 8 16 1]
+=============================== 
+checking log point [2048 16 8 1]
+=============================== 
+checking log point [2048 32 4 1]
+=============================== 
+checking log point [2048 64 2 1]
+=============================== 
+checking log point [2048 128 1 1]
+=============================== 
+checking log point [2048 1 256 1]
+=============================== 
+checking log point [2048 2 128 1]
+=============================== 
+checking log point [2048 4 64 1]
+=============================== 
+checking log point [2048 8 32 1]
+=============================== 
+checking log point [2048 16 16 1]
+=============================== 
+checking log point [2048 32 8 1]
+=============================== 
+checking log point [2048 64 4 1]
+=============================== 
+checking log point [2048 128 2 1]
+=============================== 
+checking log point [2048 256 1 1]
+=============================== 
+checking log point [2048 1 512 1]
+=============================== 
+checking log point [2048 2 256 1]
+=============================== 
+checking log point [2048 4 128 1]
+=============================== 
+checking log point [2048 8 64 1]
+=============================== 
+checking log point [2048 16 32 1]
+=============================== 
+checking log point [2048 32 16 1]
+=============================== 
+checking log point [2048 64 8 1]
+=============================== 
+checking log point [2048 128 4 1]
+=============================== 
+checking log point [2048 256 2 1]
+=============================== 
+checking log point [2048 512 1 1]
+=============================== 
+checking log point [2048 2 512 1]
+=============================== 
+checking log point [2048 4 256 1]
+=============================== 
+checking log point [2048 8 128 1]
+=============================== 
+checking log point [2048 16 64 1]
+=============================== 
+checking log point [2048 32 32 1]
+=============================== 
+checking log point [2048 64 16 1]
+=============================== 
+checking log point [2048 128 8 1]
+=============================== 
+checking log point [2048 256 4 1]
+=============================== 

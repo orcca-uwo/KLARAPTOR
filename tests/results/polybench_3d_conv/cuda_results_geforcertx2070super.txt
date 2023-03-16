@@ -1,0 +1,849 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=32, elapsed_convolution3D_kernel=0.2100 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=16, elapsed_convolution3D_kernel=0.1584 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=8, elapsed_convolution3D_kernel=0.1321 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=4, elapsed_convolution3D_kernel=0.1280 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=2, elapsed_convolution3D_kernel=0.1197 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=1, elapsed_convolution3D_kernel=0.1179 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=64, elapsed_convolution3D_kernel=0.2201 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=32, elapsed_convolution3D_kernel=0.1646 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=16, elapsed_convolution3D_kernel=0.1408 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=8, elapsed_convolution3D_kernel=0.1233 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=4, elapsed_convolution3D_kernel=0.1171 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=2, elapsed_convolution3D_kernel=0.1167 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=1, elapsed_convolution3D_kernel=0.1173 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=64, elapsed_convolution3D_kernel=0.1644 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=32, elapsed_convolution3D_kernel=0.1392 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=16, elapsed_convolution3D_kernel=0.1179 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=8, elapsed_convolution3D_kernel=0.1192 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=4, elapsed_convolution3D_kernel=0.1164 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=2, elapsed_convolution3D_kernel=0.1158 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=64, elapsed_convolution3D_kernel=0.1470 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=32, elapsed_convolution3D_kernel=0.1291 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=16, elapsed_convolution3D_kernel=0.1248 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=8, elapsed_convolution3D_kernel=0.1177 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=4, elapsed_convolution3D_kernel=0.1176 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=64, elapsed_convolution3D_kernel=0.1575 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=32, elapsed_convolution3D_kernel=0.1463 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=16, elapsed_convolution3D_kernel=0.1395 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=8, elapsed_convolution3D_kernel=0.1361 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=64, elapsed_convolution3D_kernel=0.1854 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=32, elapsed_convolution3D_kernel=0.1756 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=16, elapsed_convolution3D_kernel=0.1692 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=32, elapsed_convolution3D_kernel=1.0213 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=16, elapsed_convolution3D_kernel=0.6480 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=8, elapsed_convolution3D_kernel=0.4498 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=4, elapsed_convolution3D_kernel=0.3491 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=2, elapsed_convolution3D_kernel=0.3321 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=1, elapsed_convolution3D_kernel=0.3276 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=64, elapsed_convolution3D_kernel=1.0204 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=32, elapsed_convolution3D_kernel=0.6525 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=16, elapsed_convolution3D_kernel=0.4436 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=8, elapsed_convolution3D_kernel=0.3453 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=4, elapsed_convolution3D_kernel=0.3199 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=2, elapsed_convolution3D_kernel=0.3142 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=1, elapsed_convolution3D_kernel=0.3174 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=1, by=128, elapsed_convolution3D_kernel=1.0795 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=64, elapsed_convolution3D_kernel=0.6644 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=32, elapsed_convolution3D_kernel=0.4638 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=16, elapsed_convolution3D_kernel=0.3480 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=8, elapsed_convolution3D_kernel=0.3190 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=4, elapsed_convolution3D_kernel=0.3096 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=2, elapsed_convolution3D_kernel=0.3079 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=1, elapsed_convolution3D_kernel=0.3058 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=2, by=128, elapsed_convolution3D_kernel=0.7253 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=64, elapsed_convolution3D_kernel=0.5029 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=32, elapsed_convolution3D_kernel=0.3855 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=16, elapsed_convolution3D_kernel=0.3230 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=8, elapsed_convolution3D_kernel=0.3106 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=4, elapsed_convolution3D_kernel=0.3114 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=2, elapsed_convolution3D_kernel=0.3067 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=4, by=128, elapsed_convolution3D_kernel=0.4996 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=64, elapsed_convolution3D_kernel=0.3676 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=32, elapsed_convolution3D_kernel=0.3234 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=16, elapsed_convolution3D_kernel=0.3191 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=8, elapsed_convolution3D_kernel=0.3134 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=4, elapsed_convolution3D_kernel=0.3171 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=8, by=128, elapsed_convolution3D_kernel=0.4436 (ms)] ... PASS
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=16, by=64, elapsed_convolution3D_kernel=0.3958 (ms)] ... PASS
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=32, elapsed_convolution3D_kernel=0.3724 (ms)] ... PASS
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=16, elapsed_convolution3D_kernel=0.3740 (ms)] ... PASS
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=8, elapsed_convolution3D_kernel=0.3669 (ms)] ... PASS
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=32, elapsed_convolution3D_kernel=6.8244 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=16, elapsed_convolution3D_kernel=3.7682 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=8, elapsed_convolution3D_kernel=2.1695 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=4, elapsed_convolution3D_kernel=1.3846 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=2, elapsed_convolution3D_kernel=1.2681 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=1, elapsed_convolution3D_kernel=1.3641 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=64, elapsed_convolution3D_kernel=6.8472 (ms)] ... PASS
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=32, elapsed_convolution3D_kernel=3.7957 (ms)] ... PASS
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=16, elapsed_convolution3D_kernel=2.1859 (ms)] ... PASS
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=8, elapsed_convolution3D_kernel=1.3804 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=4, elapsed_convolution3D_kernel=1.1394 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=2, elapsed_convolution3D_kernel=1.0421 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=1, elapsed_convolution3D_kernel=1.0497 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=128, elapsed_convolution3D_kernel=6.9247 (ms)] ... PASS
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=64, elapsed_convolution3D_kernel=3.7985 (ms)] ... PASS
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=32, elapsed_convolution3D_kernel=2.2035 (ms)] ... PASS
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=16, elapsed_convolution3D_kernel=1.3703 (ms)] ... PASS
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=8, elapsed_convolution3D_kernel=1.1441 (ms)] ... PASS
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=4, elapsed_convolution3D_kernel=1.0381 (ms)] ... PASS
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=2, elapsed_convolution3D_kernel=1.1231 (ms)] ... PASS
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=1, elapsed_convolution3D_kernel=1.0486 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=1, by=256, elapsed_convolution3D_kernel=7.3946 (ms)] ... PASS
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=128, elapsed_convolution3D_kernel=3.8828 (ms)] ... PASS
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=64, elapsed_convolution3D_kernel=2.3431 (ms)] ... PASS
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=32, elapsed_convolution3D_kernel=1.4081 (ms)] ... PASS
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=16, elapsed_convolution3D_kernel=1.1454 (ms)] ... PASS
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=8, elapsed_convolution3D_kernel=1.0715 (ms)] ... PASS
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=4, elapsed_convolution3D_kernel=1.0763 (ms)] ... PASS
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=2, elapsed_convolution3D_kernel=1.0840 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=1, elapsed_convolution3D_kernel=1.0930 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=2, by=256, elapsed_convolution3D_kernel=4.2324 (ms)] ... PASS
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=128, elapsed_convolution3D_kernel=2.4235 (ms)] ... PASS
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=64, elapsed_convolution3D_kernel=1.4880 (ms)] ... PASS
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=32, elapsed_convolution3D_kernel=1.2331 (ms)] ... PASS
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=16, elapsed_convolution3D_kernel=1.1416 (ms)] ... PASS
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=8, elapsed_convolution3D_kernel=1.1524 (ms)] ... PASS
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=4, elapsed_convolution3D_kernel=1.1436 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=2, elapsed_convolution3D_kernel=1.1626 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=4, by=256, elapsed_convolution3D_kernel=2.7822 (ms)] ... PASS
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=8, by=128, elapsed_convolution3D_kernel=1.8270 (ms)] ... PASS
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=16, by=64, elapsed_convolution3D_kernel=1.4307 (ms)] ... PASS
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=32, by=32, elapsed_convolution3D_kernel=1.2661 (ms)] ... PASS
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=64, by=16, elapsed_convolution3D_kernel=1.2803 (ms)] ... PASS
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=128, by=8, elapsed_convolution3D_kernel=1.2871 (ms)] ... PASS
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=256, bx=256, by=4, elapsed_convolution3D_kernel=1.3474 (ms)] ... PASS
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=32, elapsed_convolution3D_kernel=51.9915 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=16, elapsed_convolution3D_kernel=22.5769 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=8, elapsed_convolution3D_kernel=12.1219 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=4, elapsed_convolution3D_kernel=6.9574 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=2, elapsed_convolution3D_kernel=6.0296 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=1, elapsed_convolution3D_kernel=6.3114 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=64, elapsed_convolution3D_kernel=42.8562 (ms)] ... PASS
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=32, elapsed_convolution3D_kernel=22.5822 (ms)] ... PASS
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=16, elapsed_convolution3D_kernel=12.0398 (ms)] ... PASS
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=8, elapsed_convolution3D_kernel=6.7818 (ms)] ... PASS
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=4, elapsed_convolution3D_kernel=5.3546 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=2, elapsed_convolution3D_kernel=4.7859 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=1, elapsed_convolution3D_kernel=5.3860 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=128, elapsed_convolution3D_kernel=51.9684 (ms)] ... PASS
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=64, elapsed_convolution3D_kernel=22.5203 (ms)] ... PASS
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=32, elapsed_convolution3D_kernel=12.2345 (ms)] ... PASS
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=16, elapsed_convolution3D_kernel=6.7954 (ms)] ... PASS
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=8, elapsed_convolution3D_kernel=5.3172 (ms)] ... PASS
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=4, elapsed_convolution3D_kernel=4.8154 (ms)] ... PASS
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=2, elapsed_convolution3D_kernel=4.8529 (ms)] ... PASS
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=1, elapsed_convolution3D_kernel=4.8547 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=256, elapsed_convolution3D_kernel=42.8344 (ms)] ... PASS
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=128, elapsed_convolution3D_kernel=22.8444 (ms)] ... PASS
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=64, elapsed_convolution3D_kernel=12.3140 (ms)] ... PASS
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=32, elapsed_convolution3D_kernel=6.8491 (ms)] ... PASS
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=16, elapsed_convolution3D_kernel=5.3489 (ms)] ... PASS
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=8, elapsed_convolution3D_kernel=4.8470 (ms)] ... PASS
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=4, elapsed_convolution3D_kernel=5.0222 (ms)] ... PASS
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=2, elapsed_convolution3D_kernel=4.9500 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=1, elapsed_convolution3D_kernel=4.9802 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=1, by=512, elapsed_convolution3D_kernel=44.8161 (ms)] ... PASS
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=256, elapsed_convolution3D_kernel=23.1963 (ms)] ... PASS
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=128, elapsed_convolution3D_kernel=12.5802 (ms)] ... PASS
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=64, elapsed_convolution3D_kernel=7.2386 (ms)] ... PASS
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=32, elapsed_convolution3D_kernel=6.6910 (ms)] ... PASS
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=16, elapsed_convolution3D_kernel=6.0611 (ms)] ... PASS
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=8, elapsed_convolution3D_kernel=6.2395 (ms)] ... PASS
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=4, elapsed_convolution3D_kernel=6.2308 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=2, elapsed_convolution3D_kernel=6.4353 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=1, elapsed_convolution3D_kernel=5.6440 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=2, by=512, elapsed_convolution3D_kernel=24.5754 (ms)] ... PASS
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=4, by=256, elapsed_convolution3D_kernel=14.0443 (ms)] ... PASS
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=8, by=128, elapsed_convolution3D_kernel=8.9617 (ms)] ... PASS
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=16, by=64, elapsed_convolution3D_kernel=7.3352 (ms)] ... PASS
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=32, by=32, elapsed_convolution3D_kernel=6.7649 (ms)] ... PASS
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=64, by=16, elapsed_convolution3D_kernel=6.7905 (ms)] ... PASS
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=128, by=8, elapsed_convolution3D_kernel=7.0038 (ms)] ... PASS
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=256, by=4, elapsed_convolution3D_kernel=7.0875 (ms)] ... PASS
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=512, bx=512, by=2, elapsed_convolution3D_kernel=6.9335 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 32 1]
+=============================== 
+checking log point [1024 2 16 1]
+=============================== 
+checking log point [1024 4 8 1]
+=============================== 
+checking log point [1024 8 4 1]
+=============================== 
+checking log point [1024 16 2 1]
+=============================== 
+checking log point [1024 32 1 1]
+=============================== 
+checking log point [1024 1 64 1]
+=============================== 
+checking log point [1024 2 32 1]
+=============================== 
+checking log point [1024 4 16 1]
+=============================== 
+checking log point [1024 8 8 1]
+=============================== 
+checking log point [1024 16 4 1]
+=============================== 
+checking log point [1024 32 2 1]
+=============================== 
+checking log point [1024 64 1 1]
+=============================== 
+checking log point [1024 1 128 1]
+=============================== 
+checking log point [1024 2 64 1]
+=============================== 
+checking log point [1024 4 32 1]
+=============================== 
+checking log point [1024 8 16 1]
+=============================== 
+checking log point [1024 16 8 1]
+=============================== 
+checking log point [1024 32 4 1]
+=============================== 
+checking log point [1024 64 2 1]
+=============================== 
+checking log point [1024 128 1 1]
+=============================== 
+checking log point [1024 1 256 1]
+=============================== 
+checking log point [1024 2 128 1]
+=============================== 
+checking log point [1024 4 64 1]
+=============================== 
+checking log point [1024 8 32 1]
+=============================== 
+checking log point [1024 16 16 1]
+=============================== 
+checking log point [1024 32 8 1]
+=============================== 
+checking log point [1024 64 4 1]
+=============================== 
+checking log point [1024 128 2 1]
+=============================== 
+checking log point [1024 256 1 1]
+=============================== 
+checking log point [1024 1 512 1]
+=============================== 
+checking log point [1024 2 256 1]
+=============================== 
+checking log point [1024 4 128 1]
+=============================== 
+checking log point [1024 8 64 1]
+=============================== 
+checking log point [1024 16 32 1]
+=============================== 
+checking log point [1024 32 16 1]
+=============================== 
+checking log point [1024 64 8 1]
+=============================== 
+checking log point [1024 128 4 1]
+=============================== 
+checking log point [1024 256 2 1]
+=============================== 
+checking log point [1024 512 1 1]
+=============================== 
+checking log point [1024 2 512 1]
+=============================== 
+checking log point [1024 4 256 1]
+=============================== 
+checking log point [1024 8 128 1]
+=============================== 
+checking log point [1024 16 64 1]
+=============================== 
+checking log point [1024 32 32 1]
+=============================== 
+checking log point [1024 64 16 1]
+=============================== 
+checking log point [1024 128 8 1]
+=============================== 
+checking log point [1024 256 4 1]
+=============================== 
+checking log point [2048 1 32 1]
+=============================== 
+checking log point [2048 2 16 1]
+=============================== 
+checking log point [2048 4 8 1]
+=============================== 
+checking log point [2048 8 4 1]
+=============================== 
+checking log point [2048 16 2 1]
+=============================== 
+checking log point [2048 32 1 1]
+=============================== 
+checking log point [2048 1 64 1]
+=============================== 
+checking log point [2048 2 32 1]
+=============================== 
+checking log point [2048 4 16 1]
+=============================== 
+checking log point [2048 8 8 1]
+=============================== 
+checking log point [2048 16 4 1]
+=============================== 
+checking log point [2048 32 2 1]
+=============================== 
+checking log point [2048 64 1 1]
+=============================== 
+checking log point [2048 1 128 1]
+=============================== 
+checking log point [2048 2 64 1]
+=============================== 
+checking log point [2048 4 32 1]
+=============================== 
+checking log point [2048 8 16 1]
+=============================== 
+checking log point [2048 16 8 1]
+=============================== 
+checking log point [2048 32 4 1]
+=============================== 
+checking log point [2048 64 2 1]
+=============================== 
+checking log point [2048 128 1 1]
+=============================== 
+checking log point [2048 1 256 1]
+=============================== 
+checking log point [2048 2 128 1]
+=============================== 
+checking log point [2048 4 64 1]
+=============================== 
+checking log point [2048 8 32 1]
+=============================== 
+checking log point [2048 16 16 1]
+=============================== 
+checking log point [2048 32 8 1]
+=============================== 
+checking log point [2048 64 4 1]
+=============================== 
+checking log point [2048 128 2 1]
+=============================== 
+checking log point [2048 256 1 1]
+=============================== 
+checking log point [2048 1 512 1]
+=============================== 
+checking log point [2048 2 256 1]
+=============================== 
+checking log point [2048 4 128 1]
+=============================== 
+checking log point [2048 8 64 1]
+=============================== 
+checking log point [2048 16 32 1]
+=============================== 
+checking log point [2048 32 16 1]
+=============================== 
+checking log point [2048 64 8 1]
+=============================== 
+checking log point [2048 128 4 1]
+=============================== 
+checking log point [2048 256 2 1]
+=============================== 
+checking log point [2048 512 1 1]
+=============================== 
+checking log point [2048 2 512 1]
+=============================== 
+checking log point [2048 4 256 1]
+=============================== 
+checking log point [2048 8 128 1]
+=============================== 
+checking log point [2048 16 64 1]
+=============================== 
+checking log point [2048 32 32 1]
+=============================== 
+checking log point [2048 64 16 1]
+=============================== 
+checking log point [2048 128 8 1]
+=============================== 
+checking log point [2048 256 4 1]
+=============================== 

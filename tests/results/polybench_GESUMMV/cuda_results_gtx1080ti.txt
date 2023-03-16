@@ -1,0 +1,1041 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=32, elapsed_gesummv_kernel=0.0512 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=16, elapsed_gesummv_kernel=0.0334 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=8, elapsed_gesummv_kernel=0.0306 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=4, elapsed_gesummv_kernel=0.0305 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=2, elapsed_gesummv_kernel=0.0310 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=1, elapsed_gesummv_kernel=0.0318 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=1, by=64, elapsed_gesummv_kernel=0.0756 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=32, elapsed_gesummv_kernel=0.0519 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=16, elapsed_gesummv_kernel=0.0337 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=8, elapsed_gesummv_kernel=0.0303 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=4, elapsed_gesummv_kernel=0.0309 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=2, elapsed_gesummv_kernel=0.0303 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=1, elapsed_gesummv_kernel=0.0320 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=2, by=64, elapsed_gesummv_kernel=0.1005 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=32, elapsed_gesummv_kernel=0.0502 (ms)] ... FAIL
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=16, elapsed_gesummv_kernel=0.0319 (ms)] ... FAIL
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=8, elapsed_gesummv_kernel=0.0308 (ms)] ... FAIL
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=4, elapsed_gesummv_kernel=0.0315 (ms)] ... FAIL
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=2, elapsed_gesummv_kernel=0.0316 (ms)] ... FAIL
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=4, by=64, elapsed_gesummv_kernel=0.1007 (ms)] ... FAIL
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=32, elapsed_gesummv_kernel=0.0520 (ms)] ... FAIL
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=16, elapsed_gesummv_kernel=0.0332 (ms)] ... FAIL
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=8, elapsed_gesummv_kernel=0.0320 (ms)] ... FAIL
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=4, elapsed_gesummv_kernel=0.0319 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=8, by=64, elapsed_gesummv_kernel=0.0836 (ms)] ... FAIL
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=32, elapsed_gesummv_kernel=0.0529 (ms)] ... FAIL
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=16, elapsed_gesummv_kernel=0.0373 (ms)] ... FAIL
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=8, elapsed_gesummv_kernel=0.0366 (ms)] ... FAIL
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=16, by=64, elapsed_gesummv_kernel=0.0617 (ms)] ... FAIL
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=32, by=32, elapsed_gesummv_kernel=0.0673 (ms)] ... FAIL
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=64, bx=64, by=16, elapsed_gesummv_kernel=0.0621 (ms)] ... FAIL
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=32, elapsed_gesummv_kernel=0.0993 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=16, elapsed_gesummv_kernel=0.0563 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=8, elapsed_gesummv_kernel=0.0482 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=4, elapsed_gesummv_kernel=0.0486 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=2, elapsed_gesummv_kernel=0.0541 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=1, elapsed_gesummv_kernel=0.0516 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=64, elapsed_gesummv_kernel=0.1857 (ms)] ... FAIL
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=32, elapsed_gesummv_kernel=0.0997 (ms)] ... FAIL
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=16, elapsed_gesummv_kernel=0.0578 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=8, elapsed_gesummv_kernel=0.0486 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=4, elapsed_gesummv_kernel=0.0506 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=2, elapsed_gesummv_kernel=0.0514 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=1, elapsed_gesummv_kernel=0.0519 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=1, by=128, elapsed_gesummv_kernel=0.3276 (ms)] ... FAIL
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=64, elapsed_gesummv_kernel=0.1949 (ms)] ... FAIL
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=32, elapsed_gesummv_kernel=0.0991 (ms)] ... FAIL
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=16, elapsed_gesummv_kernel=0.0609 (ms)] ... FAIL
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=8, elapsed_gesummv_kernel=0.0508 (ms)] ... FAIL
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=4, elapsed_gesummv_kernel=0.0521 (ms)] ... FAIL
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=2, elapsed_gesummv_kernel=0.0522 (ms)] ... FAIL
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=1, elapsed_gesummv_kernel=0.0518 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=2, by=128, elapsed_gesummv_kernel=0.3831 (ms)] ... FAIL
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=64, elapsed_gesummv_kernel=0.1887 (ms)] ... FAIL
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=32, elapsed_gesummv_kernel=0.0996 (ms)] ... FAIL
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=16, elapsed_gesummv_kernel=0.0593 (ms)] ... FAIL
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=8, elapsed_gesummv_kernel=0.0533 (ms)] ... FAIL
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=4, elapsed_gesummv_kernel=0.0518 (ms)] ... FAIL
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=2, elapsed_gesummv_kernel=0.0518 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=4, by=128, elapsed_gesummv_kernel=0.3782 (ms)] ... FAIL
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=64, elapsed_gesummv_kernel=0.1843 (ms)] ... FAIL
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=32, elapsed_gesummv_kernel=0.1166 (ms)] ... FAIL
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=16, elapsed_gesummv_kernel=0.0742 (ms)] ... FAIL
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=8, elapsed_gesummv_kernel=0.0624 (ms)] ... FAIL
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=4, elapsed_gesummv_kernel=0.0606 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=8, by=128, elapsed_gesummv_kernel=0.3612 (ms)] ... FAIL
+=============================== 
+checking log point [128 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=16, by=64, elapsed_gesummv_kernel=0.1687 (ms)] ... FAIL
+=============================== 
+checking log point [128 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=32, by=32, elapsed_gesummv_kernel=0.1328 (ms)] ... FAIL
+=============================== 
+checking log point [128 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=64, by=16, elapsed_gesummv_kernel=0.1148 (ms)] ... FAIL
+=============================== 
+checking log point [128 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=128, bx=128, by=8, elapsed_gesummv_kernel=0.1146 (ms)] ... FAIL
+=============================== 
+checking log point [256 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=32, elapsed_gesummv_kernel=0.2797 (ms)] ... PASS
+=============================== 
+checking log point [256 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=16, elapsed_gesummv_kernel=0.1386 (ms)] ... PASS
+=============================== 
+checking log point [256 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=8, elapsed_gesummv_kernel=0.0866 (ms)] ... PASS
+=============================== 
+checking log point [256 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=4, elapsed_gesummv_kernel=0.0858 (ms)] ... PASS
+=============================== 
+checking log point [256 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=2, elapsed_gesummv_kernel=0.0899 (ms)] ... PASS
+=============================== 
+checking log point [256 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=1, elapsed_gesummv_kernel=0.0926 (ms)] ... PASS
+=============================== 
+checking log point [256 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=64, elapsed_gesummv_kernel=0.5156 (ms)] ... FAIL
+=============================== 
+checking log point [256 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=32, elapsed_gesummv_kernel=0.2713 (ms)] ... FAIL
+=============================== 
+checking log point [256 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=16, elapsed_gesummv_kernel=0.1360 (ms)] ... FAIL
+=============================== 
+checking log point [256 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=8, elapsed_gesummv_kernel=0.0909 (ms)] ... PASS
+=============================== 
+checking log point [256 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=4, elapsed_gesummv_kernel=0.0898 (ms)] ... PASS
+=============================== 
+checking log point [256 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=2, elapsed_gesummv_kernel=0.0925 (ms)] ... PASS
+=============================== 
+checking log point [256 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=1, elapsed_gesummv_kernel=0.0928 (ms)] ... PASS
+=============================== 
+checking log point [256 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=128, elapsed_gesummv_kernel=1.0386 (ms)] ... FAIL
+=============================== 
+checking log point [256 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=64, elapsed_gesummv_kernel=0.5304 (ms)] ... FAIL
+=============================== 
+checking log point [256 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=32, elapsed_gesummv_kernel=0.2665 (ms)] ... FAIL
+=============================== 
+checking log point [256 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=16, elapsed_gesummv_kernel=0.1367 (ms)] ... FAIL
+=============================== 
+checking log point [256 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=8, elapsed_gesummv_kernel=0.0936 (ms)] ... FAIL
+=============================== 
+checking log point [256 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=4, elapsed_gesummv_kernel=0.0944 (ms)] ... FAIL
+=============================== 
+checking log point [256 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=2, elapsed_gesummv_kernel=0.0927 (ms)] ... FAIL
+=============================== 
+checking log point [256 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=1, elapsed_gesummv_kernel=0.0925 (ms)] ... PASS
+=============================== 
+checking log point [256 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=1, by=256, elapsed_gesummv_kernel=2.7472 (ms)] ... FAIL
+=============================== 
+checking log point [256 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=128, elapsed_gesummv_kernel=1.0511 (ms)] ... FAIL
+=============================== 
+checking log point [256 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=64, elapsed_gesummv_kernel=0.5166 (ms)] ... FAIL
+=============================== 
+checking log point [256 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=32, elapsed_gesummv_kernel=0.2668 (ms)] ... FAIL
+=============================== 
+checking log point [256 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=16, elapsed_gesummv_kernel=0.1460 (ms)] ... FAIL
+=============================== 
+checking log point [256 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=8, elapsed_gesummv_kernel=0.1009 (ms)] ... FAIL
+=============================== 
+checking log point [256 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=4, elapsed_gesummv_kernel=0.0935 (ms)] ... FAIL
+=============================== 
+checking log point [256 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=2, elapsed_gesummv_kernel=0.0955 (ms)] ... PASS
+=============================== 
+checking log point [256 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=1, elapsed_gesummv_kernel=0.0932 (ms)] ... PASS
+=============================== 
+checking log point [256 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=2, by=256, elapsed_gesummv_kernel=2.6657 (ms)] ... FAIL
+=============================== 
+checking log point [256 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=128, elapsed_gesummv_kernel=1.0638 (ms)] ... FAIL
+=============================== 
+checking log point [256 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=64, elapsed_gesummv_kernel=0.5186 (ms)] ... FAIL
+=============================== 
+checking log point [256 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=32, elapsed_gesummv_kernel=0.2960 (ms)] ... FAIL
+=============================== 
+checking log point [256 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=16, elapsed_gesummv_kernel=0.1797 (ms)] ... FAIL
+=============================== 
+checking log point [256 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=8, elapsed_gesummv_kernel=0.1118 (ms)] ... FAIL
+=============================== 
+checking log point [256 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=4, elapsed_gesummv_kernel=0.1106 (ms)] ... PASS
+=============================== 
+checking log point [256 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=2, elapsed_gesummv_kernel=0.1102 (ms)] ... PASS
+=============================== 
+checking log point [256 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=4, by=256, elapsed_gesummv_kernel=2.5706 (ms)] ... FAIL
+=============================== 
+checking log point [256 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=8, by=128, elapsed_gesummv_kernel=1.1497 (ms)] ... FAIL
+=============================== 
+checking log point [256 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=16, by=64, elapsed_gesummv_kernel=0.3974 (ms)] ... FAIL
+=============================== 
+checking log point [256 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=32, by=32, elapsed_gesummv_kernel=0.3760 (ms)] ... FAIL
+=============================== 
+checking log point [256 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=64, by=16, elapsed_gesummv_kernel=0.2201 (ms)] ... FAIL
+=============================== 
+checking log point [256 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=128, by=8, elapsed_gesummv_kernel=0.2118 (ms)] ... FAIL
+=============================== 
+checking log point [256 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=256, bx=256, by=4, elapsed_gesummv_kernel=0.2104 (ms)] ... FAIL
+=============================== 
+checking log point [512 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=32, elapsed_gesummv_kernel=0.5454 (ms)] ... PASS
+=============================== 
+checking log point [512 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=16, elapsed_gesummv_kernel=0.2686 (ms)] ... PASS
+=============================== 
+checking log point [512 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=8, elapsed_gesummv_kernel=0.1699 (ms)] ... PASS
+=============================== 
+checking log point [512 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=4, elapsed_gesummv_kernel=0.1659 (ms)] ... PASS
+=============================== 
+checking log point [512 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=2, elapsed_gesummv_kernel=0.1768 (ms)] ... PASS
+=============================== 
+checking log point [512 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=1, elapsed_gesummv_kernel=0.1802 (ms)] ... PASS
+=============================== 
+checking log point [512 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=64, elapsed_gesummv_kernel=1.0508 (ms)] ... FAIL
+=============================== 
+checking log point [512 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=32, elapsed_gesummv_kernel=0.5239 (ms)] ... FAIL
+=============================== 
+checking log point [512 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=16, elapsed_gesummv_kernel=0.2685 (ms)] ... FAIL
+=============================== 
+checking log point [512 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=8, elapsed_gesummv_kernel=0.1722 (ms)] ... FAIL
+=============================== 
+checking log point [512 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=4, elapsed_gesummv_kernel=0.1772 (ms)] ... PASS
+=============================== 
+checking log point [512 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=2, elapsed_gesummv_kernel=0.1801 (ms)] ... PASS
+=============================== 
+checking log point [512 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=1, elapsed_gesummv_kernel=0.1783 (ms)] ... PASS
+=============================== 
+checking log point [512 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=128, elapsed_gesummv_kernel=3.3550 (ms)] ... FAIL
+=============================== 
+checking log point [512 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=64, elapsed_gesummv_kernel=1.0327 (ms)] ... FAIL
+=============================== 
+checking log point [512 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=32, elapsed_gesummv_kernel=0.5223 (ms)] ... FAIL
+=============================== 
+checking log point [512 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=16, elapsed_gesummv_kernel=0.2754 (ms)] ... FAIL
+=============================== 
+checking log point [512 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=8, elapsed_gesummv_kernel=0.1858 (ms)] ... FAIL
+=============================== 
+checking log point [512 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=4, elapsed_gesummv_kernel=0.1866 (ms)] ... FAIL
+=============================== 
+checking log point [512 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=2, elapsed_gesummv_kernel=0.1898 (ms)] ... FAIL
+=============================== 
+checking log point [512 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=1, elapsed_gesummv_kernel=0.1812 (ms)] ... PASS
+=============================== 
+checking log point [512 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=256, elapsed_gesummv_kernel=8.3949 (ms)] ... FAIL
+=============================== 
+checking log point [512 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=128, elapsed_gesummv_kernel=3.2144 (ms)] ... FAIL
+=============================== 
+checking log point [512 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=64, elapsed_gesummv_kernel=1.0290 (ms)] ... FAIL
+=============================== 
+checking log point [512 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=32, elapsed_gesummv_kernel=0.5270 (ms)] ... FAIL
+=============================== 
+checking log point [512 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=16, elapsed_gesummv_kernel=0.3187 (ms)] ... FAIL
+=============================== 
+checking log point [512 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=8, elapsed_gesummv_kernel=0.2213 (ms)] ... FAIL
+=============================== 
+checking log point [512 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=4, elapsed_gesummv_kernel=0.1925 (ms)] ... FAIL
+=============================== 
+checking log point [512 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=2, elapsed_gesummv_kernel=0.1924 (ms)] ... PASS
+=============================== 
+checking log point [512 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=1, elapsed_gesummv_kernel=0.1924 (ms)] ... PASS
+=============================== 
+checking log point [512 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=1, by=512, elapsed_gesummv_kernel=22.0762 (ms)] ... FAIL
+=============================== 
+checking log point [512 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=256, elapsed_gesummv_kernel=8.5661 (ms)] ... FAIL
+=============================== 
+checking log point [512 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=128, elapsed_gesummv_kernel=3.0450 (ms)] ... FAIL
+=============================== 
+checking log point [512 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=64, elapsed_gesummv_kernel=1.0593 (ms)] ... FAIL
+=============================== 
+checking log point [512 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=32, elapsed_gesummv_kernel=0.6944 (ms)] ... FAIL
+=============================== 
+checking log point [512 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=16, elapsed_gesummv_kernel=0.3980 (ms)] ... FAIL
+=============================== 
+checking log point [512 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=8, elapsed_gesummv_kernel=0.3436 (ms)] ... FAIL
+=============================== 
+checking log point [512 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=4, elapsed_gesummv_kernel=0.3417 (ms)] ... PASS
+=============================== 
+checking log point [512 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=2, elapsed_gesummv_kernel=0.3411 (ms)] ... PASS
+=============================== 
+checking log point [512 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=1, elapsed_gesummv_kernel=0.3401 (ms)] ... PASS
+=============================== 
+checking log point [512 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=2, by=512, elapsed_gesummv_kernel=22.9184 (ms)] ... FAIL
+=============================== 
+checking log point [512 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=4, by=256, elapsed_gesummv_kernel=8.5109 (ms)] ... FAIL
+=============================== 
+checking log point [512 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=8, by=128, elapsed_gesummv_kernel=3.5105 (ms)] ... FAIL
+=============================== 
+checking log point [512 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=16, by=64, elapsed_gesummv_kernel=1.2306 (ms)] ... FAIL
+=============================== 
+checking log point [512 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=32, by=32, elapsed_gesummv_kernel=0.8852 (ms)] ... FAIL
+=============================== 
+checking log point [512 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=64, by=16, elapsed_gesummv_kernel=0.6679 (ms)] ... FAIL
+=============================== 
+checking log point [512 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=128, by=8, elapsed_gesummv_kernel=0.6665 (ms)] ... FAIL
+=============================== 
+checking log point [512 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=256, by=4, elapsed_gesummv_kernel=0.6651 (ms)] ... FAIL
+=============================== 
+checking log point [512 512 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=512, bx=512, by=2, elapsed_gesummv_kernel=0.6636 (ms)] ... FAIL
+=============================== 
+checking log point [1024 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=32, elapsed_gesummv_kernel=2.1062 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=16, elapsed_gesummv_kernel=0.7994 (ms)] ... PASS
+=============================== 
+checking log point [1024 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=8, elapsed_gesummv_kernel=0.4286 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=4, elapsed_gesummv_kernel=0.3486 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=2, elapsed_gesummv_kernel=0.3715 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=1, elapsed_gesummv_kernel=0.3755 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=64, elapsed_gesummv_kernel=4.3608 (ms)] ... FAIL
+=============================== 
+checking log point [1024 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=32, elapsed_gesummv_kernel=1.5340 (ms)] ... FAIL
+=============================== 
+checking log point [1024 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=16, elapsed_gesummv_kernel=0.7981 (ms)] ... PASS
+=============================== 
+checking log point [1024 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=8, elapsed_gesummv_kernel=0.4416 (ms)] ... PASS
+=============================== 
+checking log point [1024 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=4, elapsed_gesummv_kernel=0.3736 (ms)] ... PASS
+=============================== 
+checking log point [1024 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=2, elapsed_gesummv_kernel=0.3810 (ms)] ... PASS
+=============================== 
+checking log point [1024 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=1, elapsed_gesummv_kernel=0.3748 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=128, elapsed_gesummv_kernel=10.1643 (ms)] ... FAIL
+=============================== 
+checking log point [1024 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=64, elapsed_gesummv_kernel=4.2437 (ms)] ... FAIL
+=============================== 
+checking log point [1024 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=32, elapsed_gesummv_kernel=1.5535 (ms)] ... FAIL
+=============================== 
+checking log point [1024 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=16, elapsed_gesummv_kernel=0.8329 (ms)] ... FAIL
+=============================== 
+checking log point [1024 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=8, elapsed_gesummv_kernel=0.5264 (ms)] ... FAIL
+=============================== 
+checking log point [1024 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=4, elapsed_gesummv_kernel=0.4249 (ms)] ... FAIL
+=============================== 
+checking log point [1024 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=2, elapsed_gesummv_kernel=0.3970 (ms)] ... PASS
+=============================== 
+checking log point [1024 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=1, elapsed_gesummv_kernel=0.3822 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=256, elapsed_gesummv_kernel=29.5666 (ms)] ... FAIL
+=============================== 
+checking log point [1024 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=128, elapsed_gesummv_kernel=9.7900 (ms)] ... FAIL
+=============================== 
+checking log point [1024 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=64, elapsed_gesummv_kernel=4.3233 (ms)] ... FAIL
+=============================== 
+checking log point [1024 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=32, elapsed_gesummv_kernel=1.6034 (ms)] ... FAIL
+=============================== 
+checking log point [1024 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=16, elapsed_gesummv_kernel=1.0075 (ms)] ... FAIL
+=============================== 
+checking log point [1024 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=8, elapsed_gesummv_kernel=0.8283 (ms)] ... FAIL
+=============================== 
+checking log point [1024 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=4, elapsed_gesummv_kernel=0.4197 (ms)] ... FAIL
+=============================== 
+checking log point [1024 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=2, elapsed_gesummv_kernel=0.3973 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=1, elapsed_gesummv_kernel=0.4002 (ms)] ... PASS
+=============================== 
+checking log point [1024 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=1, by=512, elapsed_gesummv_kernel=82.2923 (ms)] ... FAIL
+=============================== 
+checking log point [1024 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=256, elapsed_gesummv_kernel=29.4268 (ms)] ... FAIL
+=============================== 
+checking log point [1024 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=128, elapsed_gesummv_kernel=9.9994 (ms)] ... FAIL
+=============================== 
+checking log point [1024 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=64, elapsed_gesummv_kernel=4.4888 (ms)] ... FAIL
+=============================== 
+checking log point [1024 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=32, elapsed_gesummv_kernel=1.9947 (ms)] ... FAIL
+=============================== 
+checking log point [1024 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=16, elapsed_gesummv_kernel=1.8903 (ms)] ... FAIL
+=============================== 
+checking log point [1024 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=8, elapsed_gesummv_kernel=0.7430 (ms)] ... FAIL
+=============================== 
+checking log point [1024 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=4, elapsed_gesummv_kernel=0.6788 (ms)] ... PASS
+=============================== 
+checking log point [1024 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=2, elapsed_gesummv_kernel=0.6831 (ms)] ... PASS
+=============================== 
+checking log point [1024 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=512, by=1, elapsed_gesummv_kernel=0.6854 (ms)] ... PASS
+=============================== 
+checking log point [1024 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=2, by=512, elapsed_gesummv_kernel=83.7235 (ms)] ... FAIL
+=============================== 
+checking log point [1024 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=4, by=256, elapsed_gesummv_kernel=30.5157 (ms)] ... FAIL
+=============================== 
+checking log point [1024 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=8, by=128, elapsed_gesummv_kernel=10.8603 (ms)] ... FAIL
+=============================== 
+checking log point [1024 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=16, by=64, elapsed_gesummv_kernel=5.3355 (ms)] ... FAIL
+=============================== 
+checking log point [1024 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=32, by=32, elapsed_gesummv_kernel=3.9937 (ms)] ... FAIL
+=============================== 
+checking log point [1024 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=64, by=16, elapsed_gesummv_kernel=1.5345 (ms)] ... FAIL
+=============================== 
+checking log point [1024 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=128, by=8, elapsed_gesummv_kernel=1.3302 (ms)] ... FAIL
+=============================== 
+checking log point [1024 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=1024, bx=256, by=4, elapsed_gesummv_kernel=1.3374 (ms)] ... FAIL
+=============================== 
+checking log point [2048 1 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=32, elapsed_gesummv_kernel=6.3299 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=16, elapsed_gesummv_kernel=2.3782 (ms)] ... PASS
+=============================== 
+checking log point [2048 4 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=8, elapsed_gesummv_kernel=1.2010 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=4, elapsed_gesummv_kernel=0.8221 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=2, elapsed_gesummv_kernel=0.7376 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=1, elapsed_gesummv_kernel=0.7427 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=64, elapsed_gesummv_kernel=12.5047 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=32, elapsed_gesummv_kernel=4.6247 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=16, elapsed_gesummv_kernel=2.1138 (ms)] ... PASS
+=============================== 
+checking log point [2048 8 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=8, elapsed_gesummv_kernel=1.4255 (ms)] ... PASS
+=============================== 
+checking log point [2048 16 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=4, elapsed_gesummv_kernel=0.9315 (ms)] ... PASS
+=============================== 
+checking log point [2048 32 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=2, elapsed_gesummv_kernel=0.8090 (ms)] ... PASS
+=============================== 
+checking log point [2048 64 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=1, elapsed_gesummv_kernel=0.7490 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=128, elapsed_gesummv_kernel=35.2458 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=64, elapsed_gesummv_kernel=12.9204 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=32, elapsed_gesummv_kernel=5.2535 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=16, elapsed_gesummv_kernel=2.5930 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=8, elapsed_gesummv_kernel=1.8678 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=4, elapsed_gesummv_kernel=1.3381 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=2, elapsed_gesummv_kernel=0.8256 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=1, elapsed_gesummv_kernel=0.7525 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=256, elapsed_gesummv_kernel=114.5556 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=128, elapsed_gesummv_kernel=34.3575 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=64, elapsed_gesummv_kernel=14.1819 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=32, elapsed_gesummv_kernel=5.9001 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=16, elapsed_gesummv_kernel=3.3840 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=8, elapsed_gesummv_kernel=2.8223 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=4, elapsed_gesummv_kernel=1.5537 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=2, elapsed_gesummv_kernel=0.8132 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=1, elapsed_gesummv_kernel=0.8038 (ms)] ... PASS
+=============================== 
+checking log point [2048 1 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=1, by=512, elapsed_gesummv_kernel=320.2636 (ms)] ... FAIL
+=============================== 
+checking log point [2048 2 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=256, elapsed_gesummv_kernel=114.4218 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=128, elapsed_gesummv_kernel=35.1611 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=64, elapsed_gesummv_kernel=14.4535 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=32, elapsed_gesummv_kernel=8.4627 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=16, elapsed_gesummv_kernel=5.9921 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=8, elapsed_gesummv_kernel=3.6952 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=4, elapsed_gesummv_kernel=1.4741 (ms)] ... PASS
+=============================== 
+checking log point [2048 256 2 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=2, elapsed_gesummv_kernel=1.3539 (ms)] ... PASS
+=============================== 
+checking log point [2048 512 1 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=512, by=1, elapsed_gesummv_kernel=1.3518 (ms)] ... PASS
+=============================== 
+checking log point [2048 2 512 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=2, by=512, elapsed_gesummv_kernel=333.7878 (ms)] ... FAIL
+=============================== 
+checking log point [2048 4 256 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=4, by=256, elapsed_gesummv_kernel=115.1489 (ms)] ... FAIL
+=============================== 
+checking log point [2048 8 128 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=8, by=128, elapsed_gesummv_kernel=38.5989 (ms)] ... FAIL
+=============================== 
+checking log point [2048 16 64 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=16, by=64, elapsed_gesummv_kernel=17.5197 (ms)] ... FAIL
+=============================== 
+checking log point [2048 32 32 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=32, by=32, elapsed_gesummv_kernel=13.5664 (ms)] ... FAIL
+=============================== 
+checking log point [2048 64 16 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=64, by=16, elapsed_gesummv_kernel=7.4053 (ms)] ... FAIL
+=============================== 
+checking log point [2048 128 8 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=128, by=8, elapsed_gesummv_kernel=2.9614 (ms)] ... FAIL
+=============================== 
+checking log point [2048 256 4 1]
+[running on device 0: GeForce GTX 1080 Ti]
+[trace: n=2048, bx=256, by=4, elapsed_gesummv_kernel=2.6658 (ms)] ... FAIL
+=============================== 

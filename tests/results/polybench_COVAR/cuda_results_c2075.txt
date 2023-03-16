@@ -1,0 +1,436 @@
+checking for [] 
+checking log point [32 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=1, by=32, elapsed_mean_kernel=0.0235 (ms),
+ elapsed_reduce_kernel=0.0083 (ms),  elapsed_covar_kernel=0.3991 (ms)] ... PASS
+=============================== 
+checking log point [32 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=16, elapsed_mean_kernel=0.0246 (ms),
+ elapsed_reduce_kernel=0.0050 (ms),  elapsed_covar_kernel=0.4065 (ms)] ... PASS
+=============================== 
+checking log point [32 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=8, elapsed_mean_kernel=0.0230 (ms),
+ elapsed_reduce_kernel=0.0047 (ms),  elapsed_covar_kernel=0.4711 (ms)] ... PASS
+=============================== 
+checking log point [32 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=4, elapsed_mean_kernel=0.0234 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=0.5885 (ms)] ... PASS
+=============================== 
+checking log point [32 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=2, elapsed_mean_kernel=0.0232 (ms),
+ elapsed_reduce_kernel=0.0047 (ms),  elapsed_covar_kernel=0.7702 (ms)] ... PASS
+=============================== 
+checking log point [32 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=1, elapsed_mean_kernel=0.0242 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=0.9206 (ms)] ... PASS
+=============================== 
+checking log point [32 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=32, elapsed_mean_kernel=0.0236 (ms),
+ elapsed_reduce_kernel=0.0051 (ms),  elapsed_covar_kernel=0.4063 (ms)] ... PASS
+=============================== 
+checking log point [32 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=16, elapsed_mean_kernel=0.0234 (ms),
+ elapsed_reduce_kernel=0.0047 (ms),  elapsed_covar_kernel=0.4708 (ms)] ... PASS
+=============================== 
+checking log point [32 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=8, elapsed_mean_kernel=0.0242 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=0.5881 (ms)] ... PASS
+=============================== 
+checking log point [32 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=4, elapsed_mean_kernel=0.0251 (ms),
+ elapsed_reduce_kernel=0.0046 (ms),  elapsed_covar_kernel=0.7702 (ms)] ... PASS
+=============================== 
+checking log point [32 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=2, elapsed_mean_kernel=0.0242 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=0.9200 (ms)] ... PASS
+=============================== 
+checking log point [32 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=32, elapsed_mean_kernel=0.0234 (ms),
+ elapsed_reduce_kernel=0.0049 (ms),  elapsed_covar_kernel=0.4723 (ms)] ... PASS
+=============================== 
+checking log point [32 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=16, elapsed_mean_kernel=0.0236 (ms),
+ elapsed_reduce_kernel=0.0045 (ms),  elapsed_covar_kernel=0.5896 (ms)] ... PASS
+=============================== 
+checking log point [32 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=8, elapsed_mean_kernel=0.0246 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=0.7705 (ms)] ... PASS
+=============================== 
+checking log point [32 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=4, elapsed_mean_kernel=0.0247 (ms),
+ elapsed_reduce_kernel=0.0042 (ms),  elapsed_covar_kernel=0.9208 (ms)] ... PASS
+=============================== 
+checking log point [32 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=32, elapsed_mean_kernel=0.0242 (ms),
+ elapsed_reduce_kernel=0.0045 (ms),  elapsed_covar_kernel=0.5980 (ms)] ... PASS
+=============================== 
+checking log point [32 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=16, elapsed_mean_kernel=0.0235 (ms),
+ elapsed_reduce_kernel=0.0045 (ms),  elapsed_covar_kernel=0.7783 (ms)] ... PASS
+=============================== 
+checking log point [32 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=8, elapsed_mean_kernel=0.0259 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=0.9310 (ms)] ... PASS
+=============================== 
+checking log point [32 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=32, elapsed_mean_kernel=0.0248 (ms),
+ elapsed_reduce_kernel=0.0047 (ms),  elapsed_covar_kernel=0.8364 (ms)] ... PASS
+=============================== 
+checking log point [32 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=16, elapsed_mean_kernel=0.0262 (ms),
+ elapsed_reduce_kernel=0.0045 (ms),  elapsed_covar_kernel=1.0575 (ms)] ... PASS
+=============================== 
+checking log point [32 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=32, elapsed_mean_kernel=0.0273 (ms),
+ elapsed_reduce_kernel=0.0052 (ms),  elapsed_covar_kernel=1.7910 (ms)] ... PASS
+=============================== 
+checking log point [64 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=32, elapsed_mean_kernel=0.0361 (ms),
+ elapsed_reduce_kernel=0.0230 (ms),  elapsed_covar_kernel=1.5828 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=16, elapsed_mean_kernel=0.0369 (ms),
+ elapsed_reduce_kernel=0.0096 (ms),  elapsed_covar_kernel=1.6049 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=8, elapsed_mean_kernel=0.0364 (ms),
+ elapsed_reduce_kernel=0.0059 (ms),  elapsed_covar_kernel=1.8654 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=4, elapsed_mean_kernel=0.0369 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=2.3688 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=2, elapsed_mean_kernel=0.0370 (ms),
+ elapsed_reduce_kernel=0.0041 (ms),  elapsed_covar_kernel=3.2707 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=1, elapsed_mean_kernel=0.0376 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=4.6570 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=64, elapsed_mean_kernel=0.0383 (ms),
+ elapsed_reduce_kernel=0.0218 (ms),  elapsed_covar_kernel=1.5991 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=32, elapsed_mean_kernel=0.0360 (ms),
+ elapsed_reduce_kernel=0.0086 (ms),  elapsed_covar_kernel=1.6099 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=16, elapsed_mean_kernel=0.0371 (ms),
+ elapsed_reduce_kernel=0.0052 (ms),  elapsed_covar_kernel=1.8659 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=8, elapsed_mean_kernel=0.0365 (ms),
+ elapsed_reduce_kernel=0.0046 (ms),  elapsed_covar_kernel=2.3696 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=4, elapsed_mean_kernel=0.0359 (ms),
+ elapsed_reduce_kernel=0.0041 (ms),  elapsed_covar_kernel=3.2686 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=2, elapsed_mean_kernel=0.0373 (ms),
+ elapsed_reduce_kernel=0.0040 (ms),  elapsed_covar_kernel=4.6496 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=1, elapsed_mean_kernel=0.0375 (ms),
+ elapsed_reduce_kernel=0.0038 (ms),  elapsed_covar_kernel=4.6632 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=64, elapsed_mean_kernel=0.0369 (ms),
+ elapsed_reduce_kernel=0.0095 (ms),  elapsed_covar_kernel=1.6453 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=32, elapsed_mean_kernel=0.0360 (ms),
+ elapsed_reduce_kernel=0.0052 (ms),  elapsed_covar_kernel=1.8758 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=16, elapsed_mean_kernel=0.0367 (ms),
+ elapsed_reduce_kernel=0.0047 (ms),  elapsed_covar_kernel=2.3706 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=8, elapsed_mean_kernel=0.0363 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=3.2741 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=4, elapsed_mean_kernel=0.0375 (ms),
+ elapsed_reduce_kernel=0.0041 (ms),  elapsed_covar_kernel=4.6636 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=2, elapsed_mean_kernel=0.0375 (ms),
+ elapsed_reduce_kernel=0.0039 (ms),  elapsed_covar_kernel=4.6705 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=64, elapsed_mean_kernel=0.0368 (ms),
+ elapsed_reduce_kernel=0.0065 (ms),  elapsed_covar_kernel=1.9296 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=32, elapsed_mean_kernel=0.0363 (ms),
+ elapsed_reduce_kernel=0.0050 (ms),  elapsed_covar_kernel=2.3999 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=16, elapsed_mean_kernel=0.0371 (ms),
+ elapsed_reduce_kernel=0.0048 (ms),  elapsed_covar_kernel=3.3048 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=8, elapsed_mean_kernel=0.0377 (ms),
+ elapsed_reduce_kernel=0.0042 (ms),  elapsed_covar_kernel=4.7111 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=4, elapsed_mean_kernel=0.0391 (ms),
+ elapsed_reduce_kernel=0.0039 (ms),  elapsed_covar_kernel=4.7026 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=64, elapsed_mean_kernel=0.0422 (ms),
+ elapsed_reduce_kernel=0.0056 (ms),  elapsed_covar_kernel=2.5411 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=32, elapsed_mean_kernel=0.0388 (ms),
+ elapsed_reduce_kernel=0.0051 (ms),  elapsed_covar_kernel=3.5365 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=16, elapsed_mean_kernel=0.0399 (ms),
+ elapsed_reduce_kernel=0.0046 (ms),  elapsed_covar_kernel=5.5706 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=8, elapsed_mean_kernel=0.0406 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=5.0636 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=64, elapsed_mean_kernel=0.0565 (ms),
+ elapsed_reduce_kernel=0.0054 (ms),  elapsed_covar_kernel=5.8934 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=32, elapsed_mean_kernel=0.0444 (ms),
+ elapsed_reduce_kernel=0.0053 (ms),  elapsed_covar_kernel=10.0249 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=16, elapsed_mean_kernel=0.0424 (ms),
+ elapsed_reduce_kernel=0.0049 (ms),  elapsed_covar_kernel=7.2118 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=32, elapsed_mean_kernel=0.1312 (ms),
+ elapsed_reduce_kernel=0.0795 (ms),  elapsed_covar_kernel=6.3870 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=16, elapsed_mean_kernel=0.0806 (ms),
+ elapsed_reduce_kernel=0.0259 (ms),  elapsed_covar_kernel=6.4032 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=8, elapsed_mean_kernel=0.0817 (ms),
+ elapsed_reduce_kernel=0.0115 (ms),  elapsed_covar_kernel=7.4377 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=4, elapsed_mean_kernel=0.0839 (ms),
+ elapsed_reduce_kernel=0.0067 (ms),  elapsed_covar_kernel=9.5068 (ms)] ... PASS
+=============================== 
+checking log point [128 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=2, elapsed_mean_kernel=0.0858 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=13.4445 (ms)] ... PASS
+=============================== 
+checking log point [128 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=1, elapsed_mean_kernel=0.0896 (ms),
+ elapsed_reduce_kernel=0.0039 (ms),  elapsed_covar_kernel=20.4918 (ms)] ... PASS
+=============================== 
+checking log point [128 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=64, elapsed_mean_kernel=0.1323 (ms),
+ elapsed_reduce_kernel=0.0780 (ms),  elapsed_covar_kernel=6.4974 (ms)] ... PASS
+=============================== 
+checking log point [128 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=32, elapsed_mean_kernel=0.0814 (ms),
+ elapsed_reduce_kernel=0.0247 (ms),  elapsed_covar_kernel=6.5208 (ms)] ... PASS
+=============================== 
+checking log point [128 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=16, elapsed_mean_kernel=0.0805 (ms),
+ elapsed_reduce_kernel=0.0105 (ms),  elapsed_covar_kernel=7.4603 (ms)] ... PASS
+=============================== 
+checking log point [128 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=8, elapsed_mean_kernel=0.0824 (ms),
+ elapsed_reduce_kernel=0.0068 (ms),  elapsed_covar_kernel=9.5083 (ms)] ... PASS
+=============================== 
+checking log point [128 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=4, elapsed_mean_kernel=0.0859 (ms),
+ elapsed_reduce_kernel=0.0044 (ms),  elapsed_covar_kernel=13.4351 (ms)] ... PASS
+=============================== 
+checking log point [128 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=2, elapsed_mean_kernel=0.0884 (ms),
+ elapsed_reduce_kernel=0.0040 (ms),  elapsed_covar_kernel=20.4636 (ms)] ... PASS
+=============================== 
+checking log point [128 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=1, elapsed_mean_kernel=0.0884 (ms),
+ elapsed_reduce_kernel=0.0042 (ms),  elapsed_covar_kernel=20.5123 (ms)] ... PASS
+=============================== 
+checking log point [128 1 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=128, elapsed_mean_kernel=0.1364 (ms),
+ elapsed_reduce_kernel=0.0994 (ms),  elapsed_covar_kernel=6.8824 (ms)] ... PASS
+=============================== 
+checking log point [128 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=64, elapsed_mean_kernel=0.0832 (ms),
+ elapsed_reduce_kernel=0.0299 (ms),  elapsed_covar_kernel=6.6735 (ms)] ... PASS
+=============================== 
+checking log point [128 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=32, elapsed_mean_kernel=0.0819 (ms),
+ elapsed_reduce_kernel=0.0114 (ms),  elapsed_covar_kernel=7.6017 (ms)] ... PASS
+=============================== 
+checking log point [128 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=16, elapsed_mean_kernel=0.0835 (ms),
+ elapsed_reduce_kernel=0.0062 (ms),  elapsed_covar_kernel=9.5477 (ms)] ... PASS
+=============================== 
+checking log point [128 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=8, elapsed_mean_kernel=0.0855 (ms),
+ elapsed_reduce_kernel=0.0050 (ms),  elapsed_covar_kernel=13.4617 (ms)] ... PASS
+=============================== 
+checking log point [128 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=4, elapsed_mean_kernel=0.0884 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=20.5486 (ms)] ... PASS
+=============================== 
+checking log point [128 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=2, elapsed_mean_kernel=0.0890 (ms),
+ elapsed_reduce_kernel=0.0041 (ms),  elapsed_covar_kernel=20.5403 (ms)] ... PASS
+=============================== 
+checking log point [128 128 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=1, elapsed_mean_kernel=0.0888 (ms),
+ elapsed_reduce_kernel=0.0038 (ms),  elapsed_covar_kernel=20.5555 (ms)] ... PASS
+=============================== 
+checking log point [128 2 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=128, elapsed_mean_kernel=0.1032 (ms),
+ elapsed_reduce_kernel=0.0504 (ms),  elapsed_covar_kernel=7.4129 (ms)] ... PASS
+=============================== 
+checking log point [128 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=64, elapsed_mean_kernel=0.0856 (ms),
+ elapsed_reduce_kernel=0.0165 (ms),  elapsed_covar_kernel=7.9254 (ms)] ... PASS
+=============================== 
+checking log point [128 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=32, elapsed_mean_kernel=0.0856 (ms),
+ elapsed_reduce_kernel=0.0072 (ms),  elapsed_covar_kernel=9.7868 (ms)] ... PASS
+=============================== 
+checking log point [128 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=16, elapsed_mean_kernel=0.0866 (ms),
+ elapsed_reduce_kernel=0.0061 (ms),  elapsed_covar_kernel=13.5970 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=8, elapsed_mean_kernel=0.0901 (ms),
+ elapsed_reduce_kernel=0.0048 (ms),  elapsed_covar_kernel=20.7878 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=4, elapsed_mean_kernel=0.0890 (ms),
+ elapsed_reduce_kernel=0.0043 (ms),  elapsed_covar_kernel=20.7445 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=2, elapsed_mean_kernel=0.0881 (ms),
+ elapsed_reduce_kernel=0.0040 (ms),  elapsed_covar_kernel=20.6549 (ms)] ... PASS
+=============================== 
+checking log point [128 4 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=128, elapsed_mean_kernel=0.1155 (ms),
+ elapsed_reduce_kernel=0.0282 (ms),  elapsed_covar_kernel=8.6859 (ms)] ... PASS
+=============================== 
+checking log point [128 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=64, elapsed_mean_kernel=0.0912 (ms),
+ elapsed_reduce_kernel=0.0108 (ms),  elapsed_covar_kernel=10.8368 (ms)] ... PASS
+=============================== 
+checking log point [128 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=16, by=32, elapsed_mean_kernel=0.0908 (ms),
+ elapsed_reduce_kernel=0.0064 (ms),  elapsed_covar_kernel=14.5583 (ms)] ... PASS
+=============================== 
+checking log point [128 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=32, by=16, elapsed_mean_kernel=0.0941 (ms),
+ elapsed_reduce_kernel=0.0058 (ms),  elapsed_covar_kernel=24.7853 (ms)] ... PASS
+=============================== 
+checking log point [128 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=64, by=8, elapsed_mean_kernel=0.0940 (ms),
+ elapsed_reduce_kernel=0.0046 (ms),  elapsed_covar_kernel=23.7519 (ms)] ... PASS
+=============================== 
+checking log point [128 128 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=128, by=4, elapsed_mean_kernel=0.0926 (ms),
+ elapsed_reduce_kernel=0.0045 (ms),  elapsed_covar_kernel=21.6020 (ms)] ... PASS
+=============================== 
+checking log point [128 8 128 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=128, elapsed_mean_kernel=0.1812 (ms),
+ elapsed_reduce_kernel=0.0207 (ms),  elapsed_covar_kernel=14.2604 (ms)] ... PASS
+=============================== 

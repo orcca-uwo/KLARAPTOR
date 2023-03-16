@@ -1,0 +1,77 @@
+
+#######################################
+SHELL:=/bin/bash
+#######################################
+PASS_DIR=$(LLVM_PASS_COMMON_PATH)/io_builder_pass
+SRC=rp.cpp connector.cpp
+CUDA_SRC=2DConvolution
+PASS_SRC=io_builder_pass
+PASS_SO_NAME:=lib$(PASS_SRC).so
+PASS_NAME:=io_builder_pass
+LLVM_VERSION=12
+OBJ=$(SRC:%.cpp=$(PASS_DIR)/%.bc)
+TARGET=instrumented
+SM_ARCH=75
+
+CUDA_OPTS= \
+					 --cuda-gpu-arch=sm_$(SM_ARCH) --cuda-path=$(CUDA_PATH)\
+					-L$(CUDA_PATH)/lib64 -lcudart_static -ldl -lrt -pthread\
+					-Wunused-command-line-argument\
+					-I$(CUDA_PATH)/include\
+					-lcuda\
+					-w
+CC=clang++-12 -I$(LLVM_PASS_COMMON_PATH)/ -w
+DRIVER_API=driver_call
+BC_STR:=$(SRC:%.cpp=%.bc) $(CUDA_SRC)_$(DRIVER_API).bc
+
+#######################################
+all: pass-builder link-bc
+	opt -load $(PASS_SO_NAME) -$(PASS_NAME) <all.bc> $(TARGET).bc
+	$(CC) $(TARGET).bc $(CUDA_OPTS) -o $(TARGET).bin	
+	@#just for experimental purposes.
+	$(CC) -S -emit-llvm $(TARGET).bc	
+#######################################
+#######################################
+link-bc: $(OBJ) 
+	llvm-link-12 $(BC_STR) -S -o=all.bc
+
+#######################################
+#######################################
+pass-builder: $(PASS_DIR)/$(PASS_SRC).cpp
+	clang++-12 -fPIC -shared -o lib$(PASS_SRC).so\
+		-I/usr/lib/llvm-$(LLVM_VERSION)/include\
+		-L/usr/lib/llvm-$(LLVM_VERSION)/lib\
+		$(PASS_DIR)/$(PASS_SRC).cpp
+
+#######################################
+%.bc: %.cpp
+	$(CC) -c -emit-llvm $^ -o
+	$(CC) -S -emit-llvm $^ -o 
+
+#######################################
+test-cuda:build-host-ir
+	$(CC) -std=c++14 $(CUDA_SRC)_$(DRIVER_API).ll $(CUDA_OPTS) -o res.bin
+#######################################
+build-host-ir: build-ptx-lookup-table
+	$(CC) -std=c++14 $(CUDA_OPTS) -c -emit-llvm $(CUDA_SRC)_$(DRIVER_API).cu
+	$(CC) -std=c++14 $(CUDA_OPTS) -S -emit-llvm $(CUDA_SRC)_$(DRIVER_API).cu
+	#$(CC) -std=c++14 -Xclang -ast-dump $(CUDA_SRC)_$(DRIVER_API).cu $(CUDA_OPTS) > f.ast
+
+#######################################
+build-ptx-lookup-table: 
+	$(LLVM_PASS_COMMON_PATH)/build_ptx_lookup.sh $(CUDA_SRC).cu sm_$(SM_ARCH)
+
+
+#######################################
+RM=.o .out .so .s .ll .bin .bc .tmp .smem .registers  .ptx
+RM_LIST=$(RM:.%=*.% ) 
+clean: 
+	@#echo $(RM_LIST)
+	rm -rf $(RM_LIST)
+	rm -rf kernel_name_list.txt
+	rm -rf $(CUDA_SRC)_$(DRIVER_API).cu
+	rm -rf ptx_lookup_table.h
+
+#######################################
+
+

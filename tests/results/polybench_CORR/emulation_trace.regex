@@ -1,0 +1,28 @@
+\[
+[ ]*N:[ ]*[1-9][0-9]*,
+[ ]*b0:[ ]*[1-9][0-9]*[ ]*,
+[ ]*b1:[ ]*[1-9][0-9]*[ ]*,
+[ ]*MWP:[ ]*[1-9][0-9]*,
+[ ]*CWP:[ ]*[1-9][0-9]*,
+[ ]*mcwp_case:[ ]*[0-9]*,
+[\s]*
+[ ]*Exec_cycles_app:[ ]*[0-9]*\.[0-9]*,
+[ ]*Exec_cycles_per_thread:[ ]*[0-9]*\.[0-9]*,
+[\s]*
+[ ]*occupancy:[ ]*[0-9]*\.[0-9]*,
+[ ]*Rep:[ ]*[0-9]*\.[0-9]*,
+[ ]*Active_blocks_per_SM:[ ]*[0-9]*,
+[\s]*
+[ ]*shared_mem_bytes_total:[ ]*[0-9]*,
+[ ]*Blocks:[ ]*[0-9]*,
+[ ]*Threads_per_block:[ ]*[0-9]*,
+[\s]*
+[ ]*Coal_per_mw:[ ]*[0-9]*,
+[ ]*Uncoal_per_mw:[ ]*[0-9]*,
+[ ]*Comp_insts:[ ]*[0-9]*,
+[\s]*
+[ ]*Uncoal_Mem_insts:[ ]*[0-9]*,
+[ ]*Coal_Mem_insts:[ ]*[0-9]*,
+[ ]*Synch_insts:[ ]*[0-9]*
+[\s]*
+\]

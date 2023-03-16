@@ -1,0 +1,54 @@
+128 2048 
+kernel_mean_kernel_results_geforcertx2070super.txt
+written to [kernel_mean_kernel_Mem_LD_geforcertx2070super.h]
+written to [kernel_mean_kernel_shared_mem_bytes_total_geforcertx2070super.h]
+written to [kernel_mean_kernel_Blocks_geforcertx2070super.h]
+written to [kernel_mean_kernel_Comp_insts_geforcertx2070super.h]
+written to [kernel_mean_kernel_Uncoal_Mem_insts_geforcertx2070super.h]
+written to [kernel_mean_kernel_Coal_Mem_insts_geforcertx2070super.h]
+written to [kernel_mean_kernel_Synch_insts_geforcertx2070super.h]
+written to [kernel_mean_kernel_Coal_per_mw_geforcertx2070super.h]
+written to [kernel_mean_kernel_Uncoal_per_mw_geforcertx2070super.h]
+kernel_reduce_kernel_results_geforcertx2070super.txt
+written to [kernel_reduce_kernel_Mem_LD_geforcertx2070super.h]
+written to [kernel_reduce_kernel_shared_mem_bytes_total_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Blocks_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Comp_insts_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Uncoal_Mem_insts_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Coal_Mem_insts_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Synch_insts_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Coal_per_mw_geforcertx2070super.h]
+written to [kernel_reduce_kernel_Uncoal_per_mw_geforcertx2070super.h]
+kernel_covar_kernel_results_geforcertx2070super.txt
+written to [kernel_covar_kernel_Mem_LD_geforcertx2070super.h]
+written to [kernel_covar_kernel_shared_mem_bytes_total_geforcertx2070super.h]
+written to [kernel_covar_kernel_Blocks_geforcertx2070super.h]
+written to [kernel_covar_kernel_Comp_insts_geforcertx2070super.h]
+written to [kernel_covar_kernel_Uncoal_Mem_insts_geforcertx2070super.h]
+written to [kernel_covar_kernel_Coal_Mem_insts_geforcertx2070super.h]
+written to [kernel_covar_kernel_Synch_insts_geforcertx2070super.h]
+written to [kernel_covar_kernel_Coal_per_mw_geforcertx2070super.h]
+written to [kernel_covar_kernel_Uncoal_per_mw_geforcertx2070super.h]
+	Command being timed: "./interpolation.bin /home/taab/Desktop/PTX/tests/../device_profiles/geforcertx2070super.specs 0"
+	User time (seconds): 1052.09
+	System time (seconds): 63.04
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:01.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 215568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17406714
+	Voluntary context switches: 723582
+	Involuntary context switches: 115108
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 106000
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

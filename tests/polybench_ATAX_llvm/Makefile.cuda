@@ -1,0 +1,31 @@
+
+SHELL:=/bin/bash
+SRC=atax
+
+SM=$(shell python ../get_compatible_sm_list.py)
+#COMPUTE=20
+#ARCH= -arch=compute_$(COMPUTE) 
+ARCH=
+$(foreach sm,$(SM),$(eval ARCH+=-gencode arch=compute_$(sm),code=sm_$(sm)))
+#$(foreach sm,$(SM),$(eval ARCH+=-code=sm_$(sm)))
+
+include ../cuda_l1_cache.mk
+L1_CACHE?="-Xptxas=-dlcm=ca"
+include ../opt_level.mk
+NVCC_OPT_LEVEL?=2
+PTX_OPTS=-Xcompiler=-O$(NVCC_OPT_LEVEL) \
+				 -Xptxas=-O$(NVCC_OPT_LEVEL) \
+				 -O$(NVCC_OPT_LEVEL) -D_FORCE_INLINES -w\
+				 $(L1_CACHE)
+OPTS=$(ARCH) $(PTX_OPTS)
+
+
+all:
+	nvcc $(OPTS) $(SRC).cu -o $(SRC).bin
+	$(shell echo "$(SRC).bin" > cudabin_name)
+	./$(SRC).bin
+
+
+clean:
+	rm -rf cudabin_name
+	rm -rf $(SRC).bin

@@ -1,0 +1,579 @@
+[N:32, b0:1   , b1:32  , mwp: 3, cwp: 3, clocks:584295.4845, case: 1,
+ occupancy:0.06, rep:1.00, active_blocks_per_sm:3]
+
+[N:32, b0:2   , b1:16  , mwp: 2, cwp: 2, clocks:586042.7423, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:2]
+
+[N:32, b0:4   , b1:8   , mwp: 1, cwp: 1, clocks:589582.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:8   , b1:4   , mwp: 1, cwp: 1, clocks:596750.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:16  , b1:2   , mwp: 1, cwp: 1, clocks:613326.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:1   , mwp: 1, cwp: 1, clocks:646086.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:2   , b1:32  , mwp: 4, cwp: 4, clocks:579342.2268, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:2]
+
+[N:32, b0:4   , b1:16  , mwp: 2, cwp: 2, clocks:582836.7423, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:8   , b1:8   , mwp: 2, cwp: 2, clocks:590004.7423, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:16  , b1:4   , mwp: 2, cwp: 2, clocks:606580.7423, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:2   , mwp: 2, cwp: 2, clocks:639340.7423, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:4   , b1:32  , mwp: 4, cwp: 4, clocks:577494.2268, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:8   , b1:16  , mwp: 4, cwp: 4, clocks:584662.2268, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:16  , b1:8   , mwp: 4, cwp: 4, clocks:601238.2268, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:4   , mwp: 4, cwp: 4, clocks:633998.2268, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:8   , b1:32  , mwp: 8, cwp: 8, clocks:598421.1959, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:16  , b1:16  , mwp: 8, cwp: 8, clocks:614997.1959, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:8   , mwp: 8, cwp: 8, clocks:647757.1959, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:16  , b1:32  , mwp:16, cwp:16, clocks:647947.1340, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:16  , mwp:10, cwp:16, clocks:1077396.3927, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:32, b0:32  , b1:32  , mwp:11, cwp:32, clocks:2154423.5965, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 32, b0 = 4, b1 = 32, clocks = 577494.2268, case = 1]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 32, b0 = 32, b1 = 16, clocks = 1077396.3927, case = 2]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 32, b0 = 0, b1 = 0, clocks = 0.0000, case = 3]
+-------------------------------------------------------
+
+[N:64, b0:1   , b1:32  , mwp: 5, cwp: 5, clocks:1181213.5130, case: 1,
+ occupancy:0.10, rep:1.00, active_blocks_per_sm:5]
+
+[N:64, b0:2   , b1:16  , mwp: 3, cwp: 3, clocks:1184710.7565, case: 1,
+ occupancy:0.06, rep:1.00, active_blocks_per_sm:3]
+
+[N:64, b0:4   , b1:8   , mwp: 2, cwp: 2, clocks:1191835.3782, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:2]
+
+[N:64, b0:8   , b1:4   , mwp: 1, cwp: 1, clocks:1206128.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:2   , mwp: 1, cwp: 1, clocks:1238832.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:1   , mwp: 1, cwp: 1, clocks:1303848.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:1   , b1:64  , mwp:10, cwp:10, clocks:1186834.4041, case: 1,
+ occupancy:0.21, rep:1.00, active_blocks_per_sm:5]
+
+[N:64, b0:2   , b1:32  , mwp: 6, cwp: 6, clocks:1190244.8912, case: 1,
+ occupancy:0.12, rep:1.00, active_blocks_per_sm:3]
+
+[N:64, b0:4   , b1:16  , mwp: 4, cwp: 4, clocks:1197326.1347, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:2]
+
+[N:64, b0:8   , b1:8   , mwp: 2, cwp: 2, clocks:1211575.3782, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:4   , mwp: 2, cwp: 2, clocks:1244279.3782, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:2   , mwp: 2, cwp: 2, clocks:1309295.3782, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:64  , b1:1   , mwp: 2, cwp: 2, clocks:1309295.3782, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:2   , b1:64  , mwp:12, cwp:12, clocks:1206717.1606, case: 1,
+ occupancy:0.25, rep:1.00, active_blocks_per_sm:3]
+
+[N:64, b0:4   , b1:32  , mwp: 8, cwp: 8, clocks:1213711.6477, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:2]
+
+[N:64, b0:8   , b1:16  , mwp: 4, cwp: 4, clocks:1227874.1347, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:8   , mwp: 4, cwp: 4, clocks:1260578.1347, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:4   , mwp: 4, cwp: 4, clocks:1325594.1347, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:64  , b1:2   , mwp: 4, cwp: 4, clocks:1325594.1347, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:4   , b1:64  , mwp:16, cwp:16, clocks:1270800.6736, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:2]
+
+[N:64, b0:8   , b1:32  , mwp: 8, cwp: 8, clocks:1284789.6477, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:16  , mwp: 8, cwp: 8, clocks:1317493.6477, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:8   , mwp: 8, cwp: 8, clocks:1382509.6477, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:64  , b1:4   , mwp: 8, cwp: 8, clocks:1382509.6477, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:8   , b1:64  , mwp:16, cwp:16, clocks:1293242.6736, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:32  , mwp:16, cwp:16, clocks:1325946.6736, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:16  , mwp:10, cwp:16, clocks:2138261.2666, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:64  , b1:8   , mwp:10, cwp:16, clocks:2138261.2666, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:16  , b1:64  , mwp:20, cwp:32, clocks:2196045.7429, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:32  , b1:32  , mwp:11, cwp:32, clocks:4276146.2142, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:64, b0:64  , b1:16  , mwp:11, cwp:32, clocks:4276146.2142, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 64, b0 = 1, b1 = 32, clocks = 1181213.5130, case = 1]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 64, b0 = 32, b1 = 16, clocks = 2138261.2666, case = 2]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 64, b0 = 0, b1 = 0, clocks = 0.0000, case = 3]
+-------------------------------------------------------
+
+[N:128, b0:1   , b1:32  , mwp: 8, cwp: 8, clocks:4733549.6727, case: 1,
+ occupancy:0.17, rep:2.00, active_blocks_per_sm:8]
+
+[N:128, b0:2   , b1:16  , mwp: 5, cwp: 5, clocks:2373814.7636, case: 1,
+ occupancy:0.10, rep:1.00, active_blocks_per_sm:5]
+
+[N:128, b0:4   , b1:8   , mwp: 3, cwp: 3, clocks:2388065.3818, case: 1,
+ occupancy:0.06, rep:1.00, active_blocks_per_sm:3]
+
+[N:128, b0:8   , b1:4   , mwp: 2, cwp: 2, clocks:2416694.6909, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:2]
+
+[N:128, b0:16  , b1:2   , mwp: 1, cwp: 1, clocks:2481612.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:1   , mwp: 1, cwp: 1, clocks:2611140.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:1   , b1:64  , mwp:16, cwp:16, clocks:5133092.7273, case: 1,
+ occupancy:0.33, rep:2.00, active_blocks_per_sm:8]
+
+[N:128, b0:2   , b1:32  , mwp:10, cwp:10, clocks:2573458.2182, case: 1,
+ occupancy:0.21, rep:1.00, active_blocks_per_sm:5]
+
+[N:128, b0:4   , b1:16  , mwp: 6, cwp: 6, clocks:2587623.4545, case: 1,
+ occupancy:0.12, rep:1.00, active_blocks_per_sm:3]
+
+[N:128, b0:8   , b1:8   , mwp: 4, cwp: 4, clocks:2616210.0727, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:2]
+
+[N:128, b0:16  , b1:4   , mwp: 2, cwp: 2, clocks:2681084.6909, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:2   , mwp: 2, cwp: 2, clocks:2810612.6909, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:64  , b1:1   , mwp: 2, cwp: 2, clocks:2810612.6909, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:1   , b1:128 , mwp:32, cwp:32, clocks:6223238.8364, case: 1,
+ occupancy:0.67, rep:2.00, active_blocks_per_sm:8]
+
+[N:128, b0:2   , b1:64  , mwp:20, cwp:20, clocks:3118275.1273, case: 1,
+ occupancy:0.42, rep:1.00, active_blocks_per_sm:5]
+
+[N:128, b0:4   , b1:32  , mwp:12, cwp:12, clocks:3132269.6000, case: 1,
+ occupancy:0.25, rep:1.00, active_blocks_per_sm:3]
+
+[N:128, b0:8   , b1:16  , mwp: 8, cwp: 8, clocks:3160770.8364, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:2]
+
+[N:128, b0:16  , b1:8   , mwp: 4, cwp: 4, clocks:3225560.0727, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:4   , mwp: 4, cwp: 4, clocks:3355088.0727, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:64  , b1:2   , mwp: 4, cwp: 4, clocks:3355088.0727, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:128 , b1:1   , mwp: 4, cwp: 4, clocks:3355088.0727, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:2   , b1:128 , mwp:40, cwp:40, clocks:3102958.9455, case: 1,
+ occupancy:0.83, rep:1.00, active_blocks_per_sm:5]
+
+[N:128, b0:4   , b1:64  , mwp:24, cwp:24, clocks:3116611.8909, case: 1,
+ occupancy:0.50, rep:1.00, active_blocks_per_sm:3]
+
+[N:128, b0:8   , b1:32  , mwp:16, cwp:16, clocks:3144942.3636, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:2]
+
+[N:128, b0:16  , b1:16  , mwp: 8, cwp: 8, clocks:3209560.8364, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:8   , mwp: 8, cwp: 8, clocks:3339088.8364, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:64  , b1:4   , mwp: 8, cwp: 8, clocks:3339088.8364, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:128 , b1:2   , mwp: 8, cwp: 8, clocks:3339088.8364, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:4   , b1:128 , mwp:47, cwp:48, clocks:3547168.3087, case: 2,
+ occupancy:1.00, rep:1.00, active_blocks_per_sm:3]
+
+[N:128, b0:8   , b1:64  , mwp:32, cwp:32, clocks:3533705.4182, case: 1,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:2]
+
+[N:128, b0:16  , b1:32  , mwp:16, cwp:16, clocks:3597982.3636, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:16  , mwp:14, cwp:16, clocks:4260136.3035, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:64  , b1:8   , mwp:14, cwp:16, clocks:4260136.3035, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:128 , b1:4   , mwp:14, cwp:16, clocks:4260136.3035, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:8   , b1:128 , mwp:32, cwp:32, clocks:5633670.8364, case: 1,
+ occupancy:0.67, rep:2.00, active_blocks_per_sm:1]
+
+[N:128, b0:16  , b1:64  , mwp:21, cwp:32, clocks:4375123.7632, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:32  , b1:32  , mwp:11, cwp:32, clocks:8519605.3483, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:64  , b1:16  , mwp:11, cwp:32, clocks:8519605.3483, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:128, b0:128 , b1:8   , mwp:11, cwp:32, clocks:8519605.3483, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 128, b0 = 2, b1 = 16, clocks = 2373814.7636, case = 1]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 128, b0 = 4, b1 = 128, clocks = 3547168.3087, case = 2]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 128, b0 = 0, b1 = 0, clocks = 0.0000, case = 3]
+-------------------------------------------------------
+
+[N:256, b0:1   , b1:32  , mwp: 8, cwp: 8, clocks:14115913.2640, case: 1,
+ occupancy:0.17, rep:3.00, active_blocks_per_sm:8]
+
+[N:256, b0:2   , b1:16  , mwp: 8, cwp: 8, clocks:9439280.8427, case: 1,
+ occupancy:0.17, rep:2.00, active_blocks_per_sm:8]
+
+[N:256, b0:4   , b1:8   , mwp: 5, cwp: 5, clocks:4748185.3836, case: 1,
+ occupancy:0.10, rep:1.00, active_blocks_per_sm:5]
+
+[N:256, b0:8   , b1:4   , mwp: 3, cwp: 3, clocks:4805444.6918, case: 1,
+ occupancy:0.06, rep:1.00, active_blocks_per_sm:3]
+
+[N:256, b0:16  , b1:2   , mwp: 2, cwp: 2, clocks:4934874.3459, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:2]
+
+[N:256, b0:32  , b1:1   , mwp: 1, cwp: 1, clocks:5193384.0000, case: 1,
+ occupancy:0.02, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:1   , b1:64  , mwp:16, cwp:16, clocks:15150465.5657, case: 1,
+ occupancy:0.33, rep:3.00, active_blocks_per_sm:8]
+
+[N:256, b0:2   , b1:32  , mwp:16, cwp:16, clocks:10128982.3771, case: 1,
+ occupancy:0.33, rep:2.00, active_blocks_per_sm:8]
+
+[N:256, b0:4   , b1:16  , mwp:10, cwp:10, clocks:5092909.1131, case: 1,
+ occupancy:0.21, rep:1.00, active_blocks_per_sm:5]
+
+[N:256, b0:8   , b1:8   , mwp: 6, cwp: 6, clocks:5150083.7295, case: 1,
+ occupancy:0.12, rep:1.00, active_blocks_per_sm:3]
+
+[N:256, b0:16  , b1:4   , mwp: 4, cwp: 4, clocks:5279471.0377, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:2]
+
+[N:256, b0:32  , b1:2   , mwp: 2, cwp: 2, clocks:5537938.3459, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:64  , b1:1   , mwp: 2, cwp: 2, clocks:5537938.3459, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:1   , b1:128 , mwp:32, cwp:32, clocks:18479192.1691, case: 1,
+ occupancy:0.67, rep:3.00, active_blocks_per_sm:8]
+
+[N:256, b0:2   , b1:64  , mwp:32, cwp:32, clocks:12348133.4460, case: 1,
+ occupancy:0.67, rep:2.00, active_blocks_per_sm:8]
+
+[N:256, b0:4   , b1:32  , mwp:20, cwp:20, clocks:6202230.5722, case: 1,
+ occupancy:0.42, rep:1.00, active_blocks_per_sm:5]
+
+[N:256, b0:8   , b1:16  , mwp:12, cwp:12, clocks:6259235.8049, case: 1,
+ occupancy:0.25, rep:1.00, active_blocks_per_sm:3]
+
+[N:256, b0:16  , b1:8   , mwp: 8, cwp: 8, clocks:6388538.4213, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:2]
+
+[N:256, b0:32  , b1:4   , mwp: 4, cwp: 4, clocks:6646921.0377, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:64  , b1:2   , mwp: 4, cwp: 4, clocks:6646921.0377, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:128 , b1:1   , mwp: 4, cwp: 4, clocks:6646921.0377, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:1   , b1:256 , mwp:48, cwp:48, clocks:28603521.0299, case: 1,
+ occupancy:1.00, rep:4.00, active_blocks_per_sm:6]
+
+[N:256, b0:2   , b1:128 , mwp:48, cwp:48, clocks:14330432.5150, case: 1,
+ occupancy:1.00, rep:2.00, active_blocks_per_sm:6]
+
+[N:256, b0:4   , b1:64  , mwp:40, cwp:40, clocks:7193549.4902, case: 1,
+ occupancy:0.83, rep:1.00, active_blocks_per_sm:5]
+
+[N:256, b0:8   , b1:32  , mwp:24, cwp:24, clocks:7250215.9558, case: 1,
+ occupancy:0.50, rep:1.00, active_blocks_per_sm:3]
+
+[N:256, b0:16  , b1:16  , mwp:16, cwp:16, clocks:7379349.1886, case: 1,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:2]
+
+[N:256, b0:32  , b1:8   , mwp: 8, cwp: 8, clocks:7637562.4213, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:64  , b1:4   , mwp: 8, cwp: 8, clocks:7637562.4213, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:128 , b1:2   , mwp: 8, cwp: 8, clocks:7637562.4213, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:256 , b1:1   , mwp: 8, cwp: 8, clocks:7637562.4213, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:2   , b1:256 , mwp:48, cwp:48, clocks:28617801.0299, case: 1,
+ occupancy:1.00, rep:4.00, active_blocks_per_sm:3]
+
+[N:256, b0:4   , b1:128 , mwp:48, cwp:48, clocks:14366244.5150, case: 1,
+ occupancy:1.00, rep:2.00, active_blocks_per_sm:3]
+
+[N:256, b0:8   , b1:64  , mwp:48, cwp:48, clocks:7240466.2575, case: 1,
+ occupancy:1.00, rep:1.00, active_blocks_per_sm:3]
+
+[N:256, b0:16  , b1:32  , mwp:27, cwp:32, clocks:8733511.9360, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:2]
+
+[N:256, b0:32  , b1:16  , mwp:14, cwp:16, clocks:8503602.7498, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:64  , b1:8   , mwp:14, cwp:16, clocks:8503602.7498, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:128 , b1:4   , mwp:14, cwp:16, clocks:8503602.7498, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:256 , b1:2   , mwp:14, cwp:16, clocks:8503602.7498, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:4   , b1:256 , mwp:32, cwp:32, clocks:27837723.6151, case: 1,
+ occupancy:0.67, rep:5.00, active_blocks_per_sm:1]
+
+[N:256, b0:8   , b1:128 , mwp:32, cwp:32, clocks:16874666.1691, case: 1,
+ occupancy:0.67, rep:3.00, active_blocks_per_sm:1]
+
+[N:256, b0:16  , b1:64  , mwp:21, cwp:32, clocks:17466522.6817, case: 2,
+ occupancy:0.67, rep:2.00, active_blocks_per_sm:1]
+
+[N:256, b0:32  , b1:32  , mwp:11, cwp:32, clocks:17006514.0723, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:64  , b1:16  , mwp:11, cwp:32, clocks:17006514.0723, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:128 , b1:8   , mwp:11, cwp:32, clocks:17006514.0723, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+[N:256, b0:256 , b1:4   , mwp:11, cwp:32, clocks:17006514.0723, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:1]
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 256, b0 = 4, b1 = 8, clocks = 4748185.3836, case = 1]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 256, b0 = 32, b1 = 16, clocks = 8503602.7498, case = 2]
+-------------------------------------------------------
+
+-------------------------------------------------------
+[kernel[0]: Best config for N = 256, b0 = 0, b1 = 0, clocks = 0.0000, case = 3]
+-------------------------------------------------------
+
+[N:512, b0:1   , b1:32  , mwp: 8, cwp: 8, clocks:47665176.0573, case: 1,
+ occupancy:0.17, rep:5.00, active_blocks_per_sm:8]
+
+[N:512, b0:2   , b1:16  , mwp: 8, cwp: 8, clocks:28685121.6344, case: 1,
+ occupancy:0.17, rep:3.00, active_blocks_per_sm:8]
+
+[N:512, b0:4   , b1:8   , mwp: 8, cwp: 8, clocks:19238102.4229, case: 1,
+ occupancy:0.17, rep:2.00, active_blocks_per_sm:8]
+
+[N:512, b0:8   , b1:4   , mwp: 5, cwp: 5, clocks:9733612.6923, case: 1,
+ occupancy:0.10, rep:1.00, active_blocks_per_sm:5]
+
+[N:512, b0:16  , b1:2   , mwp: 3, cwp: 3, clocks:9992024.3461, case: 1,
+ occupancy:0.06, rep:1.00, active_blocks_per_sm:3]
+
+[N:512, b0:32  , b1:1   , mwp: 2, cwp: 2, clocks:10508582.1731, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:2]
+
+[N:512, b0:1   , b1:64  , mwp:16, cwp:16, clocks:51109742.9798, case: 1,
+ occupancy:0.33, rep:5.00, active_blocks_per_sm:8]
+
+[N:512, b0:2   , b1:32  , mwp:16, cwp:16, clocks:30751861.7879, case: 1,
+ occupancy:0.33, rep:3.00, active_blocks_per_sm:8]
+
+[N:512, b0:4   , b1:16  , mwp:16, cwp:16, clocks:20615929.1919, case: 1,
+ occupancy:0.33, rep:2.00, active_blocks_per_sm:8]
+
+[N:512, b0:8   , b1:8   , mwp:10, cwp:10, clocks:10422399.5576, case: 1,
+ occupancy:0.21, rep:1.00, active_blocks_per_sm:5]
+
+[N:512, b0:16  , b1:4   , mwp: 6, cwp: 6, clocks:10680726.8653, case: 1,
+ occupancy:0.12, rep:1.00, active_blocks_per_sm:3]
+
+[N:512, b0:32  , b1:2   , mwp: 4, cwp: 4, clocks:11197242.5192, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:2]
+
+[N:512, b0:64  , b1:1   , mwp: 2, cwp: 2, clocks:11197158.1731, case: 1,
+ occupancy:0.04, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:1   , b1:128 , mwp:32, cwp:32, clocks:60258266.8250, case: 1,
+ occupancy:0.67, rep:5.00, active_blocks_per_sm:8]
+
+[N:512, b0:2   , b1:64  , mwp:32, cwp:32, clocks:36240976.0950, case: 1,
+ occupancy:0.67, rep:3.00, active_blocks_per_sm:8]
+
+[N:512, b0:4   , b1:32  , mwp:32, cwp:32, clocks:24275338.7300, case: 1,
+ occupancy:0.67, rep:2.00, active_blocks_per_sm:8]
+
+[N:512, b0:8   , b1:16  , mwp:20, cwp:20, clocks:12251851.2882, case: 1,
+ occupancy:0.42, rep:1.00, active_blocks_per_sm:5]
+
+[N:512, b0:16  , b1:8   , mwp:12, cwp:12, clocks:12510009.9037, case: 1,
+ occupancy:0.25, rep:1.00, active_blocks_per_sm:3]
+
+[N:512, b0:32  , b1:4   , mwp: 8, cwp: 8, clocks:13026441.2115, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:2]
+
+[N:512, b0:64  , b1:2   , mwp: 4, cwp: 4, clocks:13026272.5192, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:128 , b1:1   , mwp: 4, cwp: 4, clocks:13026272.5192, case: 1,
+ occupancy:0.08, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:1   , b1:256 , mwp:48, cwp:48, clocks:101537660.9382, case: 1,
+ occupancy:1.00, rep:7.00, active_blocks_per_sm:6]
+
+[N:512, b0:2   , b1:128 , mwp:48, cwp:48, clocks:58136208.5361, case: 1,
+ occupancy:1.00, rep:4.00, active_blocks_per_sm:6]
+
+[N:512, b0:4   , b1:64  , mwp:48, cwp:48, clocks:29182792.2681, case: 1,
+ occupancy:1.00, rep:2.00, active_blocks_per_sm:6]
+
+[N:512, b0:8   , b1:32  , mwp:40, cwp:40, clocks:14705746.7495, case: 1,
+ occupancy:0.83, rep:1.00, active_blocks_per_sm:5]
+
+[N:512, b0:16  , b1:16  , mwp:24, cwp:24, clocks:14963567.9805, case: 1,
+ occupancy:0.50, rep:1.00, active_blocks_per_sm:3]
+
+[N:512, b0:32  , b1:8   , mwp:15, cwp:16, clocks:16990522.0208, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:2]
+
+[N:512, b0:64  , b1:4   , mwp: 8, cwp: 8, clocks:15479493.2115, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:128 , b1:2   , mwp: 8, cwp: 8, clocks:15479493.2115, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:256 , b1:1   , mwp: 8, cwp: 8, clocks:15479493.2115, case: 1,
+ occupancy:0.17, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:1   , b1:512 , mwp:48, cwp:48, clocks:186891537.7424, case: 1,
+ occupancy:1.00, rep:13.00, active_blocks_per_sm:3]
+
+[N:512, b0:2   , b1:256 , mwp:48, cwp:48, clocks:100834608.9382, case: 1,
+ occupancy:1.00, rep:7.00, active_blocks_per_sm:3]
+
+[N:512, b0:4   , b1:128 , mwp:48, cwp:48, clocks:57849152.5361, case: 1,
+ occupancy:1.00, rep:4.00, active_blocks_per_sm:3]
+
+[N:512, b0:8   , b1:64  , mwp:48, cwp:48, clocks:29153952.2681, case: 1,
+ occupancy:1.00, rep:2.00, active_blocks_per_sm:3]
+
+[N:512, b0:16  , b1:32  , mwp:27, cwp:48, clocks:26174156.0827, case: 2,
+ occupancy:1.00, rep:1.00, active_blocks_per_sm:3]
+
+[N:512, b0:32  , b1:16  , mwp:14, cwp:32, clocks:33980468.8932, case: 2,
+ occupancy:0.67, rep:1.00, active_blocks_per_sm:2]
+
+[N:512, b0:64  , b1:8   , mwp:14, cwp:16, clocks:16990516.8932, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:128 , b1:4   , mwp:14, cwp:16, clocks:16990516.8932, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:256 , b1:2   , mwp:14, cwp:16, clocks:16990516.8932, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:512 , b1:1   , mwp:14, cwp:16, clocks:16990516.8932, case: 2,
+ occupancy:0.33, rep:1.00, active_blocks_per_sm:1]
+
+[N:512, b0:2   , b1:512 , mwp:32, cwp:32, clocks:212763659.9349, case: 1,
+ occupancy:0.67, rep:19.00, active_blocks_per_sm:1]
+

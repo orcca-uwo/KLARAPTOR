@@ -1,0 +1,33 @@
+==PROF== Connected to process 66798 (/home/taab/Desktop/PTX/tests/polybench_2MM_llvm/2mm.bin)
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[kernel_name : kernel_mm2_kernel1_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=4][gz=1][bx=64][by=16][bz=1]
+[elapsed-time-through-driver: 199.210 (ms)]
+[kernel_name : kernel_mm2_kernel2_sm_75]
+[kernel_invoker][launch_params][gx=1][gy=4][gz=1][bx=64][by=16][bz=1]
+[elapsed-time-through-driver: 62.699 (ms)]
+[trace: n=64, bx=64, by=16, elapsed_mm2_kernel1=267.1148 (ms), elapsed_mm2_kernel2=127.1924 (ms)] ... FAIL
+==PROF== Disconnected from process 66798
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","dram__bytes_read.sum","byte","55,040"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","dram__bytes_write.sum","byte","0"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","64,901,408,450.70"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","1,048,576"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","51,280,125,195.62"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","41,472"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","99.60"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","391"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.10"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","16,512"
+"0","66798","2mm.bin","127.0.0.1","mm2_kernel1(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","2","14","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","8,192"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","dram__bytes_read.sum","byte","55,040"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","dram__bytes_write.sum","byte","0"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","65,207,547,169.81"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum","byte","1,048,576"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","51,522,012,578.62"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","41,472"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","99.48"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","smsp__average_inst_executed_per_warp.ratio","inst/warp","391"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.10"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","16,512"
+"1","66798","2mm.bin","127.0.0.1","mm2_kernel2(float *, float *, float *, int, int, int, int)","2022-Oct-11 14:10:00","3","21","Command line profiler metrics","smsp__inst_executed_op_global_st.sum","inst","8,192"

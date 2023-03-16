@@ -1,0 +1,152 @@
+checking for [] 
+checking log point [64 1 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=32, elapsed_fdtd_step1_kernel=2.1185 (ms),
+ elapsed_fdtd_step2_kernel=1.9746 (ms), elapsed_fdtd_step3_kernel=2.1565 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=16, elapsed_fdtd_step1_kernel=1.8804 (ms),
+ elapsed_fdtd_step2_kernel=1.8579 (ms), elapsed_fdtd_step3_kernel=1.9335 (ms)] ... PASS
+=============================== 
+checking log point [128 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=32, by=8, elapsed_fdtd_step1_kernel=1.8326 (ms),
+ elapsed_fdtd_step2_kernel=1.7823 (ms), elapsed_fdtd_step3_kernel=1.8889 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=8, elapsed_fdtd_step1_kernel=1.8157 (ms),
+ elapsed_fdtd_step2_kernel=1.8170 (ms), elapsed_fdtd_step3_kernel=1.8190 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=4, elapsed_fdtd_step1_kernel=1.8302 (ms),
+ elapsed_fdtd_step2_kernel=1.8261 (ms), elapsed_fdtd_step3_kernel=1.8577 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=2, elapsed_fdtd_step1_kernel=1.8834 (ms),
+ elapsed_fdtd_step2_kernel=1.7669 (ms), elapsed_fdtd_step3_kernel=1.7710 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=1, elapsed_fdtd_step1_kernel=1.7775 (ms),
+ elapsed_fdtd_step2_kernel=1.8172 (ms), elapsed_fdtd_step3_kernel=1.7832 (ms)] ... PASS
+=============================== 
+checking log point [128 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=64, by=4, elapsed_fdtd_step1_kernel=1.8311 (ms),
+ elapsed_fdtd_step2_kernel=1.8011 (ms), elapsed_fdtd_step3_kernel=1.8838 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=1, by=64, elapsed_fdtd_step1_kernel=2.1212 (ms),
+ elapsed_fdtd_step2_kernel=1.9844 (ms), elapsed_fdtd_step3_kernel=2.2669 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=32, elapsed_fdtd_step1_kernel=1.8854 (ms),
+ elapsed_fdtd_step2_kernel=1.8375 (ms), elapsed_fdtd_step3_kernel=1.9161 (ms)] ... PASS
+=============================== 
+checking log point [128 128 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=128, bx=128, by=2, elapsed_fdtd_step1_kernel=1.8180 (ms),
+ elapsed_fdtd_step2_kernel=1.7856 (ms), elapsed_fdtd_step3_kernel=1.8836 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=16, elapsed_fdtd_step1_kernel=1.8694 (ms),
+ elapsed_fdtd_step2_kernel=1.8179 (ms), elapsed_fdtd_step3_kernel=1.8556 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=8, elapsed_fdtd_step1_kernel=1.8117 (ms),
+ elapsed_fdtd_step2_kernel=1.7688 (ms), elapsed_fdtd_step3_kernel=1.7842 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=4, elapsed_fdtd_step1_kernel=1.8409 (ms),
+ elapsed_fdtd_step2_kernel=1.8041 (ms), elapsed_fdtd_step3_kernel=1.7721 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=2, elapsed_fdtd_step1_kernel=1.7526 (ms),
+ elapsed_fdtd_step2_kernel=1.7486 (ms), elapsed_fdtd_step3_kernel=1.7396 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=1, elapsed_fdtd_step1_kernel=1.7756 (ms),
+ elapsed_fdtd_step2_kernel=1.7472 (ms), elapsed_fdtd_step3_kernel=1.7494 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=2, by=64, elapsed_fdtd_step1_kernel=1.9130 (ms),
+ elapsed_fdtd_step2_kernel=1.8621 (ms), elapsed_fdtd_step3_kernel=1.9558 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=32, elapsed_fdtd_step1_kernel=1.8046 (ms),
+ elapsed_fdtd_step2_kernel=1.7547 (ms), elapsed_fdtd_step3_kernel=1.8026 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=16, elapsed_fdtd_step1_kernel=1.8210 (ms),
+ elapsed_fdtd_step2_kernel=1.7419 (ms), elapsed_fdtd_step3_kernel=1.7792 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=8, elapsed_fdtd_step1_kernel=1.7992 (ms),
+ elapsed_fdtd_step2_kernel=1.7441 (ms), elapsed_fdtd_step3_kernel=1.7385 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=4, elapsed_fdtd_step1_kernel=1.7650 (ms),
+ elapsed_fdtd_step2_kernel=1.7351 (ms), elapsed_fdtd_step3_kernel=1.7475 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=2, elapsed_fdtd_step1_kernel=1.7494 (ms),
+ elapsed_fdtd_step2_kernel=1.7270 (ms), elapsed_fdtd_step3_kernel=1.7385 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=4, by=64, elapsed_fdtd_step1_kernel=1.8227 (ms),
+ elapsed_fdtd_step2_kernel=1.8051 (ms), elapsed_fdtd_step3_kernel=1.8689 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=32, elapsed_fdtd_step1_kernel=1.7856 (ms),
+ elapsed_fdtd_step2_kernel=1.7427 (ms), elapsed_fdtd_step3_kernel=1.7754 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=16, elapsed_fdtd_step1_kernel=1.7944 (ms),
+ elapsed_fdtd_step2_kernel=1.7261 (ms), elapsed_fdtd_step3_kernel=1.7733 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=8, elapsed_fdtd_step1_kernel=1.7570 (ms),
+ elapsed_fdtd_step2_kernel=1.7194 (ms), elapsed_fdtd_step3_kernel=1.7399 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=64, by=4, elapsed_fdtd_step1_kernel=1.7584 (ms),
+ elapsed_fdtd_step2_kernel=1.7560 (ms), elapsed_fdtd_step3_kernel=1.7559 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=8, by=64, elapsed_fdtd_step1_kernel=1.8358 (ms),
+ elapsed_fdtd_step2_kernel=1.7983 (ms), elapsed_fdtd_step3_kernel=1.8772 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=16, by=32, elapsed_fdtd_step1_kernel=1.8803 (ms),
+ elapsed_fdtd_step2_kernel=1.7281 (ms), elapsed_fdtd_step3_kernel=1.8272 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: NVIDIA GeForce RTX 2070 SUPER]
+[trace: n=64, bx=32, by=16, elapsed_fdtd_step1_kernel=1.7668 (ms),
+ elapsed_fdtd_step2_kernel=1.7768 (ms), elapsed_fdtd_step3_kernel=1.8002 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]

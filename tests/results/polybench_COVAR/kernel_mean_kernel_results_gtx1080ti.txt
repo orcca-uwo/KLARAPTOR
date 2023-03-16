@@ -1,0 +1,1328 @@
+[ N:64, b0:  1, b1: 32, MWP: 2, CWP: 3, mcwp_case:2, 
+ Exec_cycles_app:652614791.6746, Exec_cycles_per_thread:18273214166.8895,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:68706, Comp_insts:20016,
+ Uncoal_Mem_insts:6305, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  2, b1: 16, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:462084679.1748, Exec_cycles_per_thread:12938371016.8941,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:71875, Comp_insts:20325,
+ Uncoal_Mem_insts:6402, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  4, b1:  8, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:683755706.0000, Exec_cycles_per_thread:19145159768.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:103359, Comp_insts:20942,
+ Uncoal_Mem_insts:6596, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  8, b1:  4, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:725359464.0000, Exec_cycles_per_thread:20310064992.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:103557, Comp_insts:22176,
+ Uncoal_Mem_insts:6984, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1:  2, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:1135848084.0000, Exec_cycles_per_thread:31803746352.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1:  1, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:1366705260.0000, Exec_cycles_per_thread:38267747280.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  1, b1: 64, MWP: 2, CWP: 6, mcwp_case:2, 
+ Exec_cycles_app:1305229579.1746, Exec_cycles_per_thread:36546428216.8895,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:68706, Comp_insts:20016,
+ Uncoal_Mem_insts:6305, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  2, b1: 32, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:924115900.1748, Exec_cycles_per_thread:25875245204.8941,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:71875, Comp_insts:20325,
+ Uncoal_Mem_insts:6402, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  4, b1: 16, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:683755710.1750, Exec_cycles_per_thread:19145159884.8987,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:103359, Comp_insts:20942,
+ Uncoal_Mem_insts:6596, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  8, b1:  8, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:725359468.1753, Exec_cycles_per_thread:20310065108.9072,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:103557, Comp_insts:22176,
+ Uncoal_Mem_insts:6984, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1:  4, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:1135848088.1758, Exec_cycles_per_thread:31803746468.9216,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1:  2, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:1366705264.1765, Exec_cycles_per_thread:38267747396.9433,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 64, b1:  1, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:1366705264.1765, Exec_cycles_per_thread:38267747396.9433,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  2, b1: 64, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:1848231796.1748, Exec_cycles_per_thread:51750490292.8941,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:71875, Comp_insts:20325,
+ Uncoal_Mem_insts:6402, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  4, b1: 32, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:1367456340.1750, Exec_cycles_per_thread:38288777524.8987,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:103359, Comp_insts:20942,
+ Uncoal_Mem_insts:6596, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  8, b1: 16, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:1450660612.1753, Exec_cycles_per_thread:40618497140.9072,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:103557, Comp_insts:22176,
+ Uncoal_Mem_insts:6984, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1:  8, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:2271631364.1758, Exec_cycles_per_thread:63605678196.9216,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1:  4, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:2733332740.1765, Exec_cycles_per_thread:76533316724.9433,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 64, b1:  2, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:2733332740.1765, Exec_cycles_per_thread:76533316724.9433,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  4, b1: 64, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:2734912676.1750, Exec_cycles_per_thread:76577554932.8987,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:103359, Comp_insts:20942,
+ Uncoal_Mem_insts:6596, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  8, b1: 32, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:2901321220.1753, Exec_cycles_per_thread:81236994164.9072,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:103557, Comp_insts:22176,
+ Uncoal_Mem_insts:6984, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1: 16, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:4543262724.1758, Exec_cycles_per_thread:127211356276.9216,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1:  8, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:5466665476.1765, Exec_cycles_per_thread:153066633332.9433,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 64, b1:  4, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:5466665476.1765, Exec_cycles_per_thread:153066633332.9433,
+ occupancy:0.09, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0:  8, b1: 64, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:5802642436.1753, Exec_cycles_per_thread:162473988212.9072,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:103557, Comp_insts:22176,
+ Uncoal_Mem_insts:6984, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1: 32, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:9086525444.1758, Exec_cycles_per_thread:254422712436.9216,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1: 16, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:10933330948.1765, Exec_cycles_per_thread:306133266548.9433,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 64, b1:  8, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:10933330948.1765, Exec_cycles_per_thread:306133266548.9433,
+ occupancy:0.21, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 16, b1: 64, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:18173050884.1758, Exec_cycles_per_thread:508845424756.9216,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:146069, Comp_insts:24644,
+ Uncoal_Mem_insts:7760, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 32, b1: 32, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:21866661892.1765, Exec_cycles_per_thread:612266532980.9432,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:64, b0: 64, b1: 16, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:21866661892.1765, Exec_cycles_per_thread:612266532980.9432,
+ occupancy:0.43, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:146465, Comp_insts:29580,
+ Uncoal_Mem_insts:9312, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+==========================================================================
+[*BEST*: N:64, b0:2, b1:16, mcwp_case=1, mwp: 2, cwp: 2, clocks:462084679.1748, clocks_per_thread:12938371016.8941
+ occupancy:0.01, rep:1.00, active_blocks_per_sm:2, shared_mem_bytes=0]
+==========================================================================
+[ N:128, b0:  1, b1: 32, MWP: 2, CWP: 5, mcwp_case:2, 
+ Exec_cycles_app:16984546676.5866, Exec_cycles_per_thread:475567306944.4258,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:272578, Comp_insts:76848,
+ Uncoal_Mem_insts:24897, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  2, b1: 16, MWP: 2, CWP: 3, mcwp_case:2, 
+ Exec_cycles_app:10662371854.0867, Exec_cycles_per_thread:298546411914.4272,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:283011, Comp_insts:77445,
+ Uncoal_Mem_insts:25090, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  4, b1:  8, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:10282880094.0867, Exec_cycles_per_thread:287920642634.4289,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:403327, Comp_insts:78638,
+ Uncoal_Mem_insts:25476, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1:  4, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:10604719240.0000, Exec_cycles_per_thread:296932138720.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1:  2, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:15412445108.0000, Exec_cycles_per_thread:431548463024.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1:  1, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:17149025420.0000, Exec_cycles_per_thread:480172711760.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  1, b1: 64, MWP: 2, CWP:10, mcwp_case:2, 
+ Exec_cycles_app:33969093349.0866, Exec_cycles_per_thread:951134613774.4258,
+ occupancy:0.08, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:272578, Comp_insts:76848,
+ Uncoal_Mem_insts:24897, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  2, b1: 32, MWP: 2, CWP: 6, mcwp_case:2, 
+ Exec_cycles_app:21324743704.0867, Exec_cycles_per_thread:597092823714.4272,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:283011, Comp_insts:77445,
+ Uncoal_Mem_insts:25090, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  4, b1: 16, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:20565551956.0867, Exec_cycles_per_thread:575835454770.4288,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:403327, Comp_insts:78638,
+ Uncoal_Mem_insts:25476, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1:  8, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:10604719244.0869, Exec_cycles_per_thread:296932138834.4321,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1:  4, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:15412445112.0871, Exec_cycles_per_thread:431548463138.4381,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1:  2, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:17149025424.0874, Exec_cycles_per_thread:480172711874.4482,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 64, b1:  1, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:17149025424.0874, Exec_cycles_per_thread:480172711874.4482,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  1, b1:128, MWP: 2, CWP:20, mcwp_case:2, 
+ Exec_cycles_app:67938186694.0866, Exec_cycles_per_thread:1902269227434.4258,
+ occupancy:0.16, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:272578, Comp_insts:76848,
+ Uncoal_Mem_insts:24897, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  2, b1: 64, MWP: 2, CWP:12, mcwp_case:2, 
+ Exec_cycles_app:42649487404.0867, Exec_cycles_per_thread:1194185647314.4272,
+ occupancy:0.09, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:283011, Comp_insts:77445,
+ Uncoal_Mem_insts:25090, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  4, b1: 32, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:41131103908.0867, Exec_cycles_per_thread:1151670909426.4287,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:403327, Comp_insts:78638,
+ Uncoal_Mem_insts:25476, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1: 16, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:21209223940.0869, Exec_cycles_per_thread:593858270322.4321,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1:  8, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:30824663044.0871, Exec_cycles_per_thread:863090565234.4381,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1:  4, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:34297798404.0874, Exec_cycles_per_thread:960338355314.4481,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 64, b1:  2, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:34297798404.0874, Exec_cycles_per_thread:960338355314.4481,
+ occupancy:0.05, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:128, b1:  1, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:34297798404.0874, Exec_cycles_per_thread:960338355314.4481,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  2, b1:128, MWP: 2, CWP:24, mcwp_case:2, 
+ Exec_cycles_app:85298974804.0867, Exec_cycles_per_thread:2388371294514.4272,
+ occupancy:0.18, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:283011, Comp_insts:77445,
+ Uncoal_Mem_insts:25090, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  4, b1: 64, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:82262207812.0867, Exec_cycles_per_thread:2303341818738.4287,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:403327, Comp_insts:78638,
+ Uncoal_Mem_insts:25476, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1: 32, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:42418447876.0869, Exec_cycles_per_thread:1187716540530.4321,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1: 16, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:61649326084.0871, Exec_cycles_per_thread:1726181130354.4380,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1:  8, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:68595596804.0874, Exec_cycles_per_thread:1920676710514.4480,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 64, b1:  4, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:68596337924.0874, Exec_cycles_per_thread:1920697461874.4480,
+ occupancy:0.11, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:555047, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:128, b1:  2, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:68595596804.0874, Exec_cycles_per_thread:1920676710514.4480,
+ occupancy:0.08, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  4, b1:128, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:164524415620.0867, Exec_cycles_per_thread:4606683637362.4287,
+ occupancy:0.26, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:403327, Comp_insts:78638,
+ Uncoal_Mem_insts:25476, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1: 64, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:84836895748.0869, Exec_cycles_per_thread:2375433080946.4321,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1: 32, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:123298652164.0871, Exec_cycles_per_thread:3452362260594.4380,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1: 16, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:137191193604.0874, Exec_cycles_per_thread:3841353420914.4478,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 64, b1:  8, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:137191193604.0874, Exec_cycles_per_thread:3841353420914.4478,
+ occupancy:0.23, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:128, b1:  4, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:137191193604.0874, Exec_cycles_per_thread:3841353420914.4478,
+ occupancy:0.16, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:  8, b1:128, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:169673791492.0869, Exec_cycles_per_thread:4750866161778.4316,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:403717, Comp_insts:81024,
+ Uncoal_Mem_insts:26248, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 16, b1: 64, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:246597304324.0871, Exec_cycles_per_thread:6904724521074.4375,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:554261, Comp_insts:85796,
+ Uncoal_Mem_insts:27792, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 32, b1: 32, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:274382387204.0874, Exec_cycles_per_thread:7682706841714.4473,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0: 64, b1: 16, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:274382387204.0874, Exec_cycles_per_thread:7682706841714.4473,
+ occupancy:0.46, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:128, b0:128, b1:  8, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:274382387204.0874, Exec_cycles_per_thread:7682706841714.4473,
+ occupancy:0.34, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:555041, Comp_insts:95340,
+ Uncoal_Mem_insts:30880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+==========================================================================
+[*BEST*: N:128, b0:4, b1:8, mcwp_case=1, mwp: 2, cwp: 2, clocks:10282880094.0867, clocks_per_thread:287920642634.4289
+ occupancy:0.01, rep:1.00, active_blocks_per_sm:2, shared_mem_bytes=0]
+==========================================================================
+[ N:256, b0:  1, b1: 32, MWP: 2, CWP:10, mcwp_case:2, 
+ Exec_cycles_app:537333190629.0431, Exec_cycles_per_thread:15045329337613.2070,
+ occupancy:0.07, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:1085826, Comp_insts:301104,
+ Uncoal_Mem_insts:98945, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  2, b1: 16, MWP: 2, CWP: 5, mcwp_case:2, 
+ Exec_cycles_app:278961848554.0432, Exec_cycles_per_thread:7810931759513.2080,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:1123075, Comp_insts:302277,
+ Uncoal_Mem_insts:99330, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1:  8, MWP: 2, CWP: 3, mcwp_case:2, 
+ Exec_cycles_app:239246907904.0432, Exec_cycles_per_thread:6698913421313.2080,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1:  4, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:162030833356.0432, Exec_cycles_per_thread:4536863333969.2090,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:1593861, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1:  2, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:225920838132.0000, Exec_cycles_per_thread:6325783467696.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:2157077, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1:  1, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:239381941452.0000, Exec_cycles_per_thread:6702694360656.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  1, b1: 64, MWP: 2, CWP:20, mcwp_case:2, 
+ Exec_cycles_app:1074666381254.0431, Exec_cycles_per_thread:30090658675113.2070,
+ occupancy:0.15, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:1085826, Comp_insts:301104,
+ Uncoal_Mem_insts:98945, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  2, b1: 32, MWP: 2, CWP:10, mcwp_case:2, 
+ Exec_cycles_app:557923697104.0431, Exec_cycles_per_thread:15621863518913.2070,
+ occupancy:0.08, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:1123075, Comp_insts:302277,
+ Uncoal_Mem_insts:99330, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1: 16, MWP: 2, CWP: 6, mcwp_case:2, 
+ Exec_cycles_app:478493815804.0432, Exec_cycles_per_thread:13397826842513.2070,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1:  8, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:324060844804.0432, Exec_cycles_per_thread:9073703654513.2090,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:1593861, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1:  4, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:225920838136.0433, Exec_cycles_per_thread:6325783467809.2109,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:2157077, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1:  2, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:239381941456.0434, Exec_cycles_per_thread:6702694360769.2148,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 64, b1:  1, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:239381941456.0434, Exec_cycles_per_thread:6702694360769.2148,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  1, b1:128, MWP: 2, CWP:40, mcwp_case:2, 
+ Exec_cycles_app:2149332762504.0430, Exec_cycles_per_thread:60181317350113.2031,
+ occupancy:0.30, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:1085826, Comp_insts:301104,
+ Uncoal_Mem_insts:98945, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  2, b1: 64, MWP: 2, CWP:20, mcwp_case:2, 
+ Exec_cycles_app:1115847394204.0430, Exec_cycles_per_thread:31243727037713.2070,
+ occupancy:0.16, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:1123075, Comp_insts:302277,
+ Uncoal_Mem_insts:99330, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1: 32, MWP: 2, CWP:12, mcwp_case:2, 
+ Exec_cycles_app:956987631604.0431, Exec_cycles_per_thread:26795653684913.2070,
+ occupancy:0.09, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1: 16, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:648121689604.0431, Exec_cycles_per_thread:18147407308913.2070,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:1593861, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1:  8, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:451840829444.0433, Exec_cycles_per_thread:12651543224433.2109,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:2157077, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1:  4, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:478762986244.0434, Exec_cycles_per_thread:13405363614833.2148,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 64, b1:  2, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:478762986244.0434, Exec_cycles_per_thread:13405363614833.2148,
+ occupancy:0.05, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:128, b1:  1, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:478762986244.0434, Exec_cycles_per_thread:13405363614833.2148,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  1, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:6877864840008.0859, Exec_cycles_per_thread:192580215520226.4062,
+ occupancy:0.67, Rep:2.00, Active_blocks_per_SM:8,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:1085826, Comp_insts:301104,
+ Uncoal_Mem_insts:98945, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  2, b1:128, MWP: 2, CWP:40, mcwp_case:2, 
+ Exec_cycles_app:2231694788404.0430, Exec_cycles_per_thread:62487454075313.2031,
+ occupancy:0.33, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:1123075, Comp_insts:302277,
+ Uncoal_Mem_insts:99330, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1: 64, MWP: 2, CWP:24, mcwp_case:2, 
+ Exec_cycles_app:1913975263204.0430, Exec_cycles_per_thread:53591307369713.2031,
+ occupancy:0.20, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1: 32, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1296243379204.0430, Exec_cycles_per_thread:36294814617713.2031,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:1593861, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1: 16, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:903681658884.0432, Exec_cycles_per_thread:25303086448753.2109,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:2157077, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1:  8, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:957525972484.0433, Exec_cycles_per_thread:26810727229553.2148,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 64, b1:  4, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:957525972484.0433, Exec_cycles_per_thread:26810727229553.2148,
+ occupancy:0.11, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:128, b1:  2, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:957525972484.0433, Exec_cycles_per_thread:26810727229553.2148,
+ occupancy:0.10, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:256, b1:  1, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:957525972484.0433, Exec_cycles_per_thread:26810727229553.2148,
+ occupancy:0.07, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  2, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:7141423322888.0859, Exec_cycles_per_thread:199959853040866.4062,
+ occupancy:0.73, Rep:2.00, Active_blocks_per_SM:4,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:1123075, Comp_insts:302277,
+ Uncoal_Mem_insts:99330, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1:128, MWP: 2, CWP:48, mcwp_case:2, 
+ Exec_cycles_app:3827950526404.0430, Exec_cycles_per_thread:107182614739313.2031,
+ occupancy:0.42, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1: 64, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:2592486758404.0430, Exec_cycles_per_thread:72589629235313.2031,
+ occupancy:0.25, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:1593861, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1: 32, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1807365831044.0432, Exec_cycles_per_thread:50606243269233.2109,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:2157080, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1: 16, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1915201854724.0432, Exec_cycles_per_thread:53625651932273.2109,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:2158794, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 64, b1:  8, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1915051944964.0432, Exec_cycles_per_thread:53621454458993.2109,
+ occupancy:0.23, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:128, b1:  4, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1915051944964.0432, Exec_cycles_per_thread:53621454458993.2109,
+ occupancy:0.21, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:256, b1:  2, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:1915051944964.0432, Exec_cycles_per_thread:53621454458993.2109,
+ occupancy:0.16, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  4, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:10207868070408.0859, Exec_cycles_per_thread:285820305971426.3750,
+ occupancy:0.83, Rep:2.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:1593087, Comp_insts:304622,
+ Uncoal_Mem_insts:100100, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:  8, b1:128, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:5186388345604.0430, Exec_cycles_per_thread:145218873676913.1875,
+ occupancy:0.51, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:1594296, Comp_insts:309312,
+ Uncoal_Mem_insts:101640, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 16, b1: 64, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:3615432029444.0430, Exec_cycles_per_thread:101232096824433.2031,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:2157498, Comp_insts:318692,
+ Uncoal_Mem_insts:104720, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 32, b1: 32, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:3830103889924.0430, Exec_cycles_per_thread:107242908917873.2031,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0: 64, b1: 16, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:3830566924804.0430, Exec_cycles_per_thread:107255873894513.2031,
+ occupancy:0.48, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:2158886, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:128, b1:  8, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:3830103889924.0430, Exec_cycles_per_thread:107242908917873.2031,
+ occupancy:0.42, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:256, b0:256, b1:  4, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:3830103889924.0430, Exec_cycles_per_thread:107242908917873.2031,
+ occupancy:0.34, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:2158625, Comp_insts:337452,
+ Uncoal_Mem_insts:110880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+==========================================================================
+[*BEST*: N:256, b0:8, b1:4, mcwp_case=1, mwp: 2, cwp: 2, clocks:162030833356.0432, clocks_per_thread:4536863333969.2090
+ occupancy:0.01, rep:1.00, active_blocks_per_sm:2, shared_mem_bytes=0]
+==========================================================================
+[ N:512, b0:  1, b1: 32, MWP: 2, CWP:19, mcwp_case:2, 
+ Exec_cycles_app:16245012279599.5215, Exec_cycles_per_thread:454860343828786.5625,
+ occupancy:0.14, Rep:1.00, Active_blocks_per_SM:19,
+ shared_mem_bytes_total:0, Blocks:512, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:4334338, Comp_insts:1191984,
+ Uncoal_Mem_insts:394497, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1: 16, MWP: 2, CWP:10, mcwp_case:2, 
+ Exec_cycles_app:8843424561104.0215, Exec_cycles_per_thread:247615887710912.5938,
+ occupancy:0.07, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:4474371, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1:  8, MWP: 2, CWP: 5, mcwp_case:2, 
+ Exec_cycles_app:6281607706024.0215, Exec_cycles_per_thread:175885015768672.5938,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:6331903, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1:  4, MWP: 2, CWP: 3, mcwp_case:2, 
+ Exec_cycles_app:3799106326084.0215, Exec_cycles_per_thread:106374977130352.5938,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:6333445, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1:  2, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:3454820728440.0215, Exec_cycles_per_thread:96734980396320.5938,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:8508437, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1:  1, MWP: 1, CWP: 1, mcwp_case:1, 
+ Exec_cycles_app:3560802413900.0000, Exec_cycles_per_thread:99702467589200.0000,
+ occupancy:0.01, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:32,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  1, b1: 64, MWP: 2, CWP:38, mcwp_case:2, 
+ Exec_cycles_app:32490024559195.0195, Exec_cycles_per_thread:909720687657460.5000,
+ occupancy:0.29, Rep:1.00, Active_blocks_per_SM:19,
+ shared_mem_bytes_total:0, Blocks:512, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:4334338, Comp_insts:1191984,
+ Uncoal_Mem_insts:394497, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1: 32, MWP: 2, CWP:20, mcwp_case:2, 
+ Exec_cycles_app:17686849122204.0195, Exec_cycles_per_thread:495231775421712.5625,
+ occupancy:0.15, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:4474371, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1: 16, MWP: 2, CWP:10, mcwp_case:2, 
+ Exec_cycles_app:12563215412044.0215, Exec_cycles_per_thread:351770031537232.5625,
+ occupancy:0.08, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:6331903, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1:  8, MWP: 2, CWP: 6, mcwp_case:2, 
+ Exec_cycles_app:7598212652164.0215, Exec_cycles_per_thread:212749954260592.5938,
+ occupancy:0.04, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:6333445, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1:  4, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:6909638191108.0215, Exec_cycles_per_thread:193469869351024.5938,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:8508437, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1:  2, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:3560802413904.0215, Exec_cycles_per_thread:99702467589312.5938,
+ occupancy:0.03, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 64, b1:  1, MWP: 2, CWP: 2, mcwp_case:1, 
+ Exec_cycles_app:3560802413904.0215, Exec_cycles_per_thread:99702467589312.5938,
+ occupancy:0.02, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:64,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  1, b1:128, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:109444602083336.0312, Exec_cycles_per_thread:3064448858333409.0000,
+ occupancy:0.65, Rep:2.00, Active_blocks_per_SM:16,
+ shared_mem_bytes_total:0, Blocks:512, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:4334517, Comp_insts:1191984,
+ Uncoal_Mem_insts:394497, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1: 64, MWP: 2, CWP:40, mcwp_case:2, 
+ Exec_cycles_app:35373698244404.0156, Exec_cycles_per_thread:990463550843312.5000,
+ occupancy:0.30, Rep:1.00, Active_blocks_per_SM:10,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:4474371, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1: 32, MWP: 2, CWP:20, mcwp_case:2, 
+ Exec_cycles_app:25126430824084.0195, Exec_cycles_per_thread:703540063074352.5000,
+ occupancy:0.18, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:6331903, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1: 16, MWP: 2, CWP:12, mcwp_case:2, 
+ Exec_cycles_app:15196425304324.0215, Exec_cycles_per_thread:425499908521072.5625,
+ occupancy:0.09, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:6333445, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1:  8, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:13819294247620.0215, Exec_cycles_per_thread:386940238933360.5625,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:8508448, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1:  4, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:7121601463044.0215, Exec_cycles_per_thread:199404840965232.5938,
+ occupancy:0.06, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 64, b1:  2, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:7121601463044.0215, Exec_cycles_per_thread:199404840965232.5938,
+ occupancy:0.05, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:128, b1:  1, MWP: 2, CWP: 4, mcwp_case:2, 
+ Exec_cycles_app:7121601463044.0215, Exec_cycles_per_thread:199404840965232.5938,
+ occupancy:0.05, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:128,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  1, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:164160124088556.0625, Exec_cycles_per_thread:4596483474479569.0000,
+ occupancy:0.98, Rep:3.00, Active_blocks_per_SM:8,
+ shared_mem_bytes_total:0, Blocks:512, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:4334338, Comp_insts:1191984,
+ Uncoal_Mem_insts:394497, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1:128, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:113195834382088.0312, Exec_cycles_per_thread:3169483362698465.0000,
+ occupancy:0.69, Rep:2.00, Active_blocks_per_SM:8,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:4474371, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1: 64, MWP: 2, CWP:40, mcwp_case:2, 
+ Exec_cycles_app:50253956827204.0156, Exec_cycles_per_thread:1407110791161712.5000,
+ occupancy:0.39, Rep:1.00, Active_blocks_per_SM:5,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:6332041, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1: 32, MWP: 2, CWP:24, mcwp_case:2, 
+ Exec_cycles_app:30392850608644.0195, Exec_cycles_per_thread:850999817042032.5000,
+ occupancy:0.20, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:6333445, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1: 16, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:27638913320836.0195, Exec_cycles_per_thread:773889572983408.5000,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:8508548, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1:  8, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:14243202926084.0215, Exec_cycles_per_thread:398809681930352.5625,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 64, b1:  4, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:14243202926084.0215, Exec_cycles_per_thread:398809681930352.5625,
+ occupancy:0.12, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:128, b1:  2, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:14243202926084.0215, Exec_cycles_per_thread:398809681930352.5625,
+ occupancy:0.11, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:256, b1:  1, MWP: 2, CWP: 8, mcwp_case:2, 
+ Exec_cycles_app:14243202926084.0215, Exec_cycles_per_thread:398809681930352.5625,
+ occupancy:0.09, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:256,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  1, b1:512, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:273608159873780.0938, Exec_cycles_per_thread:7661028476465843.0000,
+ occupancy:0.99, Rep:5.00, Active_blocks_per_SM:4,
+ shared_mem_bytes_total:0, Blocks:512, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:4334464, Comp_insts:1191984,
+ Uncoal_Mem_insts:394497, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:169793751573132.0625, Exec_cycles_per_thread:4754225044047697.0000,
+ occupancy:0.98, Rep:3.00, Active_blocks_per_SM:4,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:4474371, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1:128, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:160819036106504.0312, Exec_cycles_per_thread:4502933010982113.0000,
+ occupancy:0.77, Rep:2.00, Active_blocks_per_SM:4,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:6332292, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1: 64, MWP: 2, CWP:48, mcwp_case:2, 
+ Exec_cycles_app:60786516972484.0156, Exec_cycles_per_thread:1702022475229552.5000,
+ occupancy:0.42, Rep:1.00, Active_blocks_per_SM:3,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:6333530, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1: 32, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:55277878613764.0156, Exec_cycles_per_thread:1547780601185392.5000,
+ occupancy:0.26, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8508556, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1: 16, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:28486446012420.0195, Exec_cycles_per_thread:797620488347760.5000,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8511533, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 64, b1:  8, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:28486435972356.0195, Exec_cycles_per_thread:797620207225968.5000,
+ occupancy:0.24, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8511530, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:128, b1:  4, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:28486405852164.0195, Exec_cycles_per_thread:797619363860592.5000,
+ occupancy:0.23, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:256, b1:  2, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:28486526332932.0195, Exec_cycles_per_thread:797622737322096.5000,
+ occupancy:0.20, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8511557, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:512, b1:  1, MWP: 2, CWP:16, mcwp_case:2, 
+ Exec_cycles_app:28486405852164.0195, Exec_cycles_per_thread:797619363860592.5000,
+ occupancy:0.16, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:512,
+ Coal_per_mw:0, Uncoal_per_mw:8511521, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  2, b1:512, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:282995846968660.0625, Exec_cycles_per_thread:7923883715122483.0000,
+ occupancy:0.99, Rep:5.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:256, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:4474470, Comp_insts:1194309,
+ Uncoal_Mem_insts:395266, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  4, b1:256, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:241243829526540.0625, Exec_cycles_per_thread:6754827226743121.0000,
+ occupancy:0.99, Rep:3.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:128, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:6332693, Comp_insts:1198958,
+ Uncoal_Mem_insts:396804, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:  8, b1:128, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:162102625018888.0312, Exec_cycles_per_thread:4538873500528865.0000,
+ occupancy:0.82, Rep:2.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:64, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:6333735, Comp_insts:1208256,
+ Uncoal_Mem_insts:399880, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 16, b1: 64, MWP: 2, CWP:64, mcwp_case:2, 
+ Exec_cycles_app:110564189700100.0156, Exec_cycles_per_thread:3095797311602800.5000,
+ occupancy:0.52, Rep:1.00, Active_blocks_per_SM:2,
+ shared_mem_bytes_total:0, Blocks:32, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8509205, Comp_insts:1226852,
+ Uncoal_Mem_insts:406032, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 32, b1: 32, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:56976252099588.0156, Exec_cycles_per_thread:1595335058788464.5000,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:16, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8512035, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0: 64, b1: 16, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:56973755470340.0156, Exec_cycles_per_thread:1595265153169520.5000,
+ occupancy:0.49, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:8, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8511662, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:128, b1:  8, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:56973634989572.0156, Exec_cycles_per_thread:1595261779708016.5000,
+ occupancy:0.46, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:4, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8511644, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:256, b1:  4, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:56973896031236.0156, Exec_cycles_per_thread:1595269088874608.5000,
+ occupancy:0.41, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:2, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8511683, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+[ N:512, b0:512, b1:  2, MWP: 2, CWP:32, mcwp_case:2, 
+ Exec_cycles_app:56973568055812.0156, Exec_cycles_per_thread:1595259905562736.5000,
+ occupancy:0.33, Rep:1.00, Active_blocks_per_SM:1,
+ shared_mem_bytes_total:0, Blocks:1, Threads_per_block:1024,
+ Coal_per_mw:0, Uncoal_per_mw:8511634, Comp_insts:1264044,
+ Uncoal_Mem_insts:418336, Coal_Mem_insts:0, Synch_insts:0 
+]
+---------------------------------------------------------------------------
+==========================================================================
+[*BEST*: N:512, b0:16, b1:2, mcwp_case=1, mwp: 2, cwp: 2, clocks:3454820728440.0215, clocks_per_thread:96734980396320.5938
+ occupancy:0.01, rep:1.00, active_blocks_per_sm:2, shared_mem_bytes=0]
+==========================================================================

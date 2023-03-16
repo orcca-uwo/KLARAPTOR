@@ -1,0 +1,281 @@
+checking for [] 
+checking log point [32 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=1, by=32, elapsed_fdtd_step1_kernel=3.1189 (ms),
+ elapsed_fdtd_step2_kernel=3.0922 (ms), elapsed_fdtd_step3_kernel=3.7469 (ms)] ... PASS
+=============================== 
+checking log point [32 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=16, elapsed_fdtd_step1_kernel=2.5567 (ms),
+ elapsed_fdtd_step2_kernel=2.4456 (ms), elapsed_fdtd_step3_kernel=2.7989 (ms)] ... PASS
+=============================== 
+checking log point [32 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=8, elapsed_fdtd_step1_kernel=2.2667 (ms),
+ elapsed_fdtd_step2_kernel=2.1511 (ms), elapsed_fdtd_step3_kernel=2.3496 (ms)] ... PASS
+=============================== 
+checking log point [32 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=4, elapsed_fdtd_step1_kernel=2.5494 (ms),
+ elapsed_fdtd_step2_kernel=2.3456 (ms), elapsed_fdtd_step3_kernel=2.5433 (ms)] ... PASS
+=============================== 
+checking log point [32 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=2, elapsed_fdtd_step1_kernel=2.0526 (ms),
+ elapsed_fdtd_step2_kernel=1.9286 (ms), elapsed_fdtd_step3_kernel=2.0688 (ms)] ... PASS
+=============================== 
+checking log point [32 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=1, elapsed_fdtd_step1_kernel=1.9068 (ms),
+ elapsed_fdtd_step2_kernel=1.9032 (ms), elapsed_fdtd_step3_kernel=2.0464 (ms)] ... PASS
+=============================== 
+checking log point [32 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=2, by=32, elapsed_fdtd_step1_kernel=2.5953 (ms),
+ elapsed_fdtd_step2_kernel=2.5401 (ms), elapsed_fdtd_step3_kernel=2.9323 (ms)] ... PASS
+=============================== 
+checking log point [32 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=16, elapsed_fdtd_step1_kernel=2.2716 (ms),
+ elapsed_fdtd_step2_kernel=2.1918 (ms), elapsed_fdtd_step3_kernel=2.3664 (ms)] ... PASS
+=============================== 
+checking log point [32 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=8, elapsed_fdtd_step1_kernel=2.1484 (ms),
+ elapsed_fdtd_step2_kernel=1.9671 (ms), elapsed_fdtd_step3_kernel=2.1443 (ms)] ... PASS
+=============================== 
+checking log point [32 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=4, elapsed_fdtd_step1_kernel=2.0531 (ms),
+ elapsed_fdtd_step2_kernel=1.9156 (ms), elapsed_fdtd_step3_kernel=2.0749 (ms)] ... PASS
+=============================== 
+checking log point [32 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=2, elapsed_fdtd_step1_kernel=1.9095 (ms),
+ elapsed_fdtd_step2_kernel=1.9508 (ms), elapsed_fdtd_step3_kernel=2.0286 (ms)] ... PASS
+=============================== 
+checking log point [32 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=4, by=32, elapsed_fdtd_step1_kernel=2.3403 (ms),
+ elapsed_fdtd_step2_kernel=2.2046 (ms), elapsed_fdtd_step3_kernel=2.4224 (ms)] ... PASS
+=============================== 
+checking log point [32 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=16, elapsed_fdtd_step1_kernel=2.1242 (ms),
+ elapsed_fdtd_step2_kernel=1.9726 (ms), elapsed_fdtd_step3_kernel=2.2349 (ms)] ... PASS
+=============================== 
+checking log point [32 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=8, elapsed_fdtd_step1_kernel=2.0488 (ms),
+ elapsed_fdtd_step2_kernel=1.9108 (ms), elapsed_fdtd_step3_kernel=2.0639 (ms)] ... PASS
+=============================== 
+checking log point [32 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=4, elapsed_fdtd_step1_kernel=1.9028 (ms),
+ elapsed_fdtd_step2_kernel=1.8952 (ms), elapsed_fdtd_step3_kernel=2.0285 (ms)] ... PASS
+=============================== 
+checking log point [32 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=8, by=32, elapsed_fdtd_step1_kernel=2.1929 (ms),
+ elapsed_fdtd_step2_kernel=2.1090 (ms), elapsed_fdtd_step3_kernel=2.3187 (ms)] ... PASS
+=============================== 
+checking log point [32 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=16, elapsed_fdtd_step1_kernel=2.0833 (ms),
+ elapsed_fdtd_step2_kernel=1.9640 (ms), elapsed_fdtd_step3_kernel=2.1603 (ms)] ... PASS
+=============================== 
+checking log point [32 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=8, elapsed_fdtd_step1_kernel=1.9291 (ms),
+ elapsed_fdtd_step2_kernel=1.9287 (ms), elapsed_fdtd_step3_kernel=2.0715 (ms)] ... PASS
+=============================== 
+checking log point [32 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=16, by=32, elapsed_fdtd_step1_kernel=2.1654 (ms),
+ elapsed_fdtd_step2_kernel=2.1745 (ms), elapsed_fdtd_step3_kernel=2.3808 (ms)] ... PASS
+=============================== 
+checking log point [32 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=16, elapsed_fdtd_step1_kernel=2.0737 (ms),
+ elapsed_fdtd_step2_kernel=2.0957 (ms), elapsed_fdtd_step3_kernel=2.2854 (ms)] ... PASS
+=============================== 
+checking log point [32 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=32, bx=32, by=32, elapsed_fdtd_step1_kernel=2.3160 (ms),
+ elapsed_fdtd_step2_kernel=2.3776 (ms), elapsed_fdtd_step3_kernel=2.6637 (ms)] ... PASS
+=============================== 
+checking log point [64 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=32, elapsed_fdtd_step1_kernel=5.5042 (ms),
+ elapsed_fdtd_step2_kernel=5.6264 (ms), elapsed_fdtd_step3_kernel=7.5039 (ms)] ... PASS
+=============================== 
+checking log point [64 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=16, elapsed_fdtd_step1_kernel=3.9069 (ms),
+ elapsed_fdtd_step2_kernel=3.8824 (ms), elapsed_fdtd_step3_kernel=4.9086 (ms)] ... PASS
+=============================== 
+checking log point [64 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=8, elapsed_fdtd_step1_kernel=3.0836 (ms),
+ elapsed_fdtd_step2_kernel=3.0546 (ms), elapsed_fdtd_step3_kernel=3.5360 (ms)] ... PASS
+=============================== 
+checking log point [64 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=4, elapsed_fdtd_step1_kernel=2.6160 (ms),
+ elapsed_fdtd_step2_kernel=2.6732 (ms), elapsed_fdtd_step3_kernel=2.9371 (ms)] ... PASS
+=============================== 
+checking log point [64 16 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=2, elapsed_fdtd_step1_kernel=2.4115 (ms),
+ elapsed_fdtd_step2_kernel=2.4423 (ms), elapsed_fdtd_step3_kernel=2.6271 (ms)] ... PASS
+=============================== 
+checking log point [64 32 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=1, elapsed_fdtd_step1_kernel=2.3607 (ms),
+ elapsed_fdtd_step2_kernel=2.3649 (ms), elapsed_fdtd_step3_kernel=2.5488 (ms)] ... PASS
+=============================== 
+checking log point [64 1 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=1, by=64, elapsed_fdtd_step1_kernel=4.7290 (ms),
+ elapsed_fdtd_step2_kernel=4.7501 (ms), elapsed_fdtd_step3_kernel=6.1668 (ms)] ... PASS
+=============================== 
+checking log point [64 2 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=32, elapsed_fdtd_step1_kernel=3.3046 (ms),
+ elapsed_fdtd_step2_kernel=3.3997 (ms), elapsed_fdtd_step3_kernel=4.0464 (ms)] ... PASS
+=============================== 
+checking log point [64 4 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=16, elapsed_fdtd_step1_kernel=2.6022 (ms),
+ elapsed_fdtd_step2_kernel=2.6803 (ms), elapsed_fdtd_step3_kernel=2.9655 (ms)] ... PASS
+=============================== 
+checking log point [64 8 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=8, elapsed_fdtd_step1_kernel=2.3523 (ms),
+ elapsed_fdtd_step2_kernel=2.3885 (ms), elapsed_fdtd_step3_kernel=2.5314 (ms)] ... PASS
+=============================== 
+checking log point [64 16 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=4, elapsed_fdtd_step1_kernel=2.1636 (ms),
+ elapsed_fdtd_step2_kernel=2.1153 (ms), elapsed_fdtd_step3_kernel=2.2275 (ms)] ... PASS
+=============================== 
+checking log point [64 32 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=2, elapsed_fdtd_step1_kernel=2.0317 (ms),
+ elapsed_fdtd_step2_kernel=2.0524 (ms), elapsed_fdtd_step3_kernel=2.2037 (ms)] ... PASS
+=============================== 
+checking log point [64 64 1 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=1, elapsed_fdtd_step1_kernel=2.0306 (ms),
+ elapsed_fdtd_step2_kernel=2.0691 (ms), elapsed_fdtd_step3_kernel=2.1943 (ms)] ... PASS
+=============================== 
+checking log point [64 2 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=2, by=64, elapsed_fdtd_step1_kernel=3.4648 (ms),
+ elapsed_fdtd_step2_kernel=3.5978 (ms), elapsed_fdtd_step3_kernel=4.3978 (ms)] ... PASS
+=============================== 
+checking log point [64 4 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=32, elapsed_fdtd_step1_kernel=2.7484 (ms),
+ elapsed_fdtd_step2_kernel=2.8073 (ms), elapsed_fdtd_step3_kernel=3.2028 (ms)] ... PASS
+=============================== 
+checking log point [64 8 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=16, elapsed_fdtd_step1_kernel=2.3140 (ms),
+ elapsed_fdtd_step2_kernel=2.4262 (ms), elapsed_fdtd_step3_kernel=2.5656 (ms)] ... PASS
+=============================== 
+checking log point [64 16 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=8, elapsed_fdtd_step1_kernel=2.1181 (ms),
+ elapsed_fdtd_step2_kernel=2.1701 (ms), elapsed_fdtd_step3_kernel=2.2908 (ms)] ... PASS
+=============================== 
+checking log point [64 32 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=4, elapsed_fdtd_step1_kernel=2.0302 (ms),
+ elapsed_fdtd_step2_kernel=2.0674 (ms), elapsed_fdtd_step3_kernel=2.1912 (ms)] ... PASS
+=============================== 
+checking log point [64 64 2 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=2, elapsed_fdtd_step1_kernel=2.0237 (ms),
+ elapsed_fdtd_step2_kernel=2.0462 (ms), elapsed_fdtd_step3_kernel=2.1748 (ms)] ... PASS
+=============================== 
+checking log point [64 4 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=4, by=64, elapsed_fdtd_step1_kernel=2.9664 (ms),
+ elapsed_fdtd_step2_kernel=3.0156 (ms), elapsed_fdtd_step3_kernel=3.6141 (ms)] ... PASS
+=============================== 
+checking log point [64 8 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=32, elapsed_fdtd_step1_kernel=2.4636 (ms),
+ elapsed_fdtd_step2_kernel=2.4823 (ms), elapsed_fdtd_step3_kernel=2.7604 (ms)] ... PASS
+=============================== 
+checking log point [64 16 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=16, elapsed_fdtd_step1_kernel=2.1593 (ms),
+ elapsed_fdtd_step2_kernel=2.2581 (ms), elapsed_fdtd_step3_kernel=2.4393 (ms)] ... PASS
+=============================== 
+checking log point [64 32 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=8, elapsed_fdtd_step1_kernel=2.0732 (ms),
+ elapsed_fdtd_step2_kernel=2.1316 (ms), elapsed_fdtd_step3_kernel=2.2605 (ms)] ... PASS
+=============================== 
+checking log point [64 64 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=4, elapsed_fdtd_step1_kernel=2.0667 (ms),
+ elapsed_fdtd_step2_kernel=2.1088 (ms), elapsed_fdtd_step3_kernel=2.2496 (ms)] ... PASS
+=============================== 
+checking log point [64 8 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=8, by=64, elapsed_fdtd_step1_kernel=2.4212 (ms),
+ elapsed_fdtd_step2_kernel=2.6242 (ms), elapsed_fdtd_step3_kernel=2.7823 (ms)] ... PASS
+=============================== 
+checking log point [64 16 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=32, elapsed_fdtd_step1_kernel=2.1624 (ms),
+ elapsed_fdtd_step2_kernel=2.2648 (ms), elapsed_fdtd_step3_kernel=2.3811 (ms)] ... PASS
+=============================== 
+checking log point [64 32 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=16, elapsed_fdtd_step1_kernel=2.0746 (ms),
+ elapsed_fdtd_step2_kernel=2.1676 (ms), elapsed_fdtd_step3_kernel=2.2876 (ms)] ... PASS
+=============================== 
+checking log point [64 64 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=8, elapsed_fdtd_step1_kernel=2.0682 (ms),
+ elapsed_fdtd_step2_kernel=2.1216 (ms), elapsed_fdtd_step3_kernel=2.2892 (ms)] ... PASS
+=============================== 
+checking log point [64 16 64 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=16, by=64, elapsed_fdtd_step1_kernel=2.4520 (ms),
+ elapsed_fdtd_step2_kernel=2.6974 (ms), elapsed_fdtd_step3_kernel=2.9169 (ms)] ... PASS
+=============================== 
+checking log point [64 32 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=32, by=32, elapsed_fdtd_step1_kernel=2.3478 (ms),
+ elapsed_fdtd_step2_kernel=2.4230 (ms), elapsed_fdtd_step3_kernel=2.7313 (ms)] ... PASS
+=============================== 
+checking log point [64 64 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=64, bx=64, by=16, elapsed_fdtd_step1_kernel=2.3403 (ms),
+ elapsed_fdtd_step2_kernel=2.4204 (ms), elapsed_fdtd_step3_kernel=2.6986 (ms)] ... PASS
+=============================== 
+checking log point [128 1 32 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=1, by=32, elapsed_fdtd_step1_kernel=13.4227 (ms),
+ elapsed_fdtd_step2_kernel=13.3208 (ms), elapsed_fdtd_step3_kernel=18.0840 (ms)] ... PASS
+=============================== 
+checking log point [128 2 16 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=2, by=16, elapsed_fdtd_step1_kernel=7.9006 (ms),
+ elapsed_fdtd_step2_kernel=8.0964 (ms), elapsed_fdtd_step3_kernel=10.5733 (ms)] ... PASS
+=============================== 
+checking log point [128 4 8 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=4, by=8, elapsed_fdtd_step1_kernel=5.4959 (ms),
+ elapsed_fdtd_step2_kernel=5.4946 (ms), elapsed_fdtd_step3_kernel=6.7295 (ms)] ... PASS
+=============================== 
+checking log point [128 8 4 1]
+[running on device 0: Tesla C2075]
+[trace: n=128, bx=8, by=4, elapsed_fdtd_step1_kernel=4.2732 (ms),
+ elapsed_fdtd_step2_kernel=4.3769 (ms), elapsed_fdtd_step3_kernel=5.0076 (ms)] ... PASS
+=============================== 

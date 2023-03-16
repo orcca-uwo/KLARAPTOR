@@ -1,0 +1,40 @@
+#!/bin/bash
+
+cwd="$(pwd)"
+cd ..;
+parent_cwd="$(pwd)"
+cd "$cwd"
+dest="klaraptor_path.conf"
+dest="$cwd/$dest"
+target="$HOME/.bashrc"
+
+cat /dev/null > $dest
+printf "export KLARAPTOR_PATH=$parent_cwd\n" >> $dest
+printf "export PATH=\$PATH:\$KLARAPTOR_PATH/bin/" >> $dest
+
+printf "[adding KLARAPTOR_PATH to ~/.bashrc] ... \n"
+
+source_line="    source $dest "
+if grep -Fxq "$source_line" $target 
+then
+        # printf "Path is already set! \n"
+        printf ""
+else
+
+	printf "\n\n" >> $target
+	printf "######################################\n" >> $target
+	printf "######################################\n" >> $target 
+	printf "#### ADDING KLARAPTOR_PATH [""$(date)""]\n" >> $target
+	printf "###################################### \n" >> $target
+
+	printf "if [ -e $dest ]; then \n" >> $target
+#	printf "    source $dest \n" >> $target
+	printf "$source_line" >> $target
+	printf "\n" >> $target
+	printf "fi;\n">> $target
+
+	printf "######################################\n" >> $target
+	printf "######################################\n" >> $target
+fi
+
+printf "[Installation of KLARAPTOR is done]...\n"
