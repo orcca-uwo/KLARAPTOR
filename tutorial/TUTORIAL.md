@@ -9,9 +9,9 @@
   * This file contains basic hardware information about the GPU such as Compute Capability which will be required for running KLARAPTOR.
 
 
-### `polybench_2DConv` example
+## `polybench_2DConv` example
 
-#### Annotations
+### Annotations
 
 * Below is an example of the pragma's used for the 2DConv example ():
 
@@ -23,7 +23,7 @@
 * Refer to `2DConvolution_KLARAPTOR_edited.cu` & `2DConvolution.cu` to see all the differences being made to code.
 
 
-#### Running KLARAPTOR
+### Running KLARAPTOR
 
 * `cd $KLARAPTOR_PATH/tests/polybench_2DConv_llvm/`   ## move to example directory.
 
@@ -42,5 +42,5 @@
 	- `2DConvolution_instrumented.bin` (optimized by KLARAPTOR, helper program that determines the best kernel launch parameters for the given Kernel)
 	- `2DConvolution.bin` (non-optimized CUDA program)
 
-* For further instructions on how to run KLARAPTOR, please contact:
+For further instructions on how to run KLARAPTOR, please contact:
   * Taabish Jeshani <tjeshan@uwo.ca>
