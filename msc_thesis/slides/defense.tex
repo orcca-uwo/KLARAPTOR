@@ -1,0 +1,175 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[navigation]{UMONS}
+\usepackage[listings]{tcolorbox}
+\usepackage{booktabs}
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,bm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{multicol}
+\input{macros_plots}
+\usepackage{cmap}
+\usepackage{bibentry}
+\usepackage{listings}
+\usepackage{slantsc}
+\usepackage{array}
+\captionsetup{compatibility=false}
+\usepackage{minted}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{chains}
+\usepackage{algorithm}
+%\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+%\usepackage{algorithmic}
+\usepackage{algcompatible}
+\usepackage{algpseudocode}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{ulem}
+
+\usepackage{animate}
+\usepackage{media9}
+\usetikzlibrary{patterns}
+\tikzset{every path/.style=thick}
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+		middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+
+\usepackage{xcolor}
+\expandafter\def\expandafter\normalsize\expandafter{%
+	\normalsize
+	\setlength\abovedisplayskip{0pt}
+	\setlength\belowdisplayskip{0pt}
+	\setlength\abovedisplayshortskip{0pt}
+	\setlength\belowdisplayshortskip{0pt}
+}
+\input{macros.tex}
+\input{settings.tex}
+\setbeamercovered{transparent}
+%
+%\definecolor{dNone}{HTML}{FFFFFF}
+%%\definecolor{dOne}{HTML}{yellow}
+%%\definecolor{dTwo}{HTML}{blue}
+%%\definecolor{dThree}{HTML}{green}
+%%\definecolor{dFour}{HTML}{red}
+%\colorlet{dOne}{coolgrey!70}
+%\colorlet{dTwo}{pistachio!70}
+%\colorlet{dThree}{lightblue1!70}
+%\colorlet{dFour}{negative!70}
+%
+%\colorlet{dOneLight}{dOne!40}
+%\colorlet{dTwoLight}{dTwo!40}
+%\colorlet{dThreeLight}{dThree!40}
+%\colorlet{dFourLight}{dFour!40}
+
+\setcounter{tocdepth}{2}
+\AtBeginSection[]
+{
+	\begin{frame}[noframenumbering]
+		\frametitle{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+\AtBeginSubsection[]
+{
+	\begin{frame}[noframenumbering]
+		\frametitle{Outline}
+		\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+}
+
+\title{\textbf{\Large{{Dynamically Finding Optimal Kernel Launch Parameters for CUDA Programs}}}}
+\subtitle{}
+
+\author[Jeshani]{
+	{Taabish {Jeshani}}
+}
+
+
+\institute{
+	\scriptsize
+	{		{ORCCA, University of Western Ontario, Canada}\\
+		%	$^3${IBM Center for Advanced Studies, Markham, Canada}\\
+	}
+}
+\date[]
+{
+	\footnotesize
+	%	ISSAC 2019, Beihang University, Beijing, China\\
+	April 26, 2023
+}
+
+
+\input{beamer_settings}
+
+\begin{document}
+%\maketitle
+
+\begin{frame}[plain,noframenumbering]
+	\titlepage
+\end{frame}
+
+\begin{frame}[plain,noframenumbering]{Co-Authorship Statement}
+	\begin{block}{}
+        KLARAPTOR is a joint project with Alexander Brandt, Marc Moreno Maza, Davood Mohajerani 
+        and Linxiao Wang. A preprint of this work is accessible as \cite{DBLP:journals/corr/abs-1911-02373}. 
+        The contributions of the thesis author include: upgrading the profiler to support newer Nvidia GPU architectures, 
+        introduction of an outlier removal algorithm, and improvements to the overall integration of the 
+        theory of rational programs and the MWP-CWP model.
+	\end{block}
+\end{frame}
+\begin{frame}[plain,noframenumbering]{Outline}
+	\tableofcontents
+\end{frame}
+
+%\begin{frame}[plain,noframenumbering]{Outline}
+%	\tableofcontents
+%\end{frame}
+\include{Chapters/Introduction}
+\include{Chapters/Background}
+\include{Chapters/klaraptor}
+\include{Chapters/implementation}
+\include{Chapters/experimentation}
+\include{Chapters/summary}
+\newcounter{finalframe}
+\setcounter{finalframe}{\value{framenumber}}
+
+
+\begin{frame}[noframenumbering,plain]
+\begin{center}
+	{\huge{\textbf{Thank You!}}}
+\end{center}
+\end{frame}
+%%####################
+\begin{frame}[noframenumbering,plain]
+\begin{center}
+{\huge{\textbf {Your Questions?}}}
+\end{center}
+\end{frame}
+%%%####################
+\bibliographystyle{abbrv} % (change according to your preference)
+%%% ***   Set the bibliography file.   ***
+%\bibliography{../reference}{}
+%%% ***   Set the bibliography file.   ***
+\bibliography{westernthesis}{}
+
+%\begin{frame}[noframenumbering,plain]
+%\begin{center}
+%	{\huge{\textbf {Appendix}}}
+%\end{center}
+%\end{frame}
+
+%\include{Chapters/Appendix}
+%\setcounter{framenumber}{\value{finalframe}}
+
+\end{document}

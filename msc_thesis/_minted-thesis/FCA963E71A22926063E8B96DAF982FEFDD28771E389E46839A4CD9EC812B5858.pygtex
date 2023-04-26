@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{c+c1}{// Size of array}
+\PYG{c+cp}{\PYGZsh{}define N 1048576}
+
+\PYG{c+c1}{// Kernel}
+\PYG{k+kr}{\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{}} \PYG{k+kt}{void} \PYG{n+nf}{add\PYGZus{}vectors}\PYG{p}{(}\PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{b}\PYG{p}{,} \PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{c}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{k+kt}{int} \PYG{n}{id} \PYG{o}{=} \PYG{n+nb}{blockDim}\PYG{p}{.}\PYG{n}{x} \PYG{o}{*} \PYG{n+nb}{blockIdx}\PYG{p}{.}\PYG{n}{x} \PYG{o}{+} \PYG{n+nb}{threadIdx}\PYG{p}{.}\PYG{n}{x}\PYG{p}{;}
+	\PYG{k}{if}\PYG{p}{(}\PYG{n}{id} \PYG{o}{\PYGZlt{}} \PYG{n}{N}\PYG{p}{)} \PYG{n}{c}\PYG{p}{[}\PYG{n}{id}\PYG{p}{]} \PYG{o}{=} \PYG{n}{a}\PYG{p}{[}\PYG{n}{id}\PYG{p}{]} \PYG{o}{+} \PYG{n}{b}\PYG{p}{[}\PYG{n}{id}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Main program}
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+	\PYG{c+c1}{// Number of bytes to allocate for N doubles}
+	\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{bytes} \PYG{o}{=} \PYG{n}{N}\PYG{o}{*}\PYG{k}{sizeof}\PYG{p}{(}\PYG{k+kt}{double}\PYG{p}{);}
+
+	\PYG{c+c1}{// Allocate memory for arrays A, B, and C on host}
+	\PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{A} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+	\PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{B} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+	\PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{C} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+
+	\PYG{c+c1}{// Allocate memory for arrays d\PYGZus{}A, d\PYGZus{}B, and d\PYGZus{}C on device}
+	\PYG{k+kt}{double} \PYG{o}{*}\PYG{n}{d\PYGZus{}A}\PYG{p}{,} \PYG{o}{*}\PYG{n}{d\PYGZus{}B}\PYG{p}{,} \PYG{o}{*}\PYG{n}{d\PYGZus{}C}\PYG{p}{;}
+	\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}A}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{);}
+	\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}B}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{);}
+	\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}C}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{);}
+
+	\PYG{c+c1}{// Fill host arrays A and B}
+	\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{n}{N}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{1.0}\PYG{p}{;}
+		\PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mf}{2.0}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+
+	\PYG{c+c1}{// Copy data from host arrays A and B to device arrays d\PYGZus{}A and d\PYGZus{}B}
+	\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{,} \PYG{n}{A}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{,} \PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+	\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{d\PYGZus{}B}\PYG{p}{,} \PYG{n}{B}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{,} \PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+
+	\PYG{c+c1}{// Set execution configuration parameters}
+	\PYG{c+c1}{//		thr\PYGZus{}per\PYGZus{}blk: number of CUDA threads per grid block}
+	\PYG{c+c1}{//		blk\PYGZus{}in\PYGZus{}grid: number of blocks in grid}
+	\PYG{k+kt}{int} \PYG{n}{thr\PYGZus{}per\PYGZus{}blk} \PYG{o}{=} \PYG{l+m+mi}{256}\PYG{p}{;}
+	\PYG{k+kt}{int} \PYG{n}{blk\PYGZus{}in\PYGZus{}grid} \PYG{o}{=} \PYG{n}{ceil}\PYG{p}{(} \PYG{k+kt}{float}\PYG{p}{(}\PYG{n}{N}\PYG{p}{)} \PYG{o}{/} \PYG{n}{thr\PYGZus{}per\PYGZus{}blk} \PYG{p}{);}
+
+	\PYG{c+c1}{// Launch kernel}
+	\PYG{n}{add\PYGZus{}vectors}\PYG{o}{\PYGZlt{}\PYGZlt{}\PYGZlt{}} \PYG{n}{blk\PYGZus{}in\PYGZus{}grid}\PYG{p}{,} \PYG{n}{thr\PYGZus{}per\PYGZus{}blk} \PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{,} \PYG{n}{d\PYGZus{}B}\PYG{p}{,} \PYG{n}{d\PYGZus{}C}\PYG{p}{);}
+
+	\PYG{c+c1}{// Copy data from device array d\PYGZus{}C to host array C}
+	\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{C}\PYG{p}{,} \PYG{n}{d\PYGZus{}C}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{,} \PYG{n}{cudaMemcpyDeviceToHost}\PYG{p}{);}
+
+	\PYG{c+c1}{// Free CPU memory}
+	\PYG{n}{free}\PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+	\PYG{n}{free}\PYG{p}{(}\PYG{n}{B}\PYG{p}{);}
+	\PYG{n}{free}\PYG{p}{(}\PYG{n}{C}\PYG{p}{);}
+
+	\PYG{c+c1}{// Free GPU memory}
+	\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{);}
+	\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}B}\PYG{p}{);}
+	\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}C}\PYG{p}{);}
+
+	\PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

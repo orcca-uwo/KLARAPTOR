@@ -1,0 +1,189 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}2dconv\PYGZus{}utils.h\PYGZdq{}}
+
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+c1}{/////// AUTOMATICALLY ANNOTATED ///////}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}kernel\PYGZus{}invoker.h\PYGZdq{}}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}info\PYGZus{}size\PYGZus{}param\PYGZus{}idx\PYGZus{}Convolution2D\PYGZus{}kernel}\PYG{+w}{ }\PYG{n+nf}{\PYGZus{}\PYGZus{}attribute\PYGZus{}\PYGZus{}}\PYG{p}{((}\PYG{n}{used}\PYG{p}{))}\PYG{+w}{  }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}info\PYGZus{}dim\PYGZus{}Convolution2D\PYGZus{}kernel}\PYG{+w}{ }\PYG{n+nf}{\PYGZus{}\PYGZus{}attribute\PYGZus{}\PYGZus{}}\PYG{p}{((}\PYG{n}{used}\PYG{p}{))}\PYG{+w}{  }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{k+kt}{void}
+\PYG{n+nf}{conv2D}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{+w}{ }\PYG{n}{c11}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c12}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c13}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c21}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c22}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c23}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c31}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c32}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c33}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c11}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.2}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c21}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.5}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c31}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{\PYGZhy{}0.8}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c12}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{\PYGZhy{}0.3}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c22}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.6}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c32}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{\PYGZhy{}0.9}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c13}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.4}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c23}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.7}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{c33}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{+}\PYG{l+m+mf}{0.10}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{i}\PYG{p}{)}\PYG{+w}{ }
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{j}\PYG{p}{)}\PYG{+w}{ }
+\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{   }\PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{c11}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c12}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c13}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c21}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c22}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c23}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c31}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c32}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)]}
+\PYG{+w}{       }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{c33}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{[(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)];}
+\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{init}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NI}\PYG{p}{;}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{i}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{;}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{j}\PYG{p}{)}
+\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{   }\PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{float}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{rand}\PYG{+w}{ }\PYG{p}{()}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{RAND\PYGZus{}MAX}\PYG{p}{;}
+\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{int}
+\PYG{n+nf}{compareResults}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{fail}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{fail}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{  }
+\PYG{+w}{  }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{);}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{);}\PYG{+w}{ }\PYG{n}{j}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{   }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{percentDiff}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{       }\PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{],}\PYG{+w}{       }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{[}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{])}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{PERCENT\PYGZus{}DIFF\PYGZus{}ERROR\PYGZus{}THRESHOLD}\PYG{p}{)}
+\PYG{+w}{     }\PYG{p}{\PYGZob{}}
+\PYG{+w}{       }\PYG{n}{fail}\PYG{o}{++}\PYG{p}{;}
+\PYG{+w}{       }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{EXIT\PYGZus{}FAILURE}\PYG{p}{);}
+\PYG{+w}{     }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }
+\PYG{+w}{  }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{GPU\PYGZus{}argv\PYGZus{}init}\PYG{+w}{ }\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{cudaDeviceProp}\PYG{+w}{ }\PYG{n}{deviceProp}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{cudaGetDeviceProperties}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{deviceProp}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{printf}\PYG{+w}{ }\PYG{p}{(}\PYG{l+s}{\PYGZdq{}[running on device \PYGZpc{}d: \PYGZpc{}s]}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{deviceProp}\PYG{p}{.}\PYG{n}{name}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaSetDevice}\PYG{+w}{ }\PYG{p}{(}\PYG{+w}{ }\PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{//\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{} void}
+\PYG{c+c1}{//Convolution2D\PYGZus{}kernel (DATA\PYGZus{}TYPE *A, DATA\PYGZus{}TYPE *B, int NI, int NJ)}
+\PYG{c+c1}{//\PYGZob{}}
+\PYG{c+c1}{//  int j = blockIdx.x * blockDim.x + threadIdx.x;}
+\PYG{c+c1}{//  int i = blockIdx.y * blockDim.y + threadIdx.y;}
+\PYG{c+c1}{//  DATA\PYGZus{}TYPE c11, c12, c13, c21, c22, c23, c31, c32, c33;}
+\PYG{c+c1}{//  c11 = +0.2;}
+\PYG{c+c1}{//  c21 = +0.5;}
+\PYG{c+c1}{//  c31 = \PYGZhy{}0.8;}
+\PYG{c+c1}{//  c12 = \PYGZhy{}0.3;}
+\PYG{c+c1}{//  c22 = +0.6;}
+\PYG{c+c1}{//  c32 = \PYGZhy{}0.9;}
+\PYG{c+c1}{//  c13 = +0.4;}
+\PYG{c+c1}{//  c23 = +0.7;}
+\PYG{c+c1}{//  c33 = +0.10;}
+\PYG{c+c1}{//  if ((i \PYGZlt{} NI \PYGZhy{} 1) \PYGZam{}\PYGZam{} (j \PYGZlt{} NJ \PYGZhy{} 1) \PYGZam{}\PYGZam{} (i \PYGZgt{} 0) \PYGZam{}\PYGZam{} (j \PYGZgt{} 0))}
+\PYG{c+c1}{//    \PYGZob{}}
+\PYG{c+c1}{//      B[i * NJ + j] = c11 * A[(i \PYGZhy{} 1) * NJ + (j \PYGZhy{} 1)]}
+\PYG{c+c1}{//   + c21 * A[(i \PYGZhy{} 1) * NJ + (j + 0)] + c31 * A[(i \PYGZhy{} 1) * NJ + (j + 1)]}
+\PYG{c+c1}{//   + c12 * A[(i + 0) * NJ + (j \PYGZhy{} 1)] + c22 * A[(i + 0) * NJ + (j + 0)]}
+\PYG{c+c1}{//   + c32 * A[(i + 0) * NJ + (j + 1)] + c13 * A[(i + 1) * NJ + (j \PYGZhy{} 1)]}
+\PYG{c+c1}{//   + c23 * A[(i + 1) * NJ + (j + 0)] + c33 * A[(i + 1) * NJ + (j + 1)];}
+\PYG{c+c1}{//    \PYGZcb{}}
+\PYG{c+c1}{//\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{convolution2DCuda}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{cuda\PYGZus{}timer}\PYG{+w}{ }\PYG{n}{t\PYGZus{}conv}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{cuda\PYGZus{}timer\PYGZus{}init}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{cudaMalloc}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{void}\PYG{+w}{ }\PYG{o}{**}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaMalloc}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{void}\PYG{+w}{ }\PYG{o}{**}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaMemcpy}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+\PYG{+w}{  }\PYG{k+kt}{dim3}\PYG{+w}{ }\PYG{n}{block}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{p}{);}
+\PYG{+w}{  }\PYG{k+kt}{dim3}\PYG{+w}{ }\PYG{n}{grid}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{ceil}\PYG{+w}{ }\PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{NI}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{block}\PYG{p}{.}\PYG{n}{x}\PYG{p}{)),}\PYG{+w}{      }\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{ceil}\PYG{+w}{ }\PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{block}\PYG{p}{.}\PYG{n}{y}\PYG{p}{)));}
+\PYG{+w}{  }\PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}start}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+\PYG{+w}{  	}
+\PYG{+w}{ }\PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+\PYG{+w}{ }\PYG{c+c1}{////////// WARNING: AUTOMATICALLY ANNOTATED REGION BEGINS HERE /////////}
+\PYG{+w}{ }\PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+\PYG{+w}{	}
+\PYG{+w}{ }
+
+\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}0\PYGZus{}name}\PYG{p}{[]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZdq{}}\PYG{p}{;}
+\PYG{+w}{ }
+\PYG{+w}{ }\PYG{c+c1}{//launch\PYGZus{}params: 3 for grid\PYGZus{}dim, 3 for block\PYGZus{}dim, 1 for dynamic\PYGZus{}shared\PYGZus{}mem\PYGZus{}bytes;}
+\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{[}\PYG{l+m+mi}{6}\PYG{p}{];}
+\PYG{+w}{ }\PYG{n}{set\PYGZus{}kernel\PYGZus{}launch\PYGZus{}params}\PYG{p}{(}\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{grid}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{block}\PYG{p}{);}
+\PYG{+w}{ }
+\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}kernel\PYGZus{}params}\PYG{p}{[]}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{o}{\PYGZam{}}\PYG{n}{A\PYGZus{}gpu}\PYG{+w}{ }\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{B\PYGZus{}gpu}\PYG{+w}{ }\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{NI}\PYG{+w}{ }\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{NJ}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{ }
+\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}invoker}\PYG{p}{(}\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}0\PYGZus{}name}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}kernel\PYGZus{}params}\PYG{p}{);}
+\PYG{+w}{ }
+\PYG{+w}{ }\PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+\PYG{+w}{ }\PYG{c+c1}{////////// WARNING: AUTOMATICALLY ANNOTATED REGION ENDS HERE ///////////}
+\PYG{+w}{ }\PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+\PYG{+w}{	}
+\PYG{+w}{  }\PYG{n}{cudaCheckKernel}\PYG{p}{()}
+\PYG{+w}{  }\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}stop}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaThreadSynchronize}\PYG{+w}{ }\PYG{p}{();}
+\PYG{+w}{  }\PYG{n}{cudaMemcpy}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{B\PYGZus{}gpu}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{p}{,}\PYG{+w}{       }\PYG{n}{cudaMemcpyDeviceToHost}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaFree}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cudaFree}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}get\PYGZus{}elapsed\PYGZus{}time}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{printf}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{      }\PYG{l+s}{\PYGZdq{}[trace: n=\PYGZpc{}d, bx=\PYGZpc{}d, by=\PYGZpc{}d, elapsed\PYGZus{}Convolution2D\PYGZus{}kernel=\PYGZpc{}0.4f (ms)] ... \PYGZdq{}}\PYG{p}{,}\PYG{+w}{      }\PYG{n}{NI}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{t\PYGZus{}conv}\PYG{p}{.}\PYG{n}{elapsed\PYGZus{}time}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{int}
+\PYG{n+nf}{main}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{argc}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{**}\PYG{n}{argv}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{4096}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bx}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{32}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{by}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argc}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{atoi}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]);}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argc}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{bx}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{atoi}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]);}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argc}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{by}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{atoi}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]);}
+\PYG{+w}{  }\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{bx}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{by}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{t\PYGZus{}start}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{t\PYGZus{}end}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{+w}{ }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{A}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{malloc}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+\PYG{+w}{  }\PYG{n}{B}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{malloc}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+\PYG{+w}{  }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{malloc}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{NI}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{NJ}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+\PYG{+w}{  }
+\PYG{+w}{  }\PYG{n}{init}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{GPU\PYGZus{}argv\PYGZus{}init}\PYG{+w}{ }\PYG{p}{();}
+\PYG{c+cp}{\PYGZsh{}pragma START\PYGZus{}TRACING}
+\PYG{+w}{  }\PYG{n}{convolution2DCuda}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{);}
+\PYG{c+cp}{\PYGZsh{}pragma STOP\PYGZus{}TRACING}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{s}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{s}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{printf}\PYG{+w}{ }\PYG{p}{(}\PYG{l+s}{\PYGZdq{}PASS}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{k}{else}
+\PYG{+w}{    }\PYG{n}{printf}\PYG{+w}{ }\PYG{p}{(}\PYG{l+s}{\PYGZdq{}FAIL}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{free}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{free}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{B}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{free}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{);}
+\PYG{+w}{  }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

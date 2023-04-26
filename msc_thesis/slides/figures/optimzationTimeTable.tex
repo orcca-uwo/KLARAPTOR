@@ -1,0 +1,32 @@
+\begin{table}[htb]
+    \centering
+    \scriptsize
+    \caption{KLARAPTOR Optimization Times on \texttt{Polybench/GPU}, RTX 2070 SUPER
+    Comparing times for (1) compile-time optimization steps of KLARAPTOR, (2) exhaustive search over all 
+    thread block configurations, the execution time for a kernel given (3) the best thread block configuration, and (4) 
+    the worst thread block configuration. Exhaustive search is given as a sum for values up to $N=8192$ (except convolution3d with $N=512$).}\label{table:opttimetable}
+    \setlength{\tabcolsep}{0.6em}
+    \renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{l|rr|rr}
+        \toprule
+        Kernel &  KLARAPTOR Time (s) &  Ex. Search Time (s) &  Min Time (s) &  Max Time (s) \\
+        & $128 \leq N<\infty$ & $128 \leq N \leq 8192$ & $N=8192$ & $N=8192$\\
+        \midrule
+            2DCONV &              210.29 &                       82.78 &      0.002 &         0.023 \\
+            ATAX &              507.59 &                       59.60 &        0.006 &         1.940 \\
+                MVT &              508.03 &                       60.03 &     0.005 &         1.978 \\
+            BICG &              510.91 &                       60.16 &        0.006 &         2.050 \\
+            GESUMMV &              398.54 &                      142.78 &     0.006 &         0.129 \\
+            GEMM &              456.50 &                      987.77 &        3.941 &       126.052 \\
+            SYRK &              579.84 &                     2772.64 &        9.069 &       160.944 \\
+            SYR2K &             1173.68 &                     9553.64 &       15.534 &       459.169 \\
+                2MM &              700.49 &                     1889.62 &     7.851 &       240.828 \\
+                3MM &              944.54 &                     2798.12 &     11.779 &       361.310 \\
+            CORR &             1032.92 &                    10924.12 &        28.365 &       861.289 \\
+            COVAR &             1141.45 &                    23251.12 &       27.670 &      3900.855 \\
+            3DCONV &              132.88 &                       52.06 &      0.006 &         0.053 \\
+        GRAMSCHM &             2113.27 &                    94206.06 &        45.418 &     35146.314 \\
+            FDTD\_2D &              489.21 &                      495.79 &     3.304 &        21.107 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% common setting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=false]
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{section in toc}[circle]
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{enumerate items}[circle]
+\setbeamertemplate{itemize items}[circle]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% beamer colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\mode<presentation>{\usetheme{Berkeley}\usecolortheme{crane}}
+%\mode<presentation>{\usetheme{Rochester}}
+\colorlet{wp}{burgundy}
+\colorlet{wpbright}{burgundy!40}
+\colorlet{wptext}{black}%{burgundy!90}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=wp}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=wp}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=wp}
+\setbeamercolor*{palette quaternary}{use=structure,fg=white,bg=wp}
+
+%\setbeamercolor*{block title}{use=structure,fg=white, bg=wp}
+\setbeamercolor*{sidebar left}{use=structure,fg=black,bg=wpbright}
+%\setbeamercolor*{block title}{use=structure,fg=white, bg=wp}
+\setbeamercolor*{section in toc}{use=structure,fg=wp, bg=wp}
+\setbeamercolor*{section number projected}{use=structure,fg=white, bg=wp}
+\setbeamercolor*{itemize item}{use=structure,fg=wp, bg=wp}
+\setbeamercolor*{enumerate item}{use=structure,fg=wp, bg=wp}
+
+\setbeamercolor*{title}{use=structure,bg=wp,fg=gray3!50}
+\setbeamercolor*{frametitle}{use=structure,bg=wp,fg=gray3!50}
+%\setbeamercolor{block title}{bg=yellowBright!70,fg=black}
+%\setbeamercolor{block title}{bg=orangeBright!70,fg=black}
+%\setbeamercolor{block title}{bg=lime1!30,fg=black}
+\setbeamercolor{block title}{fg=wp, bg=gray3!30}
+%\setbeamercolor{block body}{bg=gray2!20,fg=black}
+%\setbeamercolor{block body}{bg=gray3!10,fg=darkblue2}
+\setbeamercolor{block body}{fg=wptext, bg=gray3!10}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% footline settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% setting the footline
+%\setbeamertemplate{footline}
+%{
+%  \leavevmode%
+%  \hbox{%
+%%  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.4ex,dp=1.5ex,center]
+%  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.0ex,dp=0.5ex,center]
+%  		{title in head/foot}%
+%	\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+%%    \usebeamerfont{title in head/foot}{\insertshorttitle}
+%%    {\color{white}\insertshorttitle\hspace*{3em}}
+%%	\hspace*{31em}
+%%	\hspace*{62em}
+%%	 {\color{white}\insertframenumber{} / \inserttotalframenumber}
+%	 %\hspace*{1ex}
+%  \end{beamercolorbox}
+% 
+%  }%
+%  \vskip0pt%
+%  
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% frametitle settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% setting the frametitle.
+\setbeamertemplate{frametitle}
+{
+\vskip-0.25ex
+  \leavevmode
+  \hbox{%
+%  \begin{beamercolorbox}[wd=\paperwidth,ht=2.0ex,dp=1ex]{frametitle}%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=0.9ex]{frametitle}%
+    \raggedright\hspace*{0.5em}{\large\textbf{\insertframetitle}}
+  \end{beamercolorbox}
+%    \vspace{2.5ex}
+  }%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% headline settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% setting the headline.
+%\setbeamertemplate{headline}
+%{
+%  \leavevmode%
+%  \hbox{%
+%  \begin{beamercolorbox}[wd=\paperwidth,ht=0ex,dp=3.5ex]{section}%
+%%    \raggedright
+%%    \hspace*{2em}
+%	
+%%    \hspace*{2em}%
+%  \end{beamercolorbox}%
+%  }%
+%}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% another footline setting.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% setting the footline.
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+ 
+%  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.4ex,dp=1.5ex,center]
+  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.0ex,dp=0.5ex,center]
+  		{title in head/foot}%
+  %	 \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+%    \usebeamerfont{title in head/foot}{FFTs over Prime Fields of Large Characteristic on GPUs}
+%    \insertshorttitle\hspace*{3em}
+%	{\color{white}\inserttitle}
+%	\hspace*{31em}
+	\hspace*{0.93\paperwidth}
+	 {\color{white}\insertframenumber{} / \inserttotalframenumber}
+	 %\hspace*{1ex}
+  \end{beamercolorbox}
+ 
+  }%
+  \vskip0pt%
+  
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% settings for beginning of the section.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\AtBeginSection[]
+{
+	{
+		\setbeamertemplate{footline}
+		{
+		  \leavevmode%
+		  \hbox{%
+		%	  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.4ex,dp=1.5ex,center]
+		%  \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.0ex,dp=0.5ex,center]
+		%  {title in head/foot}%
+		  %	 \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+		   % \usebeamerfont{title in head/foot}{FFTs over Prime Fields of Large Characteristic on GPUs, December 2016}
+		%    \insertshorttitle\hspace*{3em}
+		%\hspace*{34.5em}
+		%		 {\color{lightblue2}\insertframenumber{} / \inserttotalframenumber}
+		 %\hspace*{1ex}
+		%  \end{beamercolorbox}
+		 
+		  }%
+		  \vskip0pt%
+		}
+		
+	%	\begin{frame}[noframenumbering]{Outline}
+	%		\tableofcontents
+	%	\end{frame}
+		\begin{frame}[noframenumbering]{Outline}
+			\tableofcontents[currentsection]
+		\end{frame}
+	}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% font typefaces and sizes.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+%\usefonttheme{serif} % default family is serif
+%\usepackage{fontspec}
+%\setmainfont{tgbonum}
+%\usepackage{lmodern}
+\setbeamerfont{block title}{series=\bfseries, size=\normalsize}
+

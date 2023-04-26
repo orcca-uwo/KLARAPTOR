@@ -1,0 +1,157 @@
+\toremove{\section{Runtime Selection of Thread Block Configuration for a CUDA Kernel}}
+\label{sec:heuristics}
+
+\todo{remove this entire section.}{}
+
+In the previous section we examined the general six-step process
+to build and use a rational program to select program parameters. 
+We now look to specialize this process to {\cuda} 
+and describe precisely the algorithm followed by KLARAPTOR
+to select program parameters (i.e. thread block configurations)
+in its attempt to minimize kernel execution time (steps 4 and 5 in the general six-step process).
+
+Here, our high-level performance metric ${\cal E}$ is 
+execution time, and we make use of the {\mwpcwp} model
+\cite{DBLP:conf/isca/HongK09, DBLP:conf/ppopp/SimDKV12}
+to estimate it.
+In this model the execution time is estimated as the estimated 
+number of clock cycles {\ec}.
+From the previous six-step process, it seems
+trivial to simply select the configuration which 
+minimizes {\ec}.
+%At first, picking a subset of configurations with the lowest values of {\ec}
+%seems trivial and we would expect it to work well.
+However, in some practical examples, this can lead to a very poor choice
+of thread block configuration which does not minimize execution time.
+%
+%
+While the {\mwpcwp} model is a quite comprehensive performance prediction model, 
+it mainly relies on occupancy for estimating the number of clock cycles. 
+This has a serious drawback; the calculated occupancy is an upper
+bound which can be too optimistic and is not a strong predictor of 
+performance for compute-intensive kernels
+(see \cite{Volkov:EECS-2016-143} and "Help" sheet of NVIDIA occupancy calculator spreadsheet, 
+under "Notes on occupancy" \cite{nvidia:occupancy-calculator}).
+Therefore, we still make use of {\mwpcwp} but do not 
+take {\ec} directly as the performance predictor. 
+
+Using the values of some low-level metrics (also defined within the {\mwpcwp} model),
+together with {\ec},
+we perform a case discussion in order to select a thread block configuration.
+At runtime, the particular value of our data parameters is known,
+%specifically the parameter $N$, whose value describes the size of an array 
+%(or the order of a multi-dimensional array).
+The values for the low-level metrics are then 
+obtained using the data parameter values and the set of practically meaningful 
+thread block configurations by evaluating
+the previously obtained rational functions $\hat{g}_i(\bm{D}, \bm{P})$ 
+for them.
+This yields a dictionary whose keys are configurations
+and values are a list of estimated performance metrics.
+%%
+The low-level metrics of interest are:
+%%%%
+%Note that we only interpolate and evaluate a subset 
+%MWP-CWP of parameters including
+\begin{inparaenum}[(i)]
+\item the average number of computational instructions per thread ({\compinst}), 
+\item the average number of memory instructions per thread ({\meminst}),
+\item the average number of clock cycles spent on global memory transactions ({\memld}), and
+\item the amount of dynamic shared memory used.% ({\texttt{dynamic-shared-mem-bytes}}).
+\end{inparaenum}
+We then also compute occupancy and {\ec} for each configuration.
+%Naturally, we have multiple parameters to rely on for making a decision.
+%%
+
+\iffalse
+Another strategy would be to pick a subset of configurations with the 
+highest estimated occupancy. This approach can also lead to poor 
+results due to the reasons explained for the previous strategy.
+Therefore, we cannot consider this strategy as well.
+%%Not really needed
+\fi
+
+At this point, we look to define a strategy which chooses 
+a subset of configurations where any in the set 
+would give near-optimal performance.
+%which should minimize kernel execution time. 
+Our proposed strategy takes into account not only occupancy
+and {\ec}, but also the arithmetic intensity and efficiency of global memory
+read/write transactions of a kernel.
+We define arithmetic intensity as the ratio of 
+{{\compinst}/{\meminst}}.
+% for each block configuration in the dictionary.
+%As we will see in {Section~\ref{sec:performance}}, 
+%this approach yields promising results.
+%%%%
+The main idea is first to determine if the 
+kernel is memory intensive or compute intensive.
+{If the kernel is memory intensive, we look to minimize memory instructions, 
+otherwise it is assumed to be compute intensive and we look to both minimize
+time spent on memory transactions and maximize computational instructions. 
+The latter might increase the chance of exploiting 
+instruction-level parallelism (ILP) by the hardware 
+(however, this is not guaranteed to happen at runtime).}
+This strategy is detailed in Algorithm~\ref{alg-heuristic}.
+
+\input{sections/heuristic-algs}
+
+Certain subroutines are used within Algorithm~\ref{alg-heuristic}
+in an attempt to filter outliers and select candidate configurations.
+The first function, \texttt{Stabilize}, removes outliers
+by iteratively filtering out configurations.
+The iteartion proceeds until the standard deviation of the values
+of the target metric no longer changes, or a maximum
+number of iterations is reached.
+To remove outliers, configurations whose value of the chosen metric 
+falls in the top or bottom X\% of values 
+are removed.
+Note that standard deviation should indeed eventually reach some
+fixed value since the metrics take finitely many values.
+The next function, \texttt{Optimize}, simply gets
+the subset of configurations whose value for a particular 
+metric falls in the top X\% (if ``MAX'' is specified) 
+or the bottom X\% (if ``MIN'' is specified).
+
+%Algorithms \ref{alg-stabilize}, \ref{alg-get-extreme}, and \ref{alg-remove-extreme} are
+%used as the building blocks of Algorithm \ref{alg-heuristic}.
+%Algorithm \ref{alg-stabilize} tries to eliminate outlier configurations in the dictionary.
+%Also, Algorithm~\ref{alg-get-extreme} (and \ref{alg-remove-extreme})
+%filters out (and removes) the block configurations in the dictionary 
+%which have the lowest or highest values for a specific parameter.
+%at one end of extreme (with the lowest, or highest values) for a specific parameter.
+
+%In summary, if the kernel is memory intensive:
+%	find the points with most represented CC, most represented value of mem-inst,
+%	pick the family with the lowest mem-inst, pick the one with most represented comp-inst,
+%	and finally, get the family with highest mem-inst.
+%	
+%In summary, if the kernel is compute intensive:
+%	Find the points that have most represented occupancy value, have the
+%	lowest memory delay, perform the largest number of comp instructions, and
+%	finally, stabilize on memory inst.
+
+
+%%%%%
+To decide whether a kernel is memory intensive or not, 
+first, using a profiler (through {\nvprof} or {\cupti}), 
+we measure  the average value of global memory (load/store) 
+efficiency for the kernel for a set of block configurations.
+%launch that %(to ensure how the kernel accesses memory at its best)
+This value, which we will refer to as "Average Memory Efficiency" ({\memEfficiency})
+should be less than a certain threshold. This threshold, which we will refer to
+as "Memory Efficiency Threshold" ({\memThreshold})
+can be determined through empirical study.
+Currently, we set {\memThreshold} to 25\%.
+Using {\memEfficiency} together with the mean arithmetic intensity 
+of all configurations, indicates if a kernel is memory intensive or not.
+%Although critical, however, this metric alone is not enough to determine memory 
+%intensity. 
+%%%
+In particular, the mean arithmetic intensity should be at most equal to 1, 
+that is, for every memory instruction there is at most one computational
+instruction performed. 
+%For a kenrel to be memory intense we must also have low memory efficiency.
+%
+Finally, we note that the values for {\nparts} and {\nrepeat} in Algorithm~\ref{alg-heuristic} 
+have also been determined through experimentation (Lines 2, 8, 10, 16, and 18).

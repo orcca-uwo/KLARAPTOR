@@ -1,0 +1,16 @@
+\chapter{Examples of Annotated Code}
+\label{AppA}
+
+\myappendices{Appendix \ref{AppA}}
+
+
+\section{PolyBench Code}
+Below is an example of the PolyBench code for the 2DConvolution benchmark. 
+As mentioned in Section~\ref{sec:annotation} the pragmas are the manual annotations 
+required for our \textit{pre-processor} to work.
+\inputminted[linenos,breaklines]{cuda}{code/2DConvolution.cu}
+
+\section{Annotated PolyBench Code}
+Below is an example of how KLARAPTOR automatically annotates code for the 2DConvolution benchmark.
+\inputminted[linenos,breaklines]{cuda}{code/2DConvolution_driver_call.cu}
+

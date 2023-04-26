@@ -1,0 +1,304 @@
+@inproceedings{Baghsorkhi:2010:APM,
+ author = {Baghsorkhi, S. S. and Delahaye, M. and Patel, S. J. and Gropp, W. D. and Hwu, W. W.},
+ title = {An Adaptive Performance Modeling Tool for {GPU} Architectures},
+ series = {PPoPP '10},
+ year = {2010},
+ isbn = {978-1-60558-877-3}, 
+ pages = {105--114},
+ publisher = {ACM}
+}
+
+@inproceedings{DBLP:conf/isca/HongK09,
+  author    = {S. Hong and
+               H. Kim},
+  title     = {An analytical model for a {GPU} architecture with memory-level and
+               thread-level parallelism awareness},
+  booktitle = {ISCA 2009},
+  pages     = {152--163},
+  year      = {2009}
+}
+
+@inproceedings{DBLP:conf/hpca/ChenA09,
+  author    = {Xi E. Chen and
+               Tor M. Aamodt},
+  title     = {A first-order fine-grained multithreaded throughput model},
+  booktitle = {{(HPCA-15} 2009), 14-18 February 2009, Raleigh, North Carolina, {USA}},
+  pages     = {329--340},
+  year      = {2009},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/hpca/2009,
+  title     = {15th International Conference on High-Performance Computer Architecture
+               {(HPCA-15} 2009), 14-18 February 2009, Raleigh, North Carolina, {USA}},
+  publisher = {{IEEE} Computer Society},
+  year      = {2009},
+
+  isbn      = {978-1-4244-2932-5},
+  timestamp = {Tue, 07 Oct 2014 17:26:19 +0200},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/micro/HuangLKL14,
+  author    = {Jen{-}Cheng Huang and
+               Joo Hwan Lee and
+               Hyesoon Kim and
+               Hsien{-}Hsin S. Lee},
+  title     = {GPUMech: {GPU} Performance Modeling Technique Based on Interval Analysis},
+  booktitle = {47th Annual {IEEE/ACM} International Symposium on Microarchitecture,
+               {MICRO} 2014, Cambridge, United Kingdom, December 13-17, 2014},
+  pages     = {268--279},
+  year      = {2014},
+  timestamp = {Sun, 21 May 2017 00:22:05 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/micro/HuangLKL14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/micro/2014,
+  title     = {47th Annual {IEEE/ACM} International Symposium on Microarchitecture,
+               {MICRO} 2014, Cambridge, United Kingdom, December 13-17, 2014},
+  publisher = {{IEEE} Computer Society},
+  year      = {2014},
+
+  isbn      = {978-1-4799-6998-2},
+  timestamp = {Fri, 23 Dec 2016 12:56:23 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/micro/2014},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ppopp/SimDKV12,
+  author    = {J. Sim and
+               A. Dasgupta and
+               H. Kim and
+               R. W. Vuduc},
+  title     = {A performance analysis framework for identifying potential benefits
+               in {GPGPU} applications},
+  booktitle = {{PPOPP} 2012, New Orleans, LA, USA,
+               February 25-29, 2012},
+  year = {2012}
+}
+
+
+@inproceedings{DBLP:conf/hpca/ZhangO11,
+  author    = {Yao Zhang and
+               John D. Owens},
+  title     = {A quantitative performance analysis model for {GPU} architectures},
+  booktitle = {17th International Conference on High-Performance Computer Architecture
+               {(HPCA-17} 2011), February 12-16 2011, San Antonio, Texas, {USA}},
+  pages     = {382--393},
+  year      = {2011},
+  timestamp = {Fri, 19 May 2017 01:26:32 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/hpca/ZhangO11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/hpca/2011,
+  title     = {17th International Conference on High-Performance Computer Architecture
+               {(HPCA-17} 2011), February 12-16 2011, San Antonio, Texas, {USA}},
+  publisher = {{IEEE} Computer Society},
+  year      = {2011}
+}
+
+
+@inproceedings{DBLP:conf/ppopp/Volkov18,
+  author    = {V. Volkov},
+  title     = {A microbenchmark to study {GPU} performance models},
+  booktitle = {Proc. PPoPP},
+  pages     = {421--422},
+  year      = {2018}
+}
+
+@proceedings{DBLP:conf/ppopp/2018,
+  editor    = {Andreas Krall and
+               Thomas R. Gross},
+  title     = {Proceedings of the 23rd {ACM} {SIGPLAN} Symposium on Principles and
+               Practice of Parallel Programming, PPoPP 2018, Vienna, Austria, February
+               24-28, 2018},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+
+@phdthesis{Volkov:EECS-2016-143,
+    Author = {Volkov, V.},
+    Title = {Understanding Latency Hiding on {GPUs}},
+    School = {EECS Department, University of California, Berkeley},
+    Year = {2016},
+    Month = {Aug},
+
+    Number = {UCB/EECS-2016-143},
+    Abstract = {Modern commodity processors such as GPUs may execute up to about a thousand of physical threads per chip to better utilize their numerous execution units and hide execution latencies. Understanding this novel capability, however, is hindered by the overall complexity of the hardware and complexity of typical workloads. In this dissertation, we suggest a better way to understand modern multithreaded performance by considering a family of synthetic workloads, which use the same key hardware capabilities – memory access, arithmetic operations, and multithreading – but are otherwise as simple as possible.
+
+One of our surprising findings is that prior performance models for GPUs fail on these workloads: they mispredict observed throughputs by factors of up to 1.7. We analyze these prior approaches, identify a number of common pitfalls, and discuss the related subtleties in understanding concurrency and Little’s Law. Also, we help to further our understanding by considering a few basic questions, such as on how different latencies compare with each other in terms of latency hiding, and how the number of threads needed to hide latency depends on basic parameters of executed code such as arithmetic intensity. Finally, we outline a performance modeling framework that is free from the found limitations.
+
+As a tangential development, we present a number of novel experimental studies, such as on how mean memory latency depends on memory throughput, how latencies of individual memory accesses are distributed around the mean, and how occupancy varies during execution.}
+}
+
+@article{little1961proof,
+  title={A proof for the queuing formula: L= $\lambda$ W},
+  author={Little, John DC},
+  journal={Operations research},
+  volume={9},
+  number={3},
+  pages={383--387},
+  year={1961},
+  publisher={INFORMS}
+}
+
+@inproceedings{dollinger2013adaptive,
+	title={Adaptive runtime selection for {GPU}},
+	author={Dollinger, Jean-Fran{\c{c}}ois and Loechner, Vincent},
+	booktitle={2013 42nd International Conference on Parallel Processing},
+	pages={70--79},
+	year={2013},
+	organization={IEEE}
+}
+
+
+@inproceedings{DBLP:conf/icpp/KurzakTGAD19,
+  author    = {J. Kurzak and
+               Y. Tsai and
+               M. Gates and
+               A. Abdelfattah and
+               J. J. Dongarra},
+  title     = {Massively Parallel Automated Software Tuning},
+  booktitle = {{ICPP} 2019},
+  pages     = {92:1--92:10}
+}
+
+@inproceedings{kurzak2019massively,
+	title={Massively Parallel Automated Software Tuning},
+	author={Kurzak, Jakub and Tsai, Yaohung M and Gates, Mark and Abdelfattah, Ahmad and Dongarra, Jack},
+	booktitle={Proceedings of the 48th International Conference on Parallel Processing},
+	pages={92},
+	year={2019},
+	organization={ACM}
+}
+
+@inproceedings{DBLP:conf/ics/BaskaranBKRRS08,
+	author    = {M. Baskaran and
+	U. Bondhugula and
+	S. Krishnamoorthy and
+	J. Ramanujam and
+	A. Rountev and
+	P. Sadayappan},
+	year = {2008},
+	title     = {A compiler framework for optimization of affine loop nests for {GPGPUs}},
+	booktitle = {{ICS} 2008, Island of Kos, Greece, June 7-12, 2008},
+	pages     = {225--234},
+}
+
+@inproceedings{liu2009cross,
+	title={A cross-input adaptive framework for {GPU} program optimizations},
+	author={Liu, Yixun and Zhang, Eddy Z and Shen, Xipeng},
+	booktitle={2009 IEEE International Symposium on Parallel \& Distributed Processing},
+	pages={1--10},
+	year={2009},
+	organization={IEEE}
+}
+
+@inproceedings{yang2010gpgpu,
+	title={A {GPGPU} compiler for memory optimization and parallelism management},
+	author={Yang, Yi and Xiang, Ping and Kong, Jingfei and Zhou, Huiyang},
+	booktitle={ACM Sigplan Notices},
+	volume={45},
+	number={6},
+	pages={86--97},
+	year={2010},
+	organization={ACM}
+}
+
+
+
+@inproceedings{amaris2015simple,
+	title={A simple bsp-based model to predict execution time in {GPU} applications},
+	author={Amaris, Marcos and Cordeiro, Daniel and Goldman, Alfredo and de Camargo, Raphael Y},
+	booktitle={2015 IEEE 22nd International Conference on High Performance Computing (HiPC)},
+	pages={285--294},
+	year={2015},
+	organization={IEEE}
+}
+
+
+@article{DBLP:journals/tjs/TorresGL13,
+  author    = {Y. Torres and
+               A. Gonz{\'{a}}lez{-}Escribano and
+               D. R. Llanos},
+  title     = {uBench: exposing the impact of {CUDA} block geometry in terms of performance},
+  journal   = {The Journal of Supercomputing},
+  volume    = {65},
+  number    = {3},
+  pages     = {1150--1163},
+  year      = {2013}
+}
+
+@inproceedings{DBLP:conf/icpp/GarveyA15,
+	author    = {Joseph D. Garvey and
+	Tarek S. Abdelrahman},
+	title     = {Automatic Performance Tuning of Stencil Computations on GPUs},
+	booktitle = {ICPP 2015},
+	pages     = {300--309},
+	year      = {2015}
+}
+
+@incollection{DBLP:books/daglib/p/SatoTKK10,
+	author    = {K. Sato and
+	H. Takizawa and
+	K. Komatsu and
+	H. Kobayashi},
+	title     = {Automatic Tuning of {CUDA} Execution Parameters for Stencil Processing},
+	booktitle = {Software Automatic Tuning, From Concepts to State-of-the-Art Results},
+	year      = {2010}
+}
+
+
+@misc{nvidia:occupancy-calculator,
+author={NVIDIA Corporation},
+title={CUDA Occupancy Calculator},
+note={\mbox{\textcolor{blue}{\url{https://docs.nvidia.com/cuda/cuda-occupancy-calculator/index.html}}}},
+year={2020}
+}
+
+@inproceedings{10.1145/3126908.3126939,
+author = {Tillet, Philippe and Cox, David},
+title = {Input-Aware Auto-Tuning of Compute-Bound HPC Kernels},
+year = {2017},
+isbn = {9781450351140},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3126908.3126939},
+abstract = {Efficient implementations of HPC applications for parallel architectures generally rely on external software packages (e.g., BLAS, LAPACK, CUDNN). While these libraries provide highly optimized routines for certain characteristics of inputs (e.g., square matrices), they generally do not retain optimal performance across the wide range of problems encountered in practice. In this paper, we present an input-aware auto-tuning framework for matrix multiplications and convolutions, ISAAC, which uses predictive modeling techniques to drive highly parameterized PTX code templates towards not only hardware-, but also application-specific kernels. Numerical experiments on the NVIDIA Maxwell and Pascal architectures show up to 3x performance gains over both cuBLAS and cuDNN after only a few hours of auto-tuning.},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {43},
+numpages = {12},
+location = {Denver, Colorado},
+series = {SC '17}
+}
+
+@misc{marcmwpcwpslides,
+  author        = {Marc Moreno Maza},
+  title         = {Models of Computation for Graphics Processing Units},
+  month         = {November},
+  year          = {2017},
+  publisher={University of Western Ontario},
+  note = {\url{https://www.csd.uwo.ca/~mmorenom/Publications/CASCON-2017.pdf}}
+  }
+
+@misc{marccudaslides,
+  author        = {Marc Moreno Maza},
+  title         = {Many-core Computing with CUDA},
+  month         = {March},
+  year          = {2022},
+  publisher={University of Western Ontario},
+  note = {\url{https://www.csd.uwo.ca/~mmorenom/HPC-Slides/Many_core_computing_with_CUDA.pdf}}
+}
+
+@misc{Papatheodore2022,
+  author = {Papatheodore, Tom},
+  title = {Vector Addition (CUDA},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/olcf-tutorials/vector_addition_cuda}},
+  commit = {242d063}
+}

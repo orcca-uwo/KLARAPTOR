@@ -1,0 +1,535 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University of Western Ontario Thesis Template
+% By: Justin Quinn Veenstra, 2010
+% With thanks to Mr. (soon to be Dr.) Will Robertson.
+
+
+\documentclass[12pt,twoside]{report}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{minted}
+\usepackage{xcolor} % to access the named colour LightGray
+
+\newcommand\code{\texttt}
+\newcommand\param{\textit}
+
+%% Decomment next line to use PostScript fonts
+%%\UsePackage{times}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                    ***   I M P O R T A N T   ***                   %%
+%%                                                                    %%
+%% Fill in the following fields with the required information:        %%
+%%  - \department{...}  name of the graduate department               %%
+%%  - \degree{...}      name of the degree obtained                   %%
+%%  - \author{...}      name of the author                            %%
+%%  - \title{Three contributions to the theory and practice of optimizing compilers}       title of the thesis                           %%
+%%  - \gyear{...}       year of graduation                            %%
+%%  - \super{...}    supervisor
+%%  - \firstname, \middlename, \lastname... there is additional documentation by the actual fields, so I'll leave it at that
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{morewrites}
+\usepackage{appendix}
+\usepackage{graphicx,pifont,color} 
+\usepackage{amsmath}
+\usepackage[byname]{smartref}
+%\usepackage{hyperref} %comment out for hardcopy
+
+\usepackage{wrapfig}
+\usepackage{txfonts}
+\usepackage{tocloft}
+\usepackage{paralist}
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{hyperref}
+\usepackage{lhelp}
+\usepackage{listings}
+\usepackage{float}
+
+\usepackage{xcolor}
+\lstset { %
+	language=C,
+	backgroundcolor=\color{black!5}, % set backgroundcolor
+	basicstyle=\footnotesize,% basic font setting
+	belowcaptionskip=1\baselineskip,
+	breaklines=true,
+	frame=L,
+	xleftmargin=\parindent,
+	showstringspaces=false,
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\bfseries\color{green!40!black},
+	commentstyle=\itshape\color{purple!40!black},
+	identifierstyle=\color{blue},
+	stringstyle=\color{orange},
+	numbers=left,
+	stepnumber=1,
+}
+
+\usepackage{setspace}
+\usepackage{subcaption}
+\input{settings}
+\input{macros}
+
+\usepackage{animate}
+\usetikzlibrary{patterns}
+\tikzset{every path/.style=thick}
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgflibrary{shapes.geometric}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+		middle, xlabel={$x$}, ylabel={$y$}, axis equal }}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+%\input{macros_plots}
+\newenvironment{proof}[1][Proof]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newif\ifoldversion
+\oldversionfalse
+
+\newif\iflongversion
+\longversionfalse
+
+%\setlist{nosep} % or 
+%\setlist{noitemsep}%	 to leave space around whole list
+%
+%\setlength{\intextsep}{1ex}
+%\setlength{\textfloatsep}{1ex}
+%\setlength{\floatsep}{1pt}
+\setlist[itemize]{noitemsep, topsep=0pt}
+%\setlist[itemize]{itemsep=0.05pt, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+%\setlist[enumerate]{itemsep=0.2pt, topsep=0pt}
+\makeatletter
+\numberwithin{figure}{chapter}
+\newenvironment{acknowledgements}%
+{\clearemptydoublepage
+ \begin{center}
+  \section*{Acknowledgements}
+ \end{center}
+ \begingroup
+}{\newpage\endgroup}
+
+\newenvironment{dedication}%
+{\clearemptydoublepage 
+ \begin{center}
+  \section*{Dedication}
+ \end{center}
+ \begingroup
+}{\newpage\endgroup}
+
+\newenvironment{preliminary}%
+{\pagestyle{plain}\pagenumbering{roman}}%
+{\pagenumbering{arabic}}
+
+\addtoreflist{chapter}
+
+
+\usepackage{caption}% http://ctan.org/pkg/caption
+%\captionsetup[ruled]{labelsep=period}
+%\makeatletter
+%\@addtoreset{algorithm}{chapter}% algorithm counter resets every chapter
+%\makeatother
+%\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}% Algorithm # is <chapter>.<algorithm>\\
+
+\let\savedCaption=\caption
+\renewcommand{\caption}[1]{
+	\savedCaption{\small #1}
+}
+
+% Default values for title page.
+
+%% To produce output with the desired line spacing, the argument of
+%% \spacing should be multiplied by 5/6 = 0.8333, so that 1 1/2 spaced
+%% corresponds to \spacing{1.5} and double spaced is \spacing{1.66}.
+\def\normalspacing{1.25} % default line spacing
+
+
+%% Define the "thesis" page style.
+\if@twoside % If two-sided printing.
+\def\ps@thesis{\let\@mkboth\markboth
+   \def\@oddfoot{}
+   \let\@evenfoot\@oddfoot
+   \def\@oddhead{
+      {\sc\rightmark} \hfil \rm\thepage
+      }
+   \def\@evenhead{
+      \rm\thepage \hfil {\sc\leftmark}
+      }
+   \def\chaptermark##1{\markboth{\ifnum \c@secnumdepth >\m@ne
+      Chapter\ \thechapter. \ \fi ##1}{}}
+   \def\sectionmark##1{\markright{\ifnum \c@secnumdepth >\z@
+      \thesection. \ \fi ##1}}}
+\else % If one-sided printing.
+\def\ps@thesis{\let\@mkboth\markboth
+   \def\@oddfoot{}
+   \def\@oddhead{
+      {\sc\rightmark} \hfil \rm\thepage
+      }
+   \def\chaptermark##1{\markright{\ifnum \c@secnumdepth >\m@ne
+      Chapter\ \thechapter. \ \fi ##1}}}
+\fi
+
+\pagestyle{thesis}
+% Set up page layout.
+\setlength{\textheight}{9in} % Height of the main body of the text
+\setlength{\topmargin}{-.5in} % .5" margin on top of page
+\setlength{\headsep}{.5in}  % space between header and top of body
+\addtolength{\headsep}{-\headheight} % See The LaTeX Companion, p 85
+\setlength{\footskip}{.5in}  % space between footer and bottom of body
+\setlength{\textwidth}{6.25in} % width of the body of the text
+\setlength{\oddsidemargin}{.25in} % 1.25" margin on the left for odd pages
+\setlength{\evensidemargin}{0in} % 1.25"  margin on the right for even pages
+
+% Marginal notes
+\setlength{\marginparwidth}{.75in} % width of marginal notes
+\setlength{\marginparsep}{.125in} % space between marginal notes and text
+
+% Make each page fill up the entire page. comment this out if you
+% prefer. 
+\flushbottom
+
+\setcounter{tocdepth}{3} % Number the subsubsections 
+\def\normalspacing{1.25} % default line spacing
+
+\newcommand\isco[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \\\underline{Co-Supervisor:}\vspace{0.35in}\\\dots\dots\dots\dots\dots\dots\dots\\{#1}\\
+  \fi
+}
+
+\newcommand\isjoint[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \\\underline{Joint Supervisor:}\vspace{0.35in}\\\dots\dots\dots\dots\dots\dots\dots\\{#1}\\
+  \fi
+}
+
+\newcommand\isalt[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \\\underline{Alternate Supervisor:}\vspace{0.35in}\\\dots\dots\dots\dots\dots\dots\dots\\{#1}\\
+  \fi
+}
+
+\newcommand\isdefinedsig[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \\ \dots\dots\dots\dots\dots\dots\dots\\{#1}\\
+  \fi
+}
+\newcommand\isdefinedspinetitle[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else (Spine title: #1)\\
+  \fi
+}
+\newcommand\coauthor[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \newpage \Large Co-Authorship Statement\normalsize\\\indent\\#1\\
+  \fi
+}
+
+\newcommand\acknowlege[1]{%
+  \edef\@tempa{#1}%
+  \def\@tempb{}%
+  \ifx\@tempa\@tempb
+	\else \newpage \Large Acknowlegements\normalsize\\\indent\\#1\newpage
+  \fi
+}
+
+
+%\renewcommand{\appendixtocname}{\Huge \textbf{List of Appendices} \normalsize}
+\newcommand{\blank}{\hspace{-2mm}}
+\newcommand{\super}{Prof. Marc Moreno Maza} %supervisor
+\newcommand{\superj}{} %joint supervisor, if there is one, leave blank if not (lbin)... only one of the three.
+\newcommand{\superc}{} %co-supervisor, if there is one, leave blank if not (lbin)
+\newcommand{\supera}{} %alternate supervisor, if there is one, leave blank if not (lbin)
+\newcommand{\sco}{}  %member of supervisory committee
+\newcommand{\sct}{}  %other member of supervisory committee (lbin)
+\newcommand{\examo}{}  %examining committee (up to four, if less leave blank)
+\newcommand{\examt}{}
+\newcommand{\examth}{}
+\newcommand{\examf}{}
+\newcommand{\department}{Computer Science}
+\newcommand{\degree}{Master of Science}
+\newcommand{\firstname}{Taabish}
+\newcommand{\middlename}{}
+\newcommand{\lastname}{Jeshani}
+%\renewcommand{\author}[1]{\ifx\empty#1\else\gdef\@author{#1}\fi} 
+\newcommand{\authorname}{{\firstname} {\middlename} {\lastname}}
+\newcommand{\titl}{Dynamically Finding Optimal Kernel Launch Parameters for CUDA Programs}
+\newcommand{\spinetitle}{}%only if the above is more than 60 characters
+\newcommand{\thesisformat}{Integrated Article} %or Integrated Article
+\newcommand{\gyear}{\number\year}
+\newcommand{\makecoauthor}{
+%
+}
+\newcommand{\listappendixname}{List of Appendices}
+\newlistof{myappendices}{app}{\listappendixname}
+\newcommand{\myappendices}[1]{%
+\addcontentsline{app}{myappendices}{#1}\par}
+
+\renewcommand{\maketitle}
+{\begin{titlepage}
+   \setcounter{page}{1}
+   %% Set the line spacing to 1 for the title page.
+   %\begin{spacing}{1} 
+   \begin{large}
+   \begin{center}
+      \mbox{}
+      \vfill
+      {\MakeUppercase{\titl}}\\
+      \isdefinedspinetitle{\spinetitle}
+      (Thesis format: \thesisformat)\\
+      \vfill
+      by \\
+      \vfill
+      {\firstname} \underline{\lastname}\\
+      \vfill
+      Supervised by \super\\
+      \vfill
+      Graduate Program in {\department}\\
+      \vfill
+		A thesis submitted in partial fulfillment\\
+		of the requirements for the degree of\\
+		\degree\\
+		\vfill
+		The School of Graduate and Postdoctoral Studies\\
+		The University of Western Ontario\\
+		London, Ontario, Canada\\
+		\vfill
+      {\copyright} {\authorname} {\gyear}  \\
+      \vspace*{.2in}
+   \end{center}
+   \end{large}
+%   \end{spacing}
+   \end{titlepage}
+
+}%\maketitle
+
+\newcommand{\makecert}{
+   \setcounter{page}{2}
+\vfill
+\begin{center}
+\large
+THE UNIVERSITY OF WESTERN ONTARIO\\
+School of Graduate and Postdoctoral Studies\\
+\vfill
+\textbf{CERTIFICATE OF EXAMINATION}
+\end{center}
+
+\vfill
+\begin{table}[ht]
+\begin{minipage}[t]{0.5\linewidth} %tabular instead?
+\begin{tabular}{l}
+\underline{Supervisor:}\vspace{0.35in}
+\isdefinedsig{\super}
+\\
+
+\end{tabular}
+\vfill
+\end{minipage}
+\hspace{0.5in}
+\begin{minipage}[t]{0.5\linewidth}
+\begin{tabular}{l}
+\underline{Examiners:} \\\vspace{.5cm}
+\isdefinedsig{\examo}\\
+\isdefinedsig{\examt}\\
+\isdefinedsig{\examth}\\
+\isdefinedsig{\examf}
+\end{tabular}
+\vfill
+\end{minipage}
+\vfill
+\end{table}
+\vfill
+\begin{center}
+The thesis by \\ \vfill
+\textbf{\firstname{} \middlename{} \underline{\lastname}}\\
+\vfill
+entitled:\\\vfill
+\textbf{\titl}\\\vfill
+is accepted in partial fulfillment of the \\
+requirements for the degree of\\
+\degree\\
+\end{center}
+\begin{table}[ht]
+\begin{minipage}[t]{0.5\linewidth}
+\begin{tabular}{l}
+\dots\dots\dots\dots\dots\\
+Date
+\end{tabular}
+\end{minipage}
+\hspace{0.5in}
+\begin{minipage}[t]{0.5\linewidth}
+\begin{tabular}{l}
+\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\\
+Chair of the Thesis Examination Board
+\end{tabular}
+\end{minipage}
+\end{table}
+
+}
+\renewcommand*{\lstlistlistingname}{List of Source Code Listing}
+
+
+
+\newacronym{ny}{NY}{New York}
+\newacronym{la}{LA}{Los Angeles}
+\newacronym{un}{UN}{United Nations}
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+
+\newacronym{lcm}{LCM}{Least Common Multiple}
+
+\makeatother
+\begin{document}
+
+\onehalfspacing 
+
+%% ***   NOTE   ***
+%% You should put all of your '\newcommand', '\newenvironment', and
+%% '\newtheorem's (in other words, all the global definitions that you
+%% will need throughout your thesis) in a separate file and use
+%% "\input{filename}" to input it here.
+
+%% This sets the page style and numbering for preliminary sections.
+\begin{preliminary}
+\setcounter{page}{2}
+%% This generates the title page from the information given above.
+%\maketitle
+%\newpage
+%\makecert
+\newpage
+\addcontentsline{toc}{chapter}{Abstract}
+\Large\begin{center}\textbf{Abstract}\end{center}\normalsize
+%%  ***  Put your Abstract here.   ***
+%% (150 words for M.Sc. and 350 words for Ph.D.)
+
+\input{sections/abstract}
+
+\vfill
+\textbf{Keywords:} Performance estimation, Performance portability, CUDA, Program Parameters, 
+Kernel Launch Parameters, LLVM Pass Framework, GPGPU
+\newpage
+
+
+\addcontentsline{toc}{chapter}{Summary for Lay Audience}
+\Large\begin{center}\textbf{Summary for Lay Audience}\end{center}\normalsize
+KLARAPTOR is a tool designed to optimize the performance 
+of GPU programs by dynamically determining the best kernel launch parameters for each kernel invocation. 
+A kernel is a small piece of code that runs on a GPU and performs calculations in parallel, enabling 
+faster processing times. The kernel launch parameters greatly impact the running time of a GPU program, 
+and their optimal choice depends on various factors such as input data, hardware resources, and program 
+parameters. To address this issue, KLARAPTOR leverages a two-step approach: (1) at compile-time, it 
+determines formulas describing low-level performance metrics for each kernel and inserts them into the 
+host code of a CUDA program; (2) at runtime, a helper program evaluates these formulas using the actual 
+data and hardware parameters to determine the thread block configuration that minimizes the kernel's execution 
+time. The effectiveness of KLARAPTOR is demonstrated through experimentation on a set of benchmarks consisting
+of CUDA kernels, showing that it can accurately predict near-optimal thread block configurations.
+\newpage
+\addcontentsline{toc}{chapter}{Co-Authorship Statement}
+\coauthor{\makecoauthor}  %comment this out if none
+KLARAPTOR is a joint project with Alexander Brandt, Marc Moreno Maza, Davood Mohajerani 
+and Linxiao Wang. A preprint of this work is accessible as \cite{DBLP:journals/corr/abs-1911-02373}. 
+The contributions of the thesis author are highlighted in Section~\ref{sec:contributions}.
+\newpage
+%as above 
+\tableofcontents\newpage
+\newpage
+%\addcontentsline{toc}{chapter}{List of Code Listings}
+%\lstlistoflistings
+%\newpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures\newpage
+\newpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\newpage
+\addcontentsline{toc}{chapter}{List of Appendices}
+\listofmyappendices
+\newpage
+%%\printacronyms
+%\addcontentsline{toc}{chapter}{List of Abbreviations, Symbols, and Nomenclature}
+%\large List of Abbreviations, Symbols, and Nomenclature \normalsize
+%\newpage
+\end{preliminary}
+
+
+%% End of the preliminary sections: reset page style and numbering.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                    ***   I M P O R T A N T   ***                   %%
+%%                                                                    %%
+%% Put your Chapters here; the easiest way to do this is to keep each %%
+%% chapter in a separate file and \include all the files right here.  %%
+%% Note that each chapter file should start with the line             %%
+%% "\chapter{ChapterName}".  Note that using "\include" instead of    %%
+%% "\input" makes each chapter start on a new page.                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{sections/Introduction} 
+\input{sections/background} 
+\input{sections/theoretical_foundations}
+\input{sections/klaraptor}
+\input{sections/implementation_llvm}
+\input{sections/experiment}
+\input{sections/conclusion} 
+
+%\input{chapters/param_integer_hull.tex}
+%\input{chapters/application-new.tex}
+%% This adds a line for the Bibliography in the Table of Contents.
+\addcontentsline{toc}{chapter}{Bibliography}
+%% ***   Set the bibliography style.   ***
+\bibliographystyle{plain} % (change according to your preference)
+\bibliography{CRD,multi+arbitrary-precision,BPAS,patents,gpu_performance_models}
+
+\begin{appendices}
+    \include{appendixa}
+\end{appendices}
+
+\addcontentsline{toc}{chapter}{Curriculum Vitae}
+\chapter*{Curriculum Vitae}
+\begin{table}[H]
+	\begin{tabular}{ll}
+		\textbf{Name:} & \firstname{} \lastname\\\\
+		\textbf{Post-Secondary}& University of Western Ontario\\
+		\textbf{Education and}& London, ON\\
+		\textbf{Degrees:} & 2021 - 2023 M.Sc. Computer Science\\\\
+		 & Ontario Tech University\\
+		 & Oshawa, ON\\
+		 & 2016 - 2021 B.Sc. Computer Science\\\\
+		\textbf{Related Work}& Teaching Assistant\\
+		\textbf{Experience:}& University of Western Ontario\\
+		& 2021 - 2023\\\\
+		& Teaching Assistant\\
+		& Ontario Tech University\\
+		& 2020 - 2021\\\\
+		& Analytics Intern\\
+		& PwC \\
+		& Jan. 2020 - Apr. 2020\\\\
+		& Analytics Intern\\
+		& Bruce Power\\
+		& Summer 2019\\\\
+	\end{tabular}
+\end{table}
+\subsubsection*{Software}
+\begin{itemize}
+	\item KLARAPTOR: A Tool for Dynamically Finding Optimal Kernel Launch Parameters Targeting CUDA Programs. A. Brandt, T. Jeshani, D. Mohajerani, M. Moreno Maza, L. Wang. 2023. http://github.com/orcca-uwo/KLARAPTOR.
+\end{itemize}
+\end{document}
+
+

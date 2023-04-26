@@ -1,0 +1,17 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Comparing kernel execution time (log-scaled) for the thread block configuration chosen by KLARAPTOR versus the minimum and maximum times as determined by an exhaustive search over all possible configurations. Kernels are part of the \texttt {PolyBench/GPU} benchmark suite and executed on a RTX 2070 SUPER with a data size of $N=8192$ (except convolution3d with $N=512$)\relax }}{2}{figure.caption.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The GPU Devotes More Transistors to Data Processing\relax }}{7}{figure.caption.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of a CPU program vs a CUDA program\relax }}{8}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Heterogeneous Programming Model for CUDA\relax }}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CUDA Memory Hierarchy\relax }}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces MWP-CWP model\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Computation cycles are concealed by memory waiting periods, resulting in the overall performance being predominantly dictated by memory cycles.\relax }}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Memory accesses are largely concealed by high MWP, leading to the overall performance being primarily governed by computation cycles.\relax }}{17}{figure.caption.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rational program (presented as a flow chart) for the calculation of the number of active blocks per streaming processor in a {\mbox {\sc CUDA}} kernel.\relax }}{21}{figure.caption.15}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

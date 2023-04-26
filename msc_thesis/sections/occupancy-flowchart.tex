@@ -1,0 +1,54 @@
+\tikzset{%
+	>={Latex[width=2mm,length=2mm]},
+	% Specifications for style of nodes:
+	base/.style = {rectangle, rounded corners, draw=black,
+		minimum width=4cm, minimum height=1cm,
+		text centered, font=\sffamily},
+	activityStarts/.style = {base, fill=blue!30},
+	startstop/.style = {base, fill=red!30},
+	activityRuns/.style = {base, fill=green!30},
+	process/.style = {base, minimum width=2.5cm, fill=blue!15,
+		font=\ttfamily},
+	ifstatement/.style = {base, diamond, aspect=2.5, scale=0.7, font=\Large},
+}
+\usetikzlibrary{shapes.geometric}
+\begin{figure}
+	\centering
+\begin{tikzpicture}[node distance=2.5cm,scale=.5, 
+    every node/.style={fill=white,scale=.7, font=\sffamily}, align=center]
+  % Specification of nodes (position, etc.)
+  
+  \node (activemax) [ifstatement] {$T \, B_{max} \leq 32 \, W_{max}$ and\\ $R \,  T \,  B_{\rm max} \leq R_{\rm max}$ and\\ $Z \,  B_{\rm max} \leq Z_{\rm max}$?};
+  
+  \node (activewmax) [ifstatement, below of=activemax, yshift=-9.5em] {$32 \,  W_{\rm max} \leq T \,  B_{\rm max}$, and\\ $32 \,  W_{\rm max} \,  R \leq R_{\rm max}$ and\\ $32 \,  W_{\rm max} \,  Z \leq Z_{\rm max} \,  T$?};
+  
+  \node (activermax) [ifstatement, below of=activewmax, yshift=-9.5em] {$R_{\rm max} \leq R \,  T \,  B_{\rm max}$ and\\ $R_{\rm max} \leq R \,  32 \,  W_{\rm max}$ and\\ $R_{\rm max} \,  Z \leq R \,  T \,  Z_{\rm max}$?};
+
+  \node (activezmax) [ifstatement, below of=activermax, yshift=-9.5em] {$Z_{\rm max} \leq B_{\rm max} \,  Z$ and\\ $Z_{\rm max} \,  T \leq 32 \,  W_{\rm max} \,  Z$ and\\ $Z_{\rm max} \,  R \,  T \leq Z \,  R_{\rm max}$?};
+
+  \node (bmax) [process, right of=activemax, xshift=16em, text width=12em] {$B_{active} = B_{max}$};
+  \node (wmax) [process, right of=activewmax, xshift=16em, text width=12em] {$B_{\rm active} =  \lfloor( 32 \,  W_{\rm max})/T  \rfloor$};
+  \node (rmax) [process, right of=activermax, xshift=16em, text width=12em] {$B_{\rm active} =  \lfloor( R_{\rm max}/(R \,  T) \rfloor$};
+  \node (zmax) [process, right of=activezmax, xshift=16em, text width=12em] {$B_{\rm active} =  \lfloor Z_{\rm max}/Z \rfloor$};
+      
+  \node (fail) [startstop, below of=activezmax, yshift=-3.5em] {$B_{\rm active} = 0$
+(Failure to Launch)};
+
+  \draw[->] (activemax) -- node[] [yshift=0.45em]{No} (activewmax);
+  \draw[->] (activewmax) -- node[] [yshift=0.45em]{No} (activermax);
+  \draw[->] (activermax) -- node[] [yshift=0.45em]{No} (activezmax);
+  \draw[->] (activezmax) -- node[] [yshift=0.45em]{No} (fail);  
+  
+  \draw[->] (activemax) -- node[] [xshift=-0.5em]{Yes} (bmax);
+  \draw[->] (activewmax) -- node[] [xshift=-0.5em]{Yes} (wmax);
+  \draw[->] (activermax) -- node[] [xshift=-0.5em]{Yes} (rmax);
+  \draw[->] (activezmax) -- node[] [xshift=-0.5em]{Yes} (zmax);
+  
+  \draw[->]  ([shift=({0,2.5em})]activemax.north) to (activemax.north);
+\end{tikzpicture}
+\caption{Rational program (presented as a flow chart) for 
+the calculation of the number of active blocks per streaming processor
+in a {\cuda} kernel.}
+\label{fig:occupancysimpleflowchart}
+\end{figure}
+

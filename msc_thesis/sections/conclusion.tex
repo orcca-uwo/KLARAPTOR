@@ -1,0 +1,70 @@
+\chapter{Conclusions and future work}
+\label{ch:conclusion}
+
+%Optimizing parallel programs, particularly {\cuda} programs, is very challenging.
+The performance of a single {\cuda} program can vary wildly
+depending on the target GPU device, the input data size, 
+and the kernel launch parameters. Moreover, a thread block
+configuration yielding optimal performance for a particular data size or a particular
+target device will not necessarily be optimal for
+a different data size or different target device. 
+%A technique for determining an optimal thread 
+%block configuration depending on those so-called 
+%data and hardware parameters is necessary for 
+%dynamic data-dependent performance and portable performance.
+%%
+%%
+In this thesis we have presented the KLARAPTOR tool for 
+determining optimal {\cuda} thread block configurations
+for a target architecture, in a way which is adaptive
+to each kernel invocation and input data, 
+allowing for dynamic data-dependent performance and portable performance.
+This tool is based upon our technique of encoding a 
+performance prediction model as a rational program.
+%where unknown low-level metric can be estimated
+%as rational functions found by solving a curve fitting problem.
+The process of constructing such a rational program is a fast 
+and automatic compile-time
+process which occurs simultaneously to compiling
+the {\cuda} program by use of the LLVM Pass framework. 
+Our tool was tested using the kernels of the \texttt{Polybench/GPU} benchmark suite
+with great results.
+
+%That same experimentation has lead us to consider 
+%the limitations our chosen performance prediction model, {\mwpcwp}.
+One of the main challenges we face in our research is understanding GPU hardware saturation, 
+as executing a CUDA kernel with an optimal number of threads to efficiently utilize available hardware 
+resources is a complex task. As a result, this limitation may be impeding our ability to attain precise occupancy values.
+As newer GPU models, such as NVIDIA's Ampere architecture, have become available, it may be necessary to explore improved performance 
+prediction models to better account for factors such as concurrency and arithmetic intensity. 
+We anticipate that such models may enable us to achieve more accurate results in our research.
+
+Our use of linear least squares for extrapolation beyond the ``training'' range has proven to be less than ideal. 
+In future work, it would be beneficial to test the model within the training range, but with multiples of 32 instead of 
+powers of 2, in order to more accurately capture the behavior of CUDA thread block dimensions. The combination of the MWP-CWP model 
+as a theoretical performance model with linear regression may not 
+be the most effective approach. Considering the tree-like structure of rational programs, a random forest regression 
+could potentially provide a better fit for our problem. Future work should investigate the feasibility and performance 
+of random forest regression as an alternative to linear regression within the context of KLARAPTOR.
+
+Lastly, beyond the scope of rational programs, the exploration of other machine learning models, such as neural networks, 
+could prove valuable in determining the optimal thread block configuration for CUDA kernels. These alternative models may 
+provide more robust and accurate predictions, improving the performance and efficiency of the kernels.
+
+In summary, the future work for this thesis should focus on refining the methods used for model fitting, exploring 
+alternative regression techniques that better suit the structure of rational programs, and investigating the potential 
+of machine learning models for determining the optimal CUDA kernel configurations.
+
+%Recently, the author of \cite{DBLP:conf/ppopp/Volkov18} and \cite{Volkov:EECS-2016-143}
+%has suggested a GPU performance 
+%model relying on Little's law;
+% \cite{little1961proof}, 
+%it measures concurrency as a product of latency and throughput.
+%This model considers both warp and instruction concurrency while 
+%previous models 
+%\cite{cuda2019guide,DBLP:conf/isca/HongK09,DBLP:conf/ppopp/SimDKV12,Baghsorkhi:2010:APM}
+%consider only warp concurrency. 
+%The author's analysis of those models suggests their limitation 
+%is the significant underestimation of occupancy when arithmetic intensity 
+%(the number of arithmetic instructions per memory access) is intermediate. 
+

@@ -1,0 +1,211 @@
+
+%\usepackage{utopia}
+%\usepackage{charter}
+%\usepackage{pifont}
+%mathptmx, helvet, avat, bookman, 
+%chancery, charter, culer, mathtime, 
+%mathptm, newcent, palatino, pifont,
+%utopia.
+%\usefonttheme{professionalfonts} % using non standard fonts for beamer
+%\usepackage{fontspec}
+    %setting a font
+%\setsansfont{Adobe Garamond Pro}
+
+%\setmainfont{Adobe Garamond Pro}
+%   
+%\usefonttheme[stillsansseriflarge]{serif}
+%\usefonttheme{default}
+
+
+%\usepackage{tgbonum}
+%\usepackage[left=1in, right=1in, top=0.5in, bottom=1in]{geometry}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{fancyvrb}
+\usepackage{lhelp}
+\usepackage{xcolor}
+%\usepackage[table, svgnames, dvipsnames]{xcolor}
+
+\usepackage{hyperref} %comment out for hardcopy
+\hypersetup{
+	colorlinks,
+	linkcolor={blue!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+   }
+
+\newif\ifcomment
+\commentfalse
+
+
+%\usepackage [english]{babel}
+%\usepackage [autostyle, english = american]{csquotes}
+%\MakeOuterQuote{"}
+
+%\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+%\usepackage [english]{babel}
+%\usepackage [autostyle, english = american]{csquotes}
+%\MakeOuterQuote{"}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pgfkeys{
+     /pgf/number format/precision=2, 
+    /pgf/number format/fixed zerofill=true,
+    /pgf/number format/fixed
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+%\usetikzlibrary{shadows.blur}
+
+%\usepackage{helvet}
+%\usepackage{fontspec}
+
+%\usepackage{xcolor}
+%\newcommand\code{{\fontsize{8}{8}$\#$}\fontfamily=\ttfamily \fontsize{8}{8}\selectfont}
+\newcommand\term{{\fontsize{8}{8}}\fontfamily=\ttfamily \fontsize{8}{8}\selectfont}
+
+%\setlist[itemize]{noitemsep, topsep=0pt}
+%%\setlist[itemize]{itemsep=0.05pt, topsep=0pt}
+%\setlist[enumerate]{noitemsep, topsep=0pt}
+%\setlist[enumerate]{itemsep=0.2pt, topsep=0pt}
+
+\let\oldcenter\center
+\let\oldendcenter\endcenter
+\renewenvironment{center}{\setlength\topsep{0pt}\oldcenter}{\oldendcenter}
+
+%\renewcommand{\baselinestretch}{1.2}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.3ex}
+\usepackage[nodisplayskipstretch]{setspace}
+%\setstretch{1.4}
+\setlength{\leftmargini}{8pt}
+%\addtobeamertemplate{block begin}{%
+%  \setlength{\textwidth}{1.2\textwidth}%
+%}{}
+
+
+\setlength{\textfloatsep}{0.075em}% Remove \textfloatsep
+\setlength{\floatsep}{0.025ex}% Remove \textfloatsep
+\setlength{\intextsep}{0.025em}% Remove \textfloatsep
+
+
+\setlength{\belowcaptionskip}{0.5em}
+
+\usepackage{algorithm}
+%\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+%\usepackage{algorithmicx}
+\usepackage{algcompatible}
+\usepackage{algpseudocode}
+
+\algrenewcommand\algorithmicend{\textsf{\textbf{end}}}
+\algrenewcommand\algorithmicdo{\textsf{\textbf{do}}}
+\algrenewcommand\algorithmicwhile{\textsf{\textbf{while}}}
+\algrenewcommand\algorithmicfor{\textsf{\textbf{for}}}
+\algrenewcommand\algorithmicforall{\textsf{\textbf{for all}}}
+\algrenewcommand\algorithmicloop{\textsf{\textbf{loop}}}
+\algrenewcommand\algorithmicrepeat{\textsf{\textbf{repeat}}}
+\algrenewcommand\algorithmicuntil{\textsf{\textbf{until}}}
+\algrenewcommand\algorithmicprocedure{\textsf{\textbf{procedure}}}
+\algrenewcommand\algorithmicfunction{\textsf{\textbf{function}}}
+\algrenewcommand\algorithmicif{\textsf{\textbf{if}}}
+\algrenewcommand\algorithmicthen{\textsf{\textbf{then}}}
+\algrenewcommand\algorithmicelse{\textsf{\textbf{else}}}
+\algrenewcommand\algorithmicrequire{\textsf{\textbf{Require:}}}
+\algrenewcommand\algorithmicensure{\textsf{\textbf{Ensure:}}}
+\algrenewcommand\algorithmicreturn{\textsf{\textbf{return}}}
+
+\usepackage{caption}
+
+% primary blue 33 7a b7
+% info blue 31 70 8f
+
+%\definecolor{wp}{rgb}{0.29,0.14,0.47}
+%\definecolor{wpbright}{rgb}{0.58,0.45,0.74}
+
+\definecolor{wp}{rgb}{0.129,0.478, 0.678}
+%\definecolor{wp}{rgb}{0.26,0.55, 0.79}
+%\definecolor{wpbright}{rgb}{0.192, 0.439, 0.561}\\
+%\definecolor{wpbright}{rgb}{0.43, 0.43, 0.43}
+%\definecolor{wp}{rgb}{0.19, 0.45, 0.66}
+\definecolor{wpbright}{rgb}{0.26,0.55, 0.79}
+
+\definecolor{yellowBright}{HTML}{FFD247}
+\definecolor{orangeBright}{HTML}{FF7E47}
+\definecolor{gray1}{HTML}{CEDBE1}
+\definecolor{gray2}{HTML}{DDE6EA}
+\definecolor{gray3}{HTML}{E3E6EB}
+\definecolor{darkblue1}{HTML}{2375B9}%{0A599B}
+\definecolor{darkblue2}{HTML}{3D577A}
+\definecolor{lightblue1}{HTML}{65A4D9}
+\definecolor{lightblue2}{HTML}{94C3E9}
+\definecolor{red1}{HTML}{E4001B}
+\definecolor{red2}{HTML}{8F2831}
+\definecolor{lime1}{HTML}{AEBD63}
+\definecolor{navy}{HTML}{000063}
+\definecolor{pistachio}{HTML}{99CC66}
+\definecolor{burgundy}{HTML}{900020}
+\definecolor{coolgrey}{HTML}{8c92ac}
+\definecolor{green1}{HTML}{A4C639}
+\definecolor{byzantium}{HTML}{702963}
+\definecolor{pastelgreen}{HTML}{03c03c}
+
+\definecolor{purple1}{HTML}{8F2831}
+\definecolor{contrast}{HTML}{CE0000}
+%\colorlet{mycolor}{someothercolor}
+
+\definecolor{positive}{HTML}{0D900F}
+\definecolor{negative}{HTML}{FF0000}
+
+\definecolor{dNone}{HTML}{FFFFFF}
+%\definecolor{dOne}{HTML}{yellow}
+%\definecolor{dTwo}{HTML}{blue}
+%\definecolor{dThree}{HTML}{green}
+%\definecolor{dFour}{HTML}{red}
+\colorlet{dOne}{coolgrey!70}
+\colorlet{dTwo}{pistachio!70}
+\colorlet{dThree}{lightblue1!70}
+\colorlet{dFour}{negative!70}
+
+\colorlet{dOneLight}{dOne!40}
+\colorlet{dTwoLight}{dTwo!40}
+\colorlet{dThreeLight}{dThree!40}
+\colorlet{dFourLight}{dFour!40}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\zpz}{$\mathbb{Z}/p\mathbb{Z}$}
+%\newcommand{\mz}{$\mathbb{Z}$}
+%\newcommand{\Z}{\mathbb{Z}}
+%\newcommand{\Q}{\mathbb{Q}}
+%\newcommand{\local}{\texttt{{\bf local: }}}
+%\newcommand{\tid}{\local {\texttt{tid := blockIdx.x$*$blockSize.x$+$threadIdx.x}}}
+%\newcommand{\mword}{of a machine-word}
+%\newcommand{\initzero}{all digits initially set to 0}
+%\newcommand{\algskeleton}{Template}
+%\newcommand{\changeToAlgSkeleton}{
+%\renewcommand{\thealgorithm}{}
+%%	\renewcommand{\thealgorithm}{}
+%	\renewcommand{\addcontentsline}[3]{}
+%	\floatname{algorithm}{\algskeleton}
+%	}
+%\newcommand{\twiddle}[2]{D_{K,{#1}}}
+%\def\DFT{\ensuremath{\mathrm{DFT}}}
+%\newcommand{\cumodp}{CUMODP}
+%
+%\def\DFT{\ensuremath{\mathrm{DFT}}}
+%\def\xx{\ensuremath{\mathbf{x}}}
+%\def\yy{\ensuremath{\mathbf{y}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\newcolumntype{redcolor}{>{\columncolor{red}}c}

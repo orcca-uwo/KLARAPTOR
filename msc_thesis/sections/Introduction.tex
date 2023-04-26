@@ -1,0 +1,409 @@
+\chapter{Introduction}
+\label{ch:intro}
+
+
+In a Graphics Processing Unit (GPU) program, 
+also called a kernel, the \textit{kernel launch parameters}
+specify how threads are mapped to,
+and executed by, the hardware resources of the GPU. 
+The choice of kernel launch parameters
+has a profound impact on the running time
+of a GPU program. 
+Moreover, as we will show, 
+the optimal choice of kernel launch parameters
+is not fixed for a given GPU kernel. 
+Rather, it depends on the values of other
+\textit{data} and \textit{hardware parameters}.
+In this thesis we present a generic technique, 
+and an implementation of that technique specialized to CUDA, 
+for automatically and dynamically determining 
+kernel launch parameters
+which minimize the running time of each kernel invocation in a CUDA program.
+
+Generally, three types of parameters 
+influence the performance of a parallel program: 
+\begin{inparaenum}[(i)]
+	\item {\em data parameters}, such as input data and its size;
+	\item {\em hardware parameters}, such as cache capacity and number of 
+	available registers; and
+	\item {\em program parameters}, such as granularity of tasks and 
+	the quantities that characterize how tasks are
+	mapped to processors.
+\end{inparaenum}
+These parameters are independent of the parallel program itself.
+Data and hardware parameters are independent from program parameters
+and are determined by the needs of the user and available hardware
+resources.  Program parameters, however, are intimately related to
+data and hardware parameters. 
+Therefore, it is crucial to determine values of program
+parameters that yield the best program performance for a given set of
+hardware and data parameter values.
+
+The program parameters of interest to us 
+in the {\cuda} programming model are thread block configurations. 
+Their impact on performance is obvious 
+considering, for example, that the memory access pattern of threads
+in a thread block depend on the thread block's dimension sizes.
+Similarly, a thread block configuration which 
+minimizes the running time of a kernel invocation  
+may not be optimal if the data sizes or target GPU device changes~\cite{DBLP:journals/tjs/TorresGL13}.
+This emphasizes not only the impact of data and hardware parameters on program parameters, 
+but also the need for performance portability.
+Unfortunately, in practice, thread block configurations are typically 
+determined statically for a kernel through simple heuristics or trial and error, 
+so long as the configurations are constrained to be multiples of 32 \cite{cuda2016best}.
+
+
+In most cases, the values of the data parameters are only given at
+runtime, making it difficult to determine optimal values of the
+program parameters at an earlier stage. On another hand, a bad choice
+of program parameters can have drastic consequences.  Hence, it is
+crucial to be able to determine the optimal program parameters at
+runtime without much overhead added to the program execution. 
+This is
+precisely the intention of the approach proposed here. %in this paper.
+
+
+%That is to say, enabling users to efficiently execute the same parallel program
+%on different architectures that belong to the same hardware platform.
+
+
+KLARAPTOR (Kernel LAunch
+parameters RAtional Program estimaTOR)
+is a tool for automatically and
+dynamically determining the values of {\cuda} kernel launch parameters which
+optimize the kernel's performance, for each kernel invocation
+independently.  That is to say, based on the actual data and target
+device of a kernel invocation.
+%However, our tool utilizes rational 
+%	programs to dynamically optimize thread block configurations based on the size 
+%	of data being operated on, resulting in improved performance for specific kernel 
+%	invocations on target architectures.}
+
+KLARAPTOR consists of two main steps: 
+\begin{inparaenum}[(i)]
+	\item at compile-time, we determine formulas describing low-level performance metrics 
+	for each kernel and insert those formulas into the host code of a CUDA program; and
+	\item at runtime, a \textit{helper program} corresponding to a particular kernel evaluates
+	those formulas using the actual data and hardware parameters to 
+	determine the thread block configuration that minimizes the kernel's execution time. 
+\end{inparaenum}
+
+To minimize compilation and execution overheads, KLARAPTOR performs compile-time analysis and extrapolation 
+of kernel performance on small data sizes at compile-time to predict kernel performance at runtime. 
+Evaluation using the Polybench/GPU benchmark suite
+demonstrates that KLARAPTOR accurately predicts near-optimal thread block configuration see Figure~\ref{fig:kernelperfintro}.
+
+
+\begin{figure}[t!]
+	\includegraphics[width=1.00\textwidth, trim={0em, 0.9em, 0em, 0em}, clip]{Figures/MinMaxTimes-RTX-8192.png}
+	\caption{Comparing kernel execution time (log-scaled) for the thread block configuration chosen by KLARAPTOR
+		versus the minimum and maximum times as determined by an exhaustive search over all possible configurations. 
+		Kernels are part of the \texttt{PolyBench/GPU} benchmark suite and executed on a RTX 2070 SUPER with a data 
+		size of $N=8192$ (except convolution3d with $N=512$)}
+	\label{fig:kernelperfintro}
+\end{figure}
+
+
+Our key principle is based on an observation 
+that, in most performance prediction models,
+\textit{high-level performance metrics} (e.g. execution time, hardware occupancy)
+can be seen as decision trees or flowcharts
+based on \textit{low-level performance metrics} (e.g. memory bandwidth, cache miss rate).
+%, and the number of clock cycles per instruction.
+These low-level metrics are themselves
+piece-wise rational functions (PWRFs) of
+program, data, and hardware parameters.
+%This construction could be applied
+%recursively to obtain a PRF for the high-level metric.
+%\fixed{We regard a computer program that computes such a PRF as a {\em rational program}}{I do not feel that there is a logical flow here},
+%a technical notion defined in Section~\ref{sec:foundations}.
+If one could determine these PRFs, 
+then it would be possible to estimate, for example, 
+the running time of a program based on its
+program, data, and hardware parameters. 
+
+
+Unfortunately, exact formulas for low-level metrics are often not known, 
+instead estimated through empirical measures or
+assumptions, or collected by profiling.
+This is a key challenge our technique addresses.
+%We introduce a generic technical notion describing these
+%PRFs as \textit{rational programs} in Section~\ref{sec:foundations}.
+
+\section{Contributions}
+\label{sec:contributions}
+
+The goal of this work is to determine values of program parameters which
+optimize a multithreaded program's performance.  Towards that goal,
+the method by which such values are found must be
+receptive to changing data and changing  hardware parameters. Our contributions
+encapsulate this requirement through the dynamic use of a rational
+program.  Our specific contributions include:
+\begin{enumerate}[(i)]
+	\item a technique for devising a mathematical expression in the form of a {\em rational program} to evaluate a performance metric from a set of program and data parameters;
+	\item KLARAPTOR, a tool implementing the rational program technique to dynamically optimize {\cuda} kernels by choosing optimal launch parameters; and
+	\item an empirical and comprehensive evaluation of our tool on kernels from the \texttt{Polybench/GPU} benchmark suite.
+\end{enumerate}
+
+As the KLARAPTOR project is a joint research initiative, my contributions to the project are as follows:
+\begin{enumerate}
+	\item Profiler Overhaul: I upgraded the profiler to support the latest GPU architectures, 
+    transitioning from compute capability 6.0 to 7.5. This update enables KLARAPTOR to target a broader 
+    range of NVIDIA GPUs and makes the tool more relevant to contemporary GPU computing environments.
+
+	\item Outlier Removal Process: I introduced a preprocessing step that incorporates an outlier 
+    removal algorithm based on quartile fencing. This method helps mitigate the impact of potential noise 
+    in the empirical data collected from ncu, stemming from factors such as DVFS and other variances in
+    GPU performance.
+
+	\item Enhanced Integration of Rational Programs and MWP-CWP Model: I made improvements to the 
+    overall integration of the theory of rational programs and the MWP-CWP model.
+\end{enumerate}
+
+
+\section{Structure of the Thesis}
+\label{sec:structure}
+
+The remainder of this thesis is organized as follows.
+In the Chapter~\ref{ch:background} we provide a comprehensive introduction to the {\cuda} programming model, 
+covering its core concepts and memory model. Additionally, we discuss the theorectical performance model, MWP-CWP,
+which is fundamental to our research.  
+We introduce the theory
+and terminology behind \textit{rational programs} and describe that technique which applies
+the idea of rational programs to the goal of dynamically selecting optimal program parameters 
+in Chapter~\ref{ch:foundations}.
+Chapter~\ref{ch:overview} gives on overview of the KLARAPTOR tool
+which applies our technique to {\cuda} kernels and
+the general algorithm underlying our tool, that is, 
+building and using a rational program to predict program performance.
+Then, Chapter~\ref{ch:implementation} describes our
+specialization and implementation of this technique to CUDA programs,
+while our implementation is evaluated
+in Chapter~\ref{ch:performance}.
+Lastly, we draw conclusions and explore future work in Chapter~\ref{ch:conclusion}.
+
+
+\iffalse
+
+
+Programming for high-performance parallel computing is a notoriously
+difficult task. Programmers must be conscious of many factors impacting
+performance including scheduling, synchronization, and data locality.
+Of course, program code itself impacts the program's performance, however, 
+there are still further \textit{parameters} which are independent from the code
+and greatly influence performance. 
+%
+For parallel programs three types of parameters influence performance:
+\begin{inparaenum}[(i)]
+	\item {\em data parameters}, such as input data and its size;
+	\item {\em hardware parameters}, such as cache capacity and number of 
+	available registers; and
+	\item {\em program parameters}, such as granularity of tasks and 
+	the quantities that characterize how tasks are
+	mapped to processors (e.g. dimension sizes of a thread block for a {\cuda} kernel).
+\end{inparaenum}
+
+Data and hardware parameters are independent from program parameters
+and are determined by the needs of the user and available hardware
+resources.  Program parameters, however, are intimately related to
+data and hardware parameters. The choice of program parameters can
+largely influence the performance of a parallel program, resulting in 
+orders of magnitude difference in timings (see Section~\ref{sec:performance}).
+Therefore, it is crucial to determine values of program
+parameters that yield the best program performance for a given set of
+hardware and data parameter values.
+
+In the CUDA programming model the kernel launch parameters,
+and thus the size and shape of thread blocks, greatly impact performance.
+This should be obvious considering that the memory accesses pattern of threads
+in a thread block can depend on the block's dimension sizes. 
+The same could be said about multithreaded programs on CPU where
+parallel performance depends on task granularity and number of threads.
+Our general technique (see Section~\ref{sect:steps}) 
+is applied on top of some performance model to estimate 
+program parameters which optimize performance. 
+This could be applied to parallel programs in general, 
+where performance models using program parameters exist.
+However, we dedicate this paper to the discussion of 
+GPU programs written in {\cuda}.
+%where optimizing performance is much more difficult.
+
+
+An important consequence of the impact of kernel launch parameters on performance
+is that an optimal thread block format (that is, dimension sizes)
+for one GPU architecture may 
+not be optimal for another, as illustrated
+in~\cite{DBLP:journals/tjs/TorresGL13}.
+This emphasizes not only the impact of hardware parameters on program parameters, 
+but also the need for performance portability.
+That is to say, enabling users to efficiently execute the same parallel program
+on different architectures that belong to the same hardware platform.
+%\toremove{For example, consider NVIDIA GPUs which have different architectures but all 
+%follow the {\cuda} programming model.}
+
+\begin{figure*}[hbt]
+\includegraphics[width=1.00\textwidth, trim={0em, 0.9em, 0em, 0em}, clip]{Figures/MinMaxTimes-RTX-8192.png}
+\caption{Comparing kernel execution time (log-scaled) for the thread block configuration chosen by KLARAPTOR
+versus the minimum and maximum times as determined by an exhaustive search over all possible configurations. 
+Kernels are part of the \texttt{PolyBench/GPU} benchmark suite and executed on (1) a RTX 2070 SUPER with a data 
+size of $N=8192$ (except convolution3d with $N=512$).}
+\label{fig:kernelperfintro}
+\end{figure*}
+
+In this thesis, we describe the development of KLARAPTOR (Kernel LAunch
+parameters RAtional Program estimaTOR), a tool
+for automatically and
+dynamically determining the values of  {\cuda} kernel launch parameters which
+optimize the kernel's performance, for each kernel invocation
+independently.  That is to say, based on the actual data and target
+device of a kernel invocation.
+%
+The accuracy of KLARAPTOR's prediction is illustrated in
+Figure~\ref{fig:kernelperfintro} where execution times are given
+for each kernel in the the PolyBench/GPU benchmark suite \cite{polybenchGPUweb}
+on \reworked{the Turing} architecture.
+For each kernel, execution times are shown for 
+three different thread block configurations:
+one chosen by KLARAPTOR, 
+one resulting in the minimum time, and one resulting in the maximum time.
+The latter two are decided by an exhaustive search. 
+In most cases, KLARAPTOR's prediction is very close to optimal; 
+notice that the y-axis is log scaled.
+Further experimental results are reported in Section~\ref{sec:performance}.
+%We note that in the cases where KLARAPTOR underperforms,
+%those kernels are very small, each taking less than 5ms. 
+%The source code of KLARAPTOR is freely available at
+%\textcolor{navy}{\href{https://github.com/orcca-uwo/KLARAPTOR}{https://github.com/orcca-uwo/KLARAPTOR}}.
+
+
+
+KLARAPTOR applies to {\cuda} a generic technique,
+also described herein in Section~\ref{sect:steps}, 
+to statically build a so-called \toremove{\textit{rational program}}
+% ${\cal R}$
+which is then used dynamically at runtime to determine optimal program parameters
+for a given multithreaded program on specific data and hardware parameters.
+%${\cal P}$.
+%The goal of our technique and tool are as follows. 
+%Let ${\cal E}$ be a performance metric for ${\cal P}$ that we want to
+%optimize.  Given particular values of the data parameters
+%we look to find values of the program parameters 
+%such that the execution of ${\cal P}$ optimizes ${\cal E}$.  
+The key principle is based on an observation of most performance metrics.
+In most performance prediction models, \textit{high-level performance metrics}, such
+as execution time, memory consumption, and hardware occupancy, 
+can be seen as decision trees or flowcharts
+based on \textit{low-level performance metrics}, such as 
+memory bandwidth and cache miss rate.
+%, and the number of clock cycles per instruction.
+These low-level metrics are themselves
+piece-wise rational functions (PRFs) of
+program, data, and hardware parameters.
+This construction could be applied
+recursively to obtain a PRF for the high-level metric.
+\fixed{We regard a computer program that computes such a PRF as a {\em rational program}}{I do not feel that there is a logical flow here},
+a technical notion defined in Section~\ref{sec:foundations}.
+
+If one could determine these PRFs, 
+then it would be possible to estimate, for example, 
+the running time of a program based on its
+program, data, and hardware parameters. 
+Unfortunately, exact formulas for low-level metrics are often not known, 
+instead estimated through empirical measures or
+assumptions, or collected by profiling.
+This is a key challenge our technique addresses.
+%For a fixed machine, the hardware parameters are also fixed
+%and performance metrics depend only on program and data parameters.  
+%
+
+In most cases the values of the data parameters are only given at
+runtime, making it difficult to determine optimal values of the
+program parameters at an earlier stage. On another hand, a bad choice
+of program parameters can have drastic consequences.  Hence, it is
+crucial to be able to determine the optimal program parameters at
+runtime without much overhead added to the program execution. This is
+precisely the intention of the approach proposed here. %in this paper.
+
+Typically, thread block configurations are determined through heuristics 
+and are constrained to be multiples of 32 \cite{cuda2016best}. However, our tool utilizes rational 
+programs to dynamically optimize thread block configurations based on the size 
+of data being operated on, resulting in improved performance for specific kernel 
+invocations on target architectures.
+
+KLARAPTOR consists of two main steps: (1) at compile-time, rational programs 
+estimating low-level performance metrics are generated for each kernel and are 
+inserted into the host code of a CUDA program, and (2) at runtime, the helper 
+program corresponding to a kernel is evaluated with specific data parameters to 
+determine the thread block configuration that minimizes the kernel's execution time. 
+KLARAPTOR also aims to improve programmer performance by providing a more efficient 
+alternative to trial and error or exhaustive search.
+
+To minimize compilation and execution overheads, KLARAPTOR analyzes kernel performance 
+on small data sizes and maintains a runtime invocation history. Evaluation using the 
+Polybench/GPU benchmark suite demonstrates that KLARAPTOR accurately predicts the optimal 
+or near-optimal thread block configuration see Figure~\ref{fig:kernelperfintro}.
+
+%Here, optimizing could mean maximizing, as in the case of a
+%performance metric such as hardware occupancy, or minimizing, as in the case
+%of a performance metric like execution time.
+%To address our goal, we compute a mathematical expression, parameterized by data and program parameters,
+%in the format of a {\em rational program} ${\cal R}$ at compile-time. 
+%At runtime, given the specific values of the data parameters, we can efficiently estimate ${\cal E}$ 
+%using ${\cal R}$ and various potential program parameters in order to determine
+%the program parameters which optimize ${\cal E}$.
+
+
+\subsection{Contributions}
+
+The goal of this work is to determine values of program parameters which
+optimize a multithreaded program's performance.  Towards that goal,
+the method by which such values are found must be
+receptive to changing data and changing  hardware parameters. Our contributions
+encapsulate this requirement through the dynamic use of a rational
+program.  Our specific contributions include:
+\begin{enumerate}[(i)]
+	\item a technique for devising a mathematical expression in the form of a {\em rational program} to evaluate a performance metric from a set of program and data parameters;
+	\item KLARAPTOR, a tool implementing the rational program technique to dynamically optimize {\cuda} kernels by choosing optimal launch parameters; and
+	\item an empirical and comprehensive evaluation of our tool on kernels from the \texttt{Polybench/GPU} benchmark suite.
+\end{enumerate}
+
+\fi
+
+
+
+\section{Related Works}
+
+\label{sec:relatedworks}
+%While the idea and the technique described herein are
+%applicable to parallel programs in general, this document extensively
+%uses GPU architecture and the CUDA (Compute Unified Device Architecture,  %see~\cite{Nickolls:2008:SPP:1365490.1365500,cuda2015})
+%programming model for ease of illustration and description.
+\input{sections/related}
+
+
+\iffalse
+\subsection{Structure of the Thesis}
+
+The remainder of this thesis is organized as follows.
+Section~\ref{sec:foundations} formalizes and exemplifies the notion of rational programs
+and their relation to piece-wise rational functions and performance prediction.
+Section~\ref{sec:klaraptor} gives on overview of the KLARAPTOR tool
+which applies our technique to {\cuda} kernels.
+The general algorithm underlying our tool, that is, 
+building and using a rational program to predict program performance, 
+is given in Section ~\ref{sect:steps}.
+Our implementation is detailed in Section~\ref{sec:implementation},
+while our implementation is evaluated
+in Section~\ref{sec:performance}.
+Lastly, we draw conclusions and explore future work in Section~\ref{sec:conclusion}.
+
+%We shall see in Section~\ref{sec:embodiment} that ${\cal R}$ can be
+%built when the program ${\cal P}$ is being compiled, that is,
+%at \textit{compile-time}.  Then, when ${\cal P}$ is executed on a
+%specific input data set, that is, at \textit{runtime},
+%the rational program ${\cal R}$ can be used
+%to make an optimal choice for the program parameters of ${\cal P}$.
+%The embodiment of the propped techniques, as reported in 
+%Section~\ref{sec:embodiment}, targets Graphics Processing Units (GPUs).
+\fi

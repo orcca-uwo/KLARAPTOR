@@ -1,0 +1,47 @@
+\begin{example}
+\label{ex:cuda}
+{\em
+The hardware {\em occupancy} is a measure of a program's effectiveness in using
+the Streaming Multiprocessors (SMs) of a GPU.
+It is calculated from a number of hardware parameters, namely:
+\begin{itemizeshort}
+\item[-] the maximum number $R_{\rm max}$ of registers per thread block,
+\item[-] the maximum number $Z_{\rm max}$ of shared memory words per thread block,
+\item[-] the maximum number $T_{\rm max}$ of threads per thread block,
+\item[-] the maximum number $B_{\rm max}$ of thread blocks per SM and 
+\item[-] the maximum number $W_{\rm max}$ of warps per SM,
+\end{itemizeshort}
+as well as low-level kernel-dependent performance metrics, namely:
+\begin{itemizeshort}
+\item[-] the number $R$ of registers used per thread and 
+\item[-] the number $Z$ of shared memory words used per thread block,
+\end{itemizeshort}
+and a program parameter, namely the 
+number $T$ of threads per thread block.
+%%
+The occupancy of a {\cuda} kernel is defined as
+the ratio between the number of active warps
+per SM and the maximum number of warps per SM, namely:
+\begin{equation}
+\label{eq:occupancy}
+W_{\rm active} / W_{\rm max}, \ \ {\rm where} \ \ 
+    W_{\rm active} \fixed{\leq}{Changed to an inequality to highlight the
+    upper bound given by this equation: Fine.} \min \left( \lfloor B_{\rm active} T / 32 \rfloor, W_{\rm max}  \right)
+\end{equation}
+and $B_{\rm active}$ is given by the flowchart
+in Figure~\ref{fig:occupancysimpleflowchart}.
+%%
+This flowchart shows
+how one can derive a rational program computing
+$B_{\rm active}$ from $R_{\rm max}$, $Z_{\rm max}$,
+$T_{\rm max}$, $B_{\rm max}$, $W_{\rm max}$, $R$, $Z$, $T$.
+%%
+It follows from Formula (\ref{eq:occupancy})
+that $W_{\rm active}$ can also be computed 
+by a rational program from $R_{\rm max}$, $Z_{\rm max}$,
+$T_{\rm max}$, $B_{\rm max}$, $W_{\rm max}$, $R$, $Z$, $T$.
+%%
+Finally, the same is true for the occupancy of a {\cuda} kernel
+using $W_{\rm active}$ and $W_{\rm max}$.
+}
+\end{example}

@@ -1,0 +1,95 @@
+\section{An Overview of KLARAPTOR}
+
+\begin{frame}{Helper vs Rational Program}
+    \begin{block}{Note}
+        The terms {\em helper program} refers to the generated code which implements 
+        the rational prgorams in order to select the optimal thread block configuration for a kernel.
+        Whereas the term {\em rational program} refers to the thoery behind modeling a Program.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Rational Programs}
+    \begin{block}{}
+        \begin{itemize}
+            \item A rational program is a special type of computer program that takes input values $x_1, \ldots, x_n$ and 
+            calculates an output value $y$ using a function $f(x_1, \ldots, x_n)$.
+            \item This function is determined by a specific process that distinguishes rational programs from regular ones. In simpler terms, 
+            a rational program is a sequence of instructions that work with rational numbers and always produce a rational number as the result.
+            \item To be considered a rational program, the sequence of instructions must follow two conditions:
+            \begin{itemize}
+                \item [(i)] The arithmetic operations used in the program must be addition, subtraction, multiplication, division, or comparisons (like equality or ordering) of two rational numbers. 
+                These can be done in fixed or arbitrary precision.
+                \item [(ii)] When you replace the variables $X_1, \ldots, X_n$ with actual rational numbers $x_1, \ldots, x_n$, the program must always come to an end and 
+                the final instruction should assign a rational number to the output value $Y$.
+            \end{itemize}
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Building a Helper Program}
+	\begin{block}{}
+		Parameters influencing the performance of a multithreaded program $\cal P$
+		\begin{itemize}
+			\item {\em data parameters}(${\bm D} = \left(D_1, \ldots, D_d\right)$), describing size and structure of the data;
+			\item {\em hardware parameters}(${\bm H} = \left(H_1, \ldots, H_h\right)$), describing hardware resources and their capabilities; and
+			\item {\em program parameters}(${\bm P} = \left(P_1, \ldots, P_p\right)$), characterizing parallel aspects of the program (e.g. how tasks are mapped to hardware resources).
+		\end{itemize}
+		\begin{block}{}
+            \begin{itemize}
+                \item Let ${\cal E}$ be a high-level performance metric (running time, memory consumption)
+                \item $g_i$ can be estimated by curve fitting, if we run the program on some selected $\bm D$ and $\bm P$ and collect the values of $L_i$
+                \item In order to generate the Helper program ${\cal R}$, we proceed as follows:
+                \begin{itemize}
+                    \item[(i)] we convert the Helper program representing ${\cal E}$ into code, 
+                    \item[(ii)] we convert each $\hat{g}_i(\bm{D}, \bm{P})$ into code, specifically sub-routines, estimating $L_i$; and
+                    \item[(iii)] we include those sub-routines into the code computing ${\cal E}$, which yields the desired Helper program ${\cal R}$, fully constructed, and depending only on $\bm{D}$ and $\bm{P}$.
+                \end{itemize}
+            \end{itemize}
+        \end{block}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+\begin{block}{KLARAPTOR}
+		\begin{itemize}
+			\item At the compile-time of a CUDA program, its kernels are analyzed in order to build Helper programs estimating the performance metrics for each individual kernel under the MWP-CWP model. Each helper program, writing as code in C programming language, is inserted into the code of the CUDA program so that it is called before the execution of the corresponding kernel
+			\item At run-time, immediately preceding the launch of a kernel, where $\bm D$ is known, the helper program is evaluated to determine the thread block configuration which optimizes the performance of the kernel. The kernel is then launched using this configuration.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Steps of KLARAPTOR}
+	\input{figures/steps-flowchart}
+\end{frame}
+\begin{frame}{High-level Design of KLARAPTOR}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\input{figures/design-flowchart}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{block}{We have used:}
+				\begin{itemize}
+					\item {\em LLVM Pass Framework} for modifying the code at the IR level
+					\item {\em NVIDIA Nsight Compute CLI} to do the data collection
+					\item {\em CLAPACK and ATLAS} for the numerical computations done in the curve fitting step
+					\item system specs: LLVM 11, CUDA 11, CLAPACK, python 2.7.
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+
+% \begin{frame}[label=flowchart]{}
+% 	\begin{figure}[ht]
+% 		\centering
+% 		\includegraphics[width=\textwidth,clip,trim={0em, 0em, 1.5em, 0em}]{figures/SystemTimesAll.pdf}
+% 		\caption{\tiny Comparing times to determine optimal launch parameters for data sizes $32 \leq N \leq 2048$ for each kernel in \texttt{Polybench/GPU}.}\label{fig:systemtimesall}
+% 	\end{figure}
+% 	\begin{figure}
+% 		\centering
+% 		\includegraphics[width=\textwidth,trim={0em, 0em, 0em, 0em}, clip]{figures/kernel_redblue_curves.pdf}
+% 		\caption{\tiny The predicted and actual execution time of kernels for various input sizes. The trends show that the minima is accurately predicted.}\label{fig:redbluecurves}
+% 	\end{figure}
+% \end{frame}

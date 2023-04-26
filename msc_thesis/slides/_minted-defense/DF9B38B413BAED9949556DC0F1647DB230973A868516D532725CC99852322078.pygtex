@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{c+c1}{//a CUDA kernel for vector addition}
+    \PYG{n}{\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{}} \PYG{k+kt}{void} \PYG{n+nf}{vector\PYGZus{}addition}\PYG{p}{(}\PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{A}\PYG{p}{,} \PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{B}\PYG{p}{,} \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{n}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{n}{A}\PYG{p}{[}\PYG{n}{threadIdx}\PYG{p}{.}\PYG{n}{x}\PYG{p}{]} \PYG{o}{+=} \PYG{n}{B}\PYG{p}{[}\PYG{n}{threadIdx}\PYG{p}{.}\PYG{n}{x}\PYG{p}{];}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()\PYGZob{}}
+        \PYG{p}{...}
+        \PYG{c+c1}{//launch the kernel with 1 block and n threads per block}
+        \PYG{n}{vector\PYGZus{}addition}\PYG{o}{\PYGZlt{}\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n}\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{p}{(}\PYG{n}{Ad}\PYG{p}{,} \PYG{n}{Bd}\PYG{p}{,} \PYG{n}{n}\PYG{p}{);}
+        \PYG{p}{...}
+    \PYG{p}{\PYGZcb{}}			
+\end{Verbatim}

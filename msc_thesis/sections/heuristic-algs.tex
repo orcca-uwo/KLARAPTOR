@@ -1,0 +1,186 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{algorithm}[H]
+%    \caption{HEURISTIC}
+%    \label{alg-heuristic}
+%	{\small
+%    \begin{algorithmic}[1] % The number tells where the line numbering should start
+%        \Procedure{HEURISTIC} {Dictionary {\confDict}, 
+%        M as the memory efficiency percentage of the kernel.} 
+%      	%%%
+%        \State {[{\nparts}, {\nrepeat}] $\gets$ [10, number of entries in {\confDict}]};
+%%        \State {{\param} $\gets$ "ArithmeticIntensity"};
+%        \State {\confDict $\gets$ STABILIZE ({\confDict}, "ArithmeticIntensity", {\nparts}, {\nrepeat});}
+%    	\State \Comment {Stabilize {\confDict} w.r.t. Arithmetic Intensity.}
+%        %%%%
+%	%- repeat for the number of elements in the config list.
+%	%- the number of bins is set to 10, why 10?
+%		\State {AAR $\gets$	 Average of {arithmetic intensity} for entries of {\confDict}}.
+%	\State 	{MET $\gets$ 25\%} \Comment{Setting a memory efficiency threshold to 25\%.}
+%    %%%
+%	\If { M <= MET and AAR $\leq 1.0$}\Comment {Memory-intensive}
+%	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 10]};
+%	\State{\confDict $\gets$ Stabilize ({\confDict}, "clock cycles", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "Clock Cycles".}
+%    %%% 
+%	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\meminst}".}
+%    %%%
+% 	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ GetExtreme ({\confDict}, "MIN", "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the partition with lowest values of "{\meminst}".}
+%    %%%	    
+%	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\compinst}", {\nparts}, {\nrepeat});} 
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\compinst}".}
+%    %%%
+%	\Else \Comment{Compute-intensive}
+%	\State {[{\nparts}, {\nrepeat}] $\gets$ [4, 1]};
+%	\State{\confDict $\gets$ Stabilize ({\confDict}, "{occupancy}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{occupancy}".}
+%    %%% - set into 4 categories to cover 25~100% occupancy.        
+%    %%%
+% 	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ GetExtreme ({\confDict}, "MIN", "{\memld}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the partition with lowest values of "{\memld}".}
+%    %%%
+% 	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ GetExtreme ({\confDict}, "MAX", "{\compinst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the partition with highest values of "{\compinst}".}
+%    %%% 
+%	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+%	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\meminst}".}
+%	\EndIf
+%	\State {Return {\confDict}};
+%    \EndProcedure
+%    \end{algorithmic}
+%    }
+%\end{algorithm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{algorithm}[!htb]
+    \caption{HueristicSelection}
+    \label{alg-heuristic}
+	{\small
+    \begin{algorithmic}[1] % The number tells where the line numbering should start
+        \Procedure{HueristicSelection} {Dictionary {\confDict} of [key,value] pairs
+        with block configurations as keys and values of performance metrics as
+        values,
+         {\memEfficiency} as average memory efficiency (percentage) of the kernel} 
+      	%%%
+        \State {[{\nparts}, {\nrepeat}] $\gets$ [10, number of entries in {\confDict}]};
+%        \State {{\param} $\gets$ "ArithmeticIntensity"};
+        \State {\confDict $\gets$ Stabilize ({\confDict}, "ArithmeticIntensity", {\nparts}, {\nrepeat});}
+    	\State \Comment {Stabilize {\confDict} w.r.t. values of Arithmetic Intensity.}
+        %%%%
+	%- repeat for the number of elements in the config list.
+	%- the number of bins is set to 10, why 10?
+		\State {{\texttt{AAR}} $\gets$	 Average of {arithmetic intensity} for entries of {\confDict}}.
+	\State 	{{\texttt{MET}} $\gets$ 25\%} \Comment{Setting the memory efficiency threshold to 25\%.}
+    %%%
+	\If { {\memEfficiency} <= {\memThreshold} and {\texttt{AAR}} $\leq 1.0$}\Comment {Memory-intensive}
+	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 10]};
+	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\ec}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "Clock Cycles".}
+    %%% 
+	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\meminst}".}
+    %%%
+ 	%\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Optimize ({\confDict}, "MIN", "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the subset with lowest values of "{\meminst}".}
+    %%%	    
+	%\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\compinst}", {\nparts}, {\nrepeat});} 
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\compinst}".}
+    %%%
+	\Else \Comment{Compute-intensive}
+	\State {[{\nparts}, {\nrepeat}] $\gets$ [25, 1]};
+	\State{\confDict $\gets$ Stabilize ({\confDict}, "{Occupancy}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{occupancy}".}
+    %%% - set into 4 categories to cover 25~100% occupancy.        
+    %%%
+ 	\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Optimize ({\confDict}, "MIN", "{\memld}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the partition with lowest values of "{\memld}".}
+    %%%
+ 	%\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Optimize ({\confDict}, "MAX", "{\compinst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Get the partition with highest values of "{\compinst}".}
+    %%% 
+	%\State {[{\nparts}, {\nrepeat}] $\gets$ [10, 1]};
+	\State{\confDict $\gets$ Stabilize ({\confDict}, "{\meminst}", {\nparts}, {\nrepeat});}
+%	\State \Comment {Stabilize {\confDict} w.r.t. "{\meminst}".}
+	\EndIf
+	\State {Return {\confDict}};
+    \EndProcedure
+    \end{algorithmic}
+    }
+\end{algorithm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{algorithm}[!htb]
+%    \caption{Stabilize}
+%    \label{alg-stabilize}
+%    \begin{algorithmic} % The number tells where the line numbering should start
+%        \Procedure{Stabilize}{Dictionary {\confDict}, {\param}, {\nparts}, {\nrepeat}}
+%		\State{{\texttt{stdDev}} $\gets$ -1};
+%		\For {$(i=0; i<{\nrepeat}; i{\texttt{+=}1})$ }
+%			\State{{\texttt{currentDev}} $\gets$ ComputeStandardDeviation({\confDict}, {\param})};
+%			\State\Comment{Compute standard deviation for values of "{\param}" in {\confDict}.}
+%			\If {{\texttt{currentDev}}=={\texttt{stdDev}}:}
+%				\State {Break;}
+%%				\Comment{Stop as soon as the standard deviation does not change.}
+%			\EndIf;
+%		\State{{\texttt{stdDev}}$\gets$ {\texttt{currentDev}}};
+%		\State {{\confDict} $\gets$ RemoveExtreme({\confDict}, "MIN", {\param}, {\nparts});}
+%		\EndFor
+%		\State {Return {\confDict}};
+%        \EndProcedure
+%    \end{algorithmic}
+%\end{algorithm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{algorithm}[!htb]
+%    \caption{GetExtreme}
+%    \label{alg-get-extreme}
+%    \begin{algorithmic} % The number tells where the line numbering should start
+%        \Procedure{GetExtreme}{Dictionary {\confDict}, END, {\param}, {\nparts}}
+%       	\State {$[S_0, \cdots, S_{\nparts-1}]$ $\gets$ 
+%        	Split {\confDict} into {\nparts} subsets w.r.t. values of {\param}.}
+%        \If {END $==$ "MIN"}
+%        	\State {\confDict $\gets$ $S_0$}.
+%			\Comment{Only keep $S_0$.}
+%		\Else \Comment {END == "MAX"}
+%        	\State {\confDict $\gets$ $S_{\nparts-1}$}.
+%			\Comment{Only keep $S_{\nparts-1}$.}
+%		\EndIf
+%		\State {Return {\confDict}};
+%        \EndProcedure
+%    \end{algorithmic}
+%\end{algorithm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{algorithm}[!htb]
+%    \caption{RemoveExtreme}
+%    \label{alg-remove-extreme}
+%    \begin{algorithmic} % The number tells where the line numbering should start
+%        \Procedure{RemoveExtreme}{Dictionary {\confDict}, END, {\param}, {\nparts}}
+%       	\State {$[S_0, \cdots, S_{\nparts-1}]$ $\gets$ 
+%        	Split {\confDict} into {\nparts} subsets w.r.t. values of {\param}.}
+%        \If {END $==$ "MIN"}
+%        	\State {\confDict $\gets$ $[S_1, \cdots, S_{\nparts-1}]$}.
+%        	\Comment{Remove $S_0$.}
+%		\Else \Comment {END == "MAX"}
+%        	\State {\confDict $\gets$ $[S_0, \cdots, S_{\nparts-2}]$}.
+%			\Comment{Remove $S_{\nparts-1}$.}
+%		\EndIf
+%		\State {Return {\confDict}};
+%        \EndProcedure
+%    \end{algorithmic}
+%\end{algorithm}

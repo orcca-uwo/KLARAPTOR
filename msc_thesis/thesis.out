@@ -1,0 +1,49 @@
+\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Summary for Lay Audience}{}% 2
+\BOOKMARK [0][-]{Doc-Start}{Co-Authorship Statement}{}% 3
+\BOOKMARK [0][-]{Doc-Start}{List of Figures}{}% 4
+\BOOKMARK [0][-]{Doc-Start}{List of Tables}{}% 5
+\BOOKMARK [0][-]{Doc-Start}{List of Appendices}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Contributions}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Structure of the Thesis}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Related Works}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 11
+\BOOKMARK [1][-]{section.2.1}{CUDA}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.1.1}{Graphics Processing Unit \(GPU\)}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.2}{CUDA Programming Model}{section.2.1}% 14
+\BOOKMARK [3][-]{section*.4}{Kernels}{subsection.2.1.2}% 15
+\BOOKMARK [3][-]{section*.5}{Threads}{subsection.2.1.2}% 16
+\BOOKMARK [3][-]{section*.6}{Kernel Launch Parameters}{subsection.2.1.2}% 17
+\BOOKMARK [2][-]{subsection.2.1.3}{CUDA by Example}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.4}{CUDA Memory Model}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.5}{GPU Microarchitecture}{section.2.1}% 20
+\BOOKMARK [3][-]{section*.9}{SIMT and SIMD}{subsection.2.1.5}% 21
+\BOOKMARK [3][-]{section*.10}{Streaming Multiprocessors \(SMs\)}{subsection.2.1.5}% 22
+\BOOKMARK [3][-]{section*.11}{Warp and Warp Scheduling}{subsection.2.1.5}% 23
+\BOOKMARK [1][-]{section.2.2}{MWP-CWP}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.1}{MWP CWP}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.2}{MWP > CWP}{section.2.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Theoretical Foundations}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Rational Programs}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Rational Programs as Flowcharts}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Piece-Wise Rational Functions in Rational Programs}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{An Overview of KLARAPTOR}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Dynamic Optimization of CUDA Kernel Launch Parameters}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{An Algorithm to Select Program Parameters}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{The implementation of KLARAPTOR}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Annotating and preprocessing source code}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Input/Output builder}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Building a helper program: data collection}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{Building a helper program: outlier removal}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.5}{Building a helper program: rational function approximation}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.6}{Helper programs}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.6.1}{Compile-time code generation}{section.5.6}% 41
+\BOOKMARK [2][-]{subsection.5.6.2}{Runtime optimization}{section.5.6}% 42
+\BOOKMARK [0][-]{chapter.6}{Experimentation}{}% 43
+\BOOKMARK [0][-]{chapter.7}{Conclusions and future work}{}% 44
+\BOOKMARK [0][-]{chapter.7}{Bibliography}{}% 45
+\BOOKMARK [0][-]{appendix.a.A}{Examples of Annotated Code}{}% 46
+\BOOKMARK [1][-]{section.a.A.1}{PolyBench Code}{appendix.a.A}% 47
+\BOOKMARK [1][-]{section.a.A.2}{Annotated PolyBench Code}{appendix.a.A}% 48
+\BOOKMARK [0][-]{section.a.A.2}{Curriculum Vitae}{}% 49

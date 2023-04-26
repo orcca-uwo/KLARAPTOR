@@ -1,0 +1,574 @@
+\section{An integer hull algorithm}
+\begin{frame}{Example (0/3)}
+	\begin{block}{Input}
+		Let's look at a simple example first.
+		
+		Vertices: \textcolor{blue}{$(-44/5,408/25),(349/27,206/27),(85/57,109/57)$}
+		\begin{columns}
+			\begin{column}{0.2\textwidth}
+				\begin{center}
+					\begin{equation*}
+						\color{blue}
+						\left\{   \begin{array}{crl}
+							2x + 5y &\le& 64\\ 
+							7x + 5y &\ge& 20\\
+							3x - 6y &\le& -7
+						\end{array}
+						\right.
+					\end{equation*}
+					\smallskip
+					
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.8\textwidth}
+				\begin{center}
+					\begin{figure}[H]
+						\scalebox{.7}{\input{figures/example0}}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+		\end{columns}
+		
+		%%
+	\end{block}
+	
+	
+\end{frame}
+\begin{frame}{Example (1/3)}
+	\begin{block}{Normalization}
+		Replace the facets that could not have integer point
+		
+		Vertices: \textcolor{blue}{$(-44/5,408/25),$}\sout{\textcolor{red}{$(349/27,206/27),$$(85/57,109/57),$}} \textcolor{blue}{$(113/9,70/9),$$(25/19,41/19)$}
+		\begin{columns}
+			\begin{column}{0.2\textwidth}
+				\begin{center}
+					\sout{\color{red}$3x - 6y \le -7$}
+					\begin{equation*}
+						\color{blue}
+						\left\{   \begin{array}{crl}
+							2x + 5y &\le& 64\\ 
+							7x + 5y &\ge& 20\\
+							3x - 6y &\le& -9
+						\end{array}
+						\right.
+					\end{equation*}
+					\smallskip
+					
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.8\textwidth}
+				\begin{center}
+					
+					\begin{figure}[H]
+						\scalebox{.7}{\input{figures/example1}}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+		\end{columns}
+		
+		%%
+	\end{block}
+	
+	
+\end{frame}
+\begin{frame}{Example (2-1/3)}
+	\begin{block}{Partition}
+		Vertices: $\textcolor{blue}{(-44/5,408/25),(113/9,70/9),(25/19,41/19)}$
+		
+		Find the triangles with vertices: [$\textcolor{green!60!black}{(-8,16),(-44/5,408/25),(-5,11)}$],
+		[$\textcolor{green!60!black}{(3,3),(25/19,41/19),(0,4)}$],
+		[$\textcolor{green!60!black}{(12,8),(113/9,70/9),(11,7)}$]
+		\begin{columns}
+			\begin{column}{0.2\textwidth}
+				\begin{center}
+					\begin{equation*}
+						\color{blue}
+						\left\{   \begin{array}{crl}
+							5y &\le& -2x + 64\\ 
+							5y &\ge& -7x + 20\\
+							2y &\ge& x + 3
+							
+						\end{array}
+						\right.
+					\end{equation*}
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.8\textwidth}
+				\begin{center}
+					\begin{figure}[H]
+						\scalebox{.7}{\input{figures/example2d_1}}
+					\end{figure}
+				\end{center}
+			\end{column}
+		\end{columns}
+		
+		%%
+	\end{block}
+	
+	
+\end{frame}
+\begin{frame}{Example (2-2/3)}
+	\begin{block}{}
+		Compute the integer hull of the triangle
+		
+		Vertices: $\textcolor{red}{(-8,16),(-7,14),(-5,11)}\textcolor{blue}{,(113/9,70/9),(25/19,41/19)}$
+		\begin{columns}
+			\begin{column}{0.2\textwidth}
+				\begin{center}
+					\begin{equation*}
+						\color{blue}
+						\left\{   \begin{array}{crl}
+							5y &\le& -2x + 64\\ 
+							5y &\ge& -7x + 20\\
+							2y &\ge& x + 3
+							
+						\end{array}
+						\right.
+					\end{equation*}
+					\smallskip
+					
+					\begin{equation*}
+						\color{red}
+						\left\{   \begin{array}{crl}
+							y &\ge& -2x\\
+							2y &\ge& 3x + 7
+						\end{array}
+						\right.
+					\end{equation*}
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.8\textwidth}
+				
+				
+				\begin{center}
+					\begin{figure}[H]
+						\scalebox{.7}{\input{figures/example2}}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+		\end{columns}
+		
+		%%
+	\end{block}
+	
+	
+\end{frame}
+
+\begin{frame}{Example (3/3)}
+	\begin{block}{Merging}
+		Vertices: $\textcolor{red}{(-8,16),(-7,14),(-5,11),(0,4),(1,3),(3,3),(11,7),(12,8)}$
+		\begin{columns}
+			\begin{column}{0.2\textwidth}
+				\begin{center}
+					\begin{equation*}
+						\color{blue}
+						\left\{   \begin{array}{crl}
+							5y &\le& -2x + 64\\ 
+							5y &\ge& -7x + 20\\
+							2y &\ge& x + 3
+						\end{array}
+						\right.
+					\end{equation*}
+					\smallskip
+					
+					
+					\begin{equation*}
+						\color{red}
+						\left\{   \begin{array}{crl}
+							y &\ge& -2x\\
+							2y &\ge& 3x + 7\\
+							y &\ge& -x + 4\\
+							y &\ge& 3\\
+							y &\ge& x - 4
+						\end{array}
+						\right.
+					\end{equation*}
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.8\textwidth}
+				
+				
+				\begin{center}
+					\begin{figure}[H]
+						\scalebox{.7}{\input{figures/example4}}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+		\end{columns}
+		
+		%%
+	\end{block}
+	
+	
+\end{frame}
+\begin{frame}{Main steps of our algorithm}
+	Our algorithm has 3 main steps:
+	\begin{itemize}
+		\item \textbf{Normalization}: during this step, we construct a new polyhedral set
+		$Q$ from $P$ as follows.
+		Consider in turn each facet $F$ of $P$:
+		\begin{enumerate}
+			\item if the hyperplane $H$ supporting $F$ contains an integer point,
+			then $H$ is a hyperplane supporting a facet of $Q$,
+			\item otherwise 
+			one slides $H$ towards the center of $P$
+			along the normal vector of $F$, stopping 
+			as soon as one hits a hyperplane $H'$ containing an integer point,
+			then making $H'$ a hyperplane supporting a facet of $Q$.
+		\end{enumerate}
+		The resulting polyhedral set $Q$ clearly has the same integer
+		hull as $P$; computing $Q$ is a preparation phase for the following step.
+		\item \textbf{Partitioning}: make each part
+		of the partition is a polyhedron $R$ which:
+		\begin{enumerate}
+			\item either has integer points as vertices
+			(making the computation of the integer hull $R_I$ trivial), 
+			\item or has a small volume so that any algorithm
+			(including exhaustive search) can be applied to compute $R_I$.
+		\end{enumerate}
+		\item \textbf{Merging}: Once the integer hull of each part of the partition
+		is computed and given by the list of its vertices, 
+		an algorithm for computing the convex hull of a set points,
+		such as {\tt QuickHull},
+		can be applied to deduce $P_I$.
+	\end{itemize}
+\end{frame}
+\begin{frame}{The general algorithm}
+	\begin{block}{Normalization}
+		The integer hull of the normalized polyhedral set should be the same as that of the input
+		\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{equation*}
+				\scriptsize
+				\label{eq:3dexample}
+				\left\{   \begin{array}{crl}
+					-98877 x_1 - 189663 x_2 - 1798 x_3 &\le& 705915\\	
+					-10109 x_1 - 5958 x_2 - 14601 x_3 &\le& 31333\\
+					-5405 x_1 + 4965 x_2 + 3870 x_3 &\le& 4303504\\
+					729 x_1 - 117 x_2 + 350 x_3 &\le& 4561\\
+					677 x_1 + 465 x_2 - 540 x_3 &\le& 3489
+				\end{array}
+				\right.
+			\end{equation*}
+			\begin{center}
+				\begin{figure}[H]
+					\includegraphics[scale=0.15]{figures/3dexample0}
+				\end{figure}	
+			\end{center}
+		\end{column}
+		\hfill
+		\begin{column}{0.5\textwidth}
+			\begin{equation*}
+				\scriptsize
+				\label{eq:3dexamplenew}
+				\left\{   \begin{array}{crl}
+					-98877 x_1 - 189663 x_2 - 1798 x_3 &\le& 705915\\	
+					-10109 x_1 - 5958 x_2 - 14601 x_3 &\le& 31333\\
+					\color{red}{-1081 x_1 + 993 x_2 + 774 x_3} &\color{red}\le& \color{red}860700\\
+					729 x_1 - 117 x_2 + 350 x_3 &\le& 4561\\
+					677 x_1 + 465 x_2 - 540 x_3 &\le& 3489
+				\end{array}
+				\right.
+			\end{equation*}
+			\begin{center}
+				\begin{figure}[H]
+					\includegraphics[scale=0.15]{figures/3dexample1}
+				\end{figure}
+				
+			\end{center}
+			
+		\end{column}
+	\end{columns}
+		
+	\end{block}
+\end{frame}
+\begin{frame}{The general algorithm}
+	\begin{block}{Partition}
+		For each face $f$ , 
+		\begin{itemize}
+			\item let $F$ be a set of all the facets that intersect at $f$
+			\item tf there exist integer points on $f$ (which
+			means the closest integer points on f to its vertices exist), for each vertex $v$ of $f$, a ``corner'' polyhedral set has candidates of vertices of
+			\begin{itemize}
+				\item : $v$, 
+				\item all the existing closest integer points on $F$
+				to $v$,
+				\item the closest integer point on $f$ to $v$.
+			\end{itemize}
+			\item if there is no integer point on $f$, the ``corner''
+			polyhedral set has has candidates of vertices of: 
+			\begin{itemize}
+				\item all the vertices $V$ of $f$,
+				\item all the closest integer points on $F$ to $V$.
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{The general algorithm}
+	\begin{block}{Partition}
+		\begin{figure}[htbp]
+			\begin{subfigure}[t]{0.3\textwidth}
+				\includegraphics[width=\linewidth]{figures/3dexample3}
+			\end{subfigure}\hspace{.6in}
+			\begin{subfigure}[t]{0.3\textwidth}
+				\includegraphics[width=\linewidth]{figures/3dexample2}
+			\end{subfigure}
+			
+			\begin{subfigure}[t]{0.3\textwidth}
+				\includegraphics[width=\linewidth]{figures/3dexample4}
+			\end{subfigure}\hspace{.6in}
+			\begin{subfigure}[t]{0.3\textwidth}
+				\includegraphics[width=\linewidth]{figures/3dexample5}
+			\end{subfigure}
+			\label{figure}
+		\end{figure}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Developing the 3D algorithm}
+	\begin{block}{Merging}
+		The integer hull has 139 vertices
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{center}
+					
+					\begin{figure}[H]
+						\includegraphics[scale=0.23]{figures/3dexample9}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+			\hfill
+			\begin{column}{0.5\textwidth}
+				\begin{center}
+					\begin{figure}[H]
+						\includegraphics[scale=0.23]{figures/3dexample8}
+					\end{figure}
+					
+				\end{center}
+				
+			\end{column}
+		\end{columns}
+		
+	\end{block}
+\end{frame}
+
+\begin{frame}{Closest integer points on a face to its vertices}
+	\begin{block}{Projection and recursive call}
+		For a face $F$, and its vertices $V$:
+		\begin{itemize}
+			\item make a projection
+			$G$ of $F$ using Hermite normal form where $G$ is full dimensional. We also obtain a map $R_F(G) = F$. By using Hermite normal form, we ensure that the integer points in $G$ and the integer points in $F$ have a one-on-one relation.
+			\item recursively call our integer hull algorithm to compute the vertices $V'_{I}$ of the integer hull of $G$
+			\item compute the vertices $V_I$ of $F$ by $R_F(V'_I) = V_I$
+			\item find the closest points in $V_I$ to $V$
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Closest integer points on a face to its vertices}
+	\begin{block}{Projection and recursive call}
+		\begin{columns}
+		\begin{column}{0.5\textwidth}
+			{\scriptsize
+				\begin{equation*}
+					R_F: \left\{ \begin{array}{rcl} 
+						x_1 &=& 993 x_1' + 573 x_2' - 67995300\\
+						x_2 &=& 1081 x_1' + 623 x_2' - 74020200\\
+						x_3 &=& x_2'
+					\end{array} \right.
+				\end{equation*}
+			}
+			
+			\begin{center}
+				\begin{figure}[H]
+					\includegraphics[scale=0.15]{figures/3dexample7}
+				\end{figure}	
+			\end{center}
+		\end{column}
+		\hfill
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\begin{figure}[H]
+					\includegraphics[scale=0.2]{figures/3dexample6}
+				\end{figure}
+				
+			\end{center}
+			
+		\end{column}
+	\end{columns}
+		
+	\end{block}
+\end{frame}
+
+\begin{frame}{The {\tt PolyhedralSets:-IntegerHull} command in {\Maple} }
+	\begin{center}
+		
+		\begin{figure}[H]
+			\includegraphics[scale=0.3]{figures/xmaple_example}
+		\end{figure}
+	\end{center}
+	
+\end{frame}
+\begin{frame}{The {\tt PolyhedralSets:-IntegerHull} command in {\Maple} }
+	\begin{center}
+		
+		\begin{figure}[H]
+			\includegraphics[scale=0.25]{figures/4dcommand}
+		\end{figure}
+	\end{center}
+	
+\end{frame}
+\begin{frame}{The {\tt PolyhedralSets:-IntegerHull} command in {\Maple}}
+	\begin{center}
+		
+		\begin{figure}[H]
+			\includegraphics[scale=0.25]{figures/3dunbounded}
+		\end{figure}
+	\end{center}
+	
+\end{frame}
+\begin{frame}{Benchmarks 2D}
+	\begin{block}{}
+		\begin{itemize} 
+			\small
+			\item E\&C represent ``enumeration and convex hull'' computation. For the Maple implementation we used {\tt ZPolyhedralSets:-EnumerateIntegerPoints} abd {\tt ComputationalGeometry:-ConvexHull}
+			\item {\tt Normaliz} is an open source tool for computations in affine monoids, vector configurations, lattice polytopes, and rational cones.
+		\end{itemize}
+		\centering
+		\begin{table}[H]
+			
+			\resizebox{\columnwidth}{!}{%
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+					\hline
+					Volume &
+					\multicolumn{2}{c|}{27.95} &
+					\multicolumn{2}{c|}{111.79} &
+					\multicolumn{2}{c|}{11179.32} \\
+					\hline
+					Algorithm & IntegerHull & E\&C &  IntegerHull & E\&C &  IntegerHull & E\&C  \\
+					\hline
+					Maple (ms) & 172&  410 & 244& 890 & 159& 58083\\
+					\hline
+					C/C++ (ms) &0.284 &  0.768 & 0.339& 1.676 & 0.286& 6.883\\
+					\hline
+					Normaliz (ms) &\multicolumn{2}{c|}{835.730} &
+					\multicolumn{2}{c|}{462.116} &
+					\multicolumn{2}{c|}{1559.401}\\
+					\hline
+				\end{tabular}
+			}
+			\caption{Integer hulls of triangles}
+		\end{table}
+		
+		\begin{table}[H]
+			
+			\resizebox{\columnwidth}{!}{%
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+					\hline
+					Volume &
+					\multicolumn{2}{c|}{58.21} &
+					\multicolumn{2}{c|}{5820.95} &
+					\multicolumn{2}{c|}{23283.82} \\
+					\hline
+					Algorithm & IntegerHull & E\&C &  IntegerHull & E\&C &  IntegerHull & E\&C  \\
+					\hline
+					Maple (ms) & 303 &752 & 275& 31357 & 304& 123159\\
+					\hline
+					C/C++ (ms) &0.451 &  0.565 & 0.478& 0.657 & 0.396& 0.682\\
+					\hline
+					Normaliz (ms) &\multicolumn{2}{c|}{2.837} &
+					\multicolumn{2}{c|}{1216.238} &
+					\multicolumn{2}{c|}{740.559}\\
+					\hline
+				\end{tabular}
+			}
+			\caption{Integer hulls of hexagons}
+		\end{table}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Benchmarks 3D}
+	\begin{block}{}
+		\centering
+		\begin{table}[H]
+			\resizebox{\columnwidth}{!}{%
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+					\hline
+					Volume &
+					\multicolumn{2}{c|}{447.48} &
+					\multicolumn{2}{c|}{6991.89} &
+					\multicolumn{2}{c|}{55935.2} \\
+					\hline
+					Algorithm & IntegerHull & E\&C &  IntegerHull & E\&C &  IntegerHull & E\&C  \\
+					\hline
+					Maple (ms) & 977& 7289 & 1223& 74804&1378&531904\\
+					\hline
+					C/C++ (ms) &4.488 &  0.826 & 4.615& 0.923 & 4.624& 1.527\\
+					\hline
+					Normaliz (ms) &\multicolumn{2}{c|}{851.495} &
+					\multicolumn{2}{c|}{956.666} &
+					\multicolumn{2}{c|}{793.192}\\
+					\hline
+				\end{tabular}
+			}
+			\caption{Integer hulls of tetrahedrons (4 vertices, 4 facets and 6 edges)}
+		\end{table}
+		
+	\end{block}
+	\begin{block}{}
+		\centering
+		\begin{table}[H]
+			\resizebox{\columnwidth}{!}{%
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+					\hline
+					Volume &
+					\multicolumn{2}{c|}{412.58} &
+					\multicolumn{2}{c|}{7050.81} &
+					\multicolumn{2}{c|}{60417.63} \\
+					\hline
+					Algorithm & IntegerHull &E\&C &  IntegerHull &E\&C &  IntegerHull & E\&C  \\
+					\hline
+					Maple (ms) & 1476& 5711 & 1573& 60233&1728&512101\\
+					\hline
+					C/C++ (ms) &11.049 &  21.235 & 16.001& 145.068 & 23.822& 2082.559\\
+					\hline
+					Normaliz (ms) &\multicolumn{2}{c|}{7862.109} &
+					\multicolumn{2}{c|}{N/A} &
+					\multicolumn{2}{c|}{N/A}\\
+					\hline
+				\end{tabular}
+			}
+			\caption{Integer hulls of triangular bipyramids
+				(5 vertices, 6 facets and 9 edges)}
+		\end{table}
+		
+	\end{block}
+	
+\end{frame}
+

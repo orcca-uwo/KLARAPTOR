@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}pragma kernel\PYGZus{}info\PYGZus{}size\PYGZus{}param\PYGZus{}idx\PYGZus{}Sample = 1;}
+\PYG{c+cp}{\PYGZsh{}pragma kernel\PYGZus{}info\PYGZus{}dim\PYGZus{}sample\PYGZus{}kernel = 2;}
+
+\PYG{n}{\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{}} \PYG{k+kt}{void} \PYG{n+nf}{Sample} \PYG{p}{(}\PYG{k+kt}{int} \PYG{o}{*}\PYG{n}{A}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{N}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{tid\PYGZus{}x} \PYG{o}{=} \PYG{n}{threadIdx}\PYG{p}{.}\PYG{n}{x} \PYG{o}{+} \PYG{n}{blockIdx}\PYG{p}{.}\PYG{n}{x}\PYG{o}{*}\PYG{n}{blockDim}\PYG{p}{.}\PYG{n}{x}\PYG{p}{;}
+    \PYG{k+kt}{int} \PYG{n}{tid\PYGZus{}y} \PYG{o}{=} \PYG{n}{threadIdx}\PYG{p}{.}\PYG{n}{y} \PYG{o}{+} \PYG{n}{blockIdx}\PYG{p}{.}\PYG{n}{y}\PYG{o}{*}\PYG{n}{blockDim}\PYG{p}{.}\PYG{n}{y}\PYG{p}{;}
+    \PYG{p}{...}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

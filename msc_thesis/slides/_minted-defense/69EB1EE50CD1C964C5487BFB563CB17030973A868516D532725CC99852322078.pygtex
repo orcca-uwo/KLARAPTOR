@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{dim3} \PYG{n+nf}{block}\PYG{p}{(}\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{p}{,} \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{p}{);}
+\PYG{n}{dim3} \PYG{n+nf}{grid}\PYG{p}{((}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)}\PYG{n}{ceil}\PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{n}{NI}\PYG{p}{)}\PYG{o}{/}\PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{n}{block}\PYG{p}{.}\PYG{n}{x}\PYG{p}{)),}
+         \PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)}\PYG{n}{ceil}\PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{n}{NJ}\PYG{p}{)}\PYG{o}{/}\PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{n}{block}\PYG{p}{.}\PYG{n}{y}\PYG{p}{)));}
+\PYG{n}{Convolution2D\PYGZus{}kernel}\PYG{o}{\PYGZlt{}\PYGZlt{}\PYGZlt{}}\PYG{n}{grid}\PYG{p}{,}\PYG{n}{block}\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{p}{(}\PYG{n}{d\PYGZus{}a}\PYG{p}{,}\PYG{n}{d\PYGZus{}b}\PYG{p}{);}
+\end{Verbatim}

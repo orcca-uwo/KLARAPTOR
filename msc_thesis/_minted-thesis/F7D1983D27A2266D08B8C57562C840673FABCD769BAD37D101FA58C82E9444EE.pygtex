@@ -1,0 +1,188 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}2dconv\PYGZus{}utils.h\PYGZdq{}}
+
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+c1}{/////// AUTOMATICALLY ANNOTATED ///////}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}kernel\PYGZus{}invoker.h\PYGZdq{}}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{c+c1}{///////////////////////////////////////}
+\PYG{k}{const} \PYG{k+kt}{int} \PYG{n}{kernel\PYGZus{}info\PYGZus{}size\PYGZus{}param\PYGZus{}idx\PYGZus{}Convolution2D\PYGZus{}kernel} \PYG{n+nf}{\PYGZus{}\PYGZus{}attribute\PYGZus{}\PYGZus{}}\PYG{p}{((}\PYG{n}{used}\PYG{p}{))}  \PYG{o}{=} \PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{k}{const} \PYG{k+kt}{int} \PYG{n}{kernel\PYGZus{}info\PYGZus{}dim\PYGZus{}Convolution2D\PYGZus{}kernel} \PYG{n+nf}{\PYGZus{}\PYGZus{}attribute\PYGZus{}\PYGZus{}}\PYG{p}{((}\PYG{n}{used}\PYG{p}{))}  \PYG{o}{=} \PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{k+kt}{void}
+\PYG{n+nf}{conv2D} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{A}\PYG{p}{,} \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+  \PYG{k+kt}{int} \PYG{n}{i}\PYG{p}{,} \PYG{n}{j}\PYG{p}{;}
+  \PYG{n}{DATA\PYGZus{}TYPE} \PYG{n}{c11}\PYG{p}{,} \PYG{n}{c12}\PYG{p}{,} \PYG{n}{c13}\PYG{p}{,} \PYG{n}{c21}\PYG{p}{,} \PYG{n}{c22}\PYG{p}{,} \PYG{n}{c23}\PYG{p}{,} \PYG{n}{c31}\PYG{p}{,} \PYG{n}{c32}\PYG{p}{,} \PYG{n}{c33}\PYG{p}{;}
+  \PYG{n}{c11} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.2}\PYG{p}{;}
+  \PYG{n}{c21} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.5}\PYG{p}{;}
+  \PYG{n}{c31} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.8}\PYG{p}{;}
+  \PYG{n}{c12} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.3}\PYG{p}{;}
+  \PYG{n}{c22} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.6}\PYG{p}{;}
+  \PYG{n}{c32} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.9}\PYG{p}{;}
+  \PYG{n}{c13} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.4}\PYG{p}{;}
+  \PYG{n}{c23} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.7}\PYG{p}{;}
+  \PYG{n}{c33} \PYG{o}{=} \PYG{o}{+}\PYG{l+m+mf}{0.10}\PYG{p}{;}
+  \PYG{k}{for} \PYG{p}{(}\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{NI} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)} 
+    \PYG{p}{\PYGZob{}}
+      \PYG{k}{for} \PYG{p}{(}\PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{n}{NJ} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{o}{++}\PYG{n}{j}\PYG{p}{)} 
+ \PYG{p}{\PYGZob{}}
+   \PYG{n}{B}\PYG{p}{[}\PYG{n}{i} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n}{c11} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c12} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c13} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c21} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c22} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c23} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c31} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c32} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)]}
+       \PYG{o}{+} \PYG{n}{c33} \PYG{o}{*} \PYG{n}{A}\PYG{p}{[(}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{p}{(}\PYG{n}{j} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{)];}
+ \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{init} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{A}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+  \PYG{k+kt}{int} \PYG{n}{i}\PYG{p}{,} \PYG{n}{j}\PYG{p}{;}
+  \PYG{k}{for} \PYG{p}{(}\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{NI}\PYG{p}{;} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)}
+    \PYG{p}{\PYGZob{}}
+      \PYG{k}{for} \PYG{p}{(}\PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{n}{NJ}\PYG{p}{;} \PYG{o}{++}\PYG{n}{j}\PYG{p}{)}
+ \PYG{p}{\PYGZob{}}
+   \PYG{n}{A}\PYG{p}{[}\PYG{n}{i} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{float}\PYG{p}{)} \PYG{n}{rand} \PYG{p}{()} \PYG{o}{/} \PYG{n}{RAND\PYGZus{}MAX}\PYG{p}{;}
+ \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{int}
+\PYG{n+nf}{compareResults} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B}\PYG{p}{,} \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+  \PYG{k+kt}{int} \PYG{n}{i}\PYG{p}{,} \PYG{n}{j}\PYG{p}{,} \PYG{n}{fail}\PYG{p}{;}
+  \PYG{n}{fail} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+  
+  \PYG{k}{for} \PYG{p}{(}\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{p}{(}\PYG{n}{NI} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{);} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+    \PYG{p}{\PYGZob{}}
+      \PYG{k}{for} \PYG{p}{(}\PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{p}{(}\PYG{n}{NJ} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{);} \PYG{n}{j}\PYG{o}{++}\PYG{p}{)}
+ \PYG{p}{\PYGZob{}}
+   \PYG{k}{if} \PYG{p}{(}\PYG{n}{percentDiff} \PYG{p}{(}
+       \PYG{n}{B}\PYG{p}{[}\PYG{n}{i} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{n}{j}\PYG{p}{],}       \PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{[}\PYG{n}{i} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{+} \PYG{n}{j}\PYG{p}{])} \PYG{o}{\PYGZgt{}} \PYG{n}{PERCENT\PYGZus{}DIFF\PYGZus{}ERROR\PYGZus{}THRESHOLD}\PYG{p}{)}
+     \PYG{p}{\PYGZob{}}
+       \PYG{n}{fail}\PYG{o}{++}\PYG{p}{;}
+       \PYG{k}{return} \PYG{p}{(}\PYG{n}{EXIT\PYGZus{}FAILURE}\PYG{p}{);}
+     \PYG{p}{\PYGZcb{}}
+ \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+  
+  \PYG{k}{return} \PYG{p}{(}\PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{GPU\PYGZus{}argv\PYGZus{}init} \PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+  \PYG{n}{cudaDeviceProp} \PYG{n}{deviceProp}\PYG{p}{;}
+  \PYG{n}{cudaGetDeviceProperties} \PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{deviceProp}\PYG{p}{,} \PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{);}
+  \PYG{n}{printf} \PYG{p}{(}\PYG{l+s}{\PYGZdq{}[running on device \PYGZpc{}d: \PYGZpc{}s]}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{,} \PYG{n}{deviceProp}\PYG{p}{.}\PYG{n}{name}\PYG{p}{);}
+  \PYG{n}{cudaSetDevice} \PYG{p}{(} \PYG{n}{GPU\PYGZus{}DEVICE}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{//\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{} void}
+\PYG{c+c1}{//Convolution2D\PYGZus{}kernel (DATA\PYGZus{}TYPE *A, DATA\PYGZus{}TYPE *B, int NI, int NJ)}
+\PYG{c+c1}{//\PYGZob{}}
+\PYG{c+c1}{//  int j = blockIdx.x * blockDim.x + threadIdx.x;}
+\PYG{c+c1}{//  int i = blockIdx.y * blockDim.y + threadIdx.y;}
+\PYG{c+c1}{//  DATA\PYGZus{}TYPE c11, c12, c13, c21, c22, c23, c31, c32, c33;}
+\PYG{c+c1}{//  c11 = +0.2;}
+\PYG{c+c1}{//  c21 = +0.5;}
+\PYG{c+c1}{//  c31 = \PYGZhy{}0.8;}
+\PYG{c+c1}{//  c12 = \PYGZhy{}0.3;}
+\PYG{c+c1}{//  c22 = +0.6;}
+\PYG{c+c1}{//  c32 = \PYGZhy{}0.9;}
+\PYG{c+c1}{//  c13 = +0.4;}
+\PYG{c+c1}{//  c23 = +0.7;}
+\PYG{c+c1}{//  c33 = +0.10;}
+\PYG{c+c1}{//  if ((i \PYGZlt{} NI \PYGZhy{} 1) \PYGZam{}\PYGZam{} (j \PYGZlt{} NJ \PYGZhy{} 1) \PYGZam{}\PYGZam{} (i \PYGZgt{} 0) \PYGZam{}\PYGZam{} (j \PYGZgt{} 0))}
+\PYG{c+c1}{//    \PYGZob{}}
+\PYG{c+c1}{//      B[i * NJ + j] = c11 * A[(i \PYGZhy{} 1) * NJ + (j \PYGZhy{} 1)]}
+\PYG{c+c1}{//   + c21 * A[(i \PYGZhy{} 1) * NJ + (j + 0)] + c31 * A[(i \PYGZhy{} 1) * NJ + (j + 1)]}
+\PYG{c+c1}{//   + c12 * A[(i + 0) * NJ + (j \PYGZhy{} 1)] + c22 * A[(i + 0) * NJ + (j + 0)]}
+\PYG{c+c1}{//   + c32 * A[(i + 0) * NJ + (j + 1)] + c13 * A[(i + 1) * NJ + (j \PYGZhy{} 1)]}
+\PYG{c+c1}{//   + c23 * A[(i + 1) * NJ + (j + 0)] + c33 * A[(i + 1) * NJ + (j + 1)];}
+\PYG{c+c1}{//    \PYGZcb{}}
+\PYG{c+c1}{//\PYGZcb{}}
+\PYG{k+kt}{void}
+\PYG{n+nf}{convolution2DCuda} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{A}\PYG{p}{,} \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B}\PYG{p}{,} \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+  \PYG{n}{cuda\PYGZus{}timer} \PYG{n}{t\PYGZus{}conv}\PYG{p}{;}
+  \PYG{n}{cuda\PYGZus{}timer\PYGZus{}init} \PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+  \PYG{n}{DATA\PYGZus{}TYPE} \PYG{o}{*}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{;}
+  \PYG{n}{DATA\PYGZus{}TYPE} \PYG{o}{*}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{;}
+  \PYG{n}{cudaMalloc} \PYG{p}{((}\PYG{k+kt}{void} \PYG{o}{**}\PYG{p}{)} \PYG{o}{\PYGZam{}}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{,} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ}\PYG{p}{);}
+  \PYG{n}{cudaMalloc} \PYG{p}{((}\PYG{k+kt}{void} \PYG{o}{**}\PYG{p}{)} \PYG{o}{\PYGZam{}}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{,} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ}\PYG{p}{);}
+  \PYG{n}{cudaMemcpy} \PYG{p}{(}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{,} \PYG{n}{A}\PYG{p}{,} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ}\PYG{p}{,} \PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+  \PYG{k+kt}{dim3} \PYG{n}{block} \PYG{p}{(}\PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{p}{,} \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{p}{);}
+  \PYG{k+kt}{dim3} \PYG{n}{grid} \PYG{p}{((}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)} \PYG{n}{ceil} \PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)} \PYG{n}{NI}\PYG{p}{)} \PYG{o}{/} \PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)} \PYG{n}{block}\PYG{p}{.}\PYG{n}{x}\PYG{p}{)),}      \PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t}\PYG{p}{)} \PYG{n}{ceil} \PYG{p}{(((}\PYG{k+kt}{float}\PYG{p}{)} \PYG{n}{NJ}\PYG{p}{)} \PYG{o}{/} \PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)} \PYG{n}{block}\PYG{p}{.}\PYG{n}{y}\PYG{p}{)));}
+  \PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}start} \PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+  	
+ \PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+ \PYG{c+c1}{////////// WARNING: AUTOMATICALLY ANNOTATED REGION BEGINS HERE /////////}
+ \PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+	
+ 
+
+ \PYG{k+kt}{char} \PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}0\PYGZus{}name}\PYG{p}{[]} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZdq{}}\PYG{p}{;}
+ 
+ \PYG{c+c1}{//launch\PYGZus{}params: 3 for grid\PYGZus{}dim, 3 for block\PYGZus{}dim, 1 for dynamic\PYGZus{}shared\PYGZus{}mem\PYGZus{}bytes;}
+ \PYG{k+kt}{int} \PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{[}\PYG{l+m+mi}{6}\PYG{p}{];}
+ \PYG{n}{set\PYGZus{}kernel\PYGZus{}launch\PYGZus{}params}\PYG{p}{(}\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{,} \PYG{n}{grid}\PYG{p}{,} \PYG{n}{block}\PYG{p}{);}
+ 
+ \PYG{k+kt}{void} \PYG{o}{*} \PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}kernel\PYGZus{}params}\PYG{p}{[]}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{o}{\PYGZam{}}\PYG{n}{A\PYGZus{}gpu} \PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{B\PYGZus{}gpu} \PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{NI} \PYG{p}{,} \PYG{o}{\PYGZam{}}\PYG{n}{NJ}\PYG{p}{\PYGZcb{};}
+ 
+ \PYG{n}{kernel\PYGZus{}invoker}\PYG{p}{(}\PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}0\PYGZus{}name}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}launch\PYGZus{}params}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}Convolution2D\PYGZus{}kernel\PYGZus{}sm\PYGZus{}75\PYGZus{}0\PYGZus{}kernel\PYGZus{}params}\PYG{p}{);}
+ 
+ \PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+ \PYG{c+c1}{////////// WARNING: AUTOMATICALLY ANNOTATED REGION ENDS HERE ///////////}
+ \PYG{c+c1}{////////////////////////////////////////////////////////////////////////}
+	
+  \PYG{n}{cudaCheckKernel}\PYG{p}{()}
+  \PYG{p}{;}
+  \PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}stop} \PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+  \PYG{n}{cudaThreadSynchronize} \PYG{p}{();}
+  \PYG{n}{cudaMemcpy} \PYG{p}{(}\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{,} \PYG{n}{B\PYGZus{}gpu}\PYG{p}{,} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{)} \PYG{o}{*} \PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ}\PYG{p}{,}       \PYG{n}{cudaMemcpyDeviceToHost}\PYG{p}{);}
+  \PYG{n}{cudaFree} \PYG{p}{(}\PYG{n}{A\PYGZus{}gpu}\PYG{p}{);}
+  \PYG{n}{cudaFree} \PYG{p}{(}\PYG{n}{B\PYGZus{}gpu}\PYG{p}{);}
+  \PYG{n}{cuda\PYGZus{}timer\PYGZus{}record\PYGZus{}get\PYGZus{}elapsed\PYGZus{}time} \PYG{p}{(}\PYG{n}{t\PYGZus{}conv}\PYG{p}{);}
+  \PYG{n}{printf} \PYG{p}{(}
+      \PYG{l+s}{\PYGZdq{}[trace: n=\PYGZpc{}d, bx=\PYGZpc{}d, by=\PYGZpc{}d, elapsed\PYGZus{}Convolution2D\PYGZus{}kernel=\PYGZpc{}0.4f (ms)] ... \PYGZdq{}}\PYG{p}{,}      \PYG{n}{NI}\PYG{p}{,} \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X}\PYG{p}{,} \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y}\PYG{p}{,} \PYG{n}{t\PYGZus{}conv}\PYG{p}{.}\PYG{n}{elapsed\PYGZus{}time}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{int}
+\PYG{n+nf}{main} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k+kt}{char} \PYG{o}{**}\PYG{n}{argv}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+  \PYG{k+kt}{int} \PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{4096}\PYG{p}{,} \PYG{n}{bx} \PYG{o}{=} \PYG{l+m+mi}{32}\PYG{p}{,} \PYG{n}{by} \PYG{o}{=} \PYG{l+m+mi}{8}\PYG{p}{;}
+  \PYG{k}{if} \PYG{p}{(}\PYG{n}{argc} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{)}
+    \PYG{n}{n} \PYG{o}{=} \PYG{n}{atoi} \PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]);}
+  \PYG{k}{if} \PYG{p}{(}\PYG{n}{argc} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{bx} \PYG{o}{=} \PYG{n}{atoi} \PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]);}
+  \PYG{k}{if} \PYG{p}{(}\PYG{n}{argc} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{3}\PYG{p}{)}
+    \PYG{n}{by} \PYG{o}{=} \PYG{n}{atoi} \PYG{p}{(}\PYG{n}{argv}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]);}
+  \PYG{n}{NI} \PYG{o}{=} \PYG{n}{NJ} \PYG{o}{=} \PYG{n}{n}\PYG{p}{;}
+  \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}X} \PYG{o}{=} \PYG{n}{bx}\PYG{p}{;}
+  \PYG{n}{DIM\PYGZus{}THREAD\PYGZus{}BLOCK\PYGZus{}Y} \PYG{o}{=} \PYG{n}{by}\PYG{p}{;}
+  \PYG{k+kt}{double} \PYG{n}{t\PYGZus{}start}\PYG{p}{,} \PYG{n}{t\PYGZus{}end}\PYG{p}{;}
+  \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{A}\PYG{p}{;}
+  \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B}\PYG{p}{;}
+  \PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*} \PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{;}
+  \PYG{n}{A} \PYG{o}{=} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)} \PYG{n}{malloc} \PYG{p}{(}\PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{*} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+  \PYG{n}{B} \PYG{o}{=} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)} \PYG{n}{malloc} \PYG{p}{(}\PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{*} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+  \PYG{n}{B\PYGZus{}outputFromGpu} \PYG{o}{=} \PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{o}{*}\PYG{p}{)} \PYG{n}{malloc} \PYG{p}{(}\PYG{n}{NI} \PYG{o}{*} \PYG{n}{NJ} \PYG{o}{*} \PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{));}
+  
+  \PYG{n}{init} \PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+  \PYG{n}{GPU\PYGZus{}argv\PYGZus{}init} \PYG{p}{();}
+\PYG{c+cp}{\PYGZsh{}pragma START\PYGZus{}TRACING}
+  \PYG{n}{convolution2DCuda} \PYG{p}{(}\PYG{n}{A}\PYG{p}{,} \PYG{n}{B}\PYG{p}{,} \PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{);}
+\PYG{c+cp}{\PYGZsh{}pragma STOP\PYGZus{}TRACING}
+  \PYG{k+kt}{int} \PYG{n}{s} \PYG{o}{=} \PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{;}
+  \PYG{k}{if} \PYG{p}{(}\PYG{n}{s} \PYG{o}{==} \PYG{n}{EXIT\PYGZus{}SUCCESS}\PYG{p}{)}
+    \PYG{n}{printf} \PYG{p}{(}\PYG{l+s}{\PYGZdq{}PASS}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+  \PYG{k}{else}
+    \PYG{n}{printf} \PYG{p}{(}\PYG{l+s}{\PYGZdq{}FAIL}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{);}
+  \PYG{n}{free} \PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+  \PYG{n}{free} \PYG{p}{(}\PYG{n}{B}\PYG{p}{);}
+  \PYG{n}{free} \PYG{p}{(}\PYG{n}{B\PYGZus{}outputFromGpu}\PYG{p}{);}
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

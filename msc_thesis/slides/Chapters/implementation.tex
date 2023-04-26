@@ -1,0 +1,182 @@
+\section{Implementation of KLARAPTOR}
+
+\begin{frame}[fragile]{Annotations and preprocessing source code}
+    \begin{block}{}
+        \begin{minted}{c}
+        
+#pragma kernel_info_size_param_idx_Sample = 1; 
+#pragma kernel_info_dim_sample_kernel = 2;
+
+__global__ void Sample (int *A, int N) { 
+    int tid_x = threadIdx.x + blockIdx.x*blockDim.x;
+    int tid_y = threadIdx.y + blockIdx.y*blockDim.y;
+    ...
+}
+        \end{minted}
+        \begin{itemize}
+            \item Annotating and preprocessing the source code makes it compatible with the KLARAPTOR tool, 
+            enabling the automatic determination of optimal kernel launch parameters.
+            \item CUDA program should target at least CUDA Compute Capability 7.5, no CUDA runtime API calls, 
+            and block and grid dimensions must be declared as dim3 structs.
+            \item Add two pragmas for each kernel, specifying kernel dimension and the 
+            index of the kernel input argument corresponding to the data size N
+        \end{itemize}
+    \end{block} 
+\end{frame}
+
+\begin{frame}{Input/Output builder}
+    \begin{block}{}
+        The Input/Output Builder Pass creates an "instrumented binary" that embeds an IO mechanism to communicate with the 
+        helper program for each kernel invocation, obtaining optimal kernel launch parameters at runtime.
+        \begin{itemize}
+            \item (i) Obtain the LLVM intermediate representation (IR) of the instrumented source code and find all CUDA driver 
+            API kernel calls.
+            \item (ii) Using the annotated information for each kernel, determine which variables in the IR contain the value 
+            of N for a corresponding kernel call.
+            \item (iii) Insert a call to an IO function immediately before each kernel call to pass the runtime value of N to 
+            the corresponding helper program and retrieve the optimal kernel launch parameters.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Building a helper program: data collection}
+    \begin{block}{}
+        Data collection is necessary to perform rational function approximation and gather metrics on performance 
+        counters and runtime metrics.
+        \begin{itemize}
+            \item (i) Architecture-specific performance counters influenced by the Compute Capability (CC) of the device.
+            \item (ii) Runtime-specific performance counters that depend on the kernel's behavior, including memory access 
+            patterns and the number of executed warps.
+            \item (iii) Device-specific parameters describing the actual GPU card, including memory bandwidth, departure delay for 
+            memory accesses, number of SMs, clock frequency, and instruction delay.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Building a helper program: data collection}
+    \begin{block}{Runtime-specific performance counters}
+        {
+            \begin{tcolorbox}
+                \scriptsize
+                \begin{verbatim}
+[trace: n=4096, bx=32, by=8, elapsed_Convolution2D_kernel=219.9013 (ms)] ... PASS
+==PROF== Disconnected from process 41150
+"Metric Name","Metric Unit","Metric Value"
+"dram__bytes_read.sum","byte","68,456,288"
+"dram__bytes_write.sum","byte","66,864,032"
+"l1tex__t_bytes_pipe_lsu_mem_global_op_ld.sum.per_second","byte/second","1,293,146,285,512.62"
+"l1tex__t_bytes_pipe_lsu_mem_global_op_st.sum.per_second","byte/second","123,294,394,447.39"
+"l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","21,984,780"
+"l1tex__t_sectors_pipe_lsu_mem_global_op_st.sum","sector","2,096,128"
+"launch__block_dim_x","block","32"
+"launch__block_dim_y","block","8"
+"launch__block_dim_z","block","1"
+"launch__grid_dim_x","","128"
+"launch__grid_dim_y","","512"
+"launch__grid_dim_z","","1"
+"launch__registers_per_thread","register/thread","30"
+"launch__shared_mem_per_block_dynamic","byte/block","0"
+"launch__shared_mem_per_block_static","byte/block","0"
+"sm__warps_active.avg.pct_of_peak_sustained_active","%","87.46"
+"smsp__average_inst_executed_per_warp.ratio","inst/warp","46.98"
+"smsp__inst_executed.avg.per_cycle_active","inst/cycle","0.18"
+"smsp__inst_executed_op_global_ld.sum","inst","4,716,288"
+"smsp__inst_executed_op_global_st.sum","inst","524,032"
+\end{verbatim}
+\end{tcolorbox}
+        }
+    \end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Building a helper program: data collection}
+    \begin{block}{Device-specific parameters}
+        {
+            \begin{tcolorbox}
+                \scriptsize
+                \begin{verbatim}
+[Issue_cycles: 1]
+[Mem_bandwidth: 448.06]
+[Mem_LD: 501]
+[Departure_del_uncoal: 2]
+[Departure_del_coal: 2]
+[Active_SMs: 40]
+[Freq: 1785]
+[Load_bytes_per_warp: 128]
+
+[device_name: NVIDIA GeForce RTX 2070 SUPER]
+[driver_version: 11.7]
+[runtim_version: 11.7]
+[compute_capability: 7.5]
+[global_memory_bytes: 8361803776]
+[n_cores_per_sm:  64]
+[n_blocks_per_sm: 32]
+[n_cores: 2560]
+[memory_clock_rate_ghz: 7.00]
+[memory_bus_width_bits: 256]
+[l2_cache_size_bytes: 4194304]
+[total_constant memory_bytes: 65536]
+[total_shared_memory_per_block_bytes: 49152]
+[total_registers_available_per_block: 65536]
+[warp_size: 32]
+                \end{verbatim}
+            \end{tcolorbox}
+        }           
+    \end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Building a helper program: outlier removal}
+    \begin{block}{}
+        \begin{itemize}
+            \item Outlier removal addresses potential noise in the empirical data gathered from NVIDIA’s Nsight Compute 
+            (ncu) and enhances the accuracy of the parameter estimation process.
+            \begin{itemize}
+                \item (i) Profile the program for small input sizes and obtain MWP-CWP estimation for clock-cycles 
+                for various thread block configurations.
+                \item (ii) Calculate Q1, Q3, and IQR for the estimated clock-cycles and determine the upper inner fence.
+                \item (iii) Identify and remove outliers exceeding the upper inner fence threshold.
+            \end{itemize}
+        \end{itemize}
+        {
+            \begin{tcolorbox}
+                \scriptsize
+                \begin{verbatim}
+128 1 32 72869.600000
+128 1 64 78474.600000
+128 1 128 89684.600000
+256 1 64 294064.600000
+256 1 32 361929.200000
+512 1 32 1271232.200000
+512 1 64 1452818.400000
+1024 1 64 4729979.800000
+1024 1 32 4730039.600000
+2048 1 32 18771193.800000
+2048 1 64 18953199.200000
+2048 1 512 18953199.200000
+2048 1 1024 18953199.200000
+                \end{verbatim}
+            \end{tcolorbox}
+        }
+    \end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Building a helper program: rational function approximation}
+    \begin{block}{}
+        \begin{itemize}
+            \item The goal of this step is to determine rational functions that estimate low-level performance metrics or other intermediate values in the rational program ${\cal R}$. These rational functions are used to build the objective function ${\cal E} = f({\bm P}, {\bm D}, {\bm H})$
+            \item A rational function is a fraction of two polynomials, with defined degree bounds on each variable, 
+            the polynomials can be represented by coefficients that we aim to estimate: 
+            {
+                \small
+                    \begin{align}
+                    f(X_1,\dots,X_n) &= \frac{\alpha_1\cdot(X_1^0\cdots X_n^0) \;+\; 
+                        \dots \;+\;  \alpha_i\cdot(X_1^{u_1}\cdots X_n^{u_n})}{\beta_1\cdot(X_1^0\cdots X_n^0) \;+\;
+                        \dots \;+\; \beta_j\cdot(X_1^{v_1}\cdots X_n^{v_n})}
+                    \end{align}
+            }
+            \item We perform parameter estimation on the coefficients of the polynomials in the rational function. 
+            The estimation process involves solving an over-determined system of linear equations.
+            \item We use numerical analysis techniques such as singular value decomposition (SVD) and linear least squares 
+            to solve the system.
+        \end{itemize}
+    \end{block}
+\end{frame}

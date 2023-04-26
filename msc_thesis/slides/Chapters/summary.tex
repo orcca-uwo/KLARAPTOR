@@ -1,0 +1,31 @@
+\section{Summary}
+\begin{frame}{Summary}
+	\textbf{KLARAPTOR: A Tool for Dynamically Finding Optimal Kernel
+		Launch Parameters Targeting CUDA Programs}
+	\begin{itemize}
+	\item We present KLARAPTOR, a freely available tool built on top
+	of the LLVM Pass Framework and NVIDIA Nsight Comute CLI to dynamically determine the optimal values of kernel launch parameters of
+	a CUDA kernel. 
+	\item We describe a technique to build at the compile-time of a CUDA program a so-called helper program. The helper
+	program, based on some performance prediction model, and knowing particular data and hardware parameters at runtime, can be
+	executed to automatically and dynamically determine the values
+	of launch parameters for the CUDA program. 
+	\item Our underlying technique could be applied to
+	parallel programs in general, given a performance prediction model
+	which accounts for program and hardware parameters. 
+	\item We have implemented and successfully tested our technique in the context
+	of GPU kernels written in CUDA.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Future work}
+	\begin{block}{KLARAPTOR}
+		\begin{itemize}
+			\item Investigate the complexity of efficiently utilizing available hardware resources in GPU execution.
+			\item Reevaluate the use of linear least squares for extrapolation beyond the "training" range.
+            \item Test the model with multiples of 32 within the training range to more accurately capture CUDA thread block dimensions.
+            \item Investigate random forest regression as an alternative approach, given the tree-like structure of rational programs.
+            \item Explore the potential of machine learning models, such as neural networks, for determining optimal thread block configurations.
+		\end{itemize}
+	\end{block}
+\end{frame}

@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{c+c1}{// Size of array}
+\PYG{c+cp}{\PYGZsh{}define N 1048576}
+
+\PYG{c+c1}{// Kernel}
+\PYG{k+kr}{\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{}}\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{add\PYGZus{}vectors}\PYG{p}{(}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{a}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{b}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{c}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{id}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{blockDim}\PYG{p}{.}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nb}{blockIdx}\PYG{p}{.}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nb}{threadIdx}\PYG{p}{.}\PYG{n}{x}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k}{if}\PYG{p}{(}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{N}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{[}\PYG{n}{id}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{[}\PYG{n}{id}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{[}\PYG{n}{id}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Main program}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{main}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{c+c1}{// Number of bytes to allocate for N doubles}
+\PYG{+w}{	}\PYG{k+kt}{size\PYGZus{}t}\PYG{+w}{ }\PYG{n}{bytes}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{N}\PYG{o}{*}\PYG{k}{sizeof}\PYG{p}{(}\PYG{k+kt}{double}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Allocate memory for arrays A, B, and C on host}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{A}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{B}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{C}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{double}\PYG{o}{*}\PYG{p}{)}\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{bytes}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Allocate memory for arrays d\PYGZus{}A, d\PYGZus{}B, and d\PYGZus{}C on device}
+\PYG{+w}{	}\PYG{k+kt}{double}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{d\PYGZus{}A}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{d\PYGZus{}B}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{d\PYGZus{}C}\PYG{p}{;}
+\PYG{+w}{	}\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{cudaMalloc}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{d\PYGZus{}C}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Fill host arrays A and B}
+\PYG{+w}{	}\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{n}{N}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{	}\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{1.0}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{2.0}\PYG{p}{;}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{	}\PYG{c+c1}{// Copy data from host arrays A and B to device arrays d\PYGZus{}A and d\PYGZus{}B}
+\PYG{+w}{	}\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{d\PYGZus{}B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{cudaMemcpyHostToDevice}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Set execution configuration parameters}
+\PYG{+w}{	}\PYG{c+c1}{//		thr\PYGZus{}per\PYGZus{}blk: number of CUDA threads per grid block}
+\PYG{+w}{	}\PYG{c+c1}{//		blk\PYGZus{}in\PYGZus{}grid: number of blocks in grid}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{thr\PYGZus{}per\PYGZus{}blk}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{256}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{blk\PYGZus{}in\PYGZus{}grid}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ceil}\PYG{p}{(}\PYG{+w}{ }\PYG{k+kt}{float}\PYG{p}{(}\PYG{n}{N}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{thr\PYGZus{}per\PYGZus{}blk}\PYG{+w}{ }\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Launch kernel}
+\PYG{+w}{	}\PYG{n}{add\PYGZus{}vectors}\PYG{o}{\PYGZlt{}\PYGZlt{}\PYGZlt{}}\PYG{+w}{ }\PYG{n}{blk\PYGZus{}in\PYGZus{}grid}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{thr\PYGZus{}per\PYGZus{}blk}\PYG{+w}{ }\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{d\PYGZus{}B}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{d\PYGZus{}C}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Copy data from device array d\PYGZus{}C to host array C}
+\PYG{+w}{	}\PYG{n}{cudaMemcpy}\PYG{p}{(}\PYG{n}{C}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{d\PYGZus{}C}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{bytes}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{cudaMemcpyDeviceToHost}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Free CPU memory}
+\PYG{+w}{	}\PYG{n}{free}\PYG{p}{(}\PYG{n}{A}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{free}\PYG{p}{(}\PYG{n}{B}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{free}\PYG{p}{(}\PYG{n}{C}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{c+c1}{// Free GPU memory}
+\PYG{+w}{	}\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}A}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}B}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{cudaFree}\PYG{p}{(}\PYG{n}{d\PYGZus{}C}\PYG{p}{);}
+
+\PYG{+w}{	}\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

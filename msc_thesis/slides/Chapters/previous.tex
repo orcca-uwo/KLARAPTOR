@@ -1,0 +1,257 @@
+\section{Literature review}
+\begin{frame}{Integer hull computation}
+	\begin{block}{The cutting-plane method}
+		\begin{itemize}
+			\item One important family of algorithms for computing
+			$P_I$ relies on the {\bf cutting plane method}
+			\item Introduced by Gomory in~\cite{DBLP:books/daglib/p/Gomory10} to solve integer
+			linear programming (ILP) and mixed-integer programming (MILP) problems
+			\item This method is based on finding a sequence of linear inequalities (cuts) to reduce the feasible region to the original ILP problem. 
+			\item Chv\'atal~\cite{DBLP:journals/dm/Chvatal73a} and
+			Schrijver~\cite{schrijver1980cutting} gave a geometrical description of the cutting plane method and developed a procedure to
+			compute $P_I$ based on it. 
+			\item Schrijver gave a full
+			proof and a complexity study of this method
+			in~\cite{DBLP:journals/networks/Rajan90}.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{The cutting-plane method}
+	\begin{block}{Example 1/2}
+\begin{equation}
+	\begin{array}{ll@{}ll}
+		\text{maximize}  & \displaystyle y & &\\
+		\text{subject to}& x,y \in \Z &&\\
+		&x &\ge 0&\\
+		& -3x + 2y &\le 0 &\\
+		& 3x + 2y &\le 6&		
+	\end{array}
+	\label{eq:ilp}
+\end{equation}
+\begin{figure}[htb]
+	\centering % <-- added
+	\begin{subfigure}{0.5\textwidth}
+		\resizebox{\linewidth}{!}{\input{../figures/cut0}}
+		\caption{An integer linear programming problem}
+		\label{fig:cut0}
+	\end{subfigure}\hfil % <-- added
+	\begin{subfigure}{0.5\textwidth}
+		\resizebox{\linewidth}{!}{\input{../figures/cut1}}
+		\caption{Adding the first cut}
+		\label{fig:cut1}
+	\end{subfigure}
+	\caption{Solving ILP with cutting-plane method}
+	\label{fig:cut}
+\end{figure}
+	\end{block}
+\end{frame}
+
+\begin{frame}{The cutting-plane method}
+	\begin{block}{Example 2/2}
+		\begin{equation}
+			\begin{array}{ll@{}ll}
+				\text{maximize}  & \displaystyle y & &\\
+				\text{subject to}& x,y \in \Z &&\\
+				&x &\ge 0&\\
+				& -3x + 2y &\le 0 &\\
+				& 3x + 2y &\le 6&	
+			\end{array}
+			\label{eq:ilp}
+		\end{equation}
+		\begin{figure}[htb]
+			\centering % <-- added
+			\begin{subfigure}{0.5\textwidth}
+				\resizebox{\linewidth}{!}{\input{../figures/cut2}}
+				\caption{Adding the second cut}
+				\label{fig:cut2}
+			\end{subfigure}\hfil % <-- added
+			\begin{subfigure}{0.5\textwidth}
+				\resizebox{\linewidth}{!}{\input{../figures/cut3}}
+				\caption{Optimum integer solution}
+				\label{fig:cut3}
+			\end{subfigure}
+			\caption{Solving ILP with cutting-plane method II}
+			\label{fig:cut_1}
+		\end{figure}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Integer hull computation}
+	\begin{block}{The branch-and-bound method}
+		\begin{itemize}
+			\item Another approach for computing $P_I$ uses the {\bf branch-and-bound
+				method}, introduced by Land and Doig in the early 1960s
+			in~\cite{land1960automatic}.
+			\item This method is also first introduced to solve the integer optimization problem and ILP problem
+			\item This method recursively divides $P$ into
+			sub-polyhedra, then the vertices of the integer hull of each part of the
+			partition are computed.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{The branch-and-bound method}
+	\begin{block}{Example}
+\begin{equation*}
+	\begin{array}{ll@{}ll}
+		\text{maximize}  & \displaystyle  4x + 5y & &\\
+		\text{subject to}&  x,y \in \Z &&\\
+		&x, y&\ge 0&\\
+		&x + 4y &\le 10 &\\
+		& 3x - 4y &\le 6&		
+	\end{array}
+\end{equation*}
+\begin{figure}[H]
+	\centering % <-- added
+	\begin{subfigure}{0.5\textwidth}
+		\resizebox{\linewidth}{!}{\input{../figures/bb1}}
+		\caption{Adding the second cut}
+		\label{fig:bb1}
+	\end{subfigure}\hfil % <-- added
+	\begin{subfigure}{0.5\textwidth}
+		\resizebox{\linewidth}{!}{\input{../figures/bb2}}
+		\caption{Optimum integer solution}
+		\label{fig:bb2}
+	\end{subfigure}
+	\caption{Solving ILP with cutting-plane method II}
+	\label{fig:bb}
+\end{figure}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}{Enumeration or counting the lattice points}
+	\begin{block}{Latice point counting}
+		\begin{itemize}
+			\item Pick's theorem:
+
+		\item Barvinok~\cite{DBLP:journals/mor/Barvinok94} algorithm: 	counting the integer points inside a polyhedron, which runs in
+		polynomial time, for a fixed dimension of the ambient space.
+		
+		\end{itemize}
+	\begin{figure}[H]
+		\centering % <-- added
+		\begin{subfigure}{0.25\textwidth}
+						\begin{figure}[H]
+				\includegraphics[scale=0.3]{figures/pick}
+			\end{figure}
+			\caption{Pick's theorem}
+		\end{subfigure}\hfil % <-- added
+		\begin{subfigure}{0.75\textwidth}
+				\begin{figure}[H]
+				\includegraphics[scale=0.3]{figures/barvinok}
+			\end{figure}
+			\caption{An example for Barvinok decomposition}
+		\end{subfigure}
+	\end{figure}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}{Enumeration or counting the lattice points}
+	\begin{block}{Latice point counting}
+		\begin{itemize}
+			\item In 2004, the software package {\tt LattE}~\cite{DBLP:journals/jsc/LoeraHTY04} offers the first implementation of Barvinok's algorithm.
+			\item Verdoolaege etc.
+			present in~\cite{DBLP:journals/algorithmica/VerdoolaegeSBLB07}
+			a novel method for lattice point counting, based on Barvinok's
+			decomposition.
+			\item Yanagisawa~\cite{yanagisawa2005simple} gave a simpler approach for lattice
+			point counting, which divides a polygon into {\bf right-angle
+				triangles} and rectangles then calculates the number of lattice points within 
+			each such triangle.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}{Enumeration or counting the lattice points}
+	\begin{block}{Lattice point enmulation}
+		\begin{itemize}
+			\item Jing and Moreno Maza~\cite{DBLP:conf/casc/JingM17} present a algorithm that compute an irredundant representation of the integer points of $P$ in terms of lower-dimensional polyhedral sets.
+			\item {\tt Normaliz}~\cite{bruns2010normaliz} is a program for the computation of Hilbert basis of rational cones. 
+			 Let $C \in \R^d$ convex cone  and $L \in \Z^d$ be a lattice. There exists a unique minimal generating set, $H = {x_1,\ldots,x_n}$, of $ C \cap L$, such that every point $x \in C \cap L$ has an integer conical combination:
+			\[x = \lambda_1x_1 + \cdots + \lambda_nx_n, \lambda_1,\ldots,\lambda_n \in \Z, \lambda_1,\ldots,\lambda_n \ge 0\]
+		\end{itemize}
+		\begin{figure}[H]
+		\centering % <-- added
+			\begin{figure}[H]
+				\includegraphics[scale=0.7]{figures/HB}
+			\end{figure}
+			\caption{Pick's theorem}
+	\end{figure}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Vertices of Integer Hull}
+	\begin{block}{Number of vertices}
+		\begin{itemize}
+			\item The earlier study by Cook,
+			Hartmann, Kannan and McDiarmid, shows that the number of vertices of $P_I$ is related to 
+			the {\textit{size}} of the coefficients of the inequalities that describe $P$.
+			\item $x = p/q$ is a rational number, $p$ and $q$ are coprime
+			\item $size(x) = 1 + \lceil(log(\lvert p\rvert + 1))\rceil + \lceil(log(\lvert q\rvert + 1))\rceil$
+			\item The size of a linear inequality with coefficient vector $\vec{a} = (a_1,\ldots,a_n)$ is 
+			\[size(\vec{a}) = n + size(a_1) + \ldots + size(a_n)\]
+			\item For a polyhedron $P = \{\x \ | \ A\x \leq \b \}$ where matrix $A \in \Q^{m \times n}$ and vector $\b \in \Q^m$, $\varphi$ is the maximum size of the $m$ inequalities, then the number of vertices of $P_I$ is at most $2m^n(6n^2\varphi)^{n-1}$. 	
+		\end{itemize}
+		
+	\end{block}
+\end{frame}
+
+\begin{frame}{Parametric integer hull}
+	\begin{block}{}
+		\begin{itemize}
+			\item Parametric polyhedral set, particularly we define
+			$P(\b) = \{\x \ | \ A\x \leq \b \}$ where $\b$ is unknown at compile time, either the whole vector is unknown or some element of the vector is unknown, we can represent the later case by $P(b_i)$.
+		\end{itemize}
+		
+	\end{block}
+	\begin{block}{}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{center}
+						\resizebox{\textwidth}{!}{\includegraphics{figures/parametric.png}}
+				\end{center}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{center}
+					\resizebox{\textwidth}{!}{\includegraphics{figures/number_of_point_3}}
+				\end{center}
+			\end{column}
+		\end{columns}
+	\end{block}
+\end{frame}
+
+\begin{frame}{``Periodicity'' of $P_I$}
+	
+	\begin{block}{}
+		\begin{itemize}			
+			\item For each integer $n \geq 1$,  Eug\`eme Ehrhart defined
+			the {\textit{dilation}} of the polyhedron $P$ by $n$ as the
+			polyhedron $nP = \{nq \in {\Q}^d \ \mid \ q \in P \}.$
+			Ehrhart studied the number of
+			lattice points in $nP$, that is:
+			\begin{equation*}
+				i(P, n) \ \ = \ \ \# (nP  \ \cap \  {\Z}^d ) \ \ = \ \
+				\# \{ q \in P \ \mid \  nq \in {Z}^d \}.
+			\end{equation*}
+			He proved that 
+			there exists an integer $N > 0$ and
+			polynomials $f_0, f_1 ,  \ldots, f_{N-1}$
+			such that $i(P, n) = f_i (n)$ if $n \equiv i \ \mod{N}.$
+			The quantity 
+			$i(P, n)$ is called the {\textbf{\textit{Ehrhart quasi-polynomial}}} of $P$,
+			in the dilation variable $n$.
+			
+			\item In 2004, Meister presents a new method 
+			for computing the integer hull of a parameterized rational polyhedron.
+			The author introduces a concept of periodic polyhedron
+			(with facets given by equalities depending on
+			periodic numbers). Hence, the word ``periodic'' means that the polyhedron 
+			can be defined in a periodic manner which is different from our perspective.
+		\end{itemize}
+		
+	\end{block}
+\end{frame}

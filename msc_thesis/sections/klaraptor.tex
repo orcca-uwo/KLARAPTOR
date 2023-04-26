@@ -1,0 +1,103 @@
+\chapter{An Overview of KLARAPTOR}
+\label{ch:overview}
+
+In this chapter, we present an overview of KLARAPTOR, a compile-time tool designed to optimize the performance of 
+CUDA kernels by dynamically choosing the most suitable thread block configuration. We discuss the underlying theory 
+of rational programs and the MWP-CWP performance model, which form the basis of KLARAPTOR's functionality. Furthermore, 
+we explain the process of building and utilizing rational programs to determine optimal kernel launch parameters, 
+detailing both the compile-time and runtime aspects of the tool. This chapter aims to provide an in-depth understanding of 
+KLARAPTOR's methodology and how it contributes to enhancing kernel performance in CUDA applications.
+
+\section{Dynamic Optimization of CUDA Kernel Launch Parameters}
+\label{sec:klaraptor}
+
+%\begin{figure*}[ht]
+%	\centering
+%	\includegraphics[width=\textwidth,clip,trim={1.5em, 1em, 5.5em, 1.2em}]{Figures/SystemTimesAll.pdf}
+%	\caption{Comparing cumulative times to determine optimal launch parameters for data sizes $32 \leq N \leq 2048$ for each kernel in \texttt{Polybench/GPU}.}\label{fig:systemtimesall}
+%\end{figure*}
+
+The theory of rational programs is put into practice for the {\cuda}
+programming model by our tool KLARAPTOR.  KLARAPTOR is a compile-time
+tool implemented using the LLVM Pass Framework and the {\mwpcwp}
+performance model to dynamically choose a {\cuda} kernel's launch
+parameters (thread block configuration) which optimize its
+performance.  Most high-performance computing applications require
+computations be as fast as possible and so kernel performance is
+simply measured as its execution time.
+
+As mentioned in Chapter~\ref{ch:intro}, 
+thread block configurations drastically affect the running time of a kernel.
+Determining optimal thread block configurations typically follows some heuristics, for example, 
+constraining block size to be a multiple of 32 \cite{cuda2016best}. However, it is known
+that the dimension sizes of a thread block, not only its total size, affect performance~\cite{DBLP:journals/tjs/TorresGL13,DBLP:conf/cascon/ChenCKMX15}.
+Moreover, since thread block configurations are intimately tied to the size of data being operated on,
+it is very unlikely that a static thread block configuration optimizes the performance 
+of all data sizes. Our tool effectively uses rational programs to 
+dynamically determine the thread block configuration 
+which minimizes the execution time of a particular 
+kernel invocation, considering
+the invocation's particular data size 
+and target architecture. 
+This is achieved in two main steps. 
+\begin{enumerate}
+	\item At the compile-time of a {\cuda} program, its kernels are analyzed in order to
+	build rational programs estimating some performance metrics for each individual kernel.
+	Each rational program, written as code in the C language,
+	is inserted into the code of the {\cuda} program
+	so that it is called before the execution of the corresponding kernel.
+	\item At runtime, immediately preceding the launch of a kernel, where data parameters have specific values, the rational program is evaluated to 
+	determine the thread block configuration which optimizes the performance of the kernel. The kernel
+	is then launched using this thread block configuration. 
+\end{enumerate} 
+
+Not only are we concerned with kernel performance, but also
+programmer performance. By that, 
+we mean the efficiency of a programmer to produce 
+optimal code. When a programmer is attempting to optimize a kernel, choosing optimal launch
+parameters can either be completely ignored, 
+performed heuristically, determined by trial and error, or determined by an exhaustive search.
+The latter two options quickly become infeasible as data sizes grow large.
+Regardless, any choice of optimal thread block configuration is likely to optimize
+only a single data size. 
+
+For KLARAPTOR to be practical, not only does the choice of optimal
+kernel launch parameters need to be correct, but it must also
+be more efficient than trial and error or exhaustive search.
+Namely, the compile-time analysis cannot add too much 
+overhead to the the compilation time and the
+runtime decision of the kernel launch parameters cannot
+overwhelm the program execution time. 
+For the former, our analysis is performed
+quickly by analyzing kernel performance on only small data sizes, 
+and then results are extrapolated.
+For the later, the rational program evaluation is quick and simple, 
+being only the evaluation of a few rational functions.
+Moreover, we maintain a runtime invocation history
+to instantly provide results for future kernel launches.
+Our implementation is detailed in Chapter~\ref{ch:implementation}.
+%In the remainder of this section we highlight the performance of
+%KLARAPTOR.
+
+We have made use of the \texttt{Polybench/GPU}
+benchmark suite as an empirical
+evaluation of the correctness of our tool on a range of {\cuda} programs.
+In Figure~\ref{fig:kernelperfintro} we have already seen that KLARAPTOR
+accurately predicts the optimal or near-optimal thread block
+configuration. 
+Before presenting more detailed results and 
+experimentation in Chapter~\ref{ch:performance},
+we describe the steps followed by our tool
+to build and use rational programs for 
+determining a thread block configuration which optimizes
+performance.
+
+%Let us begin with kernel performance. 
+%Other optimization techniques (see Section~\ref{sec:relatedworks})
+%focus on improving the performance of a kernel by code optimizations. Our techniques
+%rather focuses on simply modifying program parameters for performance. 
+%focus on auto-tuning, static source code analysis, or machine learning applied to over-simplified 
+%models.
+
+
+\input{sections/steps}

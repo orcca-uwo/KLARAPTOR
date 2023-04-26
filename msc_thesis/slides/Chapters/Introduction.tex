@@ -1,0 +1,36 @@
+\section{Introduction}
+\begin{frame}[fragile]{CUDA program structure}
+	\begin{block}{CUDA launch parameters}
+		\begin{minted}{c}
+//a CUDA kernel for vector addition
+__global__ void vector_addition(int *A, int *B, size_t n) {
+    A[threadIdx.x] += B[threadIdx.x];
+}
+int main(){
+    ...
+    //launch the kernel with 1 block and n threads per block
+    vector_addition<<<1, n>>>(Ad, Bd, n);
+    ...
+}			
+		\end{minted}
+	\end{block}
+	\begin{block}{Grids and blocks can be of different shapes}
+		\begin{minted}{c}
+dim3 block(DIM_THREAD_BLOCK_X, DIM_THREAD_BLOCK_Y);
+dim3 grid((size_t)ceil(((float)NI)/((float)block.x)),
+         (size_t)ceil(((float)NJ)/((float)block.y)));
+Convolution2D_kernel<<<grid,block>>>(d_a,d_b);
+		\end{minted}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+    \frametitle{KLARAPTOR}
+    \begin{block}{}
+        \begin{itemize}
+			\item Launch parameters greatly impacts the performance of a given kernel
+			\item Determining the optimal values of launch parameters for a given configuration of hardware and data parameters is critical.
+		\end{itemize}
+        \input{figures/2dconv_8192}
+    \end{block}
+\end{frame}

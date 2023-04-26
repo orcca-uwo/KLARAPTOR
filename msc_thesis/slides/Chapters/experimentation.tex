@@ -1,0 +1,15 @@
+\section{Experimentation}
+
+\begin{frame}[fragile]{}
+    \begin{figure}[t!]
+        \includegraphics[width=\textwidth, trim={0em, 0.9em, 0em, 0em}, clip]{figures/MinMaxTimes-RTX-8192.png}
+        \caption{Comparing kernel execution time (log-scaled) for the thread block configuration chosen by KLARAPTOR
+            versus the minimum and maximum times as determined by an exhaustive search over all possible configurations. 
+            Kernels are part of the \texttt{PolyBench/GPU} benchmark suite and executed on a RTX 2070 SUPER with a data 
+            size of $N=8192$ (except convolution3d with $N=512$)}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{}
+    \input{figures/optimzationTimeTable}
+\end{frame}

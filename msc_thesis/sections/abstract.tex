@@ -1,0 +1,9 @@
+In this thesis, we present KLARAPTOR (Kernel LAunch parameters RAtional Program estimaTOR), 
+a freely available tool to dynamically determine the values of kernel launch parameters of a {\cuda} kernel.
+We describe a technique for building a helper program, at the compile-time of a {\cuda} program, 
+that is used at run-time to determine near-optimal kernel launch parameters for the kernels of that {\cuda} program.
+This technique leverages the MWP-CWP performance prediction model, runtime data parameters, and runtime 
+hardware parameters to dynamically determine the launch parameters for each kernel invocation. 
+This technique is implemented within the KLARAPTOR tool, utilizing the LLVM Pass Framework 
+and NVIDIA Nsight Compute CLI profiler. We demonstrate the effectiveness of our approach through experimentation 
+on the PolyBench benchmark suite of {\cuda} kernels.

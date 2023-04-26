@@ -1,0 +1,304 @@
+\chapter{Theoretical Foundations}
+\label{ch:foundations}
+
+
+
+Let ${\cal P}$ be a multithreaded program to be executed on a specific 
+multiprocessor.
+Parameters influencing  the performance of ${\cal P}$ include: 
+\begin{inparaenum}[(i)]
+\item {\em data parameters}, specifying the size and possibly
+  structural characteristics of the data, 
+\item {\em hardware parameters}, specifying
+  characteristics of hardware resources, and
+\item {\em program parameters}, specifying
+how   work (e.g. threads) is mapped to
+  hardware resources.
+\end{inparaenum}
+%% 	
+By fixing the target architecture, the hardware parameters, say, ${\bm
+  H} = \left(H_1, \ldots, H_h\right)$ become fixed and we can assume
+that the performance of ${\cal P}$ depends only on data parameters
+${\bm D} = \left(D_1, \ldots, D_d\right)$ and program parameters ${\bm
+  P} = \left(P_1, \ldots, P_p\right)$.
+%%
+\ifoldversion Moreover, an optimal choice of ${\bm P}$ naturally
+depends on a specific choice of ${\bm D}$.  \fi
+%%
+For example, in programs targeting GPUs 
+%(e.g. programs written in {\cuda}),   %\ or OpenCL programs
+the parameters ${\bm D}$ are typically dimension sizes of data
+structures, like arrays, while ${\bm P}$ typically specifies the
+format of the grid and the format of the thread blocks.
+%(see Section~\ref{sec:embodiment} for further details of 
+%this technique applied to \cuda).
+%%
+
+
+Let ${\cal E}$ be a high-level performance metric (running time, memory consumption)
+for ${\cal P}$ that we want to
+optimize.  More precisely, given the values of the data parameters
+${\bm D}$,  our goal is to find values of the program parameters
+${\bm P}$ such that the execution of ${\cal P}$ optimizes
+${\cal E}$.  
+%\toremove{Here, optimizing could mean maximizing, as in the case of a
+%performance metric such as hardware occupancy, or minimizing, as in the case
+%of a performance metric like execution time. }
+Performance prediction models attempt to estimate ${\cal E}$ from a
+combination of ${\bm P}$, ${\bm D}$, ${\bm H}$, and some model- or
+platform-specific low-level metrics ${\bm L} = (L_1, \ldots,
+L_\ell)$ (memory bandwidth, cache miss rate, etc.).
+It is natural to assume that these low-level performance
+metrics are themselves functions of ${\bm P}$, ${\bm D}$, ${\bm
+  H}$.  This is an obvious observation from models based on PRAM such
+as TMM~\cite{DBLP:journals/fgcs/MaAC14} and
+MCM~\cite{DBLP:conf/parco/HaqueMX15}.
+%%
+
+Therefore, we look to obtain values for these low- and high-level metrics
+given values for program, and data parameters.
+To address our optimization goal, we  use the following strategy.
+At the compile-time of program ${\cal P}$,  for each metric, 
+we determine a mathematical formula expressing that metric as a  
+function of the data and program parameters.
+This mathematical formula takes the 
+form of what we call a {\em rational program}.
+%with some selected values of $D_1, \ldots, D_d$ which do not need to be the ones that  ${\cal P}$ will be executed on.
+At the runtime of ${\cal P}$, given specific values of ${\bm D}$
+and a choice of ${\bm P}$, we can evaluate the rational program to
+obtain a value for each metric and thus for ${\cal E}$.  Repeating
+this for all possible choices of ${\bm P}$ (assumed to be finite
+in number) yields values of ${\bm P}$
+optimizing ${\cal E}$.  This strategy is detailed in
+Section~\ref{sec:steps}, while Section~\ref{sect:ratprog} 
+is dedicated to the notion of a rational program.
+
+One could view a rational program as a computer program that,
+for input values $x_1, \ldots, x_n$, computes and returns a value
+$y = f(x_1, \ldots, x_n)$, where $f$ is a function in the sense of a
+programming language, say C/C++.  However, a rational program is 
+more than that, due to the process we use to determine $f$.
+
+%% Specifically, the encoding of some model as a flow chart 
+%% whose nodes can then be approximated as a rational function
+%% is a powerful idea which can be used
+%% to simplify models and extrapolate results.
+
+%We  take the remainder of this section to describe the 
+%ideas underpinning rational programs.
+
+\section{Rational Programs}
+\label{sect:ratprog}
+
+Let $X_1, \ldots, X_n, Y$ be pairwise different
+variables\footnote{Variables refer to both its mathematical meaning
+  and programming language concept.}.  Let ${\cal S}$ be a sequence of
+three-address code (TAC~\cite{Aho:1986:CPT:6448}) instructions such
+that the variables occurring in ${\cal S}$ that are never
+assigned a value by an instruction
+of ${\cal S}$ are exactly $X_1, \ldots, X_n$.
+
+
+\begin{definition}
+\label{defi:rationalprogram}
+We say that the sequence ${\cal S}$ is a
+{\em rational program} in $X_1, \ldots, X_n$ evaluating $Y$
+if the following two conditions hold:
+\begin{enumerateshort}
+\item every arithmetic operation used in ${\cal S}$ is either an addition,
+  a subtraction, a multiplication, a division, 
+  or a comparison (for equality or the natural order $\le$)
+  %($=$, $<$),
+  of two rational numbers numbers, in either fixed or arbitrary precision.
+\item after specializing in ${\cal S}$ the variables $X_1, \ldots, X_n$ to
+      rational numbers $x_1, \ldots, x_n$, the execution of the 
+      specialized sequence always terminates and the last
+      executed instruction assigns a rational number to $Y$.
+\end{enumerateshort}
+\end{definition}
+
+It is worth noting that the above 
+definition can easily be extended to include
+Euclidean division, the integer part operations floor and ceiling,
+and arithmetic over rational numbers.
+For Euclidean division one can write a rational program
+evaluating the quotient $q$ of integer $a$ by $b$, 
+leaving the remainder $r$ to be simply calculated as $a - qb$.
+Then, floor and ceiling can be computed via Euclidean division.
+Rational numbers and their associated arithmetic are easily implemented using
+only integer arithmetic.
+Therefore, by adding these operations to 
+Definition~\ref{defi:rationalprogram}, the 
+class of rational programs does not change.
+We regard rational programs as such henceforth.
+%Thus, we add such operations to the definition
+%of a rational program and adopt this definition henceforth.
+
+\section{Rational Programs as Flowcharts}
+
+For any sequence ${\cal S}$ of computer program 
+instructions, one can associate  ${\cal S}$
+with a {\em control flow graph} (CFG).
+In the CFG of ${\cal S}$, the nodes are the {\em basic blocks} of ${\cal S}$.
+\iffalse 
+the sub-sequences of ${\cal S}$ such that 
+\begin{enumerate}[(i)]
+	\item  each instruction except the last one is not a branch, and
+	\item which are maximum in length with property (i).
+\end{enumerate}
+Moreover, in the CFG of ${\cal S}$, 
+there is a directed edge from a basic block $B_1$ to a basic block
+$B_2$ whenever, during the execution of ${\cal S}$, one can jump from
+the last instruction of $B_1$ to the first instruction of $B_2$.
+%%
+\fi
+Recall that  a {\em flowchart} is another
+graphic representation of a sequence of computer program  instructions.
+In fact, CFGs can be seen as particular flowcharts.
+%%
+
+If, in a given flowchart ${\cal C}$, every arithmetic
+operation occurring in every (process or decision) node is
+either an addition, subtraction, multiplication, or comparison of integers
+in either fixed or arbitrary precision
+then ${\cal C}$ is the flowchart of a rational sequence of computer
+program instructions.
+Therefore, it is meaningful to depict rational programs
+using flowcharts, and vice versa, 
+flowcharts as rational programs.
+For example, one could consider the metric 
+of theoretical {\em hardware occupancy} as defined by 
+NVIDIA. 
+The following example details its definition, 
+its depiction as a flowchart, and its dependency on
+program, data, and hardware parameters.
+
+\input{sections/example}
+\input{sections/occupancy-flowchart}
+
+
+\section{Piece-Wise Rational Functions in Rational Programs}
+\label{sec:prf_rp}
+
+We begin with an observation describing the fact that a rational program
+can be viewed as a piece-wise rational function \footnote{Here, rational function is in the
+	sense of algebra, see Section~\ref{sec:paramest}.} .
+\begin{observation}
+\label{obs:rationality}
+{\em
+Let ${\cal S}$ be a rational program in $X_1, \ldots, X_n$ evaluating $Y$.
+%%
+Let $s$ be any instruction of ${\cal S}$ other than a branch or an
+integer part instruction.  
+Hence, this instruction can be of the form
+$C = A + B$, $C = A - B$, $C = A \times B$, where $A$ and
+$B$ can be any rational number.
+%
+Let $V_1, \ldots, V_v$ be the variables that are defined
+at the entry point of the basic block of the instruction $s$.
+An elementary proof by induction yields the following fact.
+There exists a rational function in $V_1,
+\ldots, V_v$ denoted $f_s(V_1, \ldots, V_v)$
+such that $C = f_s(V_1, \ldots, V_v)$ for all possible values of
+$V_1, \ldots, V_v$.
+%
+From there, one derives the following observation.
+There exists a partition ${\cal T} = \{ T_1, T_2, \ldots    \}$ 
+of ${\Q}^n$ (where ${\Q}$ denotes the field of rational numbers)
+and rational functions $f_1(X_1, \ldots, X_n)$, 
+$f_2(X_1, \ldots, X_n)$, $\ldots\ $
+such that, if $X_1, \ldots, X_n$ receive respectively 
+the values $x_1, \ldots, x_n$, then
+the value of $Y$ returned by ${\cal S}$ is one of
+$f_i(x_1, \ldots, x_n)$ such that
+$(x_1, \ldots, x_n) \in T_i$ holds.
+%%
+In other words, ${\cal S}$ computes $Y$ as a
+{\em piece-wise rational function} \, (PRF).
+Notice if ${\cal S}$ contains
+only one basic block then ${\cal S}$ 
+can be trivially given by a single rational function.
+
+Example~\ref{ex:cuda} 
+shows that the hardware occupancy of a {\cuda}
+kernel is given as a piece-wise rational function
+in the variables $R_{\rm max}$, $Z_{\rm max}$,
+$T_{\rm max}$, $B_{\rm max}$, $W_{\rm max}$, $R$, $Z$, $T$.
+Hence, in this example, we have $n = 8$, 
+and, as shown by Figure~\ref{fig:occupancysimpleflowchart}, 
+its partition of ${\Q}^n$ contains 5 parts
+as there are 5 terminating nodes in the flowchart.
+
+}
+\end{observation}
+
+Suppose that a flowchart ${\cal C}$ 
+representing the rational program ${\cal R}$
+is partially known; to be precise, suppose that the decision nodes
+are known (that is, the mathematical expressions
+defining them are known) while the process nodes
+are not. 
+Then, from Observation~\ref{obs:rationality},
+each process node can be given by
+a one or more rational functions.
+Trivially, a single formula can also
+be seen as a flowchart with a single process node.
+Determining each of those rational functions
+can be achieved by solving an \textit{interpolation}
+or \textit{curve fitting} problem.
+More generally, if the sequence of instructions in 
+a process node involves non-rational functions (e.g. $\log$)
+we can apply Stone-Weierstrass Theorem~\cite{stone1948generalized}
+to approximate each of those by a PRF.
+
+
+It then follows that any performance metric,
+which can be depicted as a flow chart
+or a formula,
+can also be represented as a piece-wise rational function, 
+and thus a rational program. 
+For high-level performance metrics, which relies on low-level metrics,
+one could work recursively, first determining rational programs
+for the low-level metrics which depend on $\bm{P}$, $\bm{D}$, and $\bm{H}$,
+and then constructing a rational program for the high-level metric 
+from those rational programs.
+Hence, by this recursive construction, we can fully
+determine a rational program for 
+a high-level metric depending only on $\bm{P}$, $\bm{D}$, and $\bm{H}$.
+\fixed{Of course, hardware parameters could be fixed given a target architecture
+to yield a rational program which depends only on $\bm{P}$ and $\bm{D}$.}{ And then what?}
+\fixed{Again, notice that even where formulas for low-level metrics are not known,
+it is still possible to estimate them as PRFs, and thus rational programs,
+via a curve fitting.}{Haven't we said that already. Yes, but I believe this is repetition 
+is for emphasis that maybe some readers may miss when skimming through a "theory" section.}
+
+
+As an example, consider occupancy (Example~\ref{ex:cuda}).
+One could first determine PRFs for the number of
+registers user per thread and the amount of shared memory
+used per thread block. Then, a PRF is determined
+for the number of active blocks (Figure~\ref{fig:occupancysimpleflowchart})
+from these two low-level metrics, and a few more hardware
+and program parameters. 
+Thus, by recursive construction, 
+we have a PRF depending only on 
+program and hardware parameters.
+
+%Recall that building such a rational
+%program ${\cal R}$ is our goal.
+%Once ${\cal R}$ is known, it can be
+%used at runtime (that is, when the program ${\cal P}$ is run
+%on specific input data) to compute optimal values for the program
+%parameters. This is exactly what is achieved in our tool
+%implementing this technique. 
+%Before exploring this tool
+Lastly, we make one final remark. 
+We assumed that the decision nodes in the flowchart of the rational program were known, 
+however, we could relax this assumption.
+Indeed, each decision node is given by
+a series of rational functions.
+Hence, those could also be determined by
+solving curve fitting problems.
+However, we do not discuss this further
+since it is not needed in our proposed
+technique or implementation presented in the remainder of this thesis.

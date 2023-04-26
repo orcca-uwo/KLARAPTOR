@@ -1,0 +1,559 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Mathematical Sets %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% \def\A{\mbox{${\mathbb A}$}}
+\def\B{\mbox{${\mathbb B}$}}
+\def\C{\mbox{${\mathbb C}$}}
+\def\F{\mbox{${\mathbb F}$}}
+%\def\H{\mbox{${\mathbb H}$}}
+\def\K{\mbox{${\mathbb K}$}}
+\def\N{\mbox{${\mathbb N}$}}
+\def\Q{\mbox{${\mathbb Q}$}}
+\def\R{\mbox{${\mathbb R}$}}
+\def\Z{\mbox{${\mathbb Z}$}}
+
+%%%%%%%%%%%%%%%%%%%%
+%% Linear algebra %%
+%%%%%%%%%%%%%%%%%%%%
+\def\A {\ensuremath{\mathbf{A}}}
+\def\BB {\ensuremath{\mathbf{B}}}
+\def\CC {\ensuremath{\mathbf{C}}}
+\def\D {\ensuremath{\mathbf{D}}}
+\def\E {\ensuremath{\mathbf{E}}}
+\def\G {\ensuremath{\mathbf{G}}}
+\def\H {\ensuremath{\mathbf{H}}}
+\def\M {\ensuremath{\mathbf{M}}}
+\def\NN {\ensuremath{\mathbf{N}}}
+\def\P {\ensuremath{\mathbf{P}}}
+\def\QQ {\ensuremath{\mathbf{Q}}}
+\def\S {\ensuremath{\mathbf{S}}}
+\def\U {\ensuremath{\mathbf{U}}}
+\def\V {\ensuremath{\mathbf{V}}}
+\def\a {\ensuremath{\mathbf{a}}}
+\def\b {\ensuremath{\vec{b}}}
+\def\c {\ensuremath{\mathbf{c}}}
+\def\d {\ensuremath{\mathbf{d}}}
+
+\def\i {\ensuremath{\mathbf{i}}}
+\def\j {\ensuremath{\mathbf{j}}}
+\def\k {\ensuremath{\mathbf{k}}}
+\def\m {\ensuremath{\mathbf{m}}}
+\def\n {\ensuremath{\mathbf{n}}}
+\def\p {\ensuremath{\mathbf{p}}}
+
+\def\q {\ensuremath{\mathbf{q}}}
+\def\t {\ensuremath{\mathbf{t}}}
+\def\x {\ensuremath{\vec{x}}}
+\def\u {\ensuremath{\mathbf{u}}}
+\def\v {\ensuremath{\mathbf{v}}}
+\def\w {\ensuremath{\mathbf{w}}}
+\def\y {\ensuremath{\mathbf{y}}}
+\def\z {\ensuremath{\mathbf{z}}}
+\def\e {\ensuremath{\vec{e}}}
+\def\0 {\ensuremath{\mathbf{0}}}
+\newcommand{\Zero}[1]{\ensuremath{{\mathbf{0}}^{#1}}}
+\newcommand{\rank}[1]{\ensuremath{{\rm rank}(#1)}}
+\newcommand{\norm}[1]{\ensuremath{ \| {#1} \| }}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Computer algebra systems %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\axiom}{\mbox{{\sc Axiom}}}
+\newcommand{\axiomxl}{\mbox{{\sc AXIOM-XL}}}
+\newcommand{\aldor}{\mbox{{\sc Aldor}}}
+\newcommand{\gb}{\mbox{{\sc GB}}}
+\newcommand{\basicmath}{\mbox{{\em BasicMath}}}
+\newcommand{\aldorlib}{\mbox{{\em aldorlib}}}
+\newcommand{\algebralib}{\mbox{{\em libalgbra}}}
+\newcommand{\magma}{{\sc Magma}}
+\newcommand{\maple}{{\sc Maple}}
+\newcommand{\Maple}{{\sc Maple}}
+\newcommand{\mathematica}{{\sc Mathematica}}
+\newcommand{\matlab}{{\sc Matlab}}
+\newcommand{\java}{{\sc Java}}
+\newcommand{\pascal}{{\sc Pascal}}
+\newcommand{\reduce}{{\sc Reduce}}
+\newcommand{\singular}{{\sc Singular}}
+\newcommand{\ntl}{\mbox{{\sc NTL}}}
+
+%\def\language#1{\texttt{#1}}
+\def\package#1{\textsc{#1}}
+%\def\function#1{\textrm{#1}}
+\def\userfunction#1{\textsf{#1}}
+%\def\algorithm#1{\textsc{#1}}
+\def\mathsymbol#1{\mbox{$#1$}}
+%%\def\maple{\mbox{{\sc Maple}}}
+%%\def\axiom{\mbox{{\sc AXIOM}}}
+%%\def\aldor{\mbox{{\sc Aldor}}}
+\def\fortran{\mbox{{\sc FORTRAN}}}
+\def\scratchpad{{\tt scratchpad}}
+%%\def\singular{\mbox{{\sc Singular}}}
+\def\diffAlg{\mbox{{\sc DiffAlg}}}
+\def\triade{\mbox{{\sc triade}}}
+\def\kronecker{\mbox{{\tt Kronecker}}}
+%% \def\delta{\mbox{{$\Delta$}}}
+\def\Piit{\mbox{{${\Pi}^{it}$}}}
+\def\sumit{\mbox{{${\Sigma}^{it}$}}}
+\def\libaldor{\mbox{{\sc libaldor}}}
+\def\libalgebra{\mbox{{\sc libalgebra}}}
+\def\pardi{\mbox{{\sf Pardi}}}
+\def\riff{\mbox{{\tt Riff}}}
+\def\modpone{\mbox{{\tt modp1}}}
+\def\modptwo{\mbox{{\tt modp2}}}
+\def\recden{\mbox{{\tt recden}}}
+\def\algebraic{\mbox{{\tt algebraic}}}
+
+\def\RegularChains{\mbox{{\tt RegularChains}}}
+\def\modpn{\mbox{{\tt modpn}}}
+\def\cumodp{\mbox{{\tt CUMODP}}}
+\def\bpas{\mbox{{\tt BPAS}}}
+\def\ProgramAnalysis{\mbox{{\tt ProgramAnalysis}}}
+
+\def\spiral{\mbox{\sc SPIRAL}}
+\def\kaapi{\mbox{\sc Kaapi}}
+\def\fasttriade{\mbox{\sc FastTriade}}
+\def\cogepas{\mbox{\sc CoGePas}}
+\def\pascolib{\mbox{{\sc PASCOLib}}}
+\def\hpcsolve{\mbox{\sc HpcSolve}}
+\def\cadyna{\mbox{\sc CADYNA}}
+
+\newcommand{\cilk}{\mbox{\sc Cilk}}
+\newcommand{\cilkview}{\mbox{\sc Cilkview}}
+\newcommand{\cilkplus}{\mbox{\sc Cilkplus}}
+\newcommand{\cilkp}{\mbox{\sc Cilk-P}}
+\newcommand{\nvcc}{\mbox{\sc nvcc}}
+\newcommand{\openmp}{\mbox{\sc OpenMP}}
+\newcommand{\openmptasks}{\mbox{\sc OpenMP Tasks}}
+\newcommand{\meta}{\mbox{\sc MetaFork}}
+\newcommand{\ppcg}{\mbox{\sc PPCG}}
+\newcommand{\ctocuda}{\mbox{\sc C-to-CUDA}}
+\newcommand{\hicuda}{\mbox{\sc HiCUDA}}
+\newcommand{\cudachill}{\mbox{\sc CUDA-CHiLL}}
+\newcommand{\clang}{\mbox{\sc Clang}}
+\newcommand{\llvm}{\mbox{\sc LLVM}}
+\newcommand{\ptx}{\mbox{\sc PTX}}
+\newcommand{\nvptx}{\mbox{\sc NVPTX}}
+\newcommand{\tbb}{\mbox{\sc TBB}}
+\newcommand{\openacc}{\mbox{\sc OpenACC}}
+\newcommand{\opencl}{\mbox{\sc OpenCL}}
+\newcommand{\cplusplusamp}{\mbox{\sc C++ AMP}}
+\newcommand{\cuda}{\mbox{\sc CUDA}}
+\newcommand{\gpu}{\mbox{\sc GPU}}
+\newcommand{\ibmxl}{\mbox{\sc IBM XL}}
+
+
+%% \bibliographystyle{abbrv} %% OK !!
+%% \bibliographystyle{plain}
+%% \bibliographystyle{apalike} %% KO 
+%%\bibliographystyle{ieeetr} %% OK !
+%% \bibliographystyle{siam}  %% KO 
+%% \bibliographystyle{unsrt} %% OK !
+%% \bibliographystyle{alpha}
+%% \leftmargini=20pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Theorems and such %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{problem}{Problem}
+%\newtheorem{definition}{Definition}
+%\newtheorem{proposition}{Proposition}
+%\newtheorem{notation}{Notation}
+%\newtheorem{example}{Example}
+%\newtheorem{hypothesis}{Hypothesis}
+%\newtheorem{remark}{Remark}
+
+%\algnewcommand\algorithmicswitch{\textbf{switch}}
+%\algnewcommand\algorithmiccase{\textbf{case}}
+%\algnewcommand\algorithmicassert{\texttt{assert}}
+%\algnewcommand\Assert[1]{\State \algorithmicassert(#1)}%
+% New "environments"
+%\algdef{SE}[SWITCH]{Switch}{EndSwitch}[1]{\algorithmicswitch\ #1\ \algorithmicdo}{\algorithmicend\ \algorithmicswitch}%
+%\algdef{SE}[CASE]{Case}{EndCase}[1]{\algorithmiccase\ #1}{\algorithmicend\ \algorithmiccase}%
+%\algtext*{EndSwitch}%
+%\algtext*{EndCase}%
+
+%\newenvironment{Proof}{ {\noindent} {\sc Proof} $\rhd$}{$\lhd$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Operations on polyhedra %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\can}[1]{\mbox{{\sf can}$(#1)$}}
+\newcommand{\proj}[1]{\mbox{{\sf proj}$(#1)$}}
+\newcommand{\dproj}[1]{\mbox{{\sf Dproj}$(#1)$}}
+\newcommand{\gproj}[1]{\mbox{{\sf Gproj}$(#1)$}}
+\newcommand{\sol}[1]{\mbox{$V_{\Z}(#1)$}}
+
+\newcommand{\isolve}[1]{\mbox{{\sf IntegerSolve}$(#1)$}}
+\newcommand{\LP}[1]{\mbox{{\sf LP}$(#1)$}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Miscellaneous macros %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\hidetext}[1]{\mbox{ \ }}
+\newcommand{\todo}[2]{{{\textcolor{red}{ #1}}}\footnote{ {\textcolor{blue}{ #2}} }}
+\newcommand{\todolater}[2]{#1}
+\newcommand{\fix}[3]{#1}
+%% \newcommand{\reworked}[1]{{{\textcolor{blue}{ #1}}}}
+\newcommand{\reworked}[1]{{ #1}}
+\newcommand{\newfixed}[1]{{\color{black} #1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Computer algebra systems %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\altran}{{\sc ALTRAN}}
+\newcommand{\trip}{{\sc Trip}}
+\newcommand{\pari}{{\sc Pari}}
+\newcommand{\flint}{\mbox{{\sc FLINT}}}
+\newcommand{\sympy}{\mbox{{\sc SymPy}}}
+\newcommand{\cocoa}{\mbox{{\sc CoCoA}}}
+\newcommand{\cocoalib}{\mbox{{\sc CoCoALib}}}
+\newcommand{\symboliccpp}{\mbox{{\sc SymbolicC++}}}
+\newcommand{\mmx}{\mbox{{\sc Mathemagix}}}
+\newcommand{\linbox}{\mbox{{\sc LinBox}}}
+\newcommand{\sage}{\mbox{{\sc SageMath}}}
+
+\newcommand{\myproof}{\textsc{Proof.} }
+\newcommand{\myfoorp}{\hfill$\square$}
+
+\newcommand{\euclideanDivision}[4]{\mbox{{$ \begin{array}{c|c} #1 & #2 \\ \cline{2-2}
+				#3 & #4 \\ \end{array} $}}}
+%\newtheorem{Hypothesis}{Hypothesis}
+%\newtheorem{Algorithm}{Algorithm}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{Lemma}{Lemma}
+%\newtheorem{Corollary}{Corollary}
+%\newtheorem{Conjecture}{Conjecture}
+%\newtheorem{Proposition}{Proposition}
+%\newtheorem{Definition}{Definition}
+%\newtheorem{Notation}{Notation}
+%\newtheorem{Example}{Example}
+%\newtheorem{Remark}{Remark}
+%\newtheorem{Problem}{Problem}
+%\newtheorem{Acknowledgment}[]{Acknowledgment}
+%\iffalse
+%\newenvironment{proof}{\noindent{\em Proof:}}{$\Box$~\\}
+%\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Math Symbol Macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\B {\ensuremath{\mathbb{B}}}
+%\def\A {\ensuremath{\mathbb{A}}}
+\def\C {\ensuremath{\mathbb{C}}}
+\def\I {\ensuremath{\mathcal{I}}}
+\def\J {\ensuremath{\mathcal{J}}}
+\def\K {\ensuremath{\mathbb{K}}}
+\def\L {\ensuremath{\mathbb{L}}}
+\def\N {\ensuremath{\mathbb{N}}}
+\def\V {\ensuremath{\mathcal{V}}}
+\def\W {\ensuremath{\mathcal{W}}}
+\def\Q {\ensuremath{\mathbb{Q}}}
+\def\R {\ensuremath{\mathbb{R}}}
+\def\Z {\ensuremath{\mathbb{Z}}}
+%\def\KK {\ensuremath{\overline{\mathbb{K}}}}
+
+\newcommand{\T}{\mathfrak{T}}
+%\newcommand{\G}{\mathcal{G}}
+\renewcommand{\O}{\ensuremath{\mathcal{O}}}
+\renewcommand{\o}{\ensuremath{\underline{o}}}
+
+%%\def\u {\ensuremath{\mathbf{u}}}
+%\def\U {\ensuremath{\underline{U}}}
+\def\x {\ensuremath{\mathbf{x}}}
+\def\X {\ensuremath{\underline{X}}}
+\def\y {\ensuremath{\mathbf{y}}}
+\def\Y {\ensuremath{\underline{Y}}}
+\def\xx{\ensuremath{\underline{x}}}
+\def\yy{\ensuremath{\underline{y}}}
+\def\li{\ensuremath{\langle}}
+\def\ri{\ensuremath{\rangle}}
+
+%\newcommand{\NN}{\mbox{$N_{\geq}$}}
+%\renewcommand{\PP}{\mbox{$P_{>}$}}
+\newcommand{\HH}{\mbox{$H_{\neq}$}}
+%\def\QQ {\ensuremath{\mathcal{Q}}}
+\def\UU {\ensuremath{\mathcal{U}}}
+%\def\VV {\ensuremath{\mathcal{V}}}
+
+\newcommand{\limit}[1]{\mbox{${\lim}(#1)$}}
+
+\renewcommand{\hat}[1]{\mbox{$\widehat{#1}$}}
+\renewcommand{\tilde}[1]{\mbox{$ \overset{\thicksim}{#1} $}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Polynomials and regular chains
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\discrim}[1]{\mbox{{\rm discrim}$(#1)$}}
+\newcommand{\init}[1]{\mbox{{\rm init}$(#1)$}}
+\newcommand{\iter}[1]{\mbox{{\rm iter}$(#1)$}}
+\newcommand{\mdeg}[1]{\mbox{{\rm mdeg}$(#1)$}}
+\newcommand{\mvar}[1]{\mbox{{\rm mvar}$(#1)$}}
+\newcommand{\prem}[1]{\mbox{{\rm prem}$(#1)$}}
+\newcommand{\pquo}[1]{\mbox{{\rm pquo}$(#1)$}}
+%\newcommand{\rank}[1]{\mbox{{\rm rank}$(#1)$}}
+\newcommand{\ires}[1]{\mbox{{\rm ires}$(#1)$}}
+\newcommand{\OpenCAD}[1]{\mbox{{\sf OpenCAD}$(#1)$}}
+\newcommand{\OpenAugCAD}[1]{\mbox{{\sf OpenCAD}$(#1)$}}
+\newcommand{\LazyRealTriangularize}[1]{\mbox{{\sf LazyRealTriangularize}$(#1)$}}
+\newcommand{\GenerateFormula}[1]{\mbox{{\sf GenerateFormula}$(#1)$}}
+\newcommand{\RealRootCounting}[1]{\mbox{{\sf RealRootCounting}$(#1)$}}
+\newcommand{\ReviseFormula}[1]{\mbox{{\sf Disjunction}$(#1)$}}
+\newcommand{\SamplePoints}[1]{\mbox{{\sf SamplePoints}$(#1)$}}
+\newcommand{\factor}[1]{\mbox{{\sf factor}$(#1)$}}
+\newcommand{\ProjectionFactorSet}[1]{\mbox{{\sf ProjectionFactorSet}$(#1)$}}
+\newcommand{\notdone}{{\tt NotDone}}
+\newcommand{\Intersect}[1]{\mbox{{\sf Intersect}$(#1)$}}
+\newcommand{\GeneratePreRegularSas}[1]{\mbox{{\sf GeneratePreRegularSas}$(#1)$}}
+\newcommand{\IteratedResultant}[1]{\mbox{{\sf res}$(#1)$}}
+\newcommand{\IsolateBranchThroughOrigin}[1]{\mbox{{\sf IsolateBranchThroughOrigin}$(#1)$}}
+\newcommand{\ExtractComponents}[1]{\mbox{{\sf ExtractComponents}$(#1)$}}
+\newcommand{\LimitPoints}[1]{\mbox{{\sf LimitPoints}$(#1)$}}
+\newcommand{\ChooseValues}[1]{\mbox{{\sf ChooseValues}$(#1)$}}
+\newcommand{\RandomEllipsoid}[1]{\mbox{{\sf RandomEllipsoid}$(#1)$}}
+\newcommand{\Minors}[1]{\mbox{{\sf Minors}$(#1)$}}
+\newcommand{\hensel}[1]{\mbox{{\sf ExtendedHenselConstruction}$(#1)$}}
+%\newcommand{\dim}[1]{\mbox{{\rm dim}$(#1)$}}
+
+
+\newcommand{\Npoly}[1]{\mbox{$F^{(0)}(#1)$}}
+\newcommand{\Gpoly}[1]{\mbox{$G^{(0)}(#1)$}}
+\def\Z {\ensuremath{\mathbb{Z}}}
+\newcommand{\ideal}[1]{\langle#1\rangle}
+\usepackage{color, colortbl}
+\definecolor{LRed}{rgb}{1,.8,.8}
+\definecolor{MRed}{rgb}{1,.6,.5}
+\definecolor{HRed}{rgb}{0.7,.5,.6}
+\definecolor{HGray}{rgb}{0.8,.8,.8}
+\definecolor{HGray2}{rgb}{0.9,.9,.9}
+\definecolor{LBlue}{rgb}{0.8,1,1}
+
+\newcolumntype{C}{>{\columncolor{LRed}}c}{\newcolumntype{C}{c}}
+\newcolumntype{D}{>{\columncolor{MRed}}c}{\newcolumntype{D}{c}}
+\newcolumntype{E}{>{\columncolor{HRed}}c}{\newcolumntype{E}{c}}
+\newcolumntype{F}{>{\columncolor{HRed}}c}{\newcolumntype{F}{c}}
+\newcolumntype{G}{>{\columncolor{HGray}}c}{\newcolumntype{G}{c}}
+\usepackage{array}
+\newcolumntype{?}{!{\vrule width 1pt}}
+
+\newcommand{\xmark}{\ding{55}}
+
+\newcommand{\EHC}[1]{\mbox{{\sf EHC\_Lift}$(#1)$}}
+\newcommand{\MultTime}[1]{\mbox{${\mathsf M}(#1)$}}
+\newcommand{\AlgExtTime}[1]{\mbox{${\sf A}(#1)$}}
+
+\makeatletter
+\providecommand*{\cupdot}{%
+	\mathbin{%
+		\mathpalette\@cupdot{}%
+	}%
+}
+\newcommand*{\@cupdot}[2]{%
+	\ooalign{%
+		$\m@th#1\cup$\cr
+		\hidewidth$\m@th#1\cdot$\hidewidth
+	}%
+}
+\makeatother
+
+
+
+\def\bpas{\mbox{{\tt BPAS}}}
+\def\powerserieslib{\mbox{{\tt PowerSeries}}}
+
+\newcommand{\cpp}{\mbox{C$++$}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Miscellaneous macros %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \newcommand{\reworked}[1]{{{\textcolor{blue}{ #1}}}}
+\definecolor{nicedarkgreen}{rgb}{0.05, 0.35, 0.12}
+\renewcommand{\gcd}[1]{\mbox{{\rm gcd}$(#1)$}}
+
+
+%\newcommand{\reworked}[1]{{ #1}}
+\newcommand{\alnam}[1]{\textsc{#1}}
+\newcommand{\templ}[1]{$\langle$#1$\rangle$}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\return}{\mathrm{\bf return}}
+\newcommand{\OR}{\mathrm{\bf or}}
+\newcommand{\AND}{\mathrm{\bf and}}
+\newcommand{\TO}{\mathrm{\bf to}}
+\newcommand{\textblockcomment}[1]{}
+\renewcommand{\gets}{:=}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%     red    %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\newcommand{\red}[1]{\textcolor{red}{ #1 }}
+\newcommand{\red}[1]{{ #1 }}
+\newcolumntype{?}{!{\vrule width 1pt}}
+
+\newcommand{\mts}{ M }
+\newcommand{\nmts}[1]{ M_{#1}}
+\newcommand{\cG}{\mathcal{D}}
+\newcommand{\cC}{\mathcal{C}}
+%\newcommand{\vv}[1]{v\!\brac{#1}}
+\renewcommand{\ss}{\vec{s}}
+\newcommand{\sO}{\mathcal{O}}
+\newcommand{\sC}{\mathcal{C}}
+
+\newcommand{\nts}[1]{\vec{t}_{#1}}
+\newcommand{\LLs}[1]{\vec{L}_{#1}}
+\newcommand{\xdim}[2]{{\rm dim}_{#1}\hspace{-.1em}\brac{#2}}
+\newcommand{\height}[1]{{\rm height}\hspace{-.1em}\brac{#1}}
+
+%\newcommand{\xdim}[1]{\underset{\textrm{vec}}{\textrm{dim}}\left(#1\right)}
+\DeclareMathOperator*{\DIM}{dim}
+\newcommand{\vdim}[1]{\DIM_{\text{vec}}(#1)}
+
+%\newcommand{\limit}[1]{\mbox{${\lim}(#1)$}}
+
+\newcommand{\xdeg}[2]{{\rm deg}_{#2}\brac{#1}}
+\newcommand{ \transverse }{ \pitchfork } 
+%\newcommand{\im}[2]{{\rm im}\hspace{-.1em}\brac{#1;\,#2}}		% Intersection Multiplicity
+%\newcommand{\imN}[3]{{\rm im}_{#1}\hspace{-.1em}\brac{\,#2;\,#3}}		% Intersection Multiplicity
+%\newcommand{\ims}[3]{{\rm im}_{#1}^{\ast}\hspace{-.1em}\brac{\,#2;\,#3}}		% Intersection Multiplicity
+\newcommand{\im}[2]{{\rm IM}\hspace{-.1em}\brac{#1;\,#2}} 			%Intersection Multiplicity
+\newcommand{\imt}[2]{{\rm im_2}\hspace{-.1em}\brac{#1;\,#2}}
+\newcommand{\mt}[2]{{\rm m}_{#1}(#2)}	%multiplicity
+\newcommand{\imn}[3]{{\rm im_{#1}}\hspace{-.1em}\brac{#2;\,#3}}
+\newcommand{\NF}[2]{{\rm NF}\hspace{-.1em}\brac{#1,\,\ideal{#2}}}  %Normal form
+\newcommand{\nf}[2]{{\rm NF}\hspace{-.1em}\brac{#1,\,#2}}    %Normal form
+\newcommand{\Regularize}[2]{{\rm Regularize}\hspace{-.1em}\brac{#1,\,\ideal{#2}}}
+\newcommand{\regularize}[2]{{\rm Regularize}\hspace{-.1em}\brac{#1,\,#2}}
+
+
+%logic
+\renewcommand{\lor}{~{\rm or }}
+\newcommand{\lxor}{~{\rm xor }}
+\renewcommand{\land}{~{\rm and }}
+\newcommand{\bor}{\mathbf{or}}
+\newcommand{\band}{\mathbf{and}}
+
+%regular chains
+\newcommand{\TT}{\vec{T}}
+%\newcommand{\ts}{\vec{t}}
+%\newcommand{\init}[1]{\mbox{${\rm init}\!\brac{#1}$}}
+%\newcommand{\sat}[2]{#1 \colond #2^\infty}
+%%\newcommand{\isat}[1]{{\rm sat}\!\brac{#1}}
+\newcommand{\isat}[1]{\mbox{{\rm sat}$(#1)$}}
+
+%polynomials
+\newcommand{\tsetsof}[1]{\mathbb{T}\brac{#1}}
+\newcommand{\termsof}[1]{{\rm terms}\brac{#1}}
+\newcommand{\monosof}[1]{{\rm monos}\brac{#1}}
+\newcommand{\indetsof}[1]{{\rm indets}\brac{#1}}
+\newcommand{\lc}[1]{{\rm lc}({#1})}
+\newcommand{\xlc}[2]{\ell\hspace{-.1em}{\it c}_{#2}\brac{#1}}
+\newcommand{\lt}[1]{\ell\hspace{-.1em}{\it t}\brac{#1}}
+\newcommand{\xlt}[2]{\ell\hspace{-.1em}{\it t}_{#2}\brac{#1}}
+\newcommand{\lm}[1]{\ell\hspace{-.1em}{\it m}\brac{#1}}
+\newcommand{\xlm}[2]{\ell\hspace{-.1em}{\it m}_{#2}\brac{#1}}
+
+%bracketing
+\newcommand{\lbrac}[1]{\sbrac{\,#1\,}}
+\newcommand{\cbrac}[1]{\left\{ #1 \right\}}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\kvs}[2]{ \langle\hspace{-.1em}\langle\, #1 \,\rangle\hspace{-.1em}\rangle}
+%\newcommand{\ideal}[1]{\left<\hspace{.1em} #1 \hspace{.1em}\right >}
+\newcommand{\sideal}[1]{\langle\, #1 \,\rangle}
+
+%algebraic geometry
+\newcommand{\VV}[1]{\mathbf{V}\hspace{-.1em}\brac{#1}}  % Variety
+\def \V {\mathbf{V}}
+%\newcommand{\WW}[1]{\mathbf{W}\hspace{-.1em}\brac{#1}}  % Quasi Component
+\def \WW {\mathbf{W}}
+\newcommand{\II}[1]{\mathbf{I}\hspace{-.1em}\brac{#1}}  % Ideal
+%% \newcommand{\tcone}[2]{ \mbox{\large $\kappa$}_{#1}\brac{#2} }
+\newcommand{\tcone}[2]{ TC_{#1}\!\brac{#2} }
+\newcommand{\tplane}[2]{ \mbox{ $\mathbf{d}$}_{#1}\brac{#2} }
+\newcommand{\tspace}[2]{ T_{#1}\!\brac{#2} }
+\newcommand{\cspace}[2]{ TC_{#1}\!\brac{#2} }
+\newcommand{\tline}{ \mbox{\large $\lambda$} }
+\newcommand{\sing}[1]{{\rm sing}\hspace{-.1em}\brac{#1}}
+\let\iso\cong
+\renewcommand{\cong}{\equiv}
+%\renewcommand{\mod}{\,\mathbin{\rm mod}}
+\newcommand{\rem}{\,\mathbin{\rm rem}}
+%\newcommand{\prem}{\,\mathbin{\rm prem}}
+\def\mymathhyphen{{\hbox{-}}}
+
+
+%calculus
+\newcommand{\jac}[1]{\text{jac}\brac{#1}}
+\newcommand{\syl}[3]{\text{syl}\brac{#1,\,#2,\,#3}}
+\newcommand{\env}[1]{\text{env}\brac{#1}}
+\newcommand{\grad}[1]{\nabla\brac{#1}}
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\hc}[3]{\textsc{hc}_{#3}\brac{#1;\,#2}}
+
+
+%standard sets
+\newcommand{\ZZ}{\mathbb{Z}}   % Integers
+\newcommand{\RR}{\mathbb{R}}   % Reals
+\newcommand{\KK}{\mathbb{K}}   % Reals
+%\newcommand{\PP}{\mathbb{P}}   % Projective space
+\renewcommand{\AA}{\mathbb{A}} % Affine space
+
+\newcommand{\kk}{\KK}
+\newcommand{\hh}{\vec{h}}
+\newcommand{\ff}{\vec{t}}
+%\newcommand{\xx}{\vec{x}}
+\newcommand{\mm}{\vec{m}}
+%\newcommand{\yy}{\vec{y}}
+\newcommand{\ii}{{\rm I}}
+\newcommand{\LL}{\mathbf{L}}
+
+%\newcommand{\mod}{$\ $ {\sf mod}}
+\newcommand{\moddeg}[2]{\mbox{${\rm moddeg} (#1,#2 )$}}
+\newcommand{\tdeg}[2]{\mbox{${\rm deg} (#1,#2 )$}}
+
+%IM
+%\newcommand{\im}[1]{${\sf I} (#1)$}
+%\newcommand{\IM}[2]{${\sf IM} {#1}(#2)$}
+\newcommand{\quo}{\text{quo}}
+
+\def\HiLiYellow{\leavevmode\rlap{\hbox to \hsize{\color{yellow!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiRed{\leavevmode\rlap{\hbox to \hsize{\color{red!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiBlue{\leavevmode\rlap{\hbox to \hsize{\color{cyan!}\leaders\hrule height .8\baselineskip depth .7ex\hfill}}}
+\def\HiLiGreen{\leavevmode\rlap{\hbox to \hsize{\color{green!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiPink{\leavevmode\rlap{\hbox to \hsize{\color{pink!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiOrange{\leavevmode\rlap{\hbox to \hsize{\color{orange!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiPurple{\leavevmode\rlap{\hbox to \hsize{\color{violet!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiGrey{\leavevmode\rlap{\hbox to \hsize{\color{lightgray!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiGreyB{\leavevmode\rlap{\hbox to \hsize{\color{lightgray!}\leaders\hrule height .8\baselineskip depth 1.0ex\hfill}}}
+\def\HiLiOlive{\leavevmode\rlap{\hbox to \hsize{\color{olive!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiTeal{\leavevmode\rlap{\hbox to \hsize{\color{teal!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+\def\HiLiLime{\leavevmode\rlap{\hbox to \hsize{\color{lime!}\leaders\hrule height .8\baselineskip depth .5ex\hfill}}}
+
+\newcommand{\hilightyellow}[1]{\colorbox{yellow}{#1}}
+\newcommand{\hilightblue}[1]{\colorbox{cyan}{#1}}
+\newcommand{\hilightred}[1]{\colorbox{red}{#1}}
+\newcommand{\hilightgreen}[1]{\colorbox{green}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%
+%% Delinearization %%
+%%%%%%%%%%%%%%%%%%%%%
+
+\def\i {\ensuremath{\mathbf{i}}}
+\def\j {\ensuremath{\mathbf{j}}}
+\def\k {\ensuremath{\mathbf{k}}}
+\def\m {\ensuremath{\mathbf{m}}}
+\def\n {\ensuremath{\mathbf{n}}}
+\def\p {\ensuremath{\mathbf{p}}}
+
+\newcommand{\iii}[1]{\mbox{${\mathbf{i}_{#1}}$}}
+\newcommand{\mmm}[1]{\mbox{${\mathbf{m}_{#1}}$}}
+\newcommand{\pp}[1]{\mbox{${\mathbf{p}_{#1}}$}}
+\newcommand{\rr}[1]{\mbox{${\mathbf{r}_{#1}}$}}
+\newcommand{\MMM}[1]{\mbox{${\mathbf{M}_{#1}}$}}

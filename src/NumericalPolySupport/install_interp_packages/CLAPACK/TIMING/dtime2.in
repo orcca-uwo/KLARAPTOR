@@ -1,16 +1,16 @@
 LAPACK timing, DOUBLE PRECISION rectangular matrices
 7                                Number of values of M
-20 40 20 40 80 40 80             Values of M (row dimension)
+100 200 100 200 400 200 400      Values of M (row dimension)
 7                                Number of values of N
-20 20 40 40 40 80 80             Values of N (column dimension)
-2                                Number of values of K
-20 80                            Values of K
-2                                Number of values of NB
-1  8                             Values of NB (blocksize)
-0  8                             Values of NX (crossover point)
+100 100 200 200 200 400 400      Values of N (column dimension)
+4                                Number of values of K
+1 2 16 100                       Values of K
+5                                Number of values of NB
+1 16  32  48  64                 Values of NB (blocksize)
+0 48 128 128 128                 Values of NX (crossover point)
 1                                Number of values of LDA
-81                               Values of LDA (leading dimension)
-0.05                             Minimum time in seconds
+401                              Values of LDA (leading dimension)
+0.0                              Minimum time in seconds
 none
 DQR    T T T
 DLQ    T T T

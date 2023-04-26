@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Kernel definition}
+\PYG{n}{\PYGZus{}\PYGZus{}global\PYGZus{}\PYGZus{}} \PYG{k+kt}{void} \PYG{n+nf}{VecAdd}\PYG{p}{(}\PYG{k+kt}{float}\PYG{o}{*} \PYG{n}{A}\PYG{p}{,} \PYG{k+kt}{float}\PYG{o}{*} \PYG{n}{B}\PYG{p}{,} \PYG{k+kt}{float}\PYG{o}{*} \PYG{n}{C}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{n}{threadIdx}\PYG{p}{.}\PYG{n}{x}\PYG{p}{;}
+    \PYG{n}{C}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{+} \PYG{n}{B}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+    \PYG{p}{...}
+    \PYG{c+c1}{// Kernel invocation with N threads}
+    \PYG{n}{VecAdd}\PYG{o}{\PYGZlt{}\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{N}\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{p}{(}\PYG{n}{A}\PYG{p}{,} \PYG{n}{B}\PYG{p}{,} \PYG{n}{C}\PYG{p}{);}
+    \PYG{p}{...}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

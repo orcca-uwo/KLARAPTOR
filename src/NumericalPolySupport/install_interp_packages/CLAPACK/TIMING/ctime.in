@@ -1,19 +1,21 @@
 LAPACK timing, COMPLEX square matrices
-5                                Number of values of M
-10 20 40 60 80                   Values of M (row dimension)
-5                                Number of values of N
-10 20 40 60 80                   Values of N (column dimension)
-2                                Number of values of K
-20 80                            Values of K
-2                                Number of values of NB
-1  8                             Values of NB (blocksize)
-0  8                             Values of NX (crossover point)
+6                                Number of values of M
+50 100 200 300 400 500           Values of M (row dimension)
+6                                Number of values of N
+50 100 200 300 400 500           Values of N (column dimension)
+4                                Number of values of K
+1 2 16 100                       Values of K
+5                                Number of values of NB
+1 16  32  48  64                 Values of NB (blocksize)
+0 48 128 128 128                 Values of NX (crossover point)
 1                                Number of values of LDA
-81                               Values of LDA (leading dimension)
-0.05                             Minimum time in seconds
+513                              Values of LDA (leading dimension)
+0.0                              Minimum time in seconds
 CGE    T T T
+CGT    T T T
 CPO    T T T
 CPP    T T T
+CPT    T T T
 CHE    T T T
 CHP    T T T
 CSY    T T T

@@ -1,0 +1,195 @@
+
+\chapter{Experimentation}
+\label{ch:performance}
+
+
+
+\iffalse 
+In this section we highlight the performance and experimentation of
+our technique applied to example {\cuda} programs
+from the PolyBench benchmarking suite \cite{grauer2012auto}.
+For each PolyBench example,
+we collect statistical data (see Section~\ref{sec:embodiment}) with
+various input sizes $N$ (powers of 2 typically between 64 and 512). 
+These are relatively small sizes to allow for fast data collection.
+%The results of the emulation are collected, the resulting data is used
+The collected data is used 
+to produce the rational functions and, lastly, the rational functions
+are combined to form the rational programs.
+Table~\ref{tab:example_names} gives a short description for
+each of the benchmark examples, as well as an index for each kernel
+which we use for referring to that kernel in the experimental results.
+%We refer to the kernels with their indexes in the following results.
+
+The ability of the rational programs we generate to effectively
+optimize the program parameters of each example {\cuda} program is
+summarized in Tables~\ref{tab:sanitycheck_nvprof}
+and \ref{tab:proofofconcept_nvprof}. The definitions of the notations used
+in these tables are as follows:
+\begin{itemizeshort}
+	\item $N$: the input size of the problem, usually a power of 2,
+	\item $Ec$: estimated execution time of the kernel measured in clock-cycles,
+	\item $C_r$: best thread block configuration as decided by the {\em rational program},
+	\item $C_d$: default thread block configuration given by the benchmark,
+	\item $Ec_r$: $Ec$ of configuration $C_r$ as decided by the {\em rational program},
+	\item $C_i$: best thread block configuration as decided by \textit{instrumentation},
+	\item $Ec_i$: $Ec$ of configuration $C_i$ as decided by \textit{instrumentation},
+	\item {\rm Best\_time (B\_t)}: the best {\cuda} running time 
+	(i.e. the time to actually run the code on a GPU) of the kernel among all possible configurations,
+	\item {\rm Worst\_time (W\_t)}: the worst {\cuda} running time of the kernel among all possible configurations.
+\end{itemizeshort}
+
+
+To evaluate the effectiveness of our rational program, we compare 
+the results obtained from it with an actual analysis of the program 
+using the performance metrics collected by the instrumentor. 
+This comparison gives us estimated clock cycles as shown in 
+Table~\ref{tab:sanitycheck_nvprof}.
+%%
+The table shows the best configurations ($C_i$ and
+$C_r$) for $N = 256$ and $N = 512$ for each example, as decided from
+both the data collected during instrumentation and the resulting rational
+program.  This table is meant to highlight that the construction of
+the rational program from the instrumentation data is performed
+correctly. Here, either the configurations should be the same or, if
+they differ, then the estimates of the clock-cycles should be very
+similar; indeed, it is possible that different thread block
+configurations (program parameters) result in the same execution
+time. Hence, the rational program must choose one of the possibly many
+optimal configurations. Moreover, we supply the value ``Collected
+$Ec$'' which gives the $Ec$ given by the instrumentation for the thread
+block configuration $C_r$.  This value shows that the rational program
+is correctly calculating $Ec$ for a given thread block
+configuration. The values ``Collected $Ec$'' and $Ec_r$ should be very
+close.
+
+Fig.~\ref{fig:atax_kernel2-512}
+illustrates detailed results for Kernel 8.2 when $N = 512$. 
+The ``\cuda'' plot shows the real runtime of the kernel launched
+on a device while the ``RP-Estimated'' plot shows the estimates
+obtained from our rational program.
+The $x$ axis shows the various thread block configurations.
+The runtime values on $y$ axis are normalized to values between 
+$0$ and $100$.  
+
+Table~\ref{tab:proofofconcept_nvprof} shows the best configuration ($C_r$)
+for $N = 1024$ and $N = 2048$ estimated by the rational program of
+each example.  Notice these values of $N$ are much larger than those
+used during the instrumentation and construction of the rational
+program. This shows that the rational program can extrapolate on the
+data used for its construction and accurately estimate optimal program
+parameters for different data parameters.  To compare the thread block
+configuration deemed optimal by the rational program ($C_r$) and the
+optimal thread block configuration determined by actually executing
+the program with various thread block configurations we calculate the
+value named ``Error''.  This is a  percentage  given
+by ($C_rt$ - Best\_time)/(Worst\_time - Best\_time) *
+100\%, where ``$C_rt$'' is the actual running time of the program
+using the thread block configuration $C_r$ in millisecond. Best\_time  and Worst\_time
+are as defined above.  The error percentage shows the
+quality of our estimation; it clearly shows the difference between the
+estimated configuration and the actual best configuration.  This
+percentage should be as small as possible to indicate a good
+estimation. 
+
+As an exercise in the practicality of our technique,
+ we also show the default thread block configuration ($C_d$) 
+ given by the benchmarks  and ``$C_dt$'', the actual running time of the program
+using the thread block configuration $C_d$ in the same table. 
+Compared to the default configurations, the rational program determines a better configuration
+for more than half of the kernels.
+Notice that, in most cases, the same default configuration is used 
+for all kernels within a single example.
+In contrast, our rational program can produce different configurations optimized
+for each kernel individually.
+
+As mentioned in Section~\ref{sec:data_collection}, we use
+both Ocelot \cite{DBLP:conf/IEEEpact/DiamosKYC10} and
+NVIDIA's {\nvprof}\cite{nvprofguide} as instrumentors in the data collection step.
+The ``Error''  of the implementation based on data collected by Ocelot is shown in the column ``Ocel'' in Table~\ref{tab:proofofconcept_nvprof}.
+We can see that the overall performance is better with \nvprof,
+but for some benchmarks, for example Kernel 12,
+the best configuration picked by the rational program 
+is not as expected. We attribute this to the limitations of the
+underlying MWP-CWP model we use.
+
+%\todo{
+More experimental results may be found on our GitHub repository:
+%of the paper:
+%\footnote
+{
+\small
+\color{navy}
+\url{https://github.com/orcca-uwo/Parametric_Estimation/tree/master/plots}
+}
+%}{REWORK}
+\fi
+
+In this section we examine the performance of KLARAPTOR 
+by applying it to the {\cuda} programs of the 
+\texttt{Polybench/GPU} benchmark suite \cite{grauer2012auto}.
+We note here that many of the kernels in this
+suite perform relatively low amounts of work;
+they are best suited to being executed many times
+from a loop in the host code.
+%Moreover, performance is further varied by dynamic
+%frequency and voltage scaling 
+%%during benchmarks
+%despite setting the performance mode to peak performance.
+Data in this section was collected using a RTX 2070 SUPER. 
+
+\input{Figures/configAndTimingTable}
+
+Table~\ref{table:polybenchConfigCompare} 
+provides experimental data for the main kernels in the 
+benchmark suite \texttt{Polybench/GPU}. Namely, this table compares 
+the execution times of the thread block configuration chosen by KLARAPTOR against
+the optimal thread block configuration found though exhaustive search. 
+The table shows a couple of data sizes in order to highlight that the best configuration 
+can change for different input sizes.
+While it may appear for some examples that there are large variations 
+between timings of the KLARAPTOR-chosen configuration and the optimal, 
+these should be considered within the full range of possible configurations.
+Recall from Figure~\ref{fig:kernelperfintro} that compared to
+the worst possible timings, the KLARAPTOR-chosen configuration 
+and the optimal result in very similar in timings.
+
+In Table~\ref{table:opttimetable} we report the time it takes for 
+KLARAPTOR to perform its compile-time analysis and build the rational programs
+for each example in the \texttt{PolyBench/GPU} suite. This table also 
+compares the times 
+taken by KLARAPTOR and the exhaustive search.
+Exhaustive search times are given as a sum over all possible configurations
+and all powers of 2 up to N=8192, 
+meanwhile the data collection for KLARAPTOR is done for $128 \leq N \leq 2048$, 
+again all powers of 2 within this range.
+Note that KLARAPTOR can determine near-optimal thread block configurations
+for any $N \geq 128$. As seen in Table~\ref{table:opttimetable}, $\infty$ represents 
+the upper bound of KLARAPTOR's search space. 
+%%
+The best and worst execution times for the main kernel in each example
+(for $N=8192$) is also given to highlight the fact that our optimization step
+is sometimes faster than even a single execution of a kernel
+with a poor choice of thread block configuration.
+We note that for some kernels, with very quick running times,
+exhaustive search is not a bad option. However, some examples such as
+\texttt{GRAMSCHMIDT}, take an exorbitant amount of time for exhaustive search.
+This table also shows that the one-time compile-time 
+cost can often be amortized by only a few executions of the kernel.
+
+\input{Figures/optimzationTimeTable}
+
+%\onecolumn
+%\input{plots/2dconv_512}
+%\twocolumn
+
+
+
+%\input{nvprof_sanity_check_gtx1080ti}
+%\input{nvprof_proof_of_concept_gtx1080ti}
+
+
+%\input{tables/ocelot_error_rate_gtx1080ti}
+
+
+

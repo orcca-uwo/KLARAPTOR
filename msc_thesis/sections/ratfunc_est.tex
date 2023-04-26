@@ -1,0 +1,139 @@
+\section{Building a helper program: rational function approximation}
+\label{sec:paramest}
+
+Using the runtime data collected in the previous step, 
+we look to determine the rational functions
+$\hat{g}_i(\bm{D},\bm{P})$ (see Section~\ref{sec:steps})
+which estimate the low-level metrics or other intermediate 
+values in the rational program ${\cal R}$. For ease of
+discussion, we replace the parameters $\bm{D}$ and $\bm{P}$
+with the generic variables $X_1,\ldots,X_n$.
+
+A rational function is simply a fraction of two polynomials: 
+%\scalebox{0.88}{
+%	\begin{minipage}{0.9\linewidth}
+%		\begin{equation}
+{
+	\small
+		\begin{align}
+		f(X_1,\dots,X_n) &= \frac{\alpha_1\cdot(X_1^0\cdots X_n^0) \;+\; 
+			\dots \;+\;  \alpha_i\cdot(X_1^{u_1}\cdots X_n^{u_n})}{\beta_1\cdot(X_1^0\cdots X_n^0) \;+\;
+			\dots \;+\; \beta_j\cdot(X_1^{v_1}\cdots X_n^{v_n})}
+		\end{align}
+}
+%		\end{equation}
+%	\end{minipage}
+%}
+%\noindent
+With a \textit{degree bound} (an upper limit on the exponent) on each
+variable $X_k$ in the numerator and the denominator,
+$u_k$ and $v_k$, respectively, these polynomials can be defined up to
+some \textit{parameters} (using the language of parameter estimation), namely the coefficients of the polynomials,
+$\alpha_1,\dots,\alpha_i$ and $\beta_1,\dots,\beta_j$.
+Through algebraic analysis of performance models 
+like the MWP-CWP model, and empirical evidence, these degree bounds are relatively small.
+
+We perform a parameter estimation (for each rational function)
+on the coefficients $\alpha_1, \ldots, \alpha_i, \beta_1, \ldots, \beta_j$
+to determine the rational function precisely. 
+This is a simple linear regression 
+which can be solved by an over-determined
+system of linear equations,
+say by the method of linear least squares.
+%
+%
+%
+%The system of linear equations defined by 
+%the model-fitting parameters $\alpha_1, \ldots, \alpha_i, \beta_1, \ldots, \beta_j$
+%can very classically be defined as an equation
+%of the form  $\mathbf{Ax} = \mathbf{b}$,
+This system of linear equations is often described in matrix format  $\mathbf{Ax} = \mathbf{b}$,
+where $\mathbf{A}$ (the \textit{sample matrix} or \textit{design matrix}) and 
+$\mathbf{b}$ (the right-hand side vector)
+encode the collected data, while the solution vector 
+$\mathbf{x}$ encodes the 
+model-fitting parameters. $\mathbf{A}$ being derived from a rational function 
+implies that it is essentially the sample matrix for the denominator polynomial appended to
+the sample matrix for the numerator polynomial\footnote{Keen observers 
+will notice that, for rational functions,
+we must actually solve a system of homogeneous equations.
+Such details are omitted here, but we refer the reader to \cite[Chapter 5]{brandt2018high}.}.
+
+Many different methods exist for solving this so-called linear least squares problem, 
+such as the \textit{normal-equations}, or \textit{QR-factorization}, 
+however, these methods are either numerically unstable (normal-equations), or will fail
+if the sample matrix is rank-deficient (both normal-equations and QR) 
+\cite{corless2013graduate}.
+We rely then on the \textit{singular value decomposition} (SVD) of $\mathbf{A}$ 
+to solve this problem.
+%Given a matrix $\mathbf{A} \in \mathbb{R}^{m\times n}$, a singular value decomposition 
+%of $\mathbf{A}$ is a factorization into the form $\mathbf{UDV}^T$ where 
+%$\mathbf{U} \in \mathbb{R}^{m\times m}$ and $\mathbf{V} \in \mathbb{R}^{n \times n}$ are orthonormal, and $\mathbf{D} \in \mathbb{R}^{m \times n}$ is a (possibly rank deficient) diagonal matrix.
+This decomposition is very computationally intensive, much more than that of
+normal-equations or QR, but is also much more numerically
+stable, as wel as being capable of producing solutions with a rank-deficient sample matrix.
+%Moreover, it is capable of producing solutions even with a rank-deficient sample matrix.
+%By taking advantage of the truncated singular value decomposition
+%we gain evmen further stability when $\mathbf{A}$ is numerically rank-deficient \cite{hansen1990truncated}.
+
+We are highly concerned with the robustness of our
+method due to three problems present in our particular situation:
+\begin{enumerate}
+	\item[(1)] the sample matrix is very ill-conditioned;
+	\item[(2)] the sample matrix will often be (numerically) rank-deficient;
+	\item[(3)] we are interested in using our fitted model for extrapolation, meaning 
+	any numerical error in the model fitting will grow very quickly \cite{corless2013graduate}.
+\end{enumerate}
+While (3) is an issue inherent to our model fitting problem, (1) and (2) result
+from our choice of model, and how the sample points $(X_1,\ldots, X_n)$ are chosen, respectively.
+Using a rational function (or polynomial) as the model for which we wish to estimate parameters
+presents numerical problems. The resulting sample matrix is essentially 
+%(or exactly, in the case of a polynomial model)
+a Vandermonde matrix. These matrices,
+while theoretically of full rank, are extremely ill-conditioned
+%having exponentially 
+%increasing condition numbers (a measure of its sensitivity to noise) 
+\cite{corless2013graduate, beckermann2000condition}. 
+
+Refering to (2), we discuss the difficulties in obtaining poised sample points for 
+modeling functions that involve CUDA thread block dimensions as variables.
+The geometric constraints, combined with the requirement that the product of dimensions be a multiple of 32, 
+makes it challenging to achieve a full-rank sample matrix, which is crucial for accurate and stable model 
+fitting. As a result, there is a higher likelihood of encountering 
+a rank-deficient sample matrix \cite{chung1977lattices, olver2006multivariate}, which complicates the entire model estimation process.
+
+
+
+%An exact solution is rarely defined if $m < n$ (where an infinite number of solutions is 
+%possible) or if $m > n$. Therefore, we wish to 
+%get a solution in the ``least squares sense'', that is, find 
+%$\mathbf{x}$ such that \textit{residual} is minimized: 
+%\begin{gather*}
+%\mathbf{x} \:=\: \min_{\mathbf{x}}||\mathbf{r}||^2_2 \:=\: \min_{\mathbf{x}}||\mathbf{b} - \mathbf{Ax}||_2^2
+%\end{gather*} 
+%
+%
+%A typical solution to the linear least squares problem, and over-determined systems in general, 
+%employs the \textit{QR-factorization}
+%of the sample matrix $\mathbf{A}$
+%\cite[Chapter 23]{gentle2012handbook}.
+%However, our system is constructed from the evaluation 
+%of monomial terms, resulting in essentially a Vandermonde matrix.
+%Such matrices are very ill-conditioned.
+%Since we are interested in using our fitted model for 
+%extrapolation (i.e. estimating program parameters for new data parameters)
+%any numerical errors in the model fitting will 
+%grow very quickly \cite{corless2013graduate}. 
+%Thus, our solution must be as numerically stable
+%as possible. 
+%However, since we have constructed the system of equations
+%from monomial evaluations, it suffers from
+
+Despite all of these challenges our parameter estimation techniques are well-implemented
+in optimized C code. We use optimized algorithms from LAPACK (Linear Algebra PACKage) \cite{userguide:lapack}
+for singular value decomposition and linear least squares solving
+while rational function and polynomial implementations are similarly highly optimized
+thanks to the Basic Polynomial Algebra Subprograms (BPAS) library \cite{bpasweb, brandt2018high}.
+With parameter estimation complete the rational functions
+required for the rational program are fully specified
+and we can finally construct it.

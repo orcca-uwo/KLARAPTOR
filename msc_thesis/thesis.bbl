@@ -1,0 +1,238 @@
+\begin{thebibliography}{10}
+
+\bibitem{cuda2015}
+{CUDA} runtime {API}: v10.0.
+\newblock {NVIDIA Corporation}, September 2018.
+\newblock \url{http://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf}.
+
+\bibitem{cuda2016best}
+{CUDA C Best Practices Guide, v12.0}, February 2023.
+\newblock
+  \url{{https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html}}.
+
+\bibitem{cuda2019guide}
+{CUDA C Programming Guide, v12.0}, February 2023.
+\newblock
+  \url{{https://docs.nvidia.com/cuda/cuda-c-programming-guide/contents.html}}.
+
+\bibitem{Aho:1986:CPT:6448}
+A.~V. Aho, R.~Sethi, and J.~D. Ullman.
+\newblock {\em Compilers: Principles, Techniques, and Tools}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1986.
+
+\bibitem{userguide:lapack}
+E.~Anderson, Z.~Bai, C.~Bischof, S.~Blackford, J.~Demmel, J.~Dongarra,
+  J.~Du~Croz, A.~Greenbaum, S.~Hammarling, A.~McKenney, and D.~Sorensen.
+\newblock {\em {LAPACK} Users' Guide}.
+\newblock SIAM, Philadelphia, PA, 3rd edition, 1999.
+
+\bibitem{bpasweb}
+M.~Asadi, A.~Brandt, C.~Chen, S.~Covanov, F.~Mansouri, D.~Mohajerani, R.~Moir,
+  M.~{Moreno Maza}, L.~Wang, N.~Xie, and Y.~Xie.
+\newblock {B}asic {P}olynomial {A}lgebra {S}ubprograms ({BPAS}), 2019.
+\newblock \mbox{\textcolor{blue}{\url{http://www.bpaslib.org}}}.
+
+\bibitem{DBLP:conf/ics/BaskaranBKRRS08}
+M.~Baskaran, U.~Bondhugula, S.~Krishnamoorthy, J.~Ramanujam, A.~Rountev, and
+  P.~Sadayappan.
+\newblock A compiler framework for optimization of affine loop nests for
+  {GPGPUs}.
+\newblock In {\em {ICS} 2008, Island of Kos, Greece, June 7-12, 2008}, pages
+  225--234, 2008.
+
+\bibitem{beckermann2000condition}
+Bernhard Beckermann.
+\newblock The condition number of real vandermonde, krylov and positive
+  definite hankel matrices.
+\newblock {\em Numerische Mathematik}, 85(4):553--577, 2000.
+
+\bibitem{brandt2018high}
+Alexander Brandt.
+\newblock High performance sparse multivariate polynomials: Fundamental data
+  structures and algorithms.
+\newblock Master's thesis, University of Western Ontario, London, ON, Canada,
+  2018.
+
+\bibitem{DBLP:journals/corr/abs-1911-02373}
+Alexander Brandt, Davood Mohajerani, Marc~Moreno Maza, Jeeva Paudel, and
+  Lin{-}Xiao Wang.
+\newblock {KLARAPTOR:} {A} tool for dynamically finding optimal kernel launch
+  parameters targeting {CUDA} programs.
+\newblock {\em CoRR}, abs/1911.02373, 2019.
+
+\bibitem{DBLP:conf/cascon/ChenCKMX15}
+C.~Chen, X.~Chen, A.{-}K. Keita, M.~{Moreno Maza}, and N.~Xie.
+\newblock {MetaFork}: A compilation framework for concurrency models targeting
+  hardware accelerators and its application to the generation of parametric
+  {CUDA} kernels.
+\newblock In {\em {CASCON} 2015}.
+
+\bibitem{chung1977lattices}
+Kwok~Chiu Chung and Te~Hai Yao.
+\newblock On lattices admitting unique lagrange interpolations.
+\newblock {\em SIAM Journal on Numerical Analysis}, 14(4):735--743, 1977.
+
+\bibitem{corless2013graduate}
+R.~Corless and N.~Fillion.
+\newblock {\em A graduate introduction to numerical methods}.
+\newblock Springer, 2013.
+
+\bibitem{everitt2010cambridge}
+B.S. Everitt and A.~Skrondal.
+\newblock {\em The Cambridge Dictionary of Statistics}.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{DBLP:conf/icassp/FrigoJ98}
+M.~Frigo and S.~G. Johnson.
+\newblock {FFTW:} an adaptive software architecture for the {FFT}.
+\newblock In {\em {IEEE},{ICASSP} '98}, pages 1381--1384, 1998.
+
+\bibitem{DBLP:conf/icpp/GarveyA15}
+Joseph~D. Garvey and Tarek~S. Abdelrahman.
+\newblock Automatic performance tuning of stencil computations on gpus.
+\newblock In {\em ICPP 2015}, pages 300--309, 2015.
+
+\bibitem{Gibbons:1989:MPP:72935.72953}
+P.~B. Gibbons.
+\newblock A more practical {PRAM} model.
+\newblock In {\em Proceedings of the ACM Symposium on Parallel Algorithms and
+  Architectures}, pages 158--168. ACM, 1989.
+
+\bibitem{grauer2012auto}
+S.~Grauer-Gray, L.~Xu, R.~Searles, S.~Ayalasomayajula, and J.~Cavazos.
+\newblock Auto-tuning a high-level language targeted to {GPU} codes.
+\newblock In {\em Proc. InPar}, pages 1--10, 2012.
+
+\bibitem{DBLP:conf/parco/HaqueMX15}
+S.A. Haque, M.~{Moreno Maza}, and N.~Xie.
+\newblock A many-core machine model for designing algorithms with minimum
+  parallelism overheads.
+\newblock In {\em Parallel Computing: On the Road to Exascale, Proc. of ParCo},
+  volume~27, pages 35--44. {IOS} Press, 2015.
+
+\bibitem{DBLP:conf/isca/HongK09}
+S.~Hong and H.~Kim.
+\newblock An analytical model for a {GPU} architecture with memory-level and
+  thread-level parallelism awareness.
+\newblock In {\em ISCA 2009}, pages 152--163, 2009.
+
+\bibitem{Khan:2013:SAC:2400682.2400690}
+M.~Khan, P.~Basu, G.~Rudy, M.~Hall, C.~Chen, and J.~Chame.
+\newblock A script-based autotuning compiler system to generate
+  high-performance {CUDA} code.
+\newblock {\em ACM Trans. Archit. Code Optim.}, 9(4), 2013.
+
+\bibitem{kistler2003continuous}
+T.~Kistler and M/~Franz.
+\newblock Continuous program optimization: A case study.
+\newblock {\em (TOPLAS)}, 25(4):500--548, 2003.
+
+\bibitem{DBLP:conf/icpp/KurzakTGAD19}
+J.~Kurzak, Y.~Tsai, M.~Gates, A.~Abdelfattah, and J.~J. Dongarra.
+\newblock Massively parallel automated software tuning.
+\newblock In {\em {ICPP} 2019}, pages 92:1--92:10.
+
+\bibitem{DBLP:conf/icpp/LimNM17}
+Robert~V. L., Boyana N., and Allen~D. M.
+\newblock Autotuning {GPU} kernels via static and predictive analysis.
+\newblock In {\em {ICPP} 2017}, pages 523--532, 2017.
+
+\bibitem{liu2009cross}
+Yixun Liu, Eddy~Z Zhang, and Xipeng Shen.
+\newblock A cross-input adaptive framework for {GPU} program optimizations.
+\newblock In {\em 2009 IEEE International Symposium on Parallel \& Distributed
+  Processing}, pages 1--10. IEEE, 2009.
+
+\bibitem{DBLP:journals/fgcs/MaAC14}
+L.~Ma, K.~Agrawal, and R.~D. Chamberlain.
+\newblock A memory access model for highly-threaded many-core architectures.
+\newblock {\em Future Generation Comp. Syst.}, 30, 2014.
+
+\bibitem{marcmwpcwpslides}
+Marc~Moreno Maza.
+\newblock Models of computation for graphics processing units, November 2017.
+\newblock \url{https://www.csd.uwo.ca/~mmorenom/Publications/CASCON-2017.pdf}.
+
+\bibitem{marccudaslides}
+Marc~Moreno Maza.
+\newblock Many-core computing with cuda, March 2022.
+\newblock
+  \url{https://www.csd.uwo.ca/~mmorenom/HPC-Slides/Many_core_computing_with_CUDA.pdf}.
+
+\bibitem{DBLP:journals/tpds/MeiC17}
+X.~Mei and X.~Chu.
+\newblock Dissecting {GPU} memory hierarchy through microbenchmarking.
+\newblock {\em {IEEE} Trans. Parallel Distrib. Syst.}, 28(1):72--86, 2017.
+
+\bibitem{olver2006multivariate}
+Peter~J Olver.
+\newblock On multivariate interpolation.
+\newblock {\em Studies in Applied Mathematics}, 116(2):201--240, 2006.
+
+\bibitem{Papatheodore2022}
+Tom Papatheodore.
+\newblock Vector addition (cuda.
+\newblock \url{https://github.com/olcf-tutorials/vector_addition_cuda}, 2022.
+
+\bibitem{DBLP:journals/ijhpca/PuschelMSXJPVJ04}
+M.~P{\"{u}}schel, J.M.F. Moura, B.~Singer, J.~Xiong, J.R. Johnson, D.A. Padua,
+  M.M. Veloso, and R.W. Johnson.
+\newblock Spiral: {A} generator for platform-adapted libraries of signal
+  processing alogorithms.
+\newblock {\em {IJHPCA}}, 18(1):21--45, 2004.
+
+\bibitem{DBLP:books/daglib/p/SatoTKK10}
+K.~Sato, H.~Takizawa, K.~Komatsu, and H.~Kobayashi.
+\newblock Automatic tuning of {CUDA} execution parameters for stencil
+  processing.
+\newblock In {\em Software Automatic Tuning, From Concepts to State-of-the-Art
+  Results}. 2010.
+
+\bibitem{DBLP:conf/ppopp/SimDKV12}
+J.~Sim, A.~Dasgupta, H.~Kim, and R.~W. Vuduc.
+\newblock A performance analysis framework for identifying potential benefits
+  in {GPGPU} applications.
+\newblock In {\em {PPOPP} 2012, New Orleans, LA, USA, February 25-29, 2012},
+  2012.
+
+\bibitem{song2015automated}
+C.~Song, L.-P. Wang, and T.J. Mart{\'\i}nez.
+\newblock Automated code engine for graphical processing units: Application to
+  the effective core potential integrals and gradients.
+\newblock {\em J. Chem. Theory Comput.}, 12(1):92--106, 2015.
+
+\bibitem{DBLP:journals/siamcomp/StockmeyerV84}
+L.~J. Stockmeyer and U.~Vishkin.
+\newblock Simulation of parallel random access machines by circuits.
+\newblock {\em SIAM J. Comput.}, 13(2):409--422, 1984.
+
+\bibitem{stone1948generalized}
+M.~H. Stone.
+\newblock The generalized weierstrass approximation theorem.
+\newblock {\em Mathematics Magazine}, 21(5):237--254, 1948.
+
+\bibitem{10.1145/3126908.3126939}
+Philippe Tillet and David Cox.
+\newblock Input-aware auto-tuning of compute-bound hpc kernels.
+\newblock In {\em Proceedings of the International Conference for High
+  Performance Computing, Networking, Storage and Analysis}, SC '17, New York,
+  NY, USA, 2017. Association for Computing Machinery.
+
+\bibitem{DBLP:journals/tjs/TorresGL13}
+Y.~Torres, A.~Gonz{\'{a}}lez{-}Escribano, and D.~R. Llanos.
+\newblock ubench: exposing the impact of {CUDA} block geometry in terms of
+  performance.
+\newblock {\em The Journal of Supercomputing}, 65(3):1150--1163, 2013.
+
+\bibitem{DBLP:conf/ppsc/WhaleyD99}
+R.~Clinton Whaley and Jack Dongarra.
+\newblock Automatically tuned linear algebra software.
+\newblock In {\em Proceedings of the 1998 IEEE/ACM Conference on
+  Supercomputing}, 1998.
+
+\bibitem{DBLP:conf/ispass/WongPSM10}
+H.~Wong, M.{-}M. Papadopoulou, M.~Sadooghi{-}Alvandi, and A.~Moshovos.
+\newblock Demystifying {GPU} microarchitecture through microbenchmarking.
+\newblock In {\em {IEEE} {ISPASS}}, pages 235--246, 2010.
+
+\end{thebibliography}

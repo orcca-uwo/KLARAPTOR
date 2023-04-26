@@ -1,0 +1,379 @@
+\chapter{The implementation of KLARAPTOR}
+\label{ch:implementation}
+
+%In the previous sections we gave an overview of our technique for
+%general multithreaded programs $\cal{P}$. For the implementation of this
+%technique, and the resulting experimentation and performance analysis,
+%we focus on programs for GPU architectures using
+%the programming model {\cuda}.
+%These programs interleave 
+%\begin{inparaenum}[(i)]
+%  \item serial code which is executed
+%on the host (the CPU) and, multithreaded
+%code which is  executed on the device (the GPU).
+%\end{inparaenum}
+%The host launches a device code execution by calling a particular type
+%of function, called a {\em kernel}.
+
+This section is an overview of the implementation of
+our previously presented technique (Section~\ref{sec:steps})
+specialized to {\cuda} in the KLARAPTOR tool.
+Our tool is built in the C language, 
+making use of the LLVM Pass Framework (see Section~\ref{sec:io-builder}) 
+and the NVIDIA Nsight Compute CLI (\ncu) (see Section~\ref{sec:data_collection}).
+KLARAPTOR is freely available in source at 
+\textcolor{navy}{\href{https://github.com/orcca-uwo/KLARAPTOR}{https://github.com/orcca-uwo/KLARAPTOR}}.
+
+%%
+%%
+In the case of a {\cuda} kernel, the data parameters
+specify the input data size.
+In many examples this is a single parameter, say $N$,
+describing the size of an array (or the order of a multi-dimensional array), 
+the values of which are usually powers of $2$.
+%%
+Program parameters describe
+the kernel launch parameters, i.e. grid and thread block dimension sizes, 
+and are also typically powers of $2$.
+For example, a possible thread block configuration
+may be $1024 \times 1 \times 1$ (a one-dimensional thread block),
+or $16 \times 16 \times 2$ (a three-dimensional thread block).
+Lastly, the hardware parameters are values specific to the 
+target GPU, for example, memory bandwidth, the number of SMs available,
+and their clock frequency.
+%In {\cuda} (for Compute Capability 2.x or higher) 
+%the number of threads per block must be a multiple of 32 less than 
+%1024. This limits the possible thread block configurations
+%and thus the set of feasible program parameters. 
+
+We organize this section as follows.
+Sections~\ref{sec:annotation} and \ref{sec:io-builder}
+are specific to our implementation and do not
+correspond to any step of Section~\ref{sec:steps}.
+The compile time steps 1 (data collection) and 2 (rational function estimation)
+are reflected in Sections~\ref{sec:data_collection}
+and \ref{sec:paramest}, respectively, while step 3 requires no explanation.
+%%
+The runtime steps 4 (rational program evaluation)
+and 5 (program execution) are trivial to perform. 
+Throughout this section,  the term {\em rational program}
+refers to the mathematical concept defined in Section~\ref{sect:ratprog}
+whereas the term {\em helper program} refers to the generated code
+which implements rational programs in order to select kernel configurations.
+
+
+%Throughout the current and the following sections, 
+%our discussions make use of these specialized terms, 
+%input data size and thread block configuration, for data and program parameters, 
+%respectively, in order to make clear explanations and associations
+%between theory and practice.
+
+%In summary, our implementation proceeds as follows:
+%\begin{enumerateshort}
+%	\item[(2)] 
+%	\item[(3)] A driver program orchestrates the combination of 
+%	device-specific characteristics (i.e.\ a device profile) and various
+%	configurations of program and data parameters to be passed to the instrumentor.
+%	Running the instrumentor (via a profiler on a GPU) 
+%	measures and records the required performance metrics.
+%%	(to be used by the MWP-CWP model),
+%%	and records the results for each kernel.
+%%	It is important to note that the mentioned
+%%	result for each kernel is the average of all of the kernel calls occurring in one
+%%	run of the \cuda\ program.
+%	
+%%	\item[(4)] For each kernel, we use the program parameter configurations,
+%%	together with the estimated execution time obtained from step (3)
+%%	to perform parameter estimation and obtain our objective function(s).
+%\end{enumerateshort}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Annotating and preprocessing source code}
+\label{sec:annotation}
+	Beginning with a {\cuda} program written in C/C++, we minimally annotate the host code
+	to make it compatible with our \textit{pre-processor}.
+	%specifying the code fragment in the host code which calls the kernel.
+%	- using pragmas to specify the dimensions of a kernel, and specifying the 
+%	kernel input parameter which referes to the problem size. 
+%	{\todo{EXAMPLE NEEDED HERE WITH THE ACTUAL ANNOTATION}{}}
+	We take into account the following points:
+	\begin{enumerateshort}
+	\item[(i)] 
+	the code targets at least CUDA Compute Capability (CC) 7.5;
+	\item[(ii)]
+	there should be no {\cuda} runtime API calls as such calls will interfere
+	with later {\cuda} driver API calls used by our tool, for example, \texttt{cudaSetDevice};
+%	for example, 
+%	{\texttt{cudaSetDevice}} should not be used with the tool as it leads to undefined behavior;
+	\item[(iii)]
+	the block dimensions and grid dimensions must be declared 
+	as the typical {\cuda} {\dimThree} structs.
+%	 defined in {\texttt{"CUDA\_PATH/include/vector\_types.h"}}
+\end{enumerateshort}
+
+For each kernel in the {\cuda} code, we add two 
+pragmas, one specifying the dimension 
+of the kernel (1, 2, or 3), and one defining the index of the kernel input argument 
+corresponding to the data size $N$.
+For instance, consider the code segment below of a {\cuda} kernel
+and added pragmas.
+This kernel operates of a two-dimensional array of order $N$, 
+making it a two-dimensional kernel.	
+{
+\begin{tcolorbox}
+\scriptsize
+\begin{verbatim}
+#pragma kernel_info_size_param_idx_Sample = 1; 
+#pragma kernel_info_dim_sample_kernel = 2;
+__global__ void Sample (int *A, int N) { 
+    int tid_x = threadIdx.x + blockIdx.x*blockDim.x;
+    int tid_y = threadIdx.y + blockIdx.y*blockDim.y;
+    ...
+}
+\end{verbatim}
+\end{tcolorbox}
+%\vspace{-2em}
+}
+
+
+Lastly, for each kernel, the user must fill two formatted configuration 
+files which follow \texttt{Python} syntax.
+One specifies the constraints on the thread block configuration
+while the other specifies the grid dimensions.
+%\texttt{kernel\_NAME\_gridconf.conf} and \texttt{kernel\_NAME\_constraints.conf},
+%where \texttt{NAME} is the name of the kernel.
+For example, for the 2D kernel \texttt{Sample} above, 
+one could specify that its thread block configuration ($bx,by,bz$) must satisfy 
+$bx < by^2$, $bx < N$ and $by < N$.
+Since the kernel dimension is given as 2, we assume $bz=1$. 
+Similarly, the grid dimensions ($gx,gy,gz$), could be specified as
+$gx=\lceil \frac{N}{bx} \rceil$,  
+$gy=\lceil  \frac{N}{by} \rceil$, $gz=1$. 
+%The configuration files representing such are:
+%\begin{tcolorbox}
+%{\scriptsize
+%\begin{verbatim}
+%"kernel_Sample_constraints.conf":
+%---------------------------------
+%n - bx
+%n - by
+%bx - by**2 
+%\end{verbatim}
+%}
+%%%
+%\end{tcolorbox}		
+%\begin{tcolorbox}
+%{\scriptsize
+%\begin{verbatim}
+%"kernel_Sample_gridconf.conf":
+%------------------------------
+%gx=ceil(n/bx)
+%gx=ceil(n/bx)
+%gz=1
+%\end{verbatim}
+%}
+%\end{tcolorbox}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Preprocessing}
+%\label{sec:preprocessing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Now, a preprocessor processes 
+the annotated source code, replacing {\cuda} runtime API calls with driver 
+API kernel launches. 
+This step includes source code analysis in order to extract
+a list of kernels, a list of kernel calls in the host code, 
+and finally, the body of each kernel to be used for further analysis.
+A so-called ``PTX lookup table'' is built to store
+kernel information and static parameters.
+This table will be inserted into the ``instrumented binary'', the
+compiled {\cuda} program augmented by the helper programs. 
+%\begin{enumerateshort}
+%\item[(3)]
+%In the meantime, a non-instrumented binary and the binary
+%for the rational program itself are generated as well.
+
+%The pre-processor program prepares the code for 
+%	collecting kernel-specific runtime values.
+	
+	%%
+	%Finally, the pre-processor program uses the specified CC 
+	%in the host code to determine the architecture-specific 
+	%performance counters for each kernel.
+	%%
+%	The result of this step is an executable file, which we will refer to as
+%	\textit{the instrumentor}. The instrumentor takes as input the same program
+%    parameters as the original {\cuda} code.
+%\end{enumerateshort}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Input/Output builder}
+\label{sec:io-builder}
+The Input/Output builder Pass, or IO-builder,
+is a compiler pass written in the LLVM Pass Framework to
+%% three descriptions which must be combined and simplified:
+build the previously mentioned ``instrumented binary''.
+This pass embeds an IO mechanism (i.e. a function call)
+to communicate with the helper program of a kernel for each of its invocations.
+%There is one such function call embedded per kernel call.
+Thus, at the runtime of the {\cuda} program being analyzed (step 5 of Section~\ref{sec:steps}),
+an IO function is called before each kernel invocation to return six integers,
+$(gx, gy, gz, bx, by, bz)$, the optimal kernel launch parameters.
+%The IO mechansim is based on "POSIX pipes" that avoid writing on disk
+%and only use the main memory.
+%From this point on, we only deal with intermediate representation (IR) 
+%of the code in LLVM compiler infrastrucure. 
+
+The IO-builder pass goes through the following steps:
+\begin{enumerate}[(i)]
+\item obtain the LLVM intermediate representation
+of the instrumented source code and find all {\cuda} driver API kernel calls;
+\item relying on the annotated information for each kernel,
+determine which variables in the IR contain the value of $N$ for a 
+corresponding kernel call; and
+\item insert a call to an IO function immediately before each kernel call
+in order to pass the runtime value of $N$ to the
+corresponding helper program and retrieve the optimal kernel
+launch parameters.
+\end{enumerate}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Building a helper program: data collection}
+\label{sec:data_collection}
+In order to perform the eventual rational
+function approximation, 
+we must collect data and statistics regarding certain performance counters and runtime
+metrics (see \cite{DBLP:conf/isca/HongK09} and \cite{cuda2015}).
+These metrics can be partitioned into three categories.
+
+%\begin{enumerate}[(i)]
+Firstly, \textit{architecture-specific performance counters} of a kernel,
+characteristics influenced by the CC of the device.
+These can be obtained at compile-time, since the target CC is specified at this time.
+These characteristics include the number of registers used per thread,
+the amount of static shared memory %(i.e. annotated in the code)
+per thread block, and the number of (arithmetic and memory)
+instructions per thread.
+%This information can easily be obtained from 
+%a {\cuda} compiler (e.g. NVIDIA's \texttt{NVCC}).
+%passing source code of CUDA kernels to a 
+%{\cuda} compiler (such as NVIDIA's \texttt{NVCC}).
+%In this case, we rely on NVIDIA's \texttt{nvcc} compiler
+%(the same can be achieved using \texttt{LLVM}).
+
+Secondly, \textit{runtime-specific performance counters} that depend on
+the behavior of the kernel at runtime.
+This includes values impacted by memory access patterns, namely, 
+%the number of coalesced and non-coalesced memory accesses per warp,
+%the number of memory instructions in each thread that cause
+%coalesced and non-coalesced accesses, 
+%and eventually, the total number of warps that are being executed.
+the number of memory accesses per warp, the number of memory instructions of each thread,
+and the total number of warps that are being executed.
+%%%%%%
+%%%%%%
+We have developed a customized profiler using NVIDIA's Nsight Compute CLI\
+to collect the required runtime performance counters. 
+
+Thirdly, \textit{device-specific parameters}, which
+describe an actual GPU card, allow us to compute
+a more precise performance estimate.
+A subset of such parameters can be determined by microbenchmarking 
+the device (see \cite{DBLP:journals/tpds/MeiC17} and \cite{DBLP:conf/ispass/WongPSM10}),
+this includes the memory bandwidth, 
+and the departure delay for memory accesses.
+The remaining parameters can easily be obtained
+by consulting the vendor's guide \cite{cuda2019guide}, 
+%vendor's specification sheet for the device, 
+or by querying the device itself via the {{\cuda} driver API}.
+%in order to extract such metrics.
+Such parameters include the number of SMs on the card, 
+the clock frequency of SM cores, and the instruction delay.
+%Such metrics can easily be obtained by specifying a particular GPU card.
+%In practice, it suffices to perfom this step only once per each target GPU.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Building a helper program: outlier removal}
+\label{sec:outlier_removal}
+As mentioned in Section~\ref{sec:contributions}, we now describe the outlier removal step,
+which is performed by quartile fencing algorithm. 
+The rationale behind integrating this algorithm lies in addressing potential 
+noise in the empirical data gathered from NVIDIA's Nsight Compute (ncu), which could stem 
+from factors such as dynamic voltage and frequency scaling (DVFS) and other variations in 
+GPU performance. By pinpointing and eliminating upper outliers from the dataset, our 
+objective is to enhance the accuracy of the subsequent parameter estimation process.
+
+The quartile fencing algorithm is a robust statistical method for detecting and removing 
+outliers from a dataset. It is based on the concept of interquartile range (IQR), which is 
+the difference between the first quartile (Q1) and the third quartile (Q3) of the data. The 
+algorithm defines outlier boundaries, called the lower and upper inner fences, by extending 
+the IQR beyond Q1 and Q3\cite{everitt2010cambridge}:
+
+\begin{enumerate}[(i)]
+    \item $IQR = Q3 - Q1$.
+    \item $UIF = Q3 + 1.5 \times IQR$.
+\end{enumerate}
+
+Data points falling outside the upper inner fence are considered as outliers and are removed from the 
+dataset. To implement the outlier removal process, we first profile our program ${\cal P}$ for 
+small input sizes of N and obtain the MWP-CWP estimation for clock-cycles for various thread block configurations. 
+Next, we calculate the first and third quartiles (Q1 and Q3) along with the interquartile range 
+(IQR) for the estimated clock-cycles. Using the quartile fencing algorithm, we determine the 
+upper inner fence and identify the thread block configurations exceeding this threshold as outliers.
+
+Once the outliers are identified, we remove them from the dataset before proceeding with the parameter
+estimation process. This preprocessing step helps minimize the impact of upper outliers on the data 
+and enhances the accuracy of the resulting parameter estimation. 
+
+\input{sections/ratfunc_est.tex}
+
+\section{Helper programs}
+
+In practice, the use of helper programs is split into two parts:
+the generation of the rational program at the compile-time of the multithreaded 
+program $\cal{P}$, 
+and the use of the helper program during the runtime of $\cal{P}$.
+
+\subsection{Compile-time code generation}
+We are now at Step 3 of Section~\ref{sec:steps}.  We look to define a
+helper program which evaluates the high-level metric $\cal{E}$ of the
+program $\cal{P}$ using the \mwpcwp\ model.  In implementation, this
+is achieved by using a previously defined \textit{helper program
+template} which contains the formulas and case discussion of
+the \mwpcwp\ model, independent of the particular program being
+investigated. Using simple regular expression matching and text
+manipulation we combine the helper program template with the rational functions 
+determined in the previous step to obtain a helper program
+specialized to the multithreaded program $\cal{P}$. The generation of
+this helper program is performed completely during compile-time,
+before the execution of the program itself.
+
+\subsection{Runtime optimization}
+At runtime, the input data sizes (data parameters) are well known.
+In combination with the known hardware parameters, since the program
+is actually being executed on a specific device,
+we are able to specialize every parameter in the helper program
+and obtain an estimate for the high-level metric $\cal{E}$.
+This helper program is then easily and quickly evaluated during
+(or immediately prior to) the execution of $\cal{P}$. Evaluating 
+the helper program for each possible thread block configuration,
+as restricted by our data parameters
+and the \cuda\ programming model itself, we determine a thread block configuration
+which optimizes $\cal{E}$. The program $\cal{P}$ is finally executed 
+using this optimal thread block configuration. 
+Therefore, we have completed Steps 4 and 5 of Section~\ref{sec:steps}.
+%In practice, the use of rational programs is split into two parts:
+%the generation of the rational program at the compile-time of 
+%the multithreaded program 
+%$\cal{P}$, 
+%and the use of the rational program during the runtime of $\cal{P}$.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

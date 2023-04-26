@@ -1,0 +1,67 @@
+\documentclass{llncs}
+
+
+\input{macros}
+
+\makeatletter
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\makeatother
+
+\newif\ifoldversion
+\oldversionfalse
+
+\newif\iflongversion
+\longversionfalse
+
+
+\title{
+Dynamically Finding Optimal Kernel Launch Parameters for CUDA Programs\\
+}
+
+\author{Alexander Brandt\and Taabish Jeshani\and Davood Mohajerani\and Marc~Moreno~Maza\and Linxiao Wang}
+
+\institute{University of Western Ontario, Canada
+\email{\{abrandt5,tjeshan,dmohajer,lwang739\}@uwo.ca}\\
+\email{moreno@csd.uwo.ca}}
+
+\authorrunning{Brandt, Jeshani, Mohajerani, Moreno~Maza, Wang}
+\titlerunning{Dynamically Finding Optimal Kernel Launch Params. for CUDA}
+
+%reducing spacing after float
+\setlength\textfloatsep\baselineskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\keywords{Performance estimation, Performance portability, CUDA, Program Parameters, Kernel Launch Parameters, LLVM Pass Framework, GPGPU}
+
+
+
+\input{Introduction} 
+\input{theoretical_foundations}
+\input{steps}
+\input{implementation_llvm}
+\input{experiment}
+\vspace{-1em}
+\input{conclusion} 
+
+%
+%
+%\section{Appendices}
+
+%\subsection*{Acknowledgements}
+%\vspace{1em}
+%\noindent
+%\textbf{Acknowledgements}.
+%The authors would like to thank IBM Canada Ltd (CAS project 880) and 
+%NSERC of Canada (CRD grant CRDPJ500717-16, award CGSD3-535362-2019).
+
+\bibliographystyle{splncs04}
+\bibliography{CRD,multi+arbitrary-precision,BPAS,patents,gpu_performance_models}
+
+\end{document}
